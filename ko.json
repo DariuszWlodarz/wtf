@@ -1,0 +1,2236 @@
+{
+  "APPLICATION_RESOURCES": {
+    "TITLE": "Password Vault Web Access",
+    "SIGNOUT": "로그아웃",
+    "ABOUT": "정보",
+    "CHANGE_LANGUAGE": "변경",
+    "SKIP_LINK": "기본 내용으로 건너뛰기",
+    "LEFT_NAVBAR": {
+      "COLLAPSE": "접기",
+      "EXPAND": "펼치기"
+    },
+    "TOP_NAVBAR": {
+      "TITLE": "로그인 정보",
+      "LAST_SIGN_IN": "최근 로그인",
+      "LAST_SUCCESS_LOGIN_TIME": "최근 로그인 시간",
+      "LAST_FAIL_LOGIN_TIME": "최근 실패한 로그인 시간",
+      "LAST_SUCCESS_LOGIN_IP": "최근 로그인 소스 IP",
+      "LAST_FAIL_LOGIN_IP": "최근 실패한 로그인 소스 IP",
+      "FAILED_LOGINS": "로그인 실패 횟수",
+      "COMFORTABLE_VIEW": "넓게 보기",
+      "CONDENSED_VIEW": "좁게 보기"
+    }
+  },
+  "LOGIN": {
+    "PAGE_TITLE": "로그인"
+  },
+  "CULTURE": {
+    "FEEDBACK_MODAL_CHANGE_LANGUAGE": {
+      "TITLE": "언어를 변경하지 못했습니다.",
+      "MAIN_TITLE": "사용자 기본 설정을 업데이트하지 못했습니다.",
+      "CLOSE_BUTTON_TEXT": "닫기"
+    }
+  },
+  "ABOUT_DIALOG": {
+    "TITLE": "CyberArk Privileged Access Security 정보",
+    "VERSION": "버전",
+    "COPYRIGHT": "Copyright 1999-2022 © CyberArk Software",
+    "CLOSE_BUTTON_TEXT": "닫기",
+    "CHECK_VERSION": "최신 버전 확인",
+    "CONTENT": {
+      "P1_1": "CyberArk Vault Software에 포함된 오픈 소스 소프트웨어 프로그램 목록은 ",
+      "P1_2": "당사 ~을(를) 참조하십시오.",
+      "CYBERARK_ACKNOWLEDGMENT": " 승인 "
+    }
+  },
+  "NAVIGATION": {
+    "BUSINESSUSERS": "비즈니스 사용자",
+    "USERPROVISIONING": "사용자 프로비저닝",
+    "USERS": "사용자",
+    "GROUPS": "그룹",
+    "POLICIES": "정책",
+    "APPLICATIONS": "애플리케이션",
+    "ADMINISTRATION": "관리",
+    "PLATFORMMANAGEMENT": "플랫폼 관리",
+    "AUTHMETHODCONFIG": "OIDC 인증",
+    "CONFIGURATIONOPTIONS": "구성 옵션",
+    "REPORTS": "보고서",
+    "GENERATEREPORT": "보고서 생성",
+    "REPORTDEFINITIONS": "보고서 정의",
+    "SECURITY": "보안",
+    "SECURITYEVENTS": "보안 사건",
+    "SECURITYSETTINGS": "보안 구성",
+    "ACCOUNTSLIST": "계정 보기",
+    "ACCOUNTSLISTLEGACY": "계정 보기(클래식 UI)",
+    "ACTIVITIES": "활동",
+    "COMPLIANCE": "적합성 준수",
+    "INVENTORY": "인벤토리",
+    "MONITORING": "모니터링",
+    "PRIVILEGEDSESSIONS": "권한 있는 세션",
+    "MONITORINGLEGACY": "모니터링(클래식 UI)",
+    "MYREQUESTS": "내 요청",
+    "INCOMINGREQUESTS": "들어오는 요청",
+    "ACCOUNTSFEEDV9": "보류 중 및 디렉토리",
+    "ACCOUNTSFEED": "계정 피드",
+    "FILES": "파일",
+    "ALLFILES": "모든 파일",
+    "MSP": "고객 관리",
+    "HELP": "도움말",
+    "ACCOUNTS": "계정",
+    "DASHBOARD": "시스템 상태",
+    "ACCOUNTSANDREQUESTS": "계정 & 요청",
+    "ONBOARDINGRULES": "온보딩 규칙",
+    "LDAPINTEGRATION": "LDAP 통합"
+  },
+  "SESSION_EXPIRED": {
+    "FEEDBACK_MESSAGE": {
+      "SAME_USER_CONNECTED_MAIN_TITLE": "동일한 사용자가 다른 곳에서 연결되어 있어 이 세션이 정지되었습니다.",
+      "DEFAULT_MAIN_TITLE": "세션이 만료되고 사용자의 연결이 해제되었습니다.",
+      "HEADER_TITLE": "세션 만료됨",
+      "SUB_TITLE": "로그인 화면으로 돌아가려면 확인을 클릭하십시오",
+      "CONFIRM_BUTTON_TEXT": "확인",
+      "CLOSE_BUTTON_TEXT": "닫기"
+    }
+  },
+  "READ_ONLY_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "PASWS222E 시스템이 현재 읽기 전용 모드이므로 조치를 수행할 수 없습니다.",
+      "SUB_TITLE": "읽기 모드에 있는 동안, 계정 추가, 요청, 요청 확인, 암호 변경 및 보고서 작성 같은 모든 쓰기 작업이 비활성화됩니다. 듀얼 컨트롤, 원타임 또는 고유 암호 워크플로로 보호되지 않는 암호의 표시/복사같은 읽기 작업을 위해 시스템을 계속 사용할 수 있습니다.",
+      "HEADER_TITLE": "동작을 사용할 수 없습니다.",
+      "CLOSE_BUTTON_TEXT": "닫기"
+    },
+    "TOP_NAVBAR": {
+      "HEADER_INDICATION_TITLE_TEXT": "읽기 모드",
+      "HEADER_INDICATION_SUBTITLE_TEXT": "일부 동작을 사용할 수 없습니다."
+    }
+  },
+  "READ_ONLY_MASTER_IS_AVAILABLE_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "이제 모든 기능을 사용할 수 있습니다.",
+      "SUB_TITLE": "이 동작을 완료하려면 읽기 모드에서 벗어나기 위해 다시 로그인해야 합니다.",
+      "HEADER_TITLE": "읽기 모드에서는 이 동작을 사용할 수 없습니다.",
+      "IGNORE_BUTTON_TEXT": "무시",
+      "LOGOUT_BUTTON_TEXT": "로그아웃"
+    }
+  },
+  "ACCOUNT": {
+    "PAGE_TITLE": "계정",
+    "SELECT_THE_ACCOUNT_TYPE": "새 계정 유형 선택",
+    "SEARCH_PLATFORM_PLACEHOLDER": "플랫폼 이름으로 목록 필터링",
+    "NO_PLATFORMS_FOUND": "표시할 플랫폼이 없습니다",
+    "SELECT_SAFE": "저장소 선택",
+    "SEARCH_SAFE_PLACEHOLDER": "저장소 이름으로 목록 필터링",
+    "NO_SAFES_FOUND": "표시할 저장소가 없습니다",
+    "FORM_PRIMARY_PROPERTIES": "기본 속성",
+    "FORM_ADDITIONAL_PROPERTIES": "추가적인 속성",
+    "FORM_ACCOUNT_MANAGEMENT": "계정 관리",
+    "OPTIONAL_PROPERTY": "선택 사항",
+    "PASSWORD": "암호",
+    "RESOLVE": "확인",
+    "ACCOUNT_NAME": "계정 이름",
+    "CUSTOMIZE_ACCOUNT_NAME": "계정 이름 사용자 지정",
+    "CUSTOMIZE_ACCOUNT_NAME_PLACEHOLDER": "사용자 지정된 계정 이름 지정",
+    "AUTO_GENERATE_CALLOUT_TITLE": "자동 생성된 암호 이름 패턴",
+    "AUTO_CPM_MANAGE": "자동화 암호 관리 허용",
+    "AUTO_CPM_MANAGE_PLACEHOLDER": "수동 관리 요청 이유 지정",
+    "CONFIRM_PASSWORD": "암호 확인",
+    "AMAZON_ACCESS_KEY": "AWS 액세스 키 암호",
+    "FEEDBACK_MESSAGE_TITLE": "다음 오류 수정",
+    "LIMIT_ACCESS_TO_MACHINES": "이러한 시스템으로만 액세스 제한",
+    "REMOTE_MACHINE_ACCESS": "원격 시스템 액세스",
+    "KEYWORDS_PROPERTY_HINT_TEXT": "세미콜론으로 분리한 키워드"
+  },
+  "ADD_ACCOUNT": {
+    "TITLE": "계정 추가",
+    "PAGE_TITLE": "계정 추가",
+    "SELECTED_TILE_HOVER_TEXT": "변경",
+    "ADD_ACTION": "추가",
+    "CANCEL": "취소",
+    "ADD_SAFE": "저장소 만들기",
+    "STEPS": {
+      "SELECT_SYSTEM_TYPE": "시스템 유형 선택",
+      "SELECT_SYSTEM_TYPE_TITLE": "시스템 유형 선택",
+      "ASSIGN_PLATFORM": "플랫폼에 할당",
+      "ASSIGN_PLATFORM_TITLE": "플랫폼 선택",
+      "SELECT_SAFE": "저장소 내 저장",
+      "SELECT_SAFE_TITLE": "저장소 선택",
+      "DEFINE_PROPERTIES": "속성 정의",
+      "DEFINE_PROPERTIES_TITLE": "계정 속성 정의"
+    },
+    "SUCCESS_MESSAGE": {
+      "TITLE": "계정이 성공적으로 추가되었습니다"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "계정을 추가하지 못했습니다. 이유:"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "플랫폼 변경",
+      "CHANGE_SYSTEM_TYPE_TITLE": "시스템 유형 변경",
+      "OK": "변경",
+      "CANCEL": "취소",
+      "SECONDARY_MESSAGE": "이 변경을 완료하려면 계정 속성을 업데이트해야 할 수 있습니다.",
+      "PLATFORM_PRIMARY_MESSAGE": "플랫폼을 다음으로 변경하시겠습니까",
+      "SYSTEM_TYPE_PRIMARY_MESSAGE": "시스템 유형을 다음으로 변경하시겠습니까"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "닫기",
+      "TITLE": "오류"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "취소 확인",
+      "BODY": "계정 추가를 취소하시겠습니까?",
+      "SECONDARY_MESSAGE": "변경 내용이 삭제됩니다",
+      "MAIN_ACTION": "취소 확인",
+      "SECONDARY_ACTION": "취소 안 함"
+    }
+  },
+  "EDIT_ACCOUNT": {
+    "TITLE": "계정 편집",
+    "PAGE_TITLE": "계정 편집",
+    "CHANGE_THE_PLATFORM_TYPE": "플랫폼 변경",
+    "SAVE": "저장",
+    "CANCEL": "취소",
+    "GENERAL": "일반",
+    "CANCEL_EDIT": "편집 취소",
+    "INACTIVE_PLATFORM": "비활성 플랫폼",
+    "DELETED_PLATFORM": "플랫폼이 없음",
+    "PLATFORM_X_INACTIVE": "플랫폼 {{platformName}}이(가) 비활성 상태입니다",
+    "WAS_DELETED": "삭제됨",
+    "DELETED_PLATFORM_MESSAGE": "이 계정에 할당된 플랫폼을 찾을 수 없습니다",
+    "DELETED_PLATFORM_SECONDARY_MESSAGE": "다른 플랫폼을 선택하십시오. 이것으로 계정 유형이 자동으로 설정됩니다",
+    "SELECT_PLATFORM": "플랫폼 선택",
+    "SELECT_A_PLATFORM": "플랫폼 선택",
+    "CHANGE_PLATFORM": "플랫폼 변경",
+    "INACTIVE": "비활성",
+    "INACTIVE_PLATFORM_MESSAGE": "계정 관리가 비활성 플랫폼에 적용되지 않았습니다",
+    "CONTINUE_WITH_CURRENT": "현재 플랫폼으로 계속",
+    "DELETED": "삭제됨",
+    "STEPS": {
+      "SELECTED_SYSTEM_TYPE": "선택된 시스템 유형",
+      "ASSIGNED_PLATFORM": "플랫폼에 할당됨",
+      "CHANGE_PLATFORM_TITLE": "플랫폼 변경",
+      "SELECTED_SAFE": "저장소에 저장됨",
+      "ACCOUNT_PROPERTIES": "계정 속성",
+      "ACCOUNT_PROPERTIES_TITLE": "계정 속성"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "플랫폼 변경",
+      "OK": "변경",
+      "CANCEL": "취소",
+      "SECONDARY_MESSAGE": "이 변경을 완료하려면 계정 속성을 업데이트해야 할 수 있습니다.",
+      "PLATFORM_PRIMARY_MESSAGE": "플랫폼을 다음으로 변경하시겠습니까"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "취소 확인",
+      "BODY": "계정 편집을 취소하시겠습니까?",
+      "SECONDARY_MESSAGE": "변경 내용이 삭제됩니다",
+      "MAIN_ACTION": "취소 확인",
+      "SECONDARY_ACTION": "취소 안 함"
+    },
+    "SUCCESS_MESSAGE": "계정이 성공적으로 저장되었습니다",
+    "FEEDBACK_MODAL": {
+      "CLOSE": "닫기",
+      "TITLE": "계정 편집",
+      "CANCEL": "취소"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "계정을 업데이트하지 못했습니다. 이유: {{errorReason}}",
+      "MAIN_MESSAGE": "일부 속성이 업데이트되지 않았습니다. 다시 시도하십시오"
+    }
+  },
+  "SAFES": {
+    "PAGE_TITLE": "저장소",
+    "TITLE": "저장소",
+    "SEARCH_TEXT": "저장소 이름으로 검색",
+    "ADD_ACTION": "새 저장소",
+    "DETAILS": "상세",
+    "MEMBERS": "구성원",
+    "DELETE": "삭제",
+    "EDIT": "편집",
+    "CLOSE_ACTION": "닫기"
+  },
+  "ADD_SAFE": {
+    "PAGE_TITLE": "새 저장소",
+    "ADD_ACTION": "추가",
+    "CANCEL_ACTION": "취소",
+    "CLOSE_ACTION": "닫기",
+    "SAFE_NAME_FIELD_TITLE": "저장소 이름",
+    "SAFE_NAME_HINT_TEXT": "사용자 조직의 명명 규칙에 따라 저장소 이름을 입력합니다.",
+    "SAFE_DESCRIPTION_FIELD_TITLE": "설명(선택 사항)",
+    "OLAC_LABEL": "개체 레벨 액세스 제어",
+    "OLAC_WARNING_MESSAGE": "저장소가 추가된 후에는 이 기능을 사용 해제할 수 없습니다",
+    "ADVANCED_DETAILS_LABEL": "고급 상세",
+    "CHARACTERS_LEFT_LABEL": " 문자 남음",
+    "CHARACTERS_OVER_LABEL": " 문자 초과",
+    "ASSIGNED_CPM_FIELD_TITLE": "CPM에 할당됨",
+    "ASSIGNED_CPM_NO_VALUE": "[없음]",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "저장소가 성공적으로 추가되었습니다"
+    },
+    "ERROR_MESSAGE": {
+      "HEADER_TITLE": "새 저장소",
+      "SUB_TITLE": "다시 시도하십시오."
+    },
+    "SAFE_VERSION_MANAGEMENT_FIELD_TITLE": "버전 관리",
+    "RADIO_BUTTONS": {
+      "RETENTION": {
+        "TEXT": "다음의 계정 버전 저장",
+        "BOLD_TEXT": "기간:",
+        "UNITS": "일"
+      },
+      "VERSIONS": {
+        "TEXT": "마지막 계정 저장",
+        "BOLD_TEXT": "버전:",
+        "UNITS": "버전"
+      }
+    }
+  },
+  "SAFE_DETAILS": {
+    "SAFE_NAME": "저장소 이름",
+    "ASSIGNED_CPM": "CPM에 할당됨",
+    "DESCRIPTION": "설명",
+    "VERSION_MANAGEMENT": "버전 관리",
+    "OLAC_ENABLED": "개체 레벨 액세스 제어",
+    "AUTO_PURGE_ENABLED": "저장소 자동 지우기",
+    "ADVANCED_DETAILS": "고급 상세",
+    "NONE_STR": "[없음]",
+    "DASH_STR": "-",
+    "ENABLED_STR": "활성화됨",
+    "DISABLED_STR": "사용 해제됨",
+    "VERSIONS_RETENTION_FIRST_PART": "마지막 항목 저장 ",
+    "VERSIONS_RETENTION_SECOND_PART": " 계정",
+    "VERSIONS_RETENTION_THIRD_PART": " 버전",
+    "VERSIONS_RETENTION_SINGLE": "마지막 계정 저장 ",
+    "VERSIONS_RETENTION_SINGLE_BOLD": "버전",
+    "DAYS_RETENTION_FIRST_PART": "마지막 항목의 계정 버전 저장 ",
+    "DAYS_RETENTION_SECOND_PART": " 일",
+    "DAYS_RETENTION_SINGLE": "마지막 항목의 계정 버전 저장 ",
+    "DAYS_RETENTION_SINGLE_BOLD": "일",
+    "EXPIRED_MEMBERSHIP_ERROR": "이 저장소의 사용자 소유권이 만료되었습니다"
+  },
+  "FEEDBACK_MESSAGE": {
+    "CLOSE": "닫기",
+    "REFRESH": "새로 고침",
+    "GENERIC_DATA_ERROR": {
+      "TITLE": "무언가가 잘못되었습니다",
+      "SUBTITLE": "다시 시도하거나 관리자에게 연락하십시오."
+    }
+  },
+  "ACCOUNTS": {
+    "DELETE_SUCCESS": "계정이 성공적으로 삭제되었습니다.",
+    "CHANGE_IN_VAULT_SUCCESS": "Vault에서 암호가 성공적으로 변경됨",
+    "PAGE_TITLE": "계정",
+    "TITLE": "계정 보기",
+    "SEARCH_TEXT": "계정 검색",
+    "REFRESH": "새로 고침",
+    "ADD_ACTION": "계정 추가",
+    "AD_HOC_CONNECT_ACTION": "임시 연결",
+    "EDIT_ACTION": "계정 편집",
+    "ADD_TO_FAVORITE": "즐겨찾기에 추가",
+    "DELETE_FROM_FAVORITE": "즐겨찾기에서 삭제",
+    "COUNTER_TITLE": "계정",
+    "COUNTER_TITLE_ON_SEARCH": "계정: ",
+    "SELECTED_ACCOUNTS": "선택된 계정",
+    "SELECTED_ACCOUNT": "선택된 계정",
+    "NO_ACCOUNTS": "표시할 계정이 없습니다",
+    "AD_HOC_CONNECTION": {
+      "AD_HOC_CONNECTION_TITLE": "임시 연결",
+      "CONNECT_BUTTON": "연결",
+      "CANCEL_BUTTON": "취소"
+    },
+    "ACCOUNT_DETAILS": {
+      "ALL": "모두",
+      "NO_RESULTS": "필터와 일치하는 결과가 없습니다",
+      "ACTION": "동작",
+      "SEARCH": "검색",
+      "PAGE_TITLE": "계정 상세",
+      "SAFE": "저장소",
+      "PLATFORM": "플랫폼",
+      "PLATFORM_DETAILS": "플랫폼 상세",
+      "PLATFORM_PROPERTIES": "플랫폼 속성",
+      "DUAL_CONTROL": "듀얼 컨트롤",
+      "COPY": "복사",
+      "SHOW": "표시",
+      "EDIT": "편집",
+      "CONNECT": "연결",
+      "INACTIVE_PLATFORM": "비활성 플랫폼",
+      "ON": "켜기",
+      "ACTIVITIES": "활동",
+      "GROUP_NAME": "그룹 이름",
+      "GROUP_PLATFORM": "그룹 플랫폼",
+      "LATEST": "최신",
+      "LAST": "마지막",
+      "COMPLIANT": "준수",
+      "NOT_COMPLIANT": "미준수",
+      "COMPLIANCE_STATUS": "적합성 준수 상태",
+      "LAST_VERIFIED": "마지막 검증",
+      "VERIFIED_BY": "검증자",
+      "VERIFIED_ON": "검증일",
+      "NEVER_VERIFIED": "검증 안 됨",
+      "CREATED": "생성됨",
+      "DAYS_AGO": "일 전",
+      "FAILED": "실패함",
+      "TOTAL": "총",
+      "BY": "기준",
+      "Reconcile": "조정자",
+      "Change": "변경자",
+      "LAST_ACCESS": "마지막 액세스",
+      "YESTERDAY": "어제",
+      "TODAY": "오늘",
+      "DEPENDENCIES": "종속",
+      "OVERVIEW": "개요",
+      "DETAILS": "상세",
+      "RECORDINGS": "기록",
+      "NO_RECORDINGS": "이 계정에 대한 기록이 없음",
+      "NO_ACTIVITIES": "이 계정에 대한 활동이 없음",
+      "ACTIVITIES_FOR_THIS_ACCOUNT": "이 계정에 대한 활동",
+      "NO_ACTIVITIES_FOUND": "발견된 활동이 없습니다",
+      "USER": "사용자",
+      "DATE": "날짜",
+      "DURATION": "지속 기간",
+      "RISK": "위험",
+      "NA": "해당사항 없음",
+      "NONE": "없음",
+      "UNKNOWN": "미지",
+      "VERSION": "버전",
+      "SUGGESTED_REMOTE_MACHINES": "제안된 원격 시스템",
+      "PERMITTED_REMOTE_MACHINES": "허용된 원격 시스템",
+      "FEEDBACK_MODAL": {
+        "CLOSE": "닫기",
+        "TITLE": "계정 상세",
+        "MESSAGE": "계정 상세 정보를 가져오지 못했습니다."
+      },
+      "ACCOUNT_STATUS": {
+        "CANCEL": "취소",
+        "RESUME": "다시 시작",
+        "RESTORE": "복원",
+        "CHECKIN": "체크인",
+        "MORE": "더 보기",
+        "MODAL_TITLE_ERROR": "오류 상세",
+        "MODAL_TITLE_DISABLED": "CPM 사용 중지",
+        "REASON": "상태가 다음 검색 기준과 일치하므로, CPM이 이 암호의 (0)을(를) 시도 중입니다. (1)",
+        "TASK_TYPES": {
+          "ReconcileTask": "조정",
+          "VerifyTask": "검증",
+          "ChangeTask": "변경",
+          "UnknownTask": "[알 수 없음]",
+          "DeleteTask": "삭제"
+        }
+      },
+      "DUAL_CONTROL_STATUS": {
+        "REQUEST_NEEDED": "요청 필요",
+        "WAITING": "요청 보류",
+        "CONFIRMED": "확인된 요청",
+        "REJECTED": "거부된 요청",
+        "EXPIRED": "만료된 요청"
+      },
+      "ACCOUNT_STATUS_TYPE": {
+        "TITLE": {
+          "CheckedOut": "이 계정은 LOCKED_BY에 의해 잠겼습니다",
+          "AutomaticManagementCPM": "CPM이 이 계정의 자동 관리를 사용 해제했습니다",
+          "CPMFailed": "CPM이 이 계정의 ACTION에 실패했습니다",
+          "DisabledByCPM": "CPM에 의해 사용 해제됨",
+          "FailedToVerify": "CPM이 이 암호를 확인하지 못했습니다",
+          "FailedToReconcile": "CPM이 이 암호를 조정하지 못했습니다",
+          "FailedToChange": "CPM이 이 암호를 변경하지 못했습니다",
+          "FailedToDelete": "CPM이 이 암호를 삭제하지 못했습니다",
+          "Inactive": "이 계정을 자동으로 관리할 수 없습니다. 비활성 플랫폼에 할당되었습니다",
+          "NewlyAdded": "새로 추가된 계정",
+          "Deleted": "이 계정은 DELETED_BY이(가) DELETED_TIME에 삭제했습니다",
+          "ScheduleForDeletion": "이 계정은 삭제 예정입니다",
+          "ScheduleForVerify": "이 계정은 즉시 검증에 예약되었습니다",
+          "ScheduleForReconcile": "이 계정은 즉시 조정에 예약되었습니다",
+          "ScheduleForChange": "이 계정의 암호는 수동으로 변경 예약되었습니다",
+          "DisabledByUser": "자동 관리가 사용자에 의해 사용 해제되었습니다",
+          "AutomaticDisabled": "사용자가 이 계정의 자동 관리를 사용 해제했습니다"
+        }
+      },
+      "ACCOUNT_PROPERTIES": "계정 속성",
+      "LINKED_ACCOUNTS": "연결된 계정",
+      "VERSIONS_TAB": {
+        "MODIFIED_BY": "수정자",
+        "DATE": "날짜",
+        "TIME": "시간",
+        "CPM_TEMPORARY_TOGGLE": "CPM 임시 암호 버전 숨기기",
+        "TEMP": "(TEMP)"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "클래식 인터페이스의 추가 상세 & 작업",
+        "CALLOUT_TITLE": "클래식 인터페이스",
+        "CALLOUT_TEXT": "이 계정에 클래식 인터페이스에서만\n사용할 수 있는 추가적인 기능이 있을 수 있습니다.\n\n언제든지 '계정\n보기'로 돌아올 수 있습니다."
+      },
+      "CPM_TASKS": {
+        "VERIFY": {
+          "ACTION": "검증",
+          "SUCCESS": "계정이 검증 대상으로 표시되었습니다",
+          "ERROR_MESSAGE": "계정을 검증 대상으로 표시하지 못했습니다",
+          "ERROR_TITLE": "무언가가 잘못되었습니다"
+        },
+        "RECONCILE": {
+          "ACTION": "조정",
+          "SUCCESS": "계정을 조정 대상으로 표시했습니다",
+          "ERROR_MESSAGE": "계정을 조정 대상으로 표시하지 못했습니다",
+          "ERROR_TITLE": "무언가가 잘못되었습니다"
+        },
+        "CHANGE": {
+          "ACTION": "변경",
+          "SUCCESS": "계정이 변경 대상으로 표시되었습니다",
+          "ERROR_MESSAGE": "계정을 변경 대상으로 표시하지 못했습니다",
+          "ERROR_TITLE": "무언가가 잘못되었습니다",
+          "DIALOG": {
+            "TITLE": "계정의 암호 변경",
+            "MESSAGE": "CPM이 암호를 새로운 임의 암호로 변경합니다",
+            "CHANGE_BUTTON_TEXT": "변경",
+            "CANCEL_BUTTON_TEXT": "취소",
+            "BELONGS_TO_GROUP_MESSAGE": "이 계정은 계정 그룹에 속합니다. CPM이 다음을 수행합니다:",
+            "CHANGE_ENTIRE_GROUP": "전체 그룹의 암호 변경",
+            "SYNC_WITH_GROUP": "현재 계정의 암호와 그룹 암호를 동기화하십시오",
+            "CHANGE_GROUP_CLASSIC_UI": "클래식 UI에서 그룹화된 계정에 대한 암호를 변경할 수 있습니다.\n클래식 UI에서 이 계정을 엽니다.",
+            "REDIRECT_BUTTON_TEXT": "열기"
+          }
+        },
+        "OK_BUTTON": "확인"
+      }
+    },
+    "CATEGORIES": {
+      "MY_ACCOUNTS": "내 계정",
+      "STATUS": "상태",
+      "OPERATIONAL_STATE": "작동 상태"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSM 게이트웨이 연결"
+    },
+    "FILTERS": {
+      "ALL_ACCOUNTS": "모든 계정",
+      "RECENTLY_USED": "최근 사용됨",
+      "FAVORITES": "즐겨찾기",
+      "DISABLED_BY_CPM": "CPM에 의해 사용 해제됨",
+      "CHECKED-OUT": "체크아웃됨",
+      "FAILED": "실패함",
+      "FAILED_DEPENDENCIES": "실패한 종속",
+      "NEWLY_ADDED": "새로 추가됨",
+      "DELETED": "삭제됨",
+      "DISABLED_BY_USER": "사용자에 의해 사용 해제됨",
+      "SCHEDULED_FOR_CHANGE": "변경되도록 예정",
+      "SCHEDULED_FOR_VERIFICATION": "검증되도록 예정",
+      "SCHEDULED_FOR_RECONCILIATION": "조정되도록 예정",
+      "SUCCESSFULLY_RECONCILED": "성공적으로 조정됨",
+      "ACCESS_IN_LAST_X_DAYS": "최근 {{number}}일 이내에 액세스",
+      "MODIFIED_BY_USER_IN_LAST_X_DAYS": "최근 {{number}}일 이내에 사용자가 수정함",
+      "MODIFIED_BY_CPM_IN_LAST_X_DAYS": "최근 {{number}}일 이내에 CPM이 수정함"
+    },
+    "EMPTY_STATE": {
+      "RECENT_EMPTY_TITLE": "표시할 최근 보기가 없습니다",
+      "SAVED_EMPTY_TITLE": "표시할 저장된 보기가 없습니다",
+      "SAVED_EMPTY_TEXT": "최근 보기 저장"
+    },
+    "SAVED_SEARCHES_INFO_MESSAGE": {
+      "PRIMARY_TEXT": "저장된 보기 더 보기",
+      "SECONDARY_TEXT": "V9 인터페이스에서 저장된 보기 관리"
+    },
+    "REASON": {
+      "REASON_DEFAULT_CAPTION": "사유",
+      "OPTIONAL": "선택 사항",
+      "SELECT": "선택",
+      "ENTER_OR_SELECT_A_REASON": "이유 입력 또는 선택",
+      "OTHER": "기타"
+    },
+    "TICKETING": {
+      "TICKETING_SECTION_MAIN_TITLE": "티켓 정보",
+      "TICKETING_SYSTEM_DEFAULT_CAPTION": "티켓팅 시스템",
+      "TICKETING_ID_DEFAULT_CAPTION": "티켓팅 ID",
+      "TICKETING_BYPASS_SUCCESS_MESSAGE": "우회 티켓이 성공적으로 입력되었습니다",
+      "TICKETING_ID_IS_INVALID": "잘못된 티켓 ID"
+    },
+    "CONNECTION": {
+      "TITLE": "원격 연결 상세",
+      "SAVE_TO_ACCOUNTS": "계정 속성에 이 항목 저장",
+      "OPTIONAL": "선택 사항",
+      "AVAILABLE_MACHINES_TITLE": "가용 시스템:",
+      "AVAILABLE_MACHINES_ACCOUNTS_HINT": "모든 가용 시스템 목록을 보려면 계정 상세로 이동하십시오",
+      "AVAILABLE_MACHINES_REQUEST_HINT": "모든 가용 시스템 목록을 보려면 요청 상세로 이동하십시오",
+      "SEPARATE_THE_MACHINE_WITH_COMMA": "시스템을 쉼표로 구분",
+      "ADD_MORE_REMOTE_MACHINE_TO_THE_LIST": "목록에 더 많은 원격 시스템 추가",
+      "ENTER_OR_SELECT_A_REMOTE_MACHINE": "원격 시스템 입력 또는 선택"
+    },
+    "GRID_ACTIONS": {
+      "COPY_ACTION": "복사",
+      "REQUEST_COPY_ACTION": "복사 요청",
+      "SHOW_ACTION": "표시",
+      "REQUEST_SHOW_ACTION": "표시 요청",
+      "EDIT_ACTION": "편집",
+      "CONNECT_ACTION": "연결",
+      "REQUEST_CONNECT_ACTION": "연결 요청",
+      "Default": "기본값",
+      "CONNECT_WITH": "연결",
+      "CHECKIN_ACTION": {
+        "TITLE": "체크인",
+        "SUCCESS_MESSAGE": "계정이 체크인 대상으로 표시되었습니다",
+        "OK": "확인"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "클래식 인터페이스의 추가 상세 & 작업",
+        "CALLOUT_TITLE": "클래식 인터페이스",
+        "CALLOUT_TEXT": "계정 보기에 클래식 인터페이스에서만\n사용할 수 있는 추가적인 기능이 있을 수 있습니다.\n\n언제든지 새 인터페이스의 '계정\n보기'로 돌아올 수 있습니다."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "암호 표시",
+      "PASSWORD_INPUT_LABEL": "암호",
+      "COPY_BUTTON_TEXT": "복사",
+      "SHOW_BUTTON_TEXT": "표시",
+      "CLOSE_BUTTON_TEXT": "닫기",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "암호가 비어 있습니다"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "이 암호는 너무 길어서 완전히 표시할 수 없습니다. 복사를 클릭하여 전체 암호를 복사하십시오."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "암호 복사",
+      "COPY_BUTTON_TEXT": "복사"
+    },
+    "SAVE_SEARCH_DIALOG": {
+      "TITLE": "다른 이름으로 저장",
+      "SAVE_BUTTON_TEXT": "저장",
+      "CANCEL_BUTTON_TEXT": "취소",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "이 보기가 저장되었습니다",
+        "WARNING": {
+          "HEADER_TEXT": "저장할 수 없습니다",
+          "MAIN_TEXT": "이 이름을 가진 보기가 이미 있습니다"
+        },
+        "ERROR": {
+          "HEADER_TEXT": "저장된 보기의 한도 도달",
+          "MAIN_TEXT": "저장된 보기의 한도에 도달했습니다. 새 보기를 저장할 수 있도록 기존 보기를 삭제하십시오.",
+          "CLOSE_BUTTON_TEXT": "닫기"
+        }
+      }
+    },
+    "RENAME_DIALOG": {
+      "TITLE": "이름 바꾸기",
+      "RENAME_BUTTON_TEXT": "이름 바꾸기",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "이 보기의 이름이 바뀌었습니다",
+        "WARNING": {
+          "HEADER_TEXT": "이름을 바꿀 수 없습니다",
+          "MAIN_TEXT": "이 이름을 가진 보기가 이미 있습니다"
+        },
+        "WARNING_OLD_UI": {
+          "HEADER_TEXT": "이름을 바꿀 수 없습니다",
+          "MAIN_TEXT": "V9 인터페이스에 이 이름을 가진 보기가 이미 있습니다"
+        },
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "닫기"
+        }
+      }
+    },
+    "COMMON_DIALOG": {
+      "CANCEL_BUTTON_TEXT": "취소"
+    },
+    "DELETE_ACTION": {
+      "TITLE": "삭제",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "이 보기는 삭제되었습니다",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "닫기"
+        }
+      },
+      "DELETE_DEFAULT_CONFIRMATION": {
+        "TITLE": "보기 삭제",
+        "MAIN_TEXT": " 이(가) 현재 기본 보기입니다. 삭제하면 시스템 설정에 의해 기본 보기가 설정됩니다",
+        "SUB_TEXT": "이 보기를 삭제하시겠습니까?",
+        "CONFIRM_BUTTON_TEXT": "보기 삭제",
+        "CANCEL_BUTTON_TEXT": "취소"
+      }
+    },
+    "SET_DEFAULT_ACTION": {
+      "TITLE": "기본값으로 설정",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "이 보기가 기본값으로 저장되었습니다",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "닫기"
+        }
+      }
+    },
+    "FILTERS_ACTIONS": {
+      "SAVE_ACTION_TEXT": "다른 이름으로 저장",
+      "SET_AT_DEFAULT_TEXT": "기본값으로 설정",
+      "RENAME_TEXT": "이름 바꾸기",
+      "DELETE_TEXT": "삭제"
+    },
+    "CONNECT_PREREQUISITES_DIALOG": {
+      "TITLE": "연결",
+      "CONNECT_BUTTON_TEXT": "연결"
+    },
+    "DUAL_CONTROL": {
+      "PAGE_TITLE": "요청 만들기",
+      "HEADER": {
+        "REQUEST_SHOW": "표시할 요청",
+        "REQUEST_COPY": "복사할 요청",
+        "REQUEST_CONNECT": "다음으로의 연결 요청"
+      },
+      "TIMEFRAME_TITLE": "소요시간",
+      "REQUEST_TIMEFRAME": "요청 소요시간",
+      "MULTIPLE_ACCESS_REQUIRED": "다중 액세스가 필요합니다",
+      "MULTIPLE_ACCESS_LABEL": "이 기간에는 다중 액세스가 허용됩니다",
+      "CONFIRMATION": {
+        "TITLE": "확인",
+        "CURRENTLY_THERE_ARE_NO_CONFIRMERS_TO_DISPLAY": "현재 표시할 확인자가 없습니다",
+        "MULTIPLE_USERS_MUST_CONFIRM": "{{number}}명의 사용자가 요청을 확인해야 합니다",
+        "ONE_USER_MUST_CONFIRM": "1명의 사용자가 요청을 확인해야 합니다",
+        "MULTILEVEL_MULTIPLE_USERS_MUST_CONFIRM": "첫 번째 레벨의 사용자 {{number}}명과 두 번째 레벨의 사용자 {{number}}명이 요청을 확인해야 합니다",
+        "MULTILEVEL_ONE_USER_MUST_CONFIRM": "첫 번째 레벨의 사용자 1명과 두 번째 레벨의 사용자 1명이 요청을 확인해야 합니다",
+        "CONFIRMERS_LIST_TOGGLE": "확인자 목록"
+      },
+      "ADDITIONAL_INFORMATION_TITLE": "추가 정보",
+      "SEND_REQUEST": "요청 보내기"
+    },
+    "BULK_CHANGE": {
+      "DIALOG_TITLE": "{{value}} 계정 변경",
+      "DIALOG_PROGRESS_BAR_TITLE": "계정 변경"
+    },
+    "ERRORS": {
+      "CREATE_REQUEST_COPY_PASSWORD_ERROR_DIALOG_TITLE": "암호를 복사할 요청 만들기",
+      "CREATE_REQUEST_SHOW_PASSWORD_ERROR_DIALOG_TITLE": "암호를 표시할 요청 만들기",
+      "CREATE_REQUEST_CONNECT_PASSWORD_ERROR_DIALOG_TITLE": "암호로 연결할 요청 만들기"
+    },
+    "COPY_EXTENSIONS_CONFIRM_MESSAGES": "이 기능을 사용하려면 브라우저 확장/추가 기능을 다운로드하여 설치하십시오.",
+    "WARNINGS_MESSAGES": {
+      "EMPTY_COPY_TITLE": "암호 복사",
+      "CANNOT_COPY_EMPTY_PASSWORD": "빈 암호는 복사할 수 없습니다. 클립보드의 내용이 변경되지 않았습니다."
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "암호가 클립보드에 복사되었습니다",
+      "REQUEST_WAS_SENT": "요청이 전송되었습니다"
+    },
+    "DUAL_CONTROL_TOOLTIPS": {
+      "REQUEST_NEEDED": "요청이 필요합니다",
+      "WAITING_RESTRICTED": "보류 중인 연결 요청이 이미 있습니다. 표시 또는 복사 요청의 경우 이 요청을 삭제하고 새 요청을 제출하십시오.",
+      "WAITING_NOT_RESTRICTED": "이 요청은 보류 중입니다",
+      "CONFIRMED_RESTRICTED": "이 연결 요청은 확인되었습니다",
+      "CONFIRMED_NOT_RESTRICTED": "이 요청은 확인되었습니다",
+      "REJECTED": "이 요청은 거부되었습니다",
+      "EXPIRED": "이 요청은 만료되었습니다",
+      "INVALID": "이 요청은 유효하지 않습니다",
+      "FUTURE_REQUEST_CONFIRMED": "미래의 요청이 승인되었습니다",
+      "RESTRICTED_CONNECTION_REQUEST_CONFIRMED": "연결 요청이 승인되었습니다. {{actionName}} 확인을 받으려면 기존 요청을 삭제하고 새 요청을 만드십시오.",
+      "RESTRICTED_FUTURE_CONNECTION_REQUEST_CONFIRMED": "미래의 연결 요청이 승인되었습니다. {{actionName}} 확인을 받으려면 기존 요청을 삭제하고 새 요청을 만드십시오."
+    }
+  },
+  "PENDING_ACCOUNTS": {
+    "PAGE_TITLE": "보류 중 계정",
+    "TITLE": "보류 중 계정",
+    "NO_PENDING_ACCOUNTS": "표시할 보류 중인 계정이 없습니다",
+    "COUNTER_TITLE": "보류 중 계정",
+    "SELECTED_PENDING_ACCOUNTS": "선택된 보류 중인 계정",
+    "SEARCH_TEXT": "보류 중인 계정 검색",
+    "ERROR_FEEDBACK_MODAL": {
+      "TITLE": "무언가가 잘못되었습니다",
+      "OK": "확인"
+    },
+    "FILTERS": {
+      "SYSTEM_TYPE": {
+        "TITLE": "시스템 유형",
+        "OPTIONS": {
+          "ALL": "모두",
+          "WINDOWS": "Windows",
+          "UNIX": "Unix"
+        }
+      },
+      "ACCOUNT_TYPE": {
+        "TITLE": "계정 유형",
+        "OPTIONS": {
+          "LOCAL": "로컬",
+          "DOMAIN": "도메인",
+          "ALL": "모두"
+        }
+      },
+      "ACCOUNT_CATEGORY": {
+        "TITLE": "계정 카테고리",
+        "OPTIONS": {
+          "PRIVILEGED": "권한 있음",
+          "NON_PRIVILEGED": "권한 없음",
+          "ALL": "모두"
+        }
+      },
+      "DISCOVERED_BY": {
+        "TITLE": "발견자",
+        "OPTIONS": {
+          "CPM_SCANNER": "CPM 스캐너",
+          "EXTERNAL_SOURCE": "외부 소스",
+          "ALL": "모두"
+        }
+      }
+    },
+    "APPLYFILTERS": "필터 적용"
+  },
+  "REQUESTS": {
+    "DETAILS": {
+      "TITLE_KEY": "요청",
+      "TITLE_VALUE_PREFIX": "계정",
+      "TIMEFRAME": "시간대",
+      "REASON": "사유",
+      "PERMISSION": "다음에 대한 권한",
+      "ACCESS": "액세스",
+      "REQUESTED_ON": "요청",
+      "REQUEST_ID": "요청 ID",
+      "ADDRESS": "주소",
+      "ACCOUNT_NAME": "AccountName",
+      "ACCOUNT_SAFE": "AccountSafe",
+      "ACCOUNT_PLATFORM": "AccountPlatform",
+      "EMERGENCY": "비상",
+      "STATUS": "상태",
+      "START_FOR_SCCESS": "-",
+      "END_FOR_SCCESS": "액세스",
+      "FOR_ACCOUNT": "계정"
+    },
+    "ACCOUNT_DETAILS": {
+      "NAME": "이름",
+      "SAFE": "저장소",
+      "PLATFORM": "플랫폼",
+      "ADDRESS": "주소",
+      "USERNAME": "사용자 이름",
+      "LOGON TO": "다음에 로그인",
+      "LOCATION": "위치",
+      "OWNER NAME": "소유자 이름",
+      "USER DN": "사용자 DN",
+      "COPY": "복사",
+      "SHOW": "표시",
+      "CONNECT": "연결"
+    },
+    "CONFIRMERS": {
+      "GROUP_TOOLTIP": "확인자 그룹",
+      "SINGLE_TOOLTIP": "단일 확인자"
+    },
+    "UPDATE_INFO": "이 탭의 정보는 요청 목록의 정보보다 새 버전입니다. | 업데이트됨 - {{string}}"
+  },
+  "MY_REQUESTS": {
+    "PAGE_TITLE": "내 요청",
+    "TITLE": "내 요청",
+    "COUNTER_TITLE": "다음에 대한 결과:",
+    "NO_MY_REQUESTS": "표시할 요청이 없습니다",
+    "SELECTED_REQUESTS": "선택된 요청",
+    "FILTERS": {
+      "ALL": "모든 요청",
+      "WAITING_AND_CONFIRMED": "확인된/보류 중인 요청",
+      "WAITING": "보류 중인 요청",
+      "EXPIRED_AND_WAITING": "보류 중/만료된/거부된 요청"
+    },
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "요청 보기"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "내 요청 상세",
+      "ITEM": "요청",
+      "ACTION_TYPE": "삭제됨"
+    },
+    "DELETE_TEXT": "삭제",
+    "DELETE_ERROR_HEADER": "요청 삭제 오류",
+    "DELETE_SUCCESS_TEXT": "요청이 성공적으로 삭제되었습니다.",
+    "OK": "확인"
+  },
+  "INCOMING_REQUESTS": {
+    "TITLE": "들어오는 요청",
+    "NO_INCOMING_REQUESTS": "표시할 요청이 없습니다",
+    "SELECTED_REQUESTS": "선택된 요청",
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "요청 보기"
+    },
+    "DETAILS": {
+      "REQUEST_TITLE": "요청",
+      "ACCOUNT_TITLE": "계정",
+      "REQUESTOR_USERNAME": "요청자 사용자 이름",
+      "REQUESTOR_FULLNAME": "요청자 전체 이름"
+    },
+    "DETAILS_FULL_PAGE": {
+      "ITEM": "요청",
+      "ACTION_TYPE": "삭제됨",
+      "TITLE": "수신 요청 상세"
+    },
+    "TICKETING_SYSTEM": {
+      "NAME": "티켓팅 시스템 이름",
+      "NUMBER": "티켓 번호."
+    },
+    "FILTERS": {
+      "ALL": "모든 요청",
+      "WAITING_AND_CONFIRMED": "보류 중/확인된 요청",
+      "WAITING": "보류 중인 요청",
+      "EXPIRED_AND_WAITING": "보류 중/만료된 요청"
+    },
+    "OK": "확인",
+    "CONFIRM_TEXT": "확인",
+    "REJECT_TEXT": "거부",
+    "CANCEL_TEXT": "취소",
+    "BULK_CONFIRM_MODAL_TITLE": "{{number}}개 계정 액세스 확인",
+    "BULK_CONFIRM_MODAL_TEXT": "확인할 이유를 지정하십시오",
+    "BULK_REJECT_MODAL_TITLE": "{{number}}개 계정 액세스 거부",
+    "BULK_REJECT_MODAL_TEXT": "거부할 이유를 지정하십시오",
+    "BULK_CONFIRM_REJECT_MODAL_WARNING": "처리되지 않은 요청만 확인됩니다",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_TITLE": "{{number}}개 요청 확인",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_TITLE": "{{number}}개 요청 거부",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_SUB_TITLE": "요청 확인",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_SUB_TITLE": "요청 거부",
+    "BULK_CONFIRM_SUCCESS_ACCORDION_TITLE": "요청이 성공적으로 확인되었습니다",
+    "BULK_REJECT_SUCCESS_ACCORDION_TITLE": "요청이 성공적으로 거부되었습니다",
+    "BULK_CONFIRM_FAILURE_ACCORDION_TITLE": "요청이 성공적으로 확인되지 않았습니다",
+    "BULK_REJECT_FAILURE_ACCORDION_TITLE": "요청이 성공적으로 거부되지 않았습니다",
+    "BULK_MODAL_PROGRESS_BAR_DONE_BUTTON": "닫기",
+    "BULK_MODAL_PROGRESS_BAR_DONE_TITLE": "완료",
+    "BULK_MODAL_PROGRESS_BAR_DONE_FAILURE_SUB_TITLE": "실패 포함",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_CONFIRM": "확인 중...",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_REJECT": "거부 중...",
+    "REJECT_HEADER_TEXT": "요청 거부 이유",
+    "REJECT_CONTENT_TEXT": "거부 이유를 지정하십시오:",
+    "CONFIRM_HEADER_TEXT": "요청 확인 이유",
+    "CONFIRM_CONTENT_TEXT": "확인 이유를 지정하십시오:",
+    "CONFIRM_ERROR_HEADER": "요청 확인 오류",
+    "REJECT_ERROR_HEADER": "요청 거부 오류",
+    "CONFIRM_SUCCESS_TEXT": "요청이 성공적으로 확인되었습니다.",
+    "REJECT_SUCCESS_TEXT": "요청이 성공적으로 거부되었습니다."
+  },
+  "CONTENT_TITLE": {
+    "HEADER": {
+      "FOR": ":",
+      "ALL": "모두",
+      "CLEAR_ALL": "모두 지우기"
+    },
+    "SHOWING": "표시"
+  },
+  "DISCOVERIES": {
+    "DEFAULT_DASH": "-",
+    "PAGE_TITLE": "발견 관리",
+    "GRID_TITLE": "발견 설정",
+    "ADD_ACTION": "새 발견",
+    "LAST_RUN_STATUS": {
+      "DONE": "완료됨",
+      "FAILED": "실패함",
+      "DONE_WITH_ISSUES": "완료됨",
+      "CANCELED_DUE_TO_UPGRADE": "취소됨",
+      "STOPPED": "중지됨"
+    },
+    "STATE": {
+      "RUNNING": "실행 중",
+      "PENDING": "보류 중",
+      "STOPPING": "중지 중"
+    },
+    "LAST_RUN_TIME": {
+      "NA": "해당사항 없음"
+    },
+    "DISCOVERY_TYPE": {
+      "ONETIME": "한 번",
+      "RECURRING": "되풀이"
+    }
+  },
+  "FILTERS_VIEWS_LAYOUT": {
+    "SHOW_MORE": "자세히 표시",
+    "SHOW_LESS": "간단히 표시",
+    "APPLY": "적용"
+  },
+  "FORM_VALIDATIONS": {
+    "REQUIRED": "이 필드는 필수입니다",
+    "IS_NUMERIC": "이 필드에는 숫자만 있어야 합니다",
+    "IS_I18N": "이 필드에는 국제 문자가 허용되지 않습니다",
+    "IS_PASSWORD_MATCH": "암호와 확인 필드가 일치하지 않습니다",
+    "REQUIRED_SAFE_NAME": "필드 이름은 비워 둘 수 없습니다",
+    "STARTING_WHITE_SPACE": "필드 이름은 공백으로 시작할 수 없습니다",
+    "ENDING_WHITE_SPACE": "필드 이름은 공백으로 끝날 수 없습니다",
+    "PATTERN": "필드에는 유효하지 않은 문자를 사용할 수 없습니다",
+    "MIN_VALUE": "최소값 초과됨",
+    "MAX_VALUE": "최대값 초과됨",
+    "INVALID_VALUE": "유효한 값은 {minValue} ~ {maxValue} 사이입니다",
+    "NOT_EXIST_IN_MACHINE_LIST": "이 시스템은 가용 시스템 목록에 포함되어 있지 않습니다"
+  },
+  "FORM_SAFES_VALIDATIONS": {
+    "SAFE_NAME_REQUIRED": "저장소 이름은 비워 둘 수 없습니다",
+    "SAFE_NAME_STARTING_WHITE_SPACE": "저장소 이름은 공백으로 시작할 수 없습니다",
+    "SAFE_NAME_ENDING_WHITE_SPACE": "저장소 이름은 공백으로 끝날 수 없습니다",
+    "SAFE_NAME_PATTERN": "저장소 이름에는 유효하지 않은 문자를 사용할 수 없습니다",
+    "SAFE_NAME_MAX_CHAR": "저장소 이름은 28자를 초과할 수 없습니다",
+    "SAFE_DESCRIPTION_PATTERN": "저장소 설명에는 유효하지 않은 문자를 사용할 수 없습니다",
+    "MANAGING_CPM_REQUIRED": "목록에서 값을 선택하십시오"
+  },
+  "COMMON": {
+    "VIEWS_TAB_TITLE": "보기",
+    "RECENT_TAB_TITLE": "최근",
+    "SAVED_TAB_TITLE": "저장됨",
+    "FILTERS_TAB_TITLE": "필터",
+    "CLOSE_BUTTON_TEXT": "닫기",
+    "CANCEL_BUTTON_TEXT": "취소",
+    "DOWNLOAD_BUTTON_TEXT": "다운로드",
+    "SELECT_BUTTON_TEXT": "선택",
+    "OPTIONAL_FORM_CONTROL": "{{fieldName}} (선택사항)",
+    "ACCOUNT_TYPES": {
+      "PASSWORD": "암호",
+      "SSH_KEY": "SSH 키"
+    },
+    "GENERAL_MESSAGES": {
+      "FAILURE_MAIN_TEXT": "다음에 실패함"
+    }
+  },
+  "AUTHENTICATION": {
+    "SESSION_EXPIRED_MESSAGE": {
+      "HEADER_TITLE": "세션 만료됨",
+      "MAIN_TITLE": "세션이 만료되었습니다",
+      "SUB_TITLE": "로그인 화면으로 돌아가려면 확인을 클릭하십시오",
+      "OK_OPTION": "확인"
+    }
+  },
+  "MONITORING": {
+    "TITLE": "모니터링",
+    "REFRESH": "새로 고침",
+    "RISK_CARD": {
+      "TITLE": "세션 위험 점수",
+      "SUB_TITLE": "가장 강력한 영향 활동/이벤트",
+      "SECURITY_INCIDENT": "보안 사건",
+      "GO_TO_INCIDENT_DETAILS": "사건 상세로 이동",
+      "ID": "ID",
+      "PLAY": "재생",
+      "TOOLTIP_TITLE": "세션의 의심스러운 활동",
+      "TOOLTIP_SUB_TITLE": "가장 위험한 활동",
+      "NO_RISK_SCORE": "분석되거나 감지된 위험이 없습니다"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "세션 상세",
+      "ITEM": "세션",
+      "ACTION_TYPE": "삭제됨",
+      "BACK_TEXT": "모니터링"
+    },
+    "GRID_TITLE": {
+      "RECORDED_SESSIONS": "기록",
+      "LIVE_SESSIONS": "활성 세션",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "클래식 인터페이스의 추가 상세 & 작업",
+        "CALLOUT_TITLE": "클래식 인터페이스",
+        "CALLOUT_TEXT": "모니터링 보기에 클래식 인터페이스에서만\n사용할 수 있는 추가적인 기능이 있을 수 있습니다.\n\n언제든지 새 인터페이스의 '모니터링'으로 \n돌아올 수 있습니다."
+      }
+    },
+    "RECORDING": {
+      "NO_RECORDINGS_FOUND": "표시할 기록이 없습니다",
+      "PLAY": "플레이",
+      "PLAY_VIDEO": "비디오 재생",
+      "CONNECTED_AS": "다음으로 연결됨",
+      "AS": "-",
+      "ON": "-",
+      "OFF": "끄기",
+      "SKIP_IDLE": "유휴 건너뛰기:",
+      "MANUAL": "수동",
+      "AUTOMATIC": "자동",
+      "GO_TO_V9": "비디오 재생(V9 UI)",
+      "SESSION_WAS_NOT_FOUND": "이 세션에 대한 활동을 이용할 수 없음"
+    },
+    "LIVE_SESSIONS": {
+      "NO_LIVE_SESSIONS_FOUND": "표시할 활성 세션이 없습니다",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "클래식 인터페이스의 추가 상세 & 작업",
+        "CALLOUT_TITLE": "클래식 인터페이스",
+        "CALLOUT_TEXT": "활성 세션 보기에 클래식 인터페이스에서만\n사용할 수 있는 추가적인 기능이 있을 수 있습니다.\n\n언제든지 새 인터페이스의 '모니터링'으로 \n돌아올 수 있습니다."
+      }
+    },
+    "FILTERS": {
+      "SECTION": "필터",
+      "SESSIONS_PROPERTIES": "세션 속성",
+      "SESSOION_PROPERTIES_HINT_TITLE": "세션 속성별 필터링",
+      "SESSOION_PROPERTIES_HINT": "사용자, 클라이언트, 계정 사용자 이름, 계정 주소, 계정 정책 ID, 티켓 ID 등.\n\n동일한 세션의 여러 속성을 기준으로 검색하려면 각 속성을 공백으로 분리하십시오(예: root 192.168.0.1).\n\n따옴표를 사용하여 구문을 검색하십시오",
+      "SESSIONS_ACTIVITIES": "세션 활동",
+      "COMMANDS_AND_EVENTS_HINT_TITLE": "세션 활동별 필터링",
+      "COMMANDS_AND_EVENTS_HINT": "Windows 제목, SQL 명령, SSH 명령, SCP 명령, 키 입력, 차단된 명령('DENIED' 키워드 사용).\n\n동일한 세션의 여러 활동을 기준으로 검색하려면 각 활동을 공백으로 분리하십시오(예: sudo rm).\n\n따옴표를 사용하여 구문을 검색하십시오. 예: 'ifConfig -a'",
+      "FROM": "시작",
+      "TO": "~",
+      "SAVE_FILTER": "필터 저장",
+      "APPLY": "적용"
+    },
+    "RECORDING_DETAILS": {
+      "HEADER_TITLE": "{{address}}에서 {{accountUserName}}(으)로 연결된 {{user}}",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "클래식 인터페이스의 추가 상세 & 작업",
+        "CALLOUT_TITLE": "클래식 인터페이스",
+        "CALLOUT_TEXT": "이 세션에 클래식 인터페이스에서만\n사용할 수 있는 추가적인 기능이 있을 수 있습니다.\n\n언제든지 새 '모니터링'으로 돌아올 수 있습니다."
+      }
+    },
+    "LIVE_SESSION_DETAILS": {
+      "HEADER_TITLE": "{{address}}에서 {{accountUserName}}(으)로 연결된 {{user}}",
+      "MONITOR_BUTTON": "모니터",
+      "TERMINATE_BUTTON": "종료",
+      "TERMINATE_DIALOG": {
+        "TITLE": "활성 세션 종료",
+        "MESSAGE": "이 세션을 종료하시겠습니까?",
+        "CANCEL_BUTTON": "취소"
+      },
+      "SUSPEND_BUTTON": "일시 중지",
+      "SUSPEND_DIALOG": {
+        "TITLE": "활성 세션 일시 중지",
+        "MESSAGE": "이 세션을 일시 중지하시겠습니까?",
+        "CANCEL_BUTTON": "취소"
+      },
+      "RESUME_BUTTON": "다시 시작",
+      "RESUME_DIALOG": {
+        "TITLE": "일시 중지된 세션 다시 시작",
+        "MESSAGE": "이 세션을 다시 시작하시겠습니까?",
+        "CANCEL_BUTTON": "취소"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "클래식 인터페이스의 추가 상세 & 작업",
+        "CALLOUT_TITLE": "클래식 인터페이스",
+        "CALLOUT_TEXT": "이 세션에 클래식 인터페이스에서만\n사용할 수 있는 추가적인 기능이 있을 수 있습니다.\n\n언제든지 새 '모니터링'으로 돌아올 수 있습니다."
+      }
+    },
+    "TABS": {
+      "RECORDING": "기록",
+      "LIVE_SESSIONS": "활성 세션",
+      "SESSION_ACTIVITIES": "활동",
+      "ATTESTATION": "증명",
+      "PERMISSIONS": "권한",
+      "SESSION_PROPERTIES": "상세"
+    },
+    "PROPERTIES": {
+      "SESSION_PROPERTIES_TITLE": "세션 속성",
+      "ADDITIONAL_PROPERTIES_TITLE": "추가 속성",
+      "ACCOUNT_DETAILS_TITLE": "계정 속성",
+      "VIDEO_RECORDING_TITLE": "비디오 기록",
+      "TEXT_RECORDING_TITLE": "텍스트 기록",
+      "CONNECTED_FROM": "다음에서 연결됨",
+      "REMOTE_MACHINE": "원격 시스템",
+      "INTERFACE": "인터페이스",
+      "CONNECTION_TYPE": "연결 형식",
+      "PROTOCOL": "프로토콜",
+      "START": "시작",
+      "END": "끝",
+      "DURATION": "지속 기간",
+      "RETAINED_BY": "다음에 의해 유지됨",
+      "PLATFORM_NAME": "플랫폼 이름",
+      "TARGET_USER": "대상 사용자",
+      "TARGET_ADDRESS": "대상 주소",
+      "VIDEO_SIZE": "크기",
+      "VIDEO_LAST_VIEWED_BY": "마지막 검토",
+      "TEXT_SIZE": "크기",
+      "TEXT_LAST_VIEWED_BY": "마지막 검토",
+      "TEXT_LAST_VIEWED_DATE": "마지막 검토 날짜"
+    },
+    "ACTIVITIES": {
+      "ACTIVITIES_IN_SESSION": " 세션의 활동",
+      "NO_ACTIVITIES": "표시할 활동이 없습니다"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSM 게이트웨이 연결"
+    }
+  },
+  "ONBOARDING_RULES": {
+    "PAGE_TITLE": "온보딩 규칙",
+    "TITLE": "온보딩 규칙",
+    "ANY": "임의 항목",
+    "SERVER": "서버",
+    "WORKSTATION": "워크스테이션",
+    "LOCAL": "로컬",
+    "DOMAIN": "도메인",
+    "PRIVILEGED": "권한 있음",
+    "NON_PRIVILEGED": "권한 없음",
+    "BUILT_IN_ADMINISTRATOR_WINDOWS": "기본 관리자(SID = 500)",
+    "BUILT_IN_ADMINISTRATOR_UNIX": "루트(UID = 0)",
+    "BEGINS_WITH": "시작",
+    "END_WITH": "종료",
+    "EXACT": "같음",
+    "OPTIONAL": "선택 사항",
+    "EMPTY_STATE": {
+      "TITLE": "계정 온보딩 방법",
+      "TITLE_FAST": "빠르게",
+      "TITLE_AND": "및",
+      "TITLE_EASY": "쉽게",
+      "DESCRIPTION": "온보딩 규칙이 발견된 계정을 CyberArk에 자동으로 온보딩합니다. 이러한 규칙을 적용하면 시간을 절약하고 수동 온보딩을 피할 수 있습니다. 보류 중으로 표시되기 전에 온보딩 규칙을 발견된 계정에 적용합니다.",
+      "READ_MORE": " 더 많은 내용 읽기",
+      "CREATE_RULE_LINK": "새 온보딩 규칙 생성 시작",
+      "AUTOMATIC_ONBOARDING_RULE": "자동 온보딩 규칙",
+      "PENDING_ACCOUNTS": "보류 중 계정",
+      "MANUAL_ONBOARDING": "수동 온보딩",
+      "ACCOUNTS_DISCOVERY": "계정 발견"
+    },
+    "FILTERS": {
+      "TITLE": "필터",
+      "RULES_SCOPE": {
+        "TITLE": "규칙 범위",
+        "SYSTEM_TYPE": "시스템 유형",
+        "ACCOUNT_TYPE": "계정 유형",
+        "MACHINE_TYPE": "기기 유형",
+        "CATEGORY": "계정 카테고리",
+        "DROPDOWN": {
+          "PLACEHOLDER": "선택"
+        },
+        "KEYWORDS": {
+          "LABEL": "키워드로 미세조정",
+          "PLACEHOLDER": "규칙 이름, 설명, 사용자 이름 또는 시스템 이름"
+        }
+      },
+      "DESTINATION": {
+        "TITLE": "대상",
+        "PLATFORM": {
+          "LABEL": "플랫폼",
+          "PLACEHOLDER": "선택",
+          "NO_MATCH_TEXT": "일치하는 플랫폼 없음"
+        },
+        "SAFE": {
+          "LABEL": "저장소",
+          "PLACEHOLDER": "선택",
+          "NO_MATCH_TEXT": "일치하는 저장소 없음"
+        }
+      }
+    },
+    "SELECTED_ITEM_DETAILS": {
+      "DETAILS_TITLE": "상세",
+      "RULE_SCOPE": {
+        "TITLE": "규칙 범위",
+        "SYSTEM_TYPE": "시스템 유형",
+        "MACHINE_TYPE": "기기 유형",
+        "ACCOUNT_TYPE": "계정 유형",
+        "CATEGORY": "계정 카테고리",
+        "USER_NAME": "사용자 이름",
+        "METHOD": {
+          "BEGINS": "시작: {{ruleFilterValue}}",
+          "ENDS": "종료: {{ruleFilterValue}}",
+          "EQUALS": "같음: {{ruleFilterValue}}",
+          "BEGINS_WITH": "시작: {{ruleFilterValue}}",
+          "END_WITH": "종료: {{ruleFilterValue}}",
+          "EXACT": "같음: {{ruleFilterValue}}"
+        },
+        "ACCOUNT_CATEGORY_FILTER": {
+          "TITLE": "권한 있는 계정 유형",
+          "PRIVILEGED": "권한 있음",
+          "NONPRIVILEGED": "권한 없음",
+          "ANY": "임의 항목"
+        },
+        "LOCAL": "로컬",
+        "ANY": "임의 항목",
+        "ADMIN_ONLY": {
+          "WINDOWS": "기본 관리자(SID = 500)",
+          "UNIX": "루트(UID = 0)"
+        },
+        "MACHINE_NAME": "시스템 이름/주소"
+      },
+      "DESTINATION": {
+        "TITLE": "대상",
+        "PLATFORM": "플랫폼",
+        "SAFE": "저장소"
+      },
+      "RULE_PROPERTIES": {
+        "TITLE": "규칙 속성",
+        "RULE_NAME": "이름",
+        "RULE_DESCRIPTION": "설명"
+      },
+      "PASSWORD_SETTINGS": {
+        "TITLE": "초기 암호 설정",
+        "INITIAL_PASSWORD": "초기 암호 설정",
+        "USE_PLATFORM": "기본 플랫폼 조정 계정 사용",
+        "NO_RECONCILE_ACCOUNT": "선택한 플랫폼에 대해 조정 계정 없음",
+        "RECONCILE_ACCOUNT": "플랫폼 조정 계정"
+      },
+      "OVERVIEW": {
+        "TITLE": "개요",
+        "LAST_ONBOARDED": "마지막 온보드"
+      }
+    },
+    "CREATE_RULE": "규칙 생성",
+    "REFRESH": "새로 고침",
+    "RULE_NAME_COLUMN_TITLE": "규칙 이름",
+    "SYSTEM_TYPE_COLUMN_TITLE": "시스템 유형",
+    "CREATE_ONBOARDING_RULES": {
+      "CASE_SENSITIVE": "대소문자 구분",
+      "PAGE_TITLE": "규칙 생성",
+      "PAGE_TITLE_EDIT_MODE": "규칙 편집",
+      "TITLE": "새 온보딩 규칙",
+      "TITLE_EDIT_MODE": "온보딩 규칙 편집: {{string}}",
+      "SUBMIT_TEXT": "규칙 생성",
+      "SUBMIT_TEXT_EDIT_MODE": "변경 내용 저장",
+      "UPDATE": "업데이트",
+      "IDENTICAL_RULE_ERROR_HEADER": "동일 범위",
+      "IDENTICAL_RULE_NAME_ERROR_HEADER": "동일 규칙 이름",
+      "DEFAULT_ERROR_HEADER": "오류",
+      "CREATE_RULE_SUCCESS_MESSAGE": "규칙이 성공적으로 생성되었습니다",
+      "EDIT_RULE_SUCCESS_MESSAGE": "규칙이 성공적으로 업데이트되었습니다",
+      "STEPS": {
+        "SELECT_SYSTEM_TYPE": "시스템 유형 선택",
+        "SELECT_SYSTEM_TYPE_EDIT_MODE": "시스템 유형",
+        "SELECT_SYSTEM_TYPE_TITLE": "온보딩할 시스템 유형 선택",
+        "SELECT_SYSTEM_TYPE_TITLE_EDIT_MODE": "시스템 유형",
+        "SELECT_SCOPE": "범위 선택",
+        "SELECT_SCOPE_EDIT_MODE": "범위",
+        "SELECT_SCOPE_TITLE": "규칙 범위 선택",
+        "SELECT_SCOPE_TITLE_EDIT_MODE": "범위",
+        "ASSIGN_PLATFORM": "플랫폼에 할당",
+        "ASSIGN_PLATFORM_EDIT_MODE": "플랫폼",
+        "ASSIGN_PLATFORM_TITLE": "플랫폼 선택",
+        "ASSIGN_PLATFORM_TITLE_EDIT_MODE": "플랫폼",
+        "SELECT_SAFE": "저장소 내 저장",
+        "SELECT_SAFE_EDIT_MODE": "저장소",
+        "SELECT_SAFE_TITLE": "저장소 선택",
+        "SELECT_SAFE_TITLE_EDIT_MODE": "저장소",
+        "DEFINE_PROPERTIES": "속성 정의",
+        "DEFINE_PROPERTIES_EDIT_MODE": "속성",
+        "DEFINE_PROPERTIES_TITLE": "규칙 속성 정의",
+        "DEFINE_PROPERTIES_TITLE_EDIT_MODE": "속성",
+        "DEFINE_PROPERTIES_STEP": {
+          "NAME_LABEL": "이름",
+          "NAME_PLACEHOLDER": "고유한 이름 입력",
+          "DESCRIPTION_LABEL": "설명(선택 사항)",
+          "DESCRIPTION": "설명",
+          "DESCRIPTION_VALUE": "값 지정됨",
+          "DESCRIPTION_CHARACTERS_LEFT": " 남은 문자 수",
+          "DESCRIPTION_CHARACTERS_OVER": " 초과 문자 수",
+          "RULE_NAME_IS_NOT_UNIQUE_MESSAGE": "이 이름을 가진 규칙이 이미 있습니다",
+          "RULE_NAME_MAX_LENGTH_MESSAGE": "이 필드에 가능한 최대 문자 수는 255자입니다",
+          "SETTINGS": {
+            "INITIAL_PASSWORD": "초기 암호 설정",
+            "USE_PLATFORM": "플랫폼 조정 계정 사용",
+            "NO_RECONCILE_ACCOUNT": "선택한 플랫폼에 대해 조정 계정 없음"
+          },
+          "MODAL_ERROR_HEADER": "오류",
+          "MODAL_CLOSE_ACTION": "닫기"
+        },
+        "SUMMARY": "요약",
+        "SUMMARY_TITLE": "요약"
+      },
+      "SELECT_SCOPE": {
+        "INFO_MESSAGE_APPLY_WINDOWS": "자동 온보딩 규칙은 종속성 없이 계정에 적용됩니다",
+        "INFO_MESSAGE_APPLY_UNIX": "자동 온보딩 규칙은 신뢰 없이 계정에 적용됩니다",
+        "INFO_MESSAGE_NEW_RULE": "새 규칙이 기존 규칙보다 우선합니다",
+        "MACHINE_TYPE": "기기 유형",
+        "ACCOUNT_TYPE": "계정 유형",
+        "ACCOUNT_TYPE_INFO": "현재, 도메인 계정을 자동으로 온보딩할 수 없습니다.",
+        "ACCOUNT_CATEGORY": "계정 카테고리",
+        "ACCOUNT_CATEGORY_INFO": "권한 있는 계정은 관리자 또는 파워 유저와 같이 권한이 있는 \n그룹의 구성원입니다.",
+        "PRIVILEGED_ACCOUNT_TYPE": "권한 있는 계정 유형",
+        "USERNAME": "사용자 이름",
+        "MACHINE_NAME_OR_ADDRESS": "시스템 이름/주소",
+        "IDENTICAL_MESSAGE_TITLE": "동일한 규칙이 발견됨: {{string}}",
+        "IDENTICAL_MESSAGE_TEXT": "중복 방지를 위해 이 규칙의 범위 변경"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "취소 확인",
+        "BODY": "온보딩 규칙 생성을 취소하시겠습니까?",
+        "SECONDARY_MESSAGE": "변경 내용이 삭제됩니다",
+        "MAIN_ACTION": "취소 확인",
+        "SECONDARY_ACTION": "취소 안 함"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "CHANGE_SYSTEM_TYPE_TITLE": "시스템 유형 변경",
+        "CHANGE_PLATFORM_TITLE": "플랫폼 변경",
+        "OK": "변경",
+        "CANCEL": "취소",
+        "SYSTEM_TYPE_PRIMARY_MESSAGE": "시스템 유형을 다음으로 변경하시겠습니까",
+        "PLATFORM_PRIMARY_MESSAGE": "플랫폼을 다음으로 변경하시겠습니까",
+        "SECONDARY_MESSAGE": "규칙 정의를 업데이트해야 할 수 있습니다."
+      }
+    },
+    "NO_RULES_FOUND": "표시할 규칙이 없습니다",
+    "PRECEDENCE_COLUMN_TITLE": "선행",
+    "DESCRIPTION_COLUMN_TITLE": "설명",
+    "MACHINE_TYPE_COLUMN_TITLE": "기기 유형",
+    "ACCOUNT_TYPE_COLUMN_TITLE": "계정 유형",
+    "LAST_ONBOARDED_COLUMN_TITLE": "마지막 온보드",
+    "DELETE_RULE": {
+      "ACTION_TITLE": "규칙 삭제",
+      "FEEDBACK_TITLE": "규칙 삭제",
+      "FEEDBACK_DESCRIPTION": "'{RULE_NAME}' 규칙을 삭제하시겠습니까?",
+      "FEEDBACK_DELETE_BUTTON": "규칙 삭제",
+      "FEEDBACK_CANCEL_BUTTON": "취소",
+      "FLOATING_SUCCESS_MESSAGE": "규칙이 삭제되었습니다"
+    },
+    "EDIT_RULE": {
+      "ACTION_TITLE": "규칙 편집"
+    },
+    "FEEDBACK_MESSAGES": {
+      "DELETE_ONBOARDING_RULES": "온보딩 규칙 삭제",
+      "GET_ONBOARDING_RULES": "온보딩 규칙 가져오기"
+    }
+  },
+  "PTA": {
+    "MESSAGES": {
+      "SUCCESS_MESSAGES": {
+        "SETTINGS": {
+          "PSM": {
+            "UPDATE": "규칙이 성공적으로 업데이트되었습니다",
+            "ADD": "규칙이 성공적으로 추가되었습니다"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "'보류 중으로 추가'가 성공적으로 업데이트되었습니다",
+            "ROTATE_CREDENTIALS": "'자격 증명 순환' 수정이 성공적으로 업데이트되었습니다",
+            "RECONCILE_CREDENTIALS": "'자격 증명 조정' 수정이 성공적으로 업데이트되었습니다"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "세션 재개가 성공적으로 시작됨"
+        }
+      },
+      "ERROR_TITLES": {
+        "DEFAULT": "오류",
+        "SETTINGS": {
+          "GET": "보안 구성을 로드하지 못함",
+          "PSM": {
+            "UPDATE": "규칙을 업데이트하지 못함",
+            "ADD": "규칙을 추가하지 못함"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "'보류 중으로 추가' 수정을 업데이트하지 못함",
+            "ROTATE_CREDENTIALS": "'자격 증명 순환' 수정을 업데이트하지 못함",
+            "RECONCILE_CREDENTIALS": "'자격 증명 조정' 수정을 업데이트하지 못함"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "세션 재개를 시작하지 못함"
+        }
+      },
+      "CLOSE_BUTTON": "닫기"
+    },
+    "EVENTS": {
+      "ACTION_BUTTONS": {
+        "SUCCESS_MESSAGES": {
+          "RESUME": "세션 재개가 성공적으로 시작됨"
+        },
+        "ERROR_TITLES": {
+          "RESUME": "세션 재개를 시작하지 못함"
+        }
+      },
+      "PAGE_HEADER": "보안 이벤트",
+      "PROVIDER": {
+        "UNKNOWN": "알 수 없음",
+        "ANOMALIES_TITLES": {
+          "ACTIVE_DORMANT": "활성 휴면 사용자",
+          "AGGREGATIVE_ICE": "여러 시스템으로의 비정상적인 액세스",
+          "DUAL_USAGE": "대화형으로 로그온한 서비스 계정",
+          "GOLDEN_TICKET": "골든 티켓 공격",
+          "IRREGULAR_HOUR_USER": "일반적이지 않은 시간에 Vault에 이루어진 권한 있는 액세스",
+          "MALICIOUS_RETRIEVAL": "도메인 계정의 악의적 검색",
+          "OVER_PASS_THE_HASH": "해시 공격 오버패스",
+          "PAC_ATTACK": "PAC 공격",
+          "RISKY_COMMAND": "권한 있는 세션에서 의심스러운 활동이 감지됨",
+          "SCT": "의심스러운 자격 증명 도용",
+          "SPC": "의심스러운 암호 변경",
+          "UNMANAGED": "비관리 권한 계정",
+          "VAULT_IRREGULAR_IP": "비정상적인 IP에서 Vault에 이루어진 권한 있는 액세스",
+          "CLEARTEXT": "노출된 자격 증명"
+        },
+        "EVENT_SEVERITIES": {
+          "LOW": "낮음",
+          "MEDIUM": "중간",
+          "HIGH": "높음"
+        },
+        "FILTERS": {
+          "EVENT_ID": "이벤트 ID",
+          "SESSION_ID": "세션 ID",
+          "TITLE": "필터",
+          "SEVERITY": "심각도",
+          "TYPE": "이벤트 유형",
+          "FROM_DATE": "시작",
+          "TO_DATE": "~"
+        },
+        "NOTIFICATIONS": {
+          "LOW": "새로운 낮음 이벤트가 감지됨",
+          "MEDIUM": "새로운 중간 이벤트가 감지됨",
+          "HIGH": "새로운 높음 이벤트가 감지됨"
+        }
+      },
+      "CARDS": {
+        "GENERAL": {
+          "LISTS": {
+            "ENTITIES": {
+              "COMMAND": "명령",
+              "ACCOUNT": "계정",
+              "MACHINE": "시스템",
+              "DC": "DC"
+            },
+            "TITLES": {
+              "MOST_RETYPED_ACTIVITIES": "가장 많이 재입력된 활동",
+              "MOST_ACCESSED_ACCOUNTS": "가장 많이 액세스한 계정",
+              "EXPOSED_ACCOUNTS": "노출된 계정",
+              "MOST_ACCESSED_MACHINES": "가장 많이 액세스한 시스템",
+              "SOURCE_MACHINES": "소스 시스템",
+              "MOST_ACCESSED_DCS": "가장 많이 액세스한 DC",
+              "ACCESSED_DCS": "액세스한 DC"
+            },
+            "RECORD": {
+              "MULTI_OCCURRENCES": "{{entity}} ({{occurrences}}번 발생)",
+              "SINGLE_OCCURRENCE": "{{entity}} ({{occurrences}}번 발생)"
+            }
+          },
+          "ORIGINAL_EVENTS": {
+            "ORIGINAL_EVENT": "최초 이벤트는 {{originTime}}에 발생했습니다.",
+            "ORIGINAL_EVENT_SOURCE_TARGET": "최초 이벤트는 대상 {{target}}에서 {{source}} 소스로부터 {{originTime}}에 발생했습니다.",
+            "ORIGINAL_EVENT_SOURCE_DC": "최초 이벤트는 DC {{target}}에서 {{source}} 소스로부터 {{originTime}}에 발생했습니다.",
+            "ORIGINAL_SUSPICIOUS_ACTIVITY": "첫 번째 의심스러운 활동은 {{originTime}}에 발생했습니다."
+          },
+          "DIAGRAM_ENTITY_TITLE": {
+            "TARGET_MACHINE": "대상 시스템",
+            "SOURCE_MACHINE": "소스 시스템",
+            "PRIVILEGED_ACCOUNT": "권한 있는 계정",
+            "UNMANAGED_PRIVILEGED_ACCOUNT": "비관리 권한 계정",
+            "CYBERARK_PAS": "Cyberark PAS",
+            "VAULT_USER": "Vault 사용자",
+            "TARGET_SERVICE": "대상 서비스",
+            "SERVICE_ACCOUNT": "서비스 계정",
+            "SERVICE": "서비스"
+          }
+        },
+        "GENERIC": {
+          "ACTIVE": "활성 세션",
+          "REMEDIATION": "수정 시작됨",
+          "OCCURRENCES": "({{occurrences}}번 발생)",
+          "EVENT_ID": "ID {{id}}",
+          "SESSION_ID": "세션 ID",
+          "RECOMMENDATION_TITLE": "권장"
+        },
+        "ACTIVE_DORMANT": {
+          "SUBTITLE_SINGLE_ACCOUNT": "Vault 사용자 {{user}}이(가) {{inactiveDays}}일 이상 활동이 없다가 CyberArk PAS에서 계정 {{account}}의 암호를 검색했습니다.",
+          "SUBTITLE_MULTI_ACCOUNTS": "Vault 사용자 {{user}}이(가) {{inactiveDays}}일 이상 활동이 없다가 CyberArk PAS에서 {{numOfAccounts}} 계정의 암호를 검색했습니다.",
+          "RECOMMENDATION": "이 Vault 사용자가 활성 상태인지 확인하고, 그렇지 않은 경우 사용자 액세스를 제한하는 것이 좋습니다."
+        },
+        "AGGREGATIVE_ICE": {
+          "SUBTITLE": "계정 {{account}}이(가) 이 계정에는 비정상적으로 많은 수의 새 시스템에 연결되어 있습니다.<br>이러한 동작은 {{account}}의 자격 증명이 측면 이동에 악용되었음을 나타낼 수 있습니다.",
+          "RECOMMENDATION": "잠재적 피해를 평가하고 IOC를 찾아보십시오:",
+          "RECOMMENDATION_SUGGESTION_1": "대상 시스템에 활성 세션이 있는 계정 검토",
+          "RECOMMENDATION_SUGGESTION_2": "대상 시스템에 저장된 자격 증명 검토",
+          "RECOMMENDATION_SUGGESTION_3": "대상 시스템에서 기타 공격의 징후 확인"
+        },
+        "DUAL_USAGE": {
+          "SUBTITLE_SINGLE_MACHINE": "서비스 계정 {{account}}이(가) {{target}} 시스템에 능동적으로 로그온되었습니다.",
+          "SUBTITLE_MULTI_MACHINES": "서비스 계정 {{account}}이(가) {{numOfMachines}} 시스템에 능동적으로 로그온되었습니다.",
+          "RECOMMENDATION": "서비스 계정과 사람 계정의 사용을 분리하십시오."
+        },
+        "GOLDEN_TICKET": {
+          "SUBTITLE": "도메인 {{domain}}에서 골든 티켓 공격이 감지되었습니다. 공격자가 시스템 {{target}}에서 계정 {{account}}에 대해 위조된 Kerberos를 사용했습니다.<br>이 티켓의 출처는 {{source}} 시스템입니다.",
+          "RECOMMENDATION": "공격자에 의해 도메인이 손상되었습니다. 상황을 주의하여 살펴보고 공격을 막기 위한 조치를 취하십시오."
+        },
+        "IRREGULAR_HOUR_USER": {
+          "SUBTITLE": "Vault 사용자 {{user}}이(가) 시스템 {{target}}에서 {{startTime}}에 권한 사용자 {{account}}의 암호를 검색했습니다.<br>{{user}}은(는) 평상시 이 시간에 연결하지 않기 때문에 이 행동이 보안 이벤트로 플래그 처리되었습니다.",
+          "RECOMMENDATION": "이 Vault 사용자의 활동을 검토하고 문제가 없는 것인지 확인하십시오."
+        },
+        "MALICIOUS_RETRIEVAL": {
+          "SUBTITLE_ONE_OCCURRENCE": " 시스템 {{source}}에서 악의적일 수 있는 도메인 컨트롤러 {{target}}의 자격 증명 검색이 감지되었습니다.<br>이 자격 증명 검색은 정상적인 도메인 컨트롤러 복제를 통해 이루어졌습니다.",
+          "SUBTITLE_MULTI_OCCURRENCES": "시스템 {{source}}에서 악의적일 수 있는 다수의 자격 증명 검색이 감지되었습니다.<br>이 자격 증명 검색은 정상적인 도메인 컨트롤러 복제를 통해 이루어졌습니다.",
+          "RECOMMENDATION": "도메인 컨트롤러 복제 요청(DCSync)은 도메인 컨트롤러에서만 시작해야 합니다.<br>네트워크의 다른 인증 또는 관리 서비스가 도메인 컨트롤러 복제도 실행하는 경우<br>도메인 컨트롤러와 동일한 수준에서 이러한 서비스를 보호하는 것이 좋습니다."
+        },
+        "OVER_PASS_THE_HASH": {
+          "SUBTITLE": "도메인 {{domain}}에서 {{source}} 컴퓨터로부터 출처한 해시 공격 오버패스가 감지되었습니다.<br>이 공격은 계정 {{account}}의 자격 증명을 악용합니다.",
+          "RECOMMENDATION_NO_REMEDIATION": "계정 {{account}}의 자격 증명을 재설정하십시오.",
+          "RECOMMENDATION_REMEDIATION": "암호 변경 요청이 시작되었습니다. 공격자에 의해 도메인이 손상되었습니다. 상황을 주의하여 살펴보고 공격을 막기 위한 조치를 취하십시오."
+        },
+        "PAC_ATTACK": {
+          "SUBTITLE": "도메인 {{domain}}에서 {{source}} 컴퓨터로부터 출원한 PAC 공격(MS14-068 익스플로이트) 시도가 감지되었습니다.<br>공격자가 계정 {{account}}의 권한을 승격하려 시도했습니다.",
+          "RECOMMENDATION": "도메인 컨트롤러 {{target}}이(가) KB3011780 패치로 업데이트되었는지 확인하십시오."
+        },
+        "RISKY_COMMAND": {
+          "SUBTITLE": "권한 있는 세션에서 {{target}}의 의심스러운 세션 활동이 감지되었습니다.<br>이 세션은 {{account}} 계정을 가진 Vault 사용자 {{user}}이(가) {{command}} 활동을 실행하여 시작되었습니다.",
+          "RECOMMENDATION_LIVE": "세션 및 해당 활동과 관련된 각 보안 이벤트를 검토하고 진행 중인 세션의 실시간 모니터링 또는 수동 종료와 같은 대응이 필요한지 여부를 평가하십시오.",
+          "RECOMMENDATION_NON_LIVE": "세션과 관련된 각 보안 이벤트를 검토하고 세션의 활동 및 기록을 이용해 위험을 평가하십시오. 이 세션은 이미 연결이 끊어졌습니다.",
+          "RECOMMENDATION_SUSPENDED_SESSION": "세션 일시 중지 요청이 시작되었습니다. 세션 및 해당 활동과 관련된 각 보안 이벤트를 검토하고 일시 중지된 세션의 수동 재개 또는 종료와 같은 추가 대응이 필요한지 평가하십시오.",
+          "RECOMMENDATION_TERMINATED_SESSION": "세션 종료 요청이 시작되었습니다. 세션 및 해당 활동과 관련된 각 보안 이벤트를 검토하고 추가 대응이 필요한지 평가하십시오."
+        },
+        "SCT": {
+          "SUBTITLE_SINGLE_MACHINE": "권한 계정 {{account}}이(가) CyberArk PAS에서 검색되지 않은 암호로 {{target}} 시스템에 액세스했습니다.",
+          "SUBTITLE_MULTI_MACHINES": "권한 계정 {{account}}이(가) CyberArk PAS에서 검색되지 않은 암호로 {{numOfMachines}} 컴퓨터에 액세스했습니다.",
+          "RECOMMENDATION_NO_REMEDIATION": "검색하지 않고 사용된 암호를 변경하는 것이 좋습니다.",
+          "RECOMMENDATION_REMEDIATION": "암호 변경 요청이 시작되었습니다. 조직 정책과 PAS 제어가 무시되지 않고 관리 계정이 제어되는지 확인하십시오."
+        },
+        "SPC": {
+          "SUBTITLE": "권한 계정 {{account}} 암호가 CyberArk PAS 외부에서 변경되었습니다.",
+          "RECOMMENDATION_NO_REMEDIATION": "CyberArk PAS 외부에서 변경된 계정의 암호를 조정하는 것이 좋습니다.",
+          "RECOMMENDATION_RECONCILIATION": "암호 조정 요청이 시작되었습니다. 조직 정책과 PAS 제어가 무시되지 않고 관리 계정을 제어하는 확인하십시오."
+        },
+        "UNMANAGED": {
+          "SUBTITLE_SINGLE_MACHINE": "권한 계정 {{account}}이(가) {{target}} 액세스에 사용되었지만 이 계정은 CyberArk PAS에서 관리되지 않습니다.",
+          "SUBTITLE_MULTI_MACHINES": "권한 계정 {{account}}이(가) {{numOfMachines}} 시스템 액세스에 사용되었지만 이 계정은 CyberArk PAS에서 관리되지 않습니다.",
+          "RECOMMENDATION_NO_REMEDIATION": "관리되지 않는 권한 계정을 CyberArk PAS에 온보딩하는 것이 좋습니다.",
+          "RECOMMENDATION_REMEDIATION": "새로 발견된 계정에 온보딩시키고 계정을 안전하게 관리할 수 있는 적절한 플랫폼을 할당하십시오. 자동 온보딩 규칙으로 필터링된 발견된 계정에는 수동 조치가 필요하지 않습니다."
+        },
+        "VAULT_IRREGULAR_IP": {
+          "SUBTITLE": "Vault 사용자 {{user}}이(가) 비정상적인 IP {{source}}(으)로부터 Vault에 액세스했습니다.<br>{{user}}은(는) 이 IP를 통해 평상시 Vault에 액세스하지 않기 때문에 이 작업은 보안 이벤트로 플래그 처리되었습니다.",
+          "RECOMMENDATION": "이 Vault 사용자의 활동을 검토하고 문제가 없는 것인지 확인하십시오."
+        },
+        "CLEARTEXT": {
+          "SUBTITLE": "LDAP 단순 바인딩을 이용해 {{source}}에서 보내진 계정 자격 증명이 일반 텍스트로 노출되었습니다.",
+          "RECOMMENDATION": "LDAP 단순 바인딩 대신 LDAPS를 이용해 인증하도록 관련 서비스를 구성하십시오.<br>민감한 계정의 경우 순환 암호 사용을 강력히 권장합니다."
+        }
+      }
+    },
+    "SETTINGS": {
+      "PAGE_HEADER": "보안 구성",
+      "PSM": {
+        "HEADER": "권한 있는 세션 분석 및 대응",
+        "SUB_HEADER": "기록된 사용자 세션 중에 감지된 고위험 활동에 대해 위험 점수와 자동 대응 할당.",
+        "ADD_RULE_BUTTON": "규칙 추가",
+        "RULE_CATEGORY": {
+          "KEYSTROKES": "유니버설 키스트로크",
+          "SCP": "SCP",
+          "SQL": "SQL",
+          "SSH": "SSH",
+          "WINDOWS": "Windows 제목"
+        },
+        "RULE_CATEGORY_EXAMPLES": {
+          "KEYSTROKES_EXAMPLE": "예: kill(.*)",
+          "SCP_EXAMPLE": "예: 10.1.1.22(.*)",
+          "SQL_EXAMPLE": "예: DROP TABLE(.*)",
+          "SSH_EXAMPLE": "예: rm -r(.*)",
+          "WINDOWS_EXAMPLE": "예: Task Manager(.*)"
+        },
+        "SUCCESS_MESSAGES": {
+          "UPDATE": "규칙이 성공적으로 업데이트되었습니다",
+          "ADD": "규칙이 성공적으로 추가되었습니다"
+        },
+        "ERROR_TITLES": {
+          "UPDATE": "규칙을 업데이트하지 못함",
+          "ADD": "규칙을 추가하지 못함"
+        },
+        "RULE_MODAL": {
+          "ADD_RULE_TITLE": "규칙 추가",
+          "EDIT_RULE_TITLE": "규칙 편집",
+          "CATEGORY": "카테고리",
+          "SELECT_CATEGORY": "카테고리 선택",
+          "PATTERN": "패턴",
+          "PATTERN_PLACEHOLDER": "정규식 입력",
+          "DESCRIPTION": "설명(선택 사항)",
+          "SESSION_RESPONSE": {
+            "TITLE": "세션 응답",
+            "SUSPEND": "일시 중지",
+            "TERMINATE": "종료",
+            "NONE": "없음"
+          },
+          "SCORE_TITLE": "점수",
+          "SCORE_DESCRIPTION": "점수 설정(1 - 100)",
+          "ACTIVE_STATUS_TITLE": "상태",
+          "ACTIVE_STATUS_ACTIVE_DESCRIPTION": "활성 상태",
+          "ACTIVE_STATUS_INACTIVE_DESCRIPTION": "비활성",
+          "SCOPE_TITLE": "범위",
+          "SCOPE_DESCRIPTION": {
+            "BASIC_DESCRIPTION": "이 규칙은 {vaultUsersCategory}, {accountsCategory} 및 {machinesCategory}에 적용됩니다",
+            "ALL": "모든 {category}",
+            "EXCLUDE": "{amount} {category}만 제외하고 모두",
+            "INCLUDE": "{amount} 특정 {category}"
+          },
+          "ADD": "추가",
+          "SAVE": "저장",
+          "CANCEL": "취소"
+        },
+        "SCOPE_MODAL": {
+          "TITLE": "범위 변경",
+          "EXCLUDE": "제외",
+          "INCLUDE": "다음만 포함",
+          "SAVE": "범위 변경",
+          "CANCEL": "취소",
+          "VAULT_USERS": {
+            "CATEGORY_NAME": "Vault 사용자",
+            "TAB_TITLE": "Vault 사용자",
+            "WATERMARK": "와일드카드 사용 가능",
+            "INCLUDE_MARK": "다음 규칙은 선택한 Vault 사용자에게만 적용됩니다",
+            "EXCLUDE_MARK": "다음 규칙은 선택한 Vault 사용자를 제외한 모든 시스템에 적용됩니다"
+          },
+          "ACCOUNTS": {
+            "CATEGORY_NAME": "계정",
+            "TAB_TITLE": "계정",
+            "WATERMARK": "와일드카드 사용 가능",
+            "INCLUDE_MARK": "다음 규칙은 선택한 계정에만 적용됩니다",
+            "EXCLUDE_MARK": "다음 규칙은 선택한 계정을 제외한 모든 계정에 적용됩니다"
+          },
+          "MACHINES": {
+            "CATEGORY_NAME": "시스템",
+            "TAB_TITLE": "시스템",
+            "WATERMARK": "와일드카드 사용 가능",
+            "INCLUDE_MARK": "다음 규칙은 선택한 시스템에만 적용됩니다",
+            "EXCLUDE_MARK": "다음 규칙은 선택한 시스템을 제외한 모든 시스템에 적용됩니다"
+          }
+        },
+        "GRID_COLUMNS": {
+          "CATEGORY": "카테고리",
+          "PATTERN": "패턴",
+          "SCORE": "점수",
+          "DESCRIPTION": "설명",
+          "RESPONSE": "응답",
+          "STATUS": "상태"
+        }
+      },
+      "REMEDIATION": {
+        "HEADER": "자동 수정",
+        "SUB_HEADER": "위험을 억제하고 의심스러운 활동을 중단하도록 각 보안 이벤트에 대한 자동 응답을 구성하십시오.",
+        "ADD_TO_PENDING": "보류 중으로 추가",
+        "UNMANAGED_PRIVILEGED_ACCOUNT": "비관리 권한 계정",
+        "ROTATE_CREDENTIALS": "자격 증명 순환",
+        "OVER_PASS_THE_HASH": "해시 오버패스",
+        "SUSPECTED_CREDENTIAL_THEFT": "의심스러운 자격 증명 도용",
+        "RECONCILE_CREDENTIALS": "자격 증명 조정",
+        "SUSPICIOUS_PASSWORD_CHANGE": "의심스러운 암호 변경",
+        "SUCCESS_MESSAGES": {
+          "ADD_TO_PEND": "'보류 중으로 추가'가 성공적으로 업데이트되었습니다",
+          "ROTATE_CREDENTIALS": "'자격 증명 순환' 수정이 성공적으로 업데이트되었습니다",
+          "RECONCILE_CREDENTIALS": "'자격 증명 조정' 수정이 성공적으로 업데이트되었습니다"
+        },
+        "ERROR_TITLES": {
+          "ADD_TO_PEND": "'보류 중으로 추가' 수정을 업데이트하지 못함",
+          "ROTATE_CREDENTIALS": "'자격 증명 순환' 수정을 업데이트하지 못함",
+          "RECONCILE_CREDENTIALS": "'자격 증명 조정' 수정을 업데이트하지 못함"
+        }
+      },
+      "EVENT_STATUS": {
+        "CLOSE_MESSAGE": "이 보안 이벤트를 종료하시겠습니까?\n\n종료된 이벤트를 상태 필터를 사용해서 볼 수 있습니다.",
+        "OPEN_MESSAGE": "이 보안 이벤트를 다시 여시겠습니까?"
+      },
+      "EDIT": "편집",
+      "DELETE": "삭제",
+      "GET_ERROR_TITLE": "보안 구성을 로드하지 못함"
+    }
+  },
+  "DASHBOARD": {
+    "HEADER": "시스템 상태",
+    "ERROR_MESSAGE": "서버 오류가 발생했습니다. 나중에 다시 시도하십시오",
+    "VAULTS": "Vault",
+    "CONNECTING_COMPONENTS": "구성요소 연결 중",
+    "METER_CONNECTED": "연결됨",
+    "METER_DISCONNECTED": "마스터",
+    "REFRESH": "새로 고침",
+    "MASTER": "마스터",
+    "PRIMARY": "기본",
+    "SATELLITE": "Satellite",
+    "DR": "DR",
+    "OFFLINE": "오프라인",
+    "DASHBOARD_DETAILS": {
+      "COMPONENT_IDENTIFIER_COLUMN_TITLE": "구성요소 식별자",
+      "IP_COLUMN_TITLE": "IP",
+      "VERSION_COLUMN_TITLE": "버전",
+      "CONNECTIVITY_STATUS_COLUMN_TITLE": "연결 상태",
+      "LAST_LOGON_DATE_COLUMN_TITLE": "마지막 로그온 날짜",
+      "GRID_CONNECTED": "연결됨",
+      "GRID_DISCONNECTED": "마스터",
+      "BACK_TO_MAIN_PAGE": "시스템 상태로 돌아가기"
+    },
+    "COMPONENTS_METER_TOTAL_DESCRIPTION": {
+      "PVWA": "활성 사용자",
+      "CPM": "관리 계정",
+      "SESSIONMANAGEMENT": "동시 세션 수",
+      "AIM": "애플리케이션"
+    },
+    "DIALOGS": {
+      "RESTORE_CONNECTIVITY": {
+        "SUCCESS": "연결 복구에 몇 분 정도 걸릴 수 있습니다."
+      }
+    }
+  },
+  "LDAP_INTEGRATION": {
+    "PAGE_TITLE": "LDAP 통합",
+    "REFRESH": "새로 고침",
+    "NEW_DOMAIN": "새 도메인",
+    "MAPPINGS": "맵핑",
+    "DOMAINS": "도메인",
+    "DELETE_DOMAIN_DIALOG": {
+      "TITLE": "도메인 연결 삭제?",
+      "BODY": "CyberArk에서 '{DOMAIN_NAME}' 도메인을 삭제하시겠습니까?",
+      "SUB_TITLE": "\n다음 디렉토리 맵핑도 삭제됨:\n{MAPPINGS}",
+      "MAIN_ACTION": "삭제",
+      "SECONDARY_ACTION": "취소",
+      "DELETED_SUCCESS": "도메인 연결이 성공적으로 삭제되었습니다.",
+      "ERROR": {
+        "CLOSE_BUTTON": "닫기",
+        "TITLE": "도메인 연결을 삭제할 수 없습니다.",
+        "BODY": "도메인 '{DOMAIN_NAME}' 연결을 삭제할 수 없습니다."
+      }
+    },
+    "DELETE_MAPPING_DIALOG": {
+      "TITLE": "디렉토리 맵핑 삭제?",
+      "BODY": "'{{MAPPING_NAME}}' 디렉토리 맵핑을 삭제하시겠습니까?",
+      "SUB_TITLE": "\n이 동작은 이미 제공된 LDAP 사용자가 CyberArk 시스템에 액세스하는 것을 방지할 수 있습니다. ",
+      "MAIN_ACTION": "맵핑 삭제",
+      "SECONDARY_ACTION": "취소",
+      "DELETED_SUCCESS": "맵핑이 삭제되었습니다.",
+      "ERROR": {
+        "CLOSE_BUTTON": "닫기",
+        "TITLE": "디렉토리 맵핑 삭제 실패함",
+        "BODY": "'{{MAPPING_NAME}}' 디렉토리 맵핑을 삭제하지 못했습니다."
+      }
+    },
+    "MAPPING_DETAILS": {
+      "AUTH_TAB": {
+        "ALLOW": "허용",
+        "DENY": "거부"
+      },
+      "DETAILS_TAB": {
+        "MAPPING_CRITERIA_TITLE": "맵핑 기준",
+        "LDAP_BRANCH": "LDAP 분기",
+        "CRITERIA_DETAILS": "사용자 맵핑 기준",
+        "MAPPING_DESTINATION_TITLE": "맵핑 대상",
+        "LOCATION": "위치",
+        "GROUP": "그룹",
+        "AUTHENTICATION_TITLE": "인증",
+        "AUTHENTICATION_METHOD": "인증 방법",
+        "ACTIVITY_LOGS_TITLE": "활동 로그",
+        "KEEP_USER_ACTIVITY_LOGS": "최소한 다음에 대한 사용자 활동 로그 유지",
+        "DAYS": "일",
+        "ROOT": "루트"
+      },
+      "AUTHENTICATIONS": {
+        "AUTHTYPEVAULTPKI": "PKI",
+        "AUTHTYPELDAP": "LDAP",
+        "AUTHTYPENT": "NT",
+        "AUTHTYPERADIUS": "RADIUS"
+      }
+    },
+    "DIRECTORY_MAPPINGS": "디렉토리 맵핑",
+    "GROUPS_NAME": {
+      "VAULT_ADMINS": "Vault 관리자",
+      "SAFE_MANAGERS": "저장소 관리자",
+      "AUDITORS": "감사자",
+      "USERS": "사용자"
+    },
+    "AUTHORIZATIONS": {
+      "NONE": "없음",
+      "ADDSAFES": "저장소 추가",
+      "AUDITUSERS": "사용자 감사",
+      "ADDUPDATEUSERS": "사용자 추가/업데이트",
+      "RESETUSERSPASSWORDS": "사용자가 암호 재설정",
+      "ACTIVATEUSERS": "사용자 활성화",
+      "ADDNETWORKAREAS": "네트워크 영역 추가",
+      "MANAGEDIRECTORYMAPPING": "디렉토리 맵핑 관리",
+      "MANAGESERVERFILECATEGORIES": "서버 파일 카테고리 관리",
+      "BACKUPALLSAFES": "모든 저장소 백업",
+      "RESTOREALLSAFES": "모든 저장소 복원"
+    },
+    "CREATE": {
+      "PAGE_TITLE": "LDAP 통합 생성",
+      "TITLE": "LDAP 통합",
+      "SAVE": "저장",
+      "CONNECT": "연결 >",
+      "DOMAIN_CONNECTED_SUCCESSFULLY": "도메인 {{domainName}}이(가) 성공적으로 연결됨",
+      "THE_DIRECTORY_WERE_CREATED_SUCCESSFULLY": "디렉토리가 성공적으로 생성되었습니다",
+      "THE_DIRECTORY_AND_MAPPING_WERE_CREATED_SUCCESSFULLY": "디렉토리와 맵핑이 성공적으로 생성되었습니다",
+      "STEPS": {
+        "SELECT_DIRECTORY_TYPE": "디렉토리 유형 선택",
+        "SELECT_DIRECTORY_TYPE_TITLE": "디렉토리 유형 선택",
+        "CONNECT_DOMAIN": "도메인 연결",
+        "CONNECT_DOMAIN_TITLE": "도메인 연결",
+        "CREATE_DIRECTORY_MAPPINGS": "디렉토리 맵핑 생성",
+        "CREATE_DIRECTORY_MAPPINGS_TITLE": "디렉토리 맵핑 생성(옵션)"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "취소 확인",
+        "BODY": "LDAP 통합 생성을 취소하시겠습니까?",
+        "SECONDARY_MESSAGE": "변경 내용이 삭제됩니다",
+        "MAIN_ACTION": "취소 확인",
+        "SECONDARY_ACTION": "취소 안 함"
+      },
+      "CONTINUE_DIALOG": {
+        "TITLE": "계속하시겠습니까?",
+        "TITLE_NO_MAPPING": "맵핑을 생성하지 않고 이 페이지를 건너뛰시겠습니까?",
+        "BODY": "다음 디렉토리 맵핑이 생성되지 않습니다:",
+        "BODY_NO_MAPPING": "CyberArk 시스템에 LDAP 사용자를 제공하려면 디렉토리 맵핑이 필요합니다.",
+        "MAIN_ACTION": "저장",
+        "SECONDARY_ACTION": "머무름"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "TITLE": "도메인 연결 변경",
+        "CHANGE": "변경",
+        "CANCEL": "취소",
+        "PRIMARY_MESSAGE": "도메인 연결을 변경하시겠습니까?",
+        "SECONDARY_MESSAGE": "디렉토리 맵핑을 업데이트해야 할 수 있습니다"
+      },
+      "CONFIRMATION_MESSAGES_DIRECTORY_TYPE": {
+        "TITLE": "디렉토리 유형 변경",
+        "CHANGE": "변경",
+        "CANCEL": "취소",
+        "PRIMARY_MESSAGE": "디렉토리 유형을 변경하시겠습니까?",
+        "SECONDARY_MESSAGE": "도메인 연결을 업데이트해야 합니다"
+      },
+      "DIRECTORY_TYPE_STEP": {
+        "NO_DIRECTORY_TYPE_CONFIGURED": "구성된 디렉토리 유형이 없음",
+        "EMPTY_MESSAGE": "구성 파일에서 디렉토리 유형을 하나 이상 구성하십시오.\n여기서 작업을 수행할 수 있습니다: 관리 > 구성 옵션 > LDAP 통합 > 프로파일 > 프로파일 추가"
+      },
+      "CONNECT_DOMAIN_STEP": {
+        "CONNECT_TO": "연결 대상",
+        "CONNECT_VIA": "연결 방법",
+        "CONNECT_WITH": "연결",
+        "DOMAIN_NAME": "도메인 이름",
+        "START_DOMAIN_INTEGRATION_FROM": "도메인 통합을 시작할 지점",
+        "DOMAIN_BASE_CONTEXT": "도메인 기본 컨텍스트",
+        "BIND_USERNAME": "사용자 이름 바인딩",
+        "CONNECTION": "연결",
+        "SECURED_CONNECTION": "보안(SSL)",
+        "UNSECURE_CONNECTION": "비보안",
+        "BIND_USERNAME_PLACEHOLDER": "예: JohnSmith@domainName.com",
+        "BIND_PASSWORD": "사용자 암호 바인딩",
+        "DOMAIN_NAME_MAX_LENGTH_MESSAGE": "이 필드에 가능한 최대 문자 수는 160자입니다",
+        "USE_SSL": "보안 연결 사용(SSL)",
+        "USE_SSL_MAIN_TITLE": "SSL 기반 암호화에는 LDAPS 인증서가 필요합니다.",
+        "USE_SSL_SUB_TITLE": "계속 진행하기 전에 이 도메인 인증서를 가져와 보안 SSL 기반 연결을 만드십시오.",
+        "USE_SSL_TOOLTIP": "SSL 기반 암호화는 보안 연결(포트 636)입니다",
+        "SSL_MORE_INFO_LINK": "지침 참조",
+        "SSL_MORE_INFO_HEADER": "도메인 인증서를 가져오는 방법",
+        "SSL_MORE_INFO_BODY": "1. 요청된 도메인의 공용 도메인 인증서를 가져옵니다.\n\n2. Vault 시스템과 IIS 시스템의 파일 메뉴에서 '스냅인 추가/제거'를 선택합니다.\n\n3. 왼쪽 메뉴에서 '인증서'를 추가하고 '추가'를 클릭합니다.\n\n4. ‘컴퓨터 계정’과 ‘로컬 컴퓨터’를 차례로 선택합니다.\n\n5. '인증서(로컬 컴퓨터)'를 확장한 다음 '신뢰할 수 있는 \n루트 인증 기관'을 확장합니다. '인증서' 폴더가 나타납니다.\n\n6. 모든 엔터프라이즈 Vault에 대해 다음 저장소\n에 모든 도메인 인증서를 가져다 놓습니다.\n\n7. 도메인 이름(인증서에 표시되는 이름)을\nVault에서 연결하기 위해 필요한 모든 IP 주소를 포함한 Vault 로컬 HOSTS 파일에\n추가합니다.\n\n8. 계속해서 도메인을 연결합니다.",
+        "SSL_MORE_INFO_CANCEL": "취소",
+        "FAILED_TO_CONNECT_DOMAIN": "도메인에 연결하지 못했습니다",
+        "FAILED_TO_CONNECT_DOMAIN_MORE_INFO": "가능한 원인:\n• 도메인 이름, 바인딩 사용자 이름 또는 바인딩 사용자 암호가 올바르지 않습니다.\n• LDAPS 인증서 구성에 문제가 있습니다(보안 연결을 사용하는 경우).\n• 도메인 서버가 작동하지 않습니다.",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT": "이 도메인은 이미 연결되었습니다",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT_MORE_INFO": "도메인 이름을 변경해 주십시오",
+        "LDAP_USERS_DIALOG": {
+          "TITLE": "검색 기준을 충족하는 LDAP 사용자",
+          "TEXT": "{{GROUP_NAME}}에 대한 {{NUMBER_OF_OBJECTS}} 사용자 표시",
+          "NO_USERS": "표시할 사용자가 없습니다",
+          "WATERMARK": "사용자 또는 그룹 이름을 기준으로 필터링",
+          "INFO_MESSAGE": "사용자가 1000명 이상입니다. 다른 사용자를 시도하여 찾아보십시오",
+          "WARNING_MESSAGE": "처음 발견된 1000명의 사용자만 표시하므로 찾고 있는 특정 사용자가 없을 수도 있습니다",
+          "GRID_COLUMNS": {
+            "USER_NAME": "사용자 이름",
+            "GROUP_NAME": "그룹"
+          },
+          "CLOSE": "닫기"
+        }
+      },
+      "CREATE_DIRECTORY_MAPPING_STEP": {
+        "DOMAIN_BASE_CONTEXT": "도메인 기본 컨텍스트",
+        "DOMAIN_BASE_CONTEXT_INFO": "이 레벨 아래로만 도메인 통합 시작",
+        "INFO_MESSAGE": "이 도구는 제시된 기본 디렉토리 맵핑을 생성합니다. 생성 후 회사의 필요에 따라 내용을 편집할 수 있습니다.",
+        "DEFINE_MAP": "맵 정의",
+        "DEFINED": "정의됨",
+        "GROUPS_INFO": "이 맵핑을 생성하려면 관련 그룹을 선택하십시오",
+        "SELECT_LDAP_GROUPS": "LDAP 그룹 선택",
+        "MAPPED_USERS_WILL_BE_ADDED_TO": "맵핑된 사용자가 다음에 추가됨",
+        "ACCESS_LIMITATIONS": "액세스 제한",
+        "KEEP_USER_ACTIVITY_LOGS_FOR": "다음에 대한 사용자 활동 로그 유지",
+        "AUTHORIZATIONS": "권한 부여",
+        "MAPPED_GROUPS": "맵핑된 그룹이 다음에 추가됨:",
+        "VIEW_USERS": "사용자 보기",
+        "LOCATION": "위치",
+        "GROUP": "그룹",
+        "NONE": "없음",
+        "DAYS": "일",
+        "FAILED_TO_CREATE_NAME_DIRECTORY": "디렉토리를 만들지 못함",
+        "FAILED_TO_CREATE_DIRECTORY_MAPPING": "디렉토리 맵핑을 만들지 못함",
+        "FAILED_TO_CREATE_NAME_DIRECTORY_MAPPING": "'{MAPPING_NAME}' 디렉토리 맵핑을 만들지 못함",
+        "THE_FOLLOWING_DIRECTORY_MAPPING_FAILED_TO_BE_CREATED": "다음 디렉토리 맵핑을 생성하지 못했습니다",
+        "CLOSE": "닫기"
+      }
+    },
+    "EDIT_MAPPING": {
+      "CHANGES_SAVED_SUCCESSFULLY": "변경이 성공적으로 저장되었습니다.",
+      "CANCEL_DIALOG": {
+        "TITLE": "취소 확인",
+        "BODY": "디렉토리 맵핑 편집을 취소하시겠습니까? 변경 내용이 사라집니다.",
+        "MAIN_ACTION": "취소 확인",
+        "SECONDARY_ACTION": "취소 안 함"
+      },
+      "CONFIRM_DIALOG": {
+        "TITLE": "변경 확인",
+        "BODY": "이 디렉토리 맵핑 변경을 저장하시겠습니까? 저장하면 프로세스를 CyberArk 시스템에 제공하는 LDAP 사용자들에게 영향을 미칩니다.",
+        "MAIN_ACTION": "변경 확인",
+        "SECONDARY_ACTION": "페이지 잔류"
+      },
+      "ERROR": {
+        "TITLE": "오류 발생"
+      }
+    },
+    "ADD_MAPPING": {
+      "MESSAGE_SAVED_SUCCESSFULLY": "디렉토리 맵핑이 성공적으로 추가되었습니다.",
+      "MESSAGE_REORDER_FAILED": {
+        "TITLE": "디렉토리 맵핑 순서 변경 실패함",
+        "BODY": "“{{mapping_name}}” 디렉토리 맵핑이 성공적으로 생성되었지만 요청한 위치에 추가하지 못했습니다. 목록의 끝에 추가되었습니다.",
+        "MAIN_ACTION": "닫기"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "취소 확인",
+        "BODY": "디렉토리 맵핑 추가를 취소하시겠습니까? 변경 내용이 사라집니다.",
+        "MAIN_ACTION": "취소 확인",
+        "SECONDARY_ACTION": "취소 안 함"
+      },
+      "ERROR_DIALOG": {
+        "TITLE": "맵핑 추가 실패함",
+        "MAIN_ACTION": "닫기"
+      }
+    },
+    "EMPTY_STATE": {
+      "TITLE_TEXT": "도메인을 연결하여 LDAP 통합 프로세스 시작",
+      "MAPPING_TEXT_ONE": "디렉토리 생성",
+      "MAPPING_TEXT_TWO": "맵핑",
+      "NEW_DOMAIN_TEXT_ONE": "새 항목 연결",
+      "NEW_DOMAIN_TEXT_TWO": "도메인",
+      "USERS_TEXT_ONE": "LDAP 사용자",
+      "USERS_TEXT_TWO": "CyberArk에서 제공됨"
+    }
+  },
+  "ADD_SAFE_DIALOG": {
+    "TITLE": "저장소 만들기",
+    "CREATE_SAFE_BUTTON": "저장소 만들기",
+    "CANCEL_BUTTON": "취소",
+    "NEW_SAFE_NAME_LABEL": "새로운 저장소 이름",
+    "SAFE_NAME_HINT_TEXT_EXTRA_DETAILS": "최대 28자 사용",
+    "SAFE_ALREADY_EXISTS_ERROR": "저장소 {SAFE_NAME}이/가 이미 있습니다"
+  },
+  "BUSINESS_USERS": {
+    "PAGE_TITLE": "비즈니스 사용자",
+    "TAG_EDITOR": {
+      "MAX_TAGS_ERROR": {
+        "TITLE": "최대 태그 할당 한도에 도달했습니다.",
+        "TEXT": "최대 {{max}}개의 태그가 허용됩니다."
+      },
+      "SAVED_SUCCESSFULLY": "항목이 성공적으로 저장되었습니다."
+    },
+    "CONFIRM_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "'{{name}}'을(를) 삭제하시겠습니까?",
+        "MAIN_MESSAGE": "항목 상세를 상실하게 됩니다."
+      }
+    },
+    "DELETE_BUTTON_TEXT": "삭제",
+    "CANCEL_DIALOG": {
+      "TITLE": "취소 확인",
+      "ADD_BODY": "항목 추가를 취소하시겠습니까?",
+      "EDIT_BODY": "항목 편집을 취소하시겠습니까?",
+      "SECONDARY_MESSAGE": "변경 내용이 삭제됩니다",
+      "MAIN_ACTION": "취소 확인",
+      "SECONDARY_ACTION": "취소 안 함"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "닫기",
+      "TITLE": "오류"
+    },
+    "ADD_SUCCESS_MESSAGE": {
+      "TITLE": "항목이 성공적으로 추가되었습니다."
+    },
+    "EDIT_SUCCESS_MESSAGE": {
+      "TITLE": "항목이 성공적으로 편집되었습니다."
+    },
+    "FAILURE_MESSAGE": {
+      "MAIN_MESSAGE": "양식 제출을 할 수 없음",
+      "SECONDARY_MESSAGE": "다시 시도하거나 관리자에게 연락하십시오."
+    },
+    "ERROR_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "계정 삭제에 실패함"
+      },
+      "ADD_ACCOUNT": {
+        "TITLE": "계정 추가 실패함"
+      },
+      "EDIT_ACCOUNT": {
+        "TITLE": "계정 편집 실패함"
+      },
+      "SHOW_PASSWORD": {
+        "TITLE": "암호 표시 실패함"
+      },
+      "ADD_BUSINESS_SAFE": {
+        "TITLE": "추가에 실패함",
+        "TEXT": "저장소가 자동으로 생성되지 않았기 때문에 우선 비즈니스 자격 증명 추가에 실패했습니다. \n이 문제 해결을 위해 관리자에게 연락하십시오.",
+        "SAFE_PROBLEM_TITLE": "추가에 실패함",
+        "SAFE_PROBLEM_TEXT": "저장소에 문제가 있어 우선 비즈니스 자격 증명 추가에 실패했습니다. \n이 문제 해결을 위해 관리자에게 연락하십시오."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "암호 표시",
+      "PASSWORD_INPUT_LABEL": "암호",
+      "COPY_BUTTON_TEXT": "복사",
+      "SHOW_BUTTON_TEXT": "표시",
+      "CHANGE_BUTTON_TEXT": "변경",
+      "CLOSE_BUTTON_TEXT": "닫기",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "암호가 비어 있습니다"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "이 암호는 너무 길어서 완전히 표시할 수 없습니다. 복사를 클릭하여 전체 암호를 복사하십시오."
+      },
+      "FAILURE_MAIN_TEXT": "암호 표시 실패함"
+    },
+    "SHOW_USERNAME_DIALOG": {
+      "TITLE": "사용자 이름 표시",
+      "USERNAME_INPUT_LABEL": "사용자 이름",
+      "COPY_BUTTON_TEXT": "복사",
+      "SHOW_BUTTON_TEXT": "표시",
+      "CLOSE_BUTTON_TEXT": "닫기",
+      "WARNINGS": {
+        "EMPTY_USERNAME": "사용자 이름이 비어 있습니다."
+      },
+      "INFORMATION": {
+        "TOO_LONG_USERNAME": "이 사용자 이름이 너무 길어서 완전히 표시할 수 없습니다. 복사를 클릭하여 전체 사용자 이름을 복사하십시오."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "암호 복사",
+      "COPY_BUTTON_TEXT": "복사"
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "암호가 클립보드에 복사되었습니다",
+      "DELETE_ACCOUNT": "항목이 삭제되었습니다."
+    },
+    "ADD": {
+      "PAGE_TITLE": "우선 비즈니스 자격 증명 추가"
+    },
+    "EDIT": {
+      "PAGE_TITLE": "우선 비즈니스 자격 증명 편집"
+    },
+    "CLIPBOARD": {
+      "DOWNLOAD_EXTENSION_DIALOG": {
+        "COPY_PASSWORD_TITLE": "암호 복사",
+        "COPY_USERNAME_TITLE": "사용자 이름 복사",
+        "MAIN_MESSAGE": "이 기능을 사용하려면 브라우저 확장/추가 기능을 다운로드하여 설치하십시오."
+      },
+      "FETCH_PASSWORD_FAILED_DIALOG": {
+        "TITLE": "암호 복사",
+        "MAIN_MESSAGE": "암호 복사 실패함"
+      },
+      "PASSWORD_COPIED_TO_CLIPBOARD": "암호가 클립보드에 복사되었습니다",
+      "USERNAME_COPIED_TO_CLIPBOARD": "사용자 이름이 클립보드에 복사됨",
+      "WARNINGS": {
+        "EMPTY_PASSWORD_COPY_TITLE": "암호 복사",
+        "EMPTY_USERNAME_COPY_TITLE": "사용자 이름 복사",
+        "CANNOT_COPY_EMPTY_PASSWORD": "빈 암호는 복사할 수 없습니다. 클립보드의 내용이 변경되지 않았습니다.",
+        "CANNOT_COPY_EMPTY_USERNAME": "비어있는 사용자 이름은 복사할 수 없습니다. 클립보드의 내용이 변경되지 않았습니다."
+      }
+    }
+  },
+  "USERS": {
+    "ACTIVATE": "사용자가 성공적으로 활성화됨",
+    "CREATE": {
+      "SUCCESS_MESSAGE": "{{USERNAME}}이 (가) 성공적으로 생성되었습니다."
+    },
+    "DISABLE": {
+      "SUCCESS_MESSAGE": "사용자가 성공적으로 사용 해제됨"
+    },
+    "EDIT": {
+      "SUCCESS_MESSAGE": "{{USERNAME}}이 (가) 성공적으로 업데이트되었습니다."
+    },
+    "ERRORS": {
+      "GET_USERS": "사용자 확보 중 오류",
+      "GET_USER_DETAILS": "사용자 상세 확보 중 오류",
+      "FAILED_TO_ASSIGN_GROUP": "그룹 배정에 실패함",
+      "ADD_USER_TO_GROUPS_ON_CREATE": "사용자가 생성되었지만 모든 선택된 그룹에 배정되지 못했습니다. \nPrivateArk Client를 열고 수작업으로 사용자를 그룹에 배정하십시오.",
+      "ACTIVATE_USER": "사용자 활성화 중 오류",
+      "DISABLE_USER": "사용자 사용 해제 중 오류"
+    },
+    "DIALOGS": {
+      "CREATE_CANCELLATION": {
+        "TITLE": "취소 확인",
+        "BODY": "신규  CyberArk 사용자 추가를 취소하시겠습니까?",
+        "SECONDARY_MESSAGE": "변경 내용이 삭제됩니다",
+        "MAIN_ACTION": "취소 확인",
+        "SECONDARY_ACTION": "취소 안 함"
+      },
+      "EDIT_CANCELLATION": {
+        "TITLE": "취소 확인",
+        "BODY": "{{USERNAME}} 사용자에 대한 변경을 취소하시겠습니까?",
+        "SECONDARY_MESSAGE": "변경 내용이 삭제됩니다",
+        "MAIN_ACTION": "취소 확인",
+        "SECONDARY_ACTION": "취소 안 함"
+      },
+      "USERNAME_CHANGED": {
+        "TITLE": "새 암호가 필요함",
+        "BODY": "사용자 이름을 변경하면 새 암호를 입력해야 합니다.",
+        "MAIN_ACTION": "사용자 이름 변경",
+        "SECONDARY_ACTION": "취소"
+      }
+    }
+  },
+  "GROUPS": {
+    "ERRORS": {
+      "GET_GROUPS": "그룹 확보 중 오류"
+    },
+    "CREATE_SUCCESS_MESSAGE": "{{NAME}} 그룹이 성공적으로 생성되었습니다."
+  },
+  "PLATFORMS": {
+    "TITLE": "플랫폼 관리",
+    "REFRESH": "새로 고침",
+    "PLATFORMS_ACTIONS": {
+      "SEARCH_TEXT": "대상 계정 플랫폼 검색",
+      "ERROR_MESSAGE": {
+        "CLOSE": "닫기",
+        "OK": "확인",
+        "GENERAL_ERROR": {
+          "HEADER_TITLE": "요청을 처리하는 데 문제가 있습니다.",
+          "MAIN_TITLE": "몇 분 후에 다시 시도하십시오.",
+          "SUB_TITLE": "해결되지 않으면 관리자에게 연락하십시오."
+        }
+      },
+      "ACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "플랫폼 활성화",
+          "PRIMARY_MESSAGE": "{{PLATFORM_NAME}} 플랫폼을 활성화하시겠습니까?",
+          "SECONDARY_MESSAGE": "이 플랫폼과 관련된 계정이 있으면 활성화됩니다.",
+          "ACTIVATE": "활성화",
+          "CANCEL": "취소"
+        },
+        "ERROR_MESSAGE": "플랫폼을 활성화하지 못함",
+        "SUCCESS_MESSAGE": "플랫폼이 성공적으로 활성화됨"
+      },
+      "DEACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "플랫폼 비활성화",
+          "PRIMARY_MESSAGE": "{{PLATFORM_NAME}} 플랫폼을 비활성화하시겠습니까?",
+          "SECONDARY_MESSAGE": "이 플랫폼과 관련된 계정의 자격 증명 관리는 더 이상 이용할 수 없습니다.",
+          "DEACTIVATE": "비활성화",
+          "CANCEL": "취소"
+        },
+        "ERROR_MESSAGE": "플랫폼을 비활성화하지 못함",
+        "SUCCESS_MESSAGE": "플랫폼이 성공적으로 비활성화됨"
+      },
+      "DELETE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "플랫폼 삭제",
+          "PRIMARY_MESSAGE": "{{PLATFORM_NAME}} 플랫폼을 삭제하시겠습니까?",
+          "SECONDARY_MESSAGE": "이 플랫폼과 관련된 계정의 자격 증명 관리는 더 이상 이용할 수 없습니다.",
+          "DELETE": "삭제",
+          "CANCEL": "취소"
+        },
+        "ERROR_MESSAGE": "플랫폼을 삭제하지 못함",
+        "SUCCESS_MESSAGE": "플랫폼이 성공적으로 삭제됨"
+      },
+      "DUPLICATE": {
+        "ERROR_MESSAGE": "플랫폼을 복제하지 못함",
+        "SUCCESS_MESSAGE": "플랫폼이 성공적으로 복제됨",
+        "ERROR": {
+          "OK": "확인"
+        }
+      },
+      "EXPORT": {
+        "ERROR_MESSAGE": "플랫폼을 내보내지 못함",
+        "SUCCESS_MESSAGE": "플랫폼 내보내기 성공함"
+      },
+      "GET_CLASSIC_UI_EDIT_URL": {
+        "ERROR_MESSAGE": "플랫폼 로딩 및 펀집 못함"
+      },
+      "MANAGE_CONNECTORS": {
+        "UPDATE_PLATFORMS": {
+          "ERROR_MESSAGE": "플랫폼 권한 세션 관리를 업데이트하지 못했습니다.",
+          "SUCCESS_MESSAGE": "플랫폼 권한 세션 관리 업데이트를 성공했습니다."
+        },
+        "ERROR_MESSAGE": {
+          "IMPORT_CONNECTION_COMPONENT": "연결 구성요소를 가져오지 못함",
+          "FAILED_TO_DISPLAY_CONNECTORS_TITLE": "커넥터 표시 실패함",
+          "FAILED_TO_DISPLAY_CONNECTORS_MESSAGE": "지금 이 플랫폼 커넥터를 표시할 수 없습니다.\n플랫폼 관리 페이지로 가서 다시 시도하십시오."
+        },
+        "CONFIRMATION_MESSAGE": {
+          "TITLE": "이 페이지에서 나가시겠습니까?",
+          "BODY": "변경 내용을 상실하게 됩니다.",
+          "MAIN_ACTION": "나가기",
+          "SECONDARY_ACTION": "머무름"
+        }
+      }
+    },
+    "MARKETPLACE": "마켓플레이스",
+    "IMPORT_PLATFORM": "플랫폼 가져오기",
+    "ERROR_MESSAGES": {
+      "IMPORT_PLATFORM_FAILURE": "플랫폼을 가져오지 못함",
+      "IMPORT_PLATFORM_MAX_SIZE": "최대 파일 크기 한도 초과함",
+      "IMPORT_FILE_MAX_SIZE": "최대 파일 크기 한도 초과함",
+      "READ_FILE_FAILURE": "파일을 읽지 못함"
+    },
+    "SUCCESS_MESSAGES": {
+      "IMPORT_PLATFORM": "플랫폼을 성공적으로 가져왔습니다."
+    }
+  },
+  "AUTH_METHOD_CONFIG": {
+    "OIDC_PROVIDER": {
+      "SAVE_PROVIDER_SUCCESS_MESSAGE": "{{PROVIDER_ID}} 공급자가 성공적으로 저장되었습니다.",
+      "ERROR_MESSAGE": {
+        "CLOSE": "닫기",
+        "ADD_PROVIDER_HEADER_TITLE": "OIDC 공급자를 저장하지 못했습니다.",
+        "PARTIAL_SUCCESS_TITLE": "공급자 정보가 부분 저장되었습니다. 다음 오류가 발생:",
+        "REMOVE_PROVIDER_HEADER_TITLE": "OIDC 공급자를 제거하지 못했습니다.",
+        "PARTIAL_REMOVE_TITLE": "공급자 정보가 부분 제거되었습니다. 다음 오류가 발생:"
+      },
+      "REMOVE_PROVIDER_SUCCESS_MESSAGE": "{{PROVIDER_ID}} 공급자가 성공적으로 제거되었습니다.",
+      "REMOVE_DIALOG": {
+        "TITLE": "공급자를 제거하시겠습니까?",
+        "REMOVE": "제거",
+        "CANCEL": "취소"
+      }
+    }
+  }
+}

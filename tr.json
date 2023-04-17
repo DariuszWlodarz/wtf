@@ -1,0 +1,2236 @@
+{
+  "APPLICATION_RESOURCES": {
+    "TITLE": "Password Vault Web Access",
+    "SIGNOUT": "Oturumu kapat",
+    "ABOUT": "Hakkında",
+    "CHANGE_LANGUAGE": "Değiştir",
+    "SKIP_LINK": "Ana içeriğe geç",
+    "LEFT_NAVBAR": {
+      "COLLAPSE": "Daralt",
+      "EXPAND": "Genişlet"
+    },
+    "TOP_NAVBAR": {
+      "TITLE": "Oturum açma bilgileri",
+      "LAST_SIGN_IN": "Son oturum açma",
+      "LAST_SUCCESS_LOGIN_TIME": "Son oturum açma zamanı",
+      "LAST_FAIL_LOGIN_TIME": "Son başarısız oturum açma zamanı",
+      "LAST_SUCCESS_LOGIN_IP": "Son oturum açma kaynak IP’si",
+      "LAST_FAIL_LOGIN_IP": "Son başarısız oturum açma kaynak IP’si",
+      "FAILED_LOGINS": "Başarısız oturum açma girişimleri",
+      "COMFORTABLE_VIEW": "Rahat görünüm",
+      "CONDENSED_VIEW": "Kompakt görünüm"
+    }
+  },
+  "LOGIN": {
+    "PAGE_TITLE": "Oturum Aç"
+  },
+  "CULTURE": {
+    "FEEDBACK_MODAL_CHANGE_LANGUAGE": {
+      "TITLE": "Dil değiştirilemedi",
+      "MAIN_TITLE": "Kullanıcı tercihleriniz güncelleştirilemedi",
+      "CLOSE_BUTTON_TEXT": "Kapat"
+    }
+  },
+  "ABOUT_DIALOG": {
+    "TITLE": "CyberArk Privileged Access Security Hakkında",
+    "VERSION": "Sürüm",
+    "COPYRIGHT": "Telif Hakkı 1999-2021 © CyberArk Software",
+    "CLOSE_BUTTON_TEXT": "Kapat",
+    "CHECK_VERSION": "En son sürümü kontrol et",
+    "CONTENT": {
+      "P1_1": "Lütfen ",
+      "P1_2": "hedefinden CyberArk Vault Yazılımına dahil olan açık kaynak yazılım programlarının listene ulaşın.",
+      "CYBERARK_ACKNOWLEDGMENT": " Teşekkürler "
+    }
+  },
+  "NAVIGATION": {
+    "BUSINESSUSERS": "İşletme Kullanıcıları",
+    "USERPROVISIONING": "Kullanıcı Hazırlama",
+    "USERS": "Kullanıcılar",
+    "GROUPS": "Gruplar",
+    "POLICIES": "Politikalar",
+    "APPLICATIONS": "Uygulamalar",
+    "ADMINISTRATION": "Yönetim",
+    "PLATFORMMANAGEMENT": "Platform Yönetimi",
+    "AUTHMETHODCONFIG": "OIDC Kimlik Doğrulaması",
+    "CONFIGURATIONOPTIONS": "Yapılandırma Seçenekleri",
+    "REPORTS": "Raporlar",
+    "GENERATEREPORT": "Rapor Oluştur",
+    "REPORTDEFINITIONS": "Rapor Tanımları",
+    "SECURITY": "Güvenlik",
+    "SECURITYEVENTS": "Güvenlik Olayları",
+    "SECURITYSETTINGS": "Güvenlik Yapılandırmaları",
+    "ACCOUNTSLIST": "Hesaplar Görünümü",
+    "ACCOUNTSLISTLEGACY": "Hesaplar Görünümü (Klasik UI)",
+    "ACTIVITIES": "Aktiviteler",
+    "COMPLIANCE": "Uyumluluk",
+    "INVENTORY": "Envanter",
+    "MONITORING": "İzleme",
+    "PRIVILEGEDSESSIONS": "Ayrıcalıklı Oturumlar",
+    "MONITORINGLEGACY": "İzleme (Klasik UI)",
+    "MYREQUESTS": "İsteklerim",
+    "INCOMINGREQUESTS": "Gelen İstekler",
+    "ACCOUNTSFEEDV9": "Bekleyen ve Keşif",
+    "ACCOUNTSFEED": "Hesap Akışı",
+    "FILES": "Dosyalar",
+    "ALLFILES": "Tüm Dosyalar",
+    "MSP": "Müşteri Yönetimi",
+    "HELP": "Yardım",
+    "ACCOUNTS": "Hesaplar",
+    "DASHBOARD": "Sistem Durumu",
+    "ACCOUNTSANDREQUESTS": "Hesaplar ve İstekler",
+    "ONBOARDINGRULES": "Ekleme Kuralları",
+    "LDAPINTEGRATION": "LDAP Tümleştirmesi"
+  },
+  "SESSION_EXPIRED": {
+    "FEEDBACK_MESSAGE": {
+      "SAME_USER_CONNECTED_MAIN_TITLE": "Aynı kullanıcı başka bir yere bağlandığı için bu oturum durduruldu",
+      "DEFAULT_MAIN_TITLE": "Oturumunuzun süresi doldu ve kullanıcınızın bağlantısı kesildi.",
+      "HEADER_TITLE": "Oturumun süresi doldu",
+      "SUB_TITLE": "Oturum açma ekranına dönmek için Tamam'a tıklayın",
+      "CONFIRM_BUTTON_TEXT": "Tamam",
+      "CLOSE_BUTTON_TEXT": "Kapat"
+    }
+  },
+  "READ_ONLY_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "PASWS222E Sistem şu anda salt okunur modda olduğundan eylem gerçekleştirilemiyor.",
+      "SUB_TITLE": "Salt Okunur moddayken, Hesap Ekle, İstekler, İsteği Onayla, Parolayı Değiştir ve Rapor Oluştur gibi tüm yazma işlemleri devre dışı bırakılır. İkili Kontrol, Tek Seferlik veya Özel Kullanımlı Parola iş akışları tarafından korunmayan Parolaları Göster/Kopyala gibi okuma işlemleri için sistemi kullanmaya devam edebilirsiniz.",
+      "HEADER_TITLE": "Eylem mevcut değil",
+      "CLOSE_BUTTON_TEXT": "Kapat"
+    },
+    "TOP_NAVBAR": {
+      "HEADER_INDICATION_TITLE_TEXT": "Salt okunur mod",
+      "HEADER_INDICATION_SUBTITLE_TEXT": "bazı eylemler mevcut değil"
+    }
+  },
+  "READ_ONLY_MASTER_IS_AVAILABLE_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "Tam işlevsellik artık mevcuttur.",
+      "SUB_TITLE": "Bu eylemi tamamlamak için yeniden oturum açarak salt okunur moddan çıkmalısınız.",
+      "HEADER_TITLE": "Bu eylem salt okunur modda kullanılamaz",
+      "IGNORE_BUTTON_TEXT": "Yoksay",
+      "LOGOUT_BUTTON_TEXT": "Oturumdan çıkış"
+    }
+  },
+  "ACCOUNT": {
+    "PAGE_TITLE": "Hesap",
+    "SELECT_THE_ACCOUNT_TYPE": "Yeni hesap türünü seç",
+    "SEARCH_PLATFORM_PLACEHOLDER": "Listeyi platform adına göre filtrele",
+    "NO_PLATFORMS_FOUND": "Gösterilecek platform yok",
+    "SELECT_SAFE": "Safe seçin",
+    "SEARCH_SAFE_PLACEHOLDER": "Listeyi Safe adına göre filtrele",
+    "NO_SAFES_FOUND": "Gösterilecek Safe yok",
+    "FORM_PRIMARY_PROPERTIES": "Birincil özellikler",
+    "FORM_ADDITIONAL_PROPERTIES": "Ek özellikler",
+    "FORM_ACCOUNT_MANAGEMENT": "Hesap yönetimi",
+    "OPTIONAL_PROPERTY": "isteğe bağlı",
+    "PASSWORD": "Parola",
+    "RESOLVE": "Çözümle",
+    "ACCOUNT_NAME": "Hesap adı",
+    "CUSTOMIZE_ACCOUNT_NAME": "Hesap adını özelleştir",
+    "CUSTOMIZE_ACCOUNT_NAME_PLACEHOLDER": "Özelleştirilmiş hesap adını belirtin",
+    "AUTO_GENERATE_CALLOUT_TITLE": "Otomatik oluşturulan parola adı düzeni",
+    "AUTO_CPM_MANAGE": "Otomatik parola yönetimine izin ver",
+    "AUTO_CPM_MANAGE_PLACEHOLDER": "El ile yönetim isteği için bir neden belirtin",
+    "CONFIRM_PASSWORD": "Parolayı Onayla",
+    "AMAZON_ACCESS_KEY": "AWS Erişim Anahtarı Gizli Anahtarı",
+    "FEEDBACK_MESSAGE_TITLE": "Aşağıdaki hataları düzeltin",
+    "LIMIT_ACCESS_TO_MACHINES": "Erişimi yalnızca bu makinelerle sınırla",
+    "REMOTE_MACHINE_ACCESS": "Uzak makine erişimi",
+    "KEYWORDS_PROPERTY_HINT_TEXT": "Anahtar sözcükler, noktalı virgülle ayrılmış"
+  },
+  "ADD_ACCOUNT": {
+    "TITLE": "Hesap Ekle",
+    "PAGE_TITLE": "Hesap Ekle",
+    "SELECTED_TILE_HOVER_TEXT": "Değiştir",
+    "ADD_ACTION": "Ekle",
+    "CANCEL": "İptal",
+    "ADD_SAFE": "Safe Oluştur",
+    "STEPS": {
+      "SELECT_SYSTEM_TYPE": "Sistem türünü seç",
+      "SELECT_SYSTEM_TYPE_TITLE": "Sistem türünü seç",
+      "ASSIGN_PLATFORM": "Platforma ata",
+      "ASSIGN_PLATFORM_TITLE": "Platform seçin",
+      "SELECT_SAFE": "Safe içinde sakla",
+      "SELECT_SAFE_TITLE": "Safe Seçin",
+      "DEFINE_PROPERTIES": "Özellikleri tanımla",
+      "DEFINE_PROPERTIES_TITLE": "Hesap özelliklerini tanımla"
+    },
+    "SUCCESS_MESSAGE": {
+      "TITLE": "Hesap başarıyla eklendi"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "Hesap eklenemedi. Neden:"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "Platformu değiştir",
+      "CHANGE_SYSTEM_TYPE_TITLE": "Sistem türünü değiştir",
+      "OK": "Değiştir",
+      "CANCEL": "İptal",
+      "SECONDARY_MESSAGE": "Bu değişikliği tamamlamak için hesap özelliklerini güncelleştirmeniz gerekebilir.",
+      "PLATFORM_PRIMARY_MESSAGE": "Platformu şu şekilde değiştirmek istediğinizden emin misiniz",
+      "SYSTEM_TYPE_PRIMARY_MESSAGE": "Sistem türünü şu şekilde değiştirmek istediğinizden emin misiniz"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Kapat",
+      "TITLE": "HATA"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "İptali onayla",
+      "BODY": "Hesabı ekleme işlemini iptal etmek istediğinizden emin misiniz?",
+      "SECONDARY_MESSAGE": "Yaptığınız değişiklikler iptal edilecek",
+      "MAIN_ACTION": "İptali onayla",
+      "SECONDARY_ACTION": "İptal etme"
+    }
+  },
+  "EDIT_ACCOUNT": {
+    "TITLE": "Hesabı Düzenle",
+    "PAGE_TITLE": "Hesabı Düzenle",
+    "CHANGE_THE_PLATFORM_TYPE": "Platform değiştir",
+    "SAVE": "Kaydet",
+    "CANCEL": "İptal",
+    "GENERAL": "Genel",
+    "CANCEL_EDIT": "Düzenlemeyi iptal et",
+    "INACTIVE_PLATFORM": "Etkin olmayan platform",
+    "DELETED_PLATFORM": "Platform bulunamadı",
+    "PLATFORM_X_INACTIVE": "{{platformName}} platformu etkin değil",
+    "WAS_DELETED": "silindi",
+    "DELETED_PLATFORM_MESSAGE": "Bu hesaba atanmış olan platform bulunamıyor",
+    "DELETED_PLATFORM_SECONDARY_MESSAGE": "Başka bir platform seçin. Bu durumda hesap tipi otomatik olarak belirlenir",
+    "SELECT_PLATFORM": "Platform seçin",
+    "SELECT_A_PLATFORM": "Platform seçin",
+    "CHANGE_PLATFORM": "Platformu değiştir",
+    "INACTIVE": "etkin değil",
+    "INACTIVE_PLATFORM_MESSAGE": "Hesap yönetimi etkin olmayan platforma uygulanmaz",
+    "CONTINUE_WITH_CURRENT": "Geçerli platformla devam et",
+    "DELETED": "silindi",
+    "STEPS": {
+      "SELECTED_SYSTEM_TYPE": "Seçili sistem türünü",
+      "ASSIGNED_PLATFORM": "Atandığı Platform",
+      "CHANGE_PLATFORM_TITLE": "Platformu değiştir",
+      "SELECTED_SAFE": "Saklandığı Kasa",
+      "ACCOUNT_PROPERTIES": "Hesap özellikleri",
+      "ACCOUNT_PROPERTIES_TITLE": "Hesap özellikleri"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "Platformu değiştir",
+      "OK": "Değiştir",
+      "CANCEL": "İptal",
+      "SECONDARY_MESSAGE": "Bu değişikliği tamamlamak için hesap özelliklerini güncelleştirmeniz gerekebilir.",
+      "PLATFORM_PRIMARY_MESSAGE": "Platformu şu şekilde değiştirmek istediğinizden emin misiniz"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "İptali onayla",
+      "BODY": "Hesabı düzenleme işlemini iptal etmek istediğinizden emin misiniz?",
+      "SECONDARY_MESSAGE": "Yaptığınız değişiklikler iptal edilecek",
+      "MAIN_ACTION": "İptali onayla",
+      "SECONDARY_ACTION": "İptal etme"
+    },
+    "SUCCESS_MESSAGE": "Hesap başarıyla kaydedildi",
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Kapat",
+      "TITLE": "Hesabı düzenle",
+      "CANCEL": "İptal"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "Hesap güncelleştirilemedi. Neden: {{errorReason}}",
+      "MAIN_MESSAGE": "Tüm özellikler güncelleştirilmedi. Lütfen tekrar deneyin"
+    }
+  },
+  "SAFES": {
+    "PAGE_TITLE": "Safe'ler",
+    "TITLE": "Safe'ler",
+    "SEARCH_TEXT": "Safe adına göre ara",
+    "ADD_ACTION": "Yeni Safe",
+    "DETAILS": "Ayrıntılar",
+    "MEMBERS": "Üyeler",
+    "DELETE": "Sil",
+    "EDIT": "Düzenle",
+    "CLOSE_ACTION": "Kapat"
+  },
+  "ADD_SAFE": {
+    "PAGE_TITLE": "Yeni Safe",
+    "ADD_ACTION": "Ekle",
+    "CANCEL_ACTION": "İptal",
+    "CLOSE_ACTION": "Kapat",
+    "SAFE_NAME_FIELD_TITLE": "Safe adı",
+    "SAFE_NAME_HINT_TEXT": "Safe adını kuruluşunuzun adlandırma kurallarına göre girin.",
+    "SAFE_DESCRIPTION_FIELD_TITLE": "Açıklama (isteğe bağlı)",
+    "OLAC_LABEL": "Nesne Düzeyinde Erişim Kontrolü",
+    "OLAC_WARNING_MESSAGE": "Safe eklendikten sonra bu özellik devre dışı bırakılamaz",
+    "ADVANCED_DETAILS_LABEL": "Gelişmiş ayrıntılar",
+    "CHARACTERS_LEFT_LABEL": " karakter kaldı",
+    "CHARACTERS_OVER_LABEL": " karakter fazla",
+    "ASSIGNED_CPM_FIELD_TITLE": "CPM'ye atandı",
+    "ASSIGNED_CPM_NO_VALUE": "[Yok]",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "Safe başarıyla eklendi"
+    },
+    "ERROR_MESSAGE": {
+      "HEADER_TITLE": "Yeni Safe",
+      "SUB_TITLE": "Lütfen tekrar deneyin."
+    },
+    "SAFE_VERSION_MANAGEMENT_FIELD_TITLE": "Versiyon yönetimi",
+    "RADIO_BUTTONS": {
+      "RETENTION": {
+        "TEXT": "Hesap versiyonlarını kaydet",
+        "BOLD_TEXT": "süre boyunca:",
+        "UNITS": "gün"
+      },
+      "VERSIONS": {
+        "TEXT": "Son hesabı kaydet",
+        "BOLD_TEXT": "versiyonlar:",
+        "UNITS": "versiyonlar"
+      }
+    }
+  },
+  "SAFE_DETAILS": {
+    "SAFE_NAME": "Safe adı",
+    "ASSIGNED_CPM": "CPM'ye atandı",
+    "DESCRIPTION": "Açıklama",
+    "VERSION_MANAGEMENT": "Versiyon yönetimi",
+    "OLAC_ENABLED": "Nesne Düzeyinde Erişim Kontrolü",
+    "AUTO_PURGE_ENABLED": "Safe otomatik temizleme",
+    "ADVANCED_DETAILS": "Gelişmiş ayrıntılar",
+    "NONE_STR": "[Yok]",
+    "DASH_STR": "-",
+    "ENABLED_STR": "Etkin",
+    "DISABLED_STR": "Devre Dışı",
+    "VERSIONS_RETENTION_FIRST_PART": "Kayıt, son ",
+    "VERSIONS_RETENTION_SECOND_PART": " hesap",
+    "VERSIONS_RETENTION_THIRD_PART": " versiyonlar",
+    "VERSIONS_RETENTION_SINGLE": "Son hesap kaydediliyor ",
+    "VERSIONS_RETENTION_SINGLE_BOLD": "sürüm",
+    "DAYS_RETENTION_FIRST_PART": "Sonuncudaki hesap versiyonları kaydediliyor ",
+    "DAYS_RETENTION_SECOND_PART": " gün",
+    "DAYS_RETENTION_SINGLE": "Sonuncudaki hesap versiyonları kaydediliyor ",
+    "DAYS_RETENTION_SINGLE_BOLD": "gün",
+    "EXPIRED_MEMBERSHIP_ERROR": "Bu Safe için üyeliğinizin süresi doldu"
+  },
+  "FEEDBACK_MESSAGE": {
+    "CLOSE": "Kapat",
+    "REFRESH": "Yenile",
+    "GENERIC_DATA_ERROR": {
+      "TITLE": "Bir sorun oluştu",
+      "SUBTITLE": "Lütfen tekrar deneyin veya yöneticinizle iletişime geçin"
+    }
+  },
+  "ACCOUNTS": {
+    "DELETE_SUCCESS": "Hesap başarıyla silindi",
+    "CHANGE_IN_VAULT_SUCCESS": "Parola Vault'ta başarıyla değiştirildi",
+    "PAGE_TITLE": "Hesaplar",
+    "TITLE": "Hesaplar Görünümü",
+    "SEARCH_TEXT": "Hesap ara",
+    "REFRESH": "Yenile",
+    "ADD_ACTION": "Hesap ekle",
+    "AD_HOC_CONNECT_ACTION": "Geçici bağlantı",
+    "EDIT_ACTION": "Hesabı düzenle",
+    "ADD_TO_FAVORITE": "Sık kullanılanlara ekle",
+    "DELETE_FROM_FAVORITE": "Sık kullanılanlardan kaldır",
+    "COUNTER_TITLE": "Hesaplar",
+    "COUNTER_TITLE_ON_SEARCH": "Şunun için hesaplar: ",
+    "SELECTED_ACCOUNTS": "seçilen hesaplar",
+    "SELECTED_ACCOUNT": "seçilen hesap",
+    "NO_ACCOUNTS": "Gösterilecek hesap yok",
+    "AD_HOC_CONNECTION": {
+      "AD_HOC_CONNECTION_TITLE": "Geçici bağlantı",
+      "CONNECT_BUTTON": "Bağlan",
+      "CANCEL_BUTTON": "İptal"
+    },
+    "ACCOUNT_DETAILS": {
+      "ALL": "Tümü",
+      "NO_RESULTS": "Filtrelerinizle eşleşen sonuç bulunamadı",
+      "ACTION": "Eylem",
+      "SEARCH": "Ara",
+      "PAGE_TITLE": "Hesap Ayrıntıları",
+      "SAFE": "Safe",
+      "PLATFORM": "Platform",
+      "PLATFORM_DETAILS": "Platform Ayrıntıları",
+      "PLATFORM_PROPERTIES": "Platform Özellikleri",
+      "DUAL_CONTROL": "İkili kontrol",
+      "COPY": "Kopyala",
+      "SHOW": "Göster",
+      "EDIT": "Düzenle",
+      "CONNECT": "Bağlan",
+      "INACTIVE_PLATFORM": "Etkin olmayan platform",
+      "ON": "Etkin",
+      "ACTIVITIES": "Aktiviteler",
+      "GROUP_NAME": "Grup Adı",
+      "GROUP_PLATFORM": "Grup Platformu",
+      "LATEST": "En Son",
+      "LAST": "Son",
+      "COMPLIANT": "Uyumlu",
+      "NOT_COMPLIANT": "Uyumlu değil",
+      "COMPLIANCE_STATUS": "Uyum Durumu",
+      "LAST_VERIFIED": "Son Doğrulama",
+      "VERIFIED_BY": "Doğrulayan",
+      "VERIFIED_ON": "Doğrulama zamanı",
+      "NEVER_VERIFIED": "Hiç Doğrulanmadı",
+      "CREATED": "Oluşturulma",
+      "DAYS_AGO": "Gün önce",
+      "FAILED": "başarısız",
+      "TOTAL": "toplam",
+      "BY": "gerçekleştiren",
+      "Reconcile": "Uzlaştıran",
+      "Change": "Değiştiren",
+      "LAST_ACCESS": "Son Erişim",
+      "YESTERDAY": "Dün",
+      "TODAY": "Bugün",
+      "DEPENDENCIES": "Bağımlılıklar",
+      "OVERVIEW": "Genel Bakış",
+      "DETAILS": "Ayrıntılar",
+      "RECORDINGS": "Kayıtlar",
+      "NO_RECORDINGS": "bu hesap için kayıt yok",
+      "NO_ACTIVITIES": "bu hesap için aktivite yok",
+      "ACTIVITIES_FOR_THIS_ACCOUNT": "Bu hesap için aktiviteler",
+      "NO_ACTIVITIES_FOUND": "Aktivite bulunamadı",
+      "USER": "Kullanıcı",
+      "DATE": "Tarih",
+      "DURATION": "Süre",
+      "RISK": "Risk",
+      "NA": "Yok",
+      "NONE": "Yok",
+      "UNKNOWN": "Bilinmiyor",
+      "VERSION": "Versiyonlar",
+      "SUGGESTED_REMOTE_MACHINES": "Önerilen Uzak Makineler",
+      "PERMITTED_REMOTE_MACHINES": "İzin Verilen Uzak Makineler",
+      "FEEDBACK_MODAL": {
+        "CLOSE": "Kapat",
+        "TITLE": "Hesap ayrıntıları",
+        "MESSAGE": "Hesap ayrıntıları alınamadı."
+      },
+      "ACCOUNT_STATUS": {
+        "CANCEL": "İPTAL",
+        "RESUME": "SÜRDÜR",
+        "RESTORE": "GERİ YÜKLE",
+        "CHECKIN": "GİRİŞ",
+        "MORE": "Daha fazla",
+        "MODAL_TITLE_ERROR": "Hata Ayrıntıları",
+        "MODAL_TITLE_DISABLED": "CPM Devre Dışı",
+        "REASON": "CPM, durumu aşağıdaki arama ölçütleriyle eşleştiğinden bu parolada (0) işlemini gerçekleştirmeye çalışıyor: (1)",
+        "TASK_TYPES": {
+          "ReconcileTask": "uzlaştır",
+          "VerifyTask": "doğrula",
+          "ChangeTask": "değiştir",
+          "UnknownTask": "[bilinmiyor]",
+          "DeleteTask": "sil"
+        }
+      },
+      "DUAL_CONTROL_STATUS": {
+        "REQUEST_NEEDED": "İstek gerekiyor",
+        "WAITING": "Bekleyen istek",
+        "CONFIRMED": "Onaylanan istek",
+        "REJECTED": "Reddedilen istek",
+        "EXPIRED": "Süresi dolmuş istek"
+      },
+      "ACCOUNT_STATUS_TYPE": {
+        "TITLE": {
+          "CheckedOut": "Bu hesaptan LOCKED_BY tarafından çıkış yapıldı",
+          "AutomaticManagementCPM": "CPM, bu hesap için otomatik yönetimi devre dışı bıraktı",
+          "CPMFailed": "CPM, bu hesap için ACTION eylemini gerçekleştiremedi",
+          "DisabledByCPM": "CPM tarafından devre dışı bırakıldı",
+          "FailedToVerify": "CPM bu parolayı doğrulayamadı",
+          "FailedToReconcile": "CPM bu parolayı uzlaştıramadı",
+          "FailedToChange": "CPM bu parolayı değiştiremedi",
+          "FailedToDelete": "CPM bu parolayı silemedi",
+          "Inactive": "Bu hesap otomatik olarak yönetilemez, etkin olmayan bir platforma atanmış",
+          "NewlyAdded": "Yeni eklenen hesap",
+          "Deleted": "Bu hesap DELETED_TIME tarihinde DELETED_BY tarafından silindi",
+          "ScheduleForDeletion": "Bu hesap silme için zamanlanmış",
+          "ScheduleForVerify": "Bu hesap anında doğrulama için zamanlanmış",
+          "ScheduleForReconcile": "Bu hesap anında uzlaştırma için zamanlanmış",
+          "ScheduleForChange": "Bu hesabın parolası değişim için manuel olarak zamanlandı",
+          "DisabledByUser": "Otomatik yönetim kullanıcı tarafından devre dışı bırakıldı",
+          "AutomaticDisabled": "Bir kullanıcı, bu hesap için otomatik yönetimi devre dışı bıraktı"
+        }
+      },
+      "ACCOUNT_PROPERTIES": "Hesap Özellikleri",
+      "LINKED_ACCOUNTS": "Bağlantılı Hesaplar",
+      "VERSIONS_TAB": {
+        "MODIFIED_BY": "Değiştiren",
+        "DATE": "Tarih",
+        "TIME": "Saat",
+        "CPM_TEMPORARY_TOGGLE": "CPM geçici parola versiyonlarını gizle",
+        "TEMP": "(Geçici)"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Klasik arabirimdeki ek ayrıntılar ve eylemler",
+        "CALLOUT_TITLE": "Klasik Arabirim",
+        "CALLOUT_TEXT": "Bu hesapta yalnızca klasik arabirimde\nkullanılabilecek ek işlevler bulunabilir.\n\nDilediğiniz zaman \"Hesap\ngörünümleri\"ne dönebilirsiniz."
+      },
+      "CPM_TASKS": {
+        "VERIFY": {
+          "ACTION": "Doğrula",
+          "SUCCESS": "Hesap doğrulama için işaretlendi",
+          "ERROR_MESSAGE": "Hesap doğrulama için işaretlenemedi",
+          "ERROR_TITLE": "Bir sorun oluştu"
+        },
+        "RECONCILE": {
+          "ACTION": "Uzlaştır",
+          "SUCCESS": "Hesap uzlaştırma için işaretlendi",
+          "ERROR_MESSAGE": "Hesap uzlaştırma için işaretlenemedi",
+          "ERROR_TITLE": "Bir sorun oluştu"
+        },
+        "CHANGE": {
+          "ACTION": "Değiştir",
+          "SUCCESS": "Hesap değişim için işaretlendi",
+          "ERROR_MESSAGE": "Hesap değişim için işaretlenemedi",
+          "ERROR_TITLE": "Bir sorun oluştu",
+          "DIALOG": {
+            "TITLE": "Hesabın parolasını değiştir",
+            "MESSAGE": "CPM parolayı rastgele yeni bir parolayla değiştirecek",
+            "CHANGE_BUTTON_TEXT": "Değiştir",
+            "CANCEL_BUTTON_TEXT": "İptal",
+            "BELONGS_TO_GROUP_MESSAGE": "Bu hesap bir hesaplar grubuna ait. CPM şu işlemleri gerçekleştirecek:",
+            "CHANGE_ENTIRE_GROUP": "Grubun tamamının parolasını değiştir",
+            "SYNC_WITH_GROUP": "Geçerli hesabın parolasını grup parolasıyla eşitle",
+            "CHANGE_GROUP_CLASSIC_UI": "Gruplanmış hesabın parolasını değiştirme işlemi klasik Kullanıcı Arabiriminde mevcuttur.\nBu hesabı klasik Kullanıcı Arabiriminde açın.",
+            "REDIRECT_BUTTON_TEXT": "Açık"
+          }
+        },
+        "OK_BUTTON": "Tamam"
+      }
+    },
+    "CATEGORIES": {
+      "MY_ACCOUNTS": "Hesaplarım",
+      "STATUS": "Durum",
+      "OPERATIONAL_STATE": "İşlemsel durum"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSM Ağ Geçidi Bağlantısı"
+    },
+    "FILTERS": {
+      "ALL_ACCOUNTS": "Tüm hesaplar",
+      "RECENTLY_USED": "Son kullanılanlar",
+      "FAVORITES": "Sık Kullanılanlar",
+      "DISABLED_BY_CPM": "CPM tarafından devre dışı bırakıldı",
+      "CHECKED-OUT": "Çıkış yapıldı",
+      "FAILED": "Başarısız",
+      "FAILED_DEPENDENCIES": "Başarısız bağımlılıklar",
+      "NEWLY_ADDED": "Yeni eklenen",
+      "DELETED": "Silindi",
+      "DISABLED_BY_USER": "Kullanıcı tarafından devre dışı bırakıldı",
+      "SCHEDULED_FOR_CHANGE": "Değişim için zamanlandı",
+      "SCHEDULED_FOR_VERIFICATION": "Doğrulama için zamanlandı",
+      "SCHEDULED_FOR_RECONCILIATION": "Uzlaştırma için zamanlandı",
+      "SUCCESSFULLY_RECONCILED": "Başarıyla Uzlaştırıldı",
+      "ACCESS_IN_LAST_X_DAYS": "Son {{number}} günde erişim",
+      "MODIFIED_BY_USER_IN_LAST_X_DAYS": "Kullanıcı son {{number}} günde değiştirdi",
+      "MODIFIED_BY_CPM_IN_LAST_X_DAYS": "CPM tarafından son {{number}} günde değiştirildi"
+    },
+    "EMPTY_STATE": {
+      "RECENT_EMPTY_TITLE": "Gösterilecek son görünüm yok",
+      "SAVED_EMPTY_TITLE": "Gösterilecek kayıtlı görünüm yok",
+      "SAVED_EMPTY_TEXT": "Son görünümlerinizi kaydedin"
+    },
+    "SAVED_SEARCHES_INFO_MESSAGE": {
+      "PRIMARY_TEXT": "Diğer kaydedilmiş görünümler",
+      "SECONDARY_TEXT": "Kaydedilmiş görünümleri V9 arabiriminde yönet"
+    },
+    "REASON": {
+      "REASON_DEFAULT_CAPTION": "Neden",
+      "OPTIONAL": "İsteğe bağlı",
+      "SELECT": "Seç",
+      "ENTER_OR_SELECT_A_REASON": "Bir neden girin veya seçin",
+      "OTHER": "Diğer"
+    },
+    "TICKETING": {
+      "TICKETING_SECTION_MAIN_TITLE": "Çağrı Bilgileri",
+      "TICKETING_SYSTEM_DEFAULT_CAPTION": "Çağrı Sistemi",
+      "TICKETING_ID_DEFAULT_CAPTION": "Çağrı Kimliği",
+      "TICKETING_BYPASS_SUCCESS_MESSAGE": "Atlama çağrısı başarıyla girildi",
+      "TICKETING_ID_IS_INVALID": "Geçersiz çağrı kimliği"
+    },
+    "CONNECTION": {
+      "TITLE": "Uzak Bağlantı Ayrıntıları",
+      "SAVE_TO_ACCOUNTS": "Bunu hesap özelliğine kaydet",
+      "OPTIONAL": "İsteğe bağlı",
+      "AVAILABLE_MACHINES_TITLE": "Uygun Makineler:",
+      "AVAILABLE_MACHINES_ACCOUNTS_HINT": "Tüm kullanılabilir makinelerin listesi için lütfen hesap ayrıntılarına gidin",
+      "AVAILABLE_MACHINES_REQUEST_HINT": "Tüm kullanılabilir makinelerin listesi için lütfen istek ayrıntılarına gidin",
+      "SEPARATE_THE_MACHINE_WITH_COMMA": "Makineleri virgül ile ayır",
+      "ADD_MORE_REMOTE_MACHINE_TO_THE_LIST": "Listeye daha fazla uzak makine ekle",
+      "ENTER_OR_SELECT_A_REMOTE_MACHINE": "Bir uzak makine girin veya ekleyin"
+    },
+    "GRID_ACTIONS": {
+      "COPY_ACTION": "Kopyala",
+      "REQUEST_COPY_ACTION": "Kopyalama isteği",
+      "SHOW_ACTION": "Göster",
+      "REQUEST_SHOW_ACTION": "Gösterme isteği",
+      "EDIT_ACTION": "Düzenle",
+      "CONNECT_ACTION": "Bağlan",
+      "REQUEST_CONNECT_ACTION": "Bağlantı isteği",
+      "Default": "Varsayılan",
+      "CONNECT_WITH": "Şununla bağlan",
+      "CHECKIN_ACTION": {
+        "TITLE": "Giriş",
+        "SUCCESS_MESSAGE": "Hesap giriş için işaretlendi",
+        "OK": "Tamam"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Klasik arabirimdeki ek ayrıntılar ve eylemler",
+        "CALLOUT_TITLE": "Klasik Arabirim",
+        "CALLOUT_TEXT": "Hesaplar görünümünde yalnızca klasik arabirimde\nkullanılabilecek ek işlevler bulunabilir.\n\nDilediğiniz zaman yeni arabirimdeki \"Hesap\ngörünümleri\"ne dönebilirsiniz."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "Parolayı göster",
+      "PASSWORD_INPUT_LABEL": "Parola",
+      "COPY_BUTTON_TEXT": "Kopyala",
+      "SHOW_BUTTON_TEXT": "Göster",
+      "CLOSE_BUTTON_TEXT": "Kapat",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "Parola boş"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "Bu parola tamamı gösterilemeyecek kadar uzun. Parolanın tamamını kopyalamak için Kopyala düğmesine tıklayın."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "Parolayı kopyala",
+      "COPY_BUTTON_TEXT": "Kopyala"
+    },
+    "SAVE_SEARCH_DIALOG": {
+      "TITLE": "Farklı kaydet",
+      "SAVE_BUTTON_TEXT": "Kaydet",
+      "CANCEL_BUTTON_TEXT": "İptal",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Bu görünüm kaydedildi",
+        "WARNING": {
+          "HEADER_TEXT": "Kaydedilemiyor",
+          "MAIN_TEXT": "Bu ada sahip bir görünüm zaten var"
+        },
+        "ERROR": {
+          "HEADER_TEXT": "Kayıtlı görünüm sınırına ulaşıldı",
+          "MAIN_TEXT": "Kayıtlı görünüm sınırına ulaştınız. Yeni görünümleri kaydedebilmek için var olan görünümleri silin.",
+          "CLOSE_BUTTON_TEXT": "Kapat"
+        }
+      }
+    },
+    "RENAME_DIALOG": {
+      "TITLE": "Yeniden Adlandır",
+      "RENAME_BUTTON_TEXT": "Yeniden Adlandır",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Bu görünüm yeniden adlandırıldı",
+        "WARNING": {
+          "HEADER_TEXT": "Yeniden adlandırılamıyor",
+          "MAIN_TEXT": "Bu ada sahip bir görünüm zaten var"
+        },
+        "WARNING_OLD_UI": {
+          "HEADER_TEXT": "Yeniden adlandırılamıyor",
+          "MAIN_TEXT": "V9 arabiriminde bu ada sahip bir görünüm zaten var"
+        },
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Kapat"
+        }
+      }
+    },
+    "COMMON_DIALOG": {
+      "CANCEL_BUTTON_TEXT": "İptal"
+    },
+    "DELETE_ACTION": {
+      "TITLE": "Sil",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Bu görünüm silinmiş",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Kapat"
+        }
+      },
+      "DELETE_DEFAULT_CONFIRMATION": {
+        "TITLE": "Görünümü sil",
+        "MAIN_TEXT": " şu anda varsayılan görünüm. Bunu sildikten sonra varsayılan görünüm sistem ayarları tarafından belirlenecek",
+        "SUB_TEXT": "Bu görünümü silmek istediğinizden emin misiniz?",
+        "CONFIRM_BUTTON_TEXT": "Görünümü Sil",
+        "CANCEL_BUTTON_TEXT": "İptal"
+      }
+    },
+    "SET_DEFAULT_ACTION": {
+      "TITLE": "Varsayılan olarak ayarla",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Bu görünüm varsayılan olarak ayarlandı",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Kapat"
+        }
+      }
+    },
+    "FILTERS_ACTIONS": {
+      "SAVE_ACTION_TEXT": "Farklı kaydet",
+      "SET_AT_DEFAULT_TEXT": "Varsayılan olarak ayarla",
+      "RENAME_TEXT": "Yeniden Adlandır",
+      "DELETE_TEXT": "Sil"
+    },
+    "CONNECT_PREREQUISITES_DIALOG": {
+      "TITLE": "Bağlan",
+      "CONNECT_BUTTON_TEXT": "Bağlan"
+    },
+    "DUAL_CONTROL": {
+      "PAGE_TITLE": "İstek oluştur",
+      "HEADER": {
+        "REQUEST_SHOW": "Gösterilecek istek",
+        "REQUEST_COPY": "Kopyalanacak istek",
+        "REQUEST_CONNECT": "Bağlantı kurma isteği"
+      },
+      "TIMEFRAME_TITLE": "Zaman dilimi",
+      "REQUEST_TIMEFRAME": "İstek zaman dilimi",
+      "MULTIPLE_ACCESS_REQUIRED": "Çoklu erişim gerekli",
+      "MULTIPLE_ACCESS_LABEL": "Bu süre boyunca çoklu erişime izin verilecek",
+      "CONFIRMATION": {
+        "TITLE": "Onay",
+        "CURRENTLY_THERE_ARE_NO_CONFIRMERS_TO_DISPLAY": "Şu anda görüntülenecek onaylayıcı yok",
+        "MULTIPLE_USERS_MUST_CONFIRM": "İsteği {{number}} kullanıcının onaylaması gerekiyor",
+        "ONE_USER_MUST_CONFIRM": "İsteği bir kullanıcının onaylaması gerekiyor",
+        "MULTILEVEL_MULTIPLE_USERS_MUST_CONFIRM": "İsteği 1. düzeyden {{number}} kullanıcının, 2. düzeyden de {{number}} kullanıcının onaylaması gerekiyor",
+        "MULTILEVEL_ONE_USER_MUST_CONFIRM": "İsteği 1. düzeyden bir kullanıcının, 2. düzeyden de bir kullanıcının onaylaması gerekiyor",
+        "CONFIRMERS_LIST_TOGGLE": "Onaylayan Listesi"
+      },
+      "ADDITIONAL_INFORMATION_TITLE": "Ek Bilgiler",
+      "SEND_REQUEST": "İstek Gönder"
+    },
+    "BULK_CHANGE": {
+      "DIALOG_TITLE": "{{value}} hesap değiştiriliyor",
+      "DIALOG_PROGRESS_BAR_TITLE": "hesap değiştiriliyor"
+    },
+    "ERRORS": {
+      "CREATE_REQUEST_COPY_PASSWORD_ERROR_DIALOG_TITLE": "Parola kopyalama isteği oluştur",
+      "CREATE_REQUEST_SHOW_PASSWORD_ERROR_DIALOG_TITLE": "Parola gösterme isteği oluştur",
+      "CREATE_REQUEST_CONNECT_PASSWORD_ERROR_DIALOG_TITLE": "Parola ile bağlantı kurma isteği oluştur"
+    },
+    "COPY_EXTENSIONS_CONFIRM_MESSAGES": "Bu özelliği kullanmak için tarayıcı uzantısını/eklentisini indirin ve yükleyin.",
+    "WARNINGS_MESSAGES": {
+      "EMPTY_COPY_TITLE": "Parolayı kopyala",
+      "CANNOT_COPY_EMPTY_PASSWORD": "Boş parola kopyalanamaz. Not panosunun içeriği değiştirilmedi."
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Parola panoya kopyalandı",
+      "REQUEST_WAS_SENT": "İstek gönderildi"
+    },
+    "DUAL_CONTROL_TOOLTIPS": {
+      "REQUEST_NEEDED": "İstek gerekiyor",
+      "WAITING_RESTRICTED": "Göster veya kopyalama isteği için bekleyen bir bağlantı isteğiniz var, bu isteği silip yeni bir istek gönderin.",
+      "WAITING_NOT_RESTRICTED": "Bu istek beklemede",
+      "CONFIRMED_RESTRICTED": "Bu bağlantı isteği onaylandı",
+      "CONFIRMED_NOT_RESTRICTED": "Bu istek onaylandı",
+      "REJECTED": "Bu istek reddedildi",
+      "EXPIRED": "Bu isteğin süresi doldu",
+      "INVALID": "Bu istek geçersiz",
+      "FUTURE_REQUEST_CONFIRMED": "İleriye dönük bir istek onaylandı",
+      "RESTRICTED_CONNECTION_REQUEST_CONFIRMED": "Bir bağlantı isteği onaylandı. {{actionName}} onayı almak için var olan isteği silip yeni bir istek gönderin.",
+      "RESTRICTED_FUTURE_CONNECTION_REQUEST_CONFIRMED": "İleriye dönük bir bağlantı isteği onaylandı. {{actionName}} onayı almak için var olan isteği silip yeni bir istek gönderin."
+    }
+  },
+  "PENDING_ACCOUNTS": {
+    "PAGE_TITLE": "Bekleyen Hesaplar",
+    "TITLE": "Bekleyen Hesaplar",
+    "NO_PENDING_ACCOUNTS": "Gösterilecek bekleyen hesap yok",
+    "COUNTER_TITLE": "Bekleyen Hesaplar",
+    "SELECTED_PENDING_ACCOUNTS": "seçilen bekleyen hesaplar",
+    "SEARCH_TEXT": "Bekleyen hesapları ara",
+    "ERROR_FEEDBACK_MODAL": {
+      "TITLE": "Bir sorun oluştu",
+      "OK": "Tamam"
+    },
+    "FILTERS": {
+      "SYSTEM_TYPE": {
+        "TITLE": "Sistem türü",
+        "OPTIONS": {
+          "ALL": "Tümü",
+          "WINDOWS": "Windows",
+          "UNIX": "Unix"
+        }
+      },
+      "ACCOUNT_TYPE": {
+        "TITLE": "Hesap türü",
+        "OPTIONS": {
+          "LOCAL": "Yerel",
+          "DOMAIN": "Etki alanı",
+          "ALL": "Tümü"
+        }
+      },
+      "ACCOUNT_CATEGORY": {
+        "TITLE": "Hesap kategorisi",
+        "OPTIONS": {
+          "PRIVILEGED": "Ayrıcalıklı",
+          "NON_PRIVILEGED": "Ayrıcalıklı olmayan",
+          "ALL": "Tümü"
+        }
+      },
+      "DISCOVERED_BY": {
+        "TITLE": "Keşfeden",
+        "OPTIONS": {
+          "CPM_SCANNER": "CPM tarayıcısı",
+          "EXTERNAL_SOURCE": "Dış kaynak",
+          "ALL": "Tümü"
+        }
+      }
+    },
+    "APPLYFILTERS": "Filtreleri uygula"
+  },
+  "REQUESTS": {
+    "DETAILS": {
+      "TITLE_KEY": "İstek",
+      "TITLE_VALUE_PREFIX": "Hesap",
+      "TIMEFRAME": "Zaman dilimi",
+      "REASON": "Neden",
+      "PERMISSION": "İzin",
+      "ACCESS": "Erişim",
+      "REQUESTED_ON": "İsteme zamanı",
+      "REQUEST_ID": "İstek kimliği",
+      "ADDRESS": "Adres",
+      "ACCOUNT_NAME": "AccountName",
+      "ACCOUNT_SAFE": "AccountSafe",
+      "ACCOUNT_PLATFORM": "AccountPlatform",
+      "EMERGENCY": "Acil Durum",
+      "STATUS": "Durum",
+      "START_FOR_SCCESS": "şunun için",
+      "END_FOR_SCCESS": "erişim",
+      "FOR_ACCOUNT": "hesap için"
+    },
+    "ACCOUNT_DETAILS": {
+      "NAME": "Ad",
+      "SAFE": "Safe",
+      "PLATFORM": "Platform",
+      "ADDRESS": "Adres",
+      "USERNAME": "Kullanıcı Adı",
+      "LOGON TO": "Oturum açma hedefi",
+      "LOCATION": "Konum",
+      "OWNER NAME": "Sahip adı",
+      "USER DN": "Kullanıcı DN'si",
+      "COPY": "Kopyala",
+      "SHOW": "Göster",
+      "CONNECT": "Bağlan"
+    },
+    "CONFIRMERS": {
+      "GROUP_TOOLTIP": "Onaylayıcı grubu",
+      "SINGLE_TOOLTIP": "Tek onaylayıcı"
+    },
+    "UPDATE_INFO": "Bu sekmedeki bilgiler, istek listesindeki bilgilerden daha günceldir | Güncelleştirme zamanı - {{string}}"
+  },
+  "MY_REQUESTS": {
+    "PAGE_TITLE": "İsteklerim",
+    "TITLE": "İsteklerim",
+    "COUNTER_TITLE": "sonuç:",
+    "NO_MY_REQUESTS": "Gösterilecek istek yok",
+    "SELECTED_REQUESTS": "seçilen istek",
+    "FILTERS": {
+      "ALL": "Tüm istekler",
+      "WAITING_AND_CONFIRMED": "Onaylanan ve bekleyen istekler",
+      "WAITING": "Bekleyen istekler",
+      "EXPIRED_AND_WAITING": "Bekleyen, süresi dolan ve reddedilen istekler"
+    },
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "İstek Görünümleri"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "İstek Ayrıntılarım",
+      "ITEM": "istek",
+      "ACTION_TYPE": "silindi"
+    },
+    "DELETE_TEXT": "Sil",
+    "DELETE_ERROR_HEADER": "İstek Silme Hatası",
+    "DELETE_SUCCESS_TEXT": "İstek başarıyla silindi.",
+    "OK": "Tamam"
+  },
+  "INCOMING_REQUESTS": {
+    "TITLE": "Gelen İstekler",
+    "NO_INCOMING_REQUESTS": "Gösterilecek istek yok",
+    "SELECTED_REQUESTS": "seçilen istek",
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "İstek Görünümleri"
+    },
+    "DETAILS": {
+      "REQUEST_TITLE": "İstek",
+      "ACCOUNT_TITLE": "Hesap",
+      "REQUESTOR_USERNAME": "İsteyen kullanıcı adı",
+      "REQUESTOR_FULLNAME": "İsteyen tam adı"
+    },
+    "DETAILS_FULL_PAGE": {
+      "ITEM": "istek",
+      "ACTION_TYPE": "silindi",
+      "TITLE": "Gelen İstek Ayrıntıları"
+    },
+    "TICKETING_SYSTEM": {
+      "NAME": "Çağrı sistemi adı",
+      "NUMBER": "Çağrı No."
+    },
+    "FILTERS": {
+      "ALL": "Tüm istekler",
+      "WAITING_AND_CONFIRMED": "Bekleyen ve onaylanmış istekler",
+      "WAITING": "Bekleyen istekler",
+      "EXPIRED_AND_WAITING": "Bekleyen ve süresi dolmuş istekler"
+    },
+    "OK": "Tamam",
+    "CONFIRM_TEXT": "Onayla",
+    "REJECT_TEXT": "Reddet",
+    "CANCEL_TEXT": "İptal",
+    "BULK_CONFIRM_MODAL_TITLE": "{{number}} hesaba erişimi onayla",
+    "BULK_CONFIRM_MODAL_TEXT": "Lütfen onay nedenini belirtin",
+    "BULK_REJECT_MODAL_TITLE": "{{number}} hesaba erişimi reddet",
+    "BULK_REJECT_MODAL_TEXT": "Lütfen reddetme nedenini belirtin",
+    "BULK_CONFIRM_REJECT_MODAL_WARNING": "Yalnızca işlenmemiş istekler onaylanacak",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_TITLE": "{{number}} istek onaylanıyor",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_TITLE": "{{number}} istek reddediliyor",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_SUB_TITLE": "İstekler onaylanıyor",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_SUB_TITLE": "İstekler reddediliyor",
+    "BULK_CONFIRM_SUCCESS_ACCORDION_TITLE": "istek başarıyla onaylandı",
+    "BULK_REJECT_SUCCESS_ACCORDION_TITLE": "istek başarıyla reddedildi",
+    "BULK_CONFIRM_FAILURE_ACCORDION_TITLE": "istek onaylama başarısız",
+    "BULK_REJECT_FAILURE_ACCORDION_TITLE": "istek başarıyla reddedilmedi",
+    "BULK_MODAL_PROGRESS_BAR_DONE_BUTTON": "Kapat",
+    "BULK_MODAL_PROGRESS_BAR_DONE_TITLE": "Bitti",
+    "BULK_MODAL_PROGRESS_BAR_DONE_FAILURE_SUB_TITLE": "hatalar var",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_CONFIRM": "Onaylanıyor...",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_REJECT": "Reddediliyor...",
+    "REJECT_HEADER_TEXT": "İstek reddetme nedeni",
+    "REJECT_CONTENT_TEXT": "Reddetme nedenini belirtin:",
+    "CONFIRM_HEADER_TEXT": "İstek onaylama nedeni",
+    "CONFIRM_CONTENT_TEXT": "Onaylama nedenini belirtin:",
+    "CONFIRM_ERROR_HEADER": "İstek Onaylama Hatası",
+    "REJECT_ERROR_HEADER": "İstek Reddetme Hatası",
+    "CONFIRM_SUCCESS_TEXT": "İstek başarıyla onaylandı.",
+    "REJECT_SUCCESS_TEXT": "İstek başarıyla reddedildi."
+  },
+  "CONTENT_TITLE": {
+    "HEADER": {
+      "FOR": ":",
+      "ALL": "Tümü",
+      "CLEAR_ALL": "Tümünü temizle"
+    },
+    "SHOWING": "Gösteriliyor"
+  },
+  "DISCOVERIES": {
+    "DEFAULT_DASH": "-",
+    "PAGE_TITLE": "Keşif Yönetimi",
+    "GRID_TITLE": "Keşif kurulumları",
+    "ADD_ACTION": "Yeni keşif",
+    "LAST_RUN_STATUS": {
+      "DONE": "Tamamlandı",
+      "FAILED": "Başarısız",
+      "DONE_WITH_ISSUES": "Tamamlandı",
+      "CANCELED_DUE_TO_UPGRADE": "İptal Edildi",
+      "STOPPED": "Durduruldu"
+    },
+    "STATE": {
+      "RUNNING": "Çalışıyor",
+      "PENDING": "Beklemede",
+      "STOPPING": "Durduruluyor"
+    },
+    "LAST_RUN_TIME": {
+      "NA": "Yok"
+    },
+    "DISCOVERY_TYPE": {
+      "ONETIME": "Tek seferlik",
+      "RECURRING": "Yinelenen"
+    }
+  },
+  "FILTERS_VIEWS_LAYOUT": {
+    "SHOW_MORE": "Daha fazlasını göster",
+    "SHOW_LESS": "Daha az göster",
+    "APPLY": "Uygula"
+  },
+  "FORM_VALIDATIONS": {
+    "REQUIRED": "Bu alan zorunludur",
+    "IS_NUMERIC": "Bu alanda yalnızca sayı olabilir",
+    "IS_I18N": "Bu alanda uluslararası karakterler kullanılamaz",
+    "IS_PASSWORD_MATCH": "Parola ve onay alanları eşleşmiyor",
+    "REQUIRED_SAFE_NAME": "Alan adı boş bırakılamaz",
+    "STARTING_WHITE_SPACE": "Alan adı boşlukla başlayamaz",
+    "ENDING_WHITE_SPACE": "Alan adı boşlukla bitemez",
+    "PATTERN": "Alanda geçersiz karakter kullanılamaz",
+    "MIN_VALUE": "Minimum değer aşıldı",
+    "MAX_VALUE": "Maksimum değer aşıldı",
+    "INVALID_VALUE": "Geçerli değerler {minValue} ile {maxValue} arasındadır",
+    "NOT_EXIST_IN_MACHINE_LIST": "Bu makine kullanılabilir makineler listesinde yok"
+  },
+  "FORM_SAFES_VALIDATIONS": {
+    "SAFE_NAME_REQUIRED": "Safe adı boş bırakılamaz",
+    "SAFE_NAME_STARTING_WHITE_SPACE": "Safe adı boşlukla başlayamaz",
+    "SAFE_NAME_ENDING_WHITE_SPACE": "Safe adı boşlukla bitemez",
+    "SAFE_NAME_PATTERN": "Safe adında geçersiz karakter kullanılamaz",
+    "SAFE_NAME_MAX_CHAR": "Safe adı 28 karakterden uzun olamaz",
+    "SAFE_DESCRIPTION_PATTERN": "Safe açıklamasında geçersiz karakter kullanılamaz",
+    "MANAGING_CPM_REQUIRED": "Lütfen listeden bir değer seçin"
+  },
+  "COMMON": {
+    "VIEWS_TAB_TITLE": "Görünümler",
+    "RECENT_TAB_TITLE": "Son",
+    "SAVED_TAB_TITLE": "Kaydedildi",
+    "FILTERS_TAB_TITLE": "Filtreler",
+    "CLOSE_BUTTON_TEXT": "Kapat",
+    "CANCEL_BUTTON_TEXT": "İptal",
+    "DOWNLOAD_BUTTON_TEXT": "İndir",
+    "SELECT_BUTTON_TEXT": "Seç",
+    "OPTIONAL_FORM_CONTROL": "{{fieldName}} (İsteğe bağlı)",
+    "ACCOUNT_TYPES": {
+      "PASSWORD": "Parola",
+      "SSH_KEY": "SSH Anahtarı"
+    },
+    "GENERAL_MESSAGES": {
+      "FAILURE_MAIN_TEXT": "Başarısız"
+    }
+  },
+  "AUTHENTICATION": {
+    "SESSION_EXPIRED_MESSAGE": {
+      "HEADER_TITLE": "Oturumun süresi doldu",
+      "MAIN_TITLE": "Oturumunuzun süresi doldu",
+      "SUB_TITLE": "Oturum açma ekranına dönmek için Tamam'a tıklayın",
+      "OK_OPTION": "Tamam"
+    }
+  },
+  "MONITORING": {
+    "TITLE": "İzleme",
+    "REFRESH": "Yenile",
+    "RISK_CARD": {
+      "TITLE": "Oturum risk puanı",
+      "SUB_TITLE": "En güçlü etkiye sahip aktivite/olay",
+      "SECURITY_INCIDENT": "Güvenlik olayı",
+      "GO_TO_INCIDENT_DETAILS": "Olay ayrıntılarına git",
+      "ID": "KİMLİK",
+      "PLAY": "OYNAT",
+      "TOOLTIP_TITLE": "Oturumdaki şüpheli aktiviteler",
+      "TOOLTIP_SUB_TITLE": "En riskli aktivite",
+      "NO_RISK_SCORE": "Risk analizi veya algılaması yapılmadı"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "Oturum Ayrıntıları",
+      "ITEM": "oturum",
+      "ACTION_TYPE": "silindi",
+      "BACK_TEXT": "İzleme"
+    },
+    "GRID_TITLE": {
+      "RECORDED_SESSIONS": "Kayıt",
+      "LIVE_SESSIONS": "Etkin Oturumlar",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Klasik arabirimdeki ek ayrıntılar ve eylemler",
+        "CALLOUT_TITLE": "Klasik Arabirim",
+        "CALLOUT_TEXT": "İzleme görünümünde yalnızca klasik arabirimde\nkullanılabilecek ek işlevler bulunabilir.\n\nDilediğiniz zaman yeni arabirimdeki \"İzleme” \ngörünümüne dönebilirsiniz."
+      }
+    },
+    "RECORDING": {
+      "NO_RECORDINGS_FOUND": "Gösterilecek kayıt yok",
+      "PLAY": "Oynat",
+      "PLAY_VIDEO": "Videoyu oynat",
+      "CONNECTED_AS": "Bağlantı biçimi",
+      "AS": "kullanıcı",
+      "ON": "etkin",
+      "OFF": "kapalı",
+      "SKIP_IDLE": "Boşta Olanı Atla:",
+      "MANUAL": "Elden",
+      "AUTOMATIC": "Otomatik",
+      "GO_TO_V9": "Videoyu oynat (V9 UI)",
+      "SESSION_WAS_NOT_FOUND": "Bu oturum etkinlikleri kullanılamıyor"
+    },
+    "LIVE_SESSIONS": {
+      "NO_LIVE_SESSIONS_FOUND": "Gösterilecek etkin oturum yok",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Klasik arabirimdeki ek ayrıntılar ve eylemler",
+        "CALLOUT_TITLE": "Klasik Arabirim",
+        "CALLOUT_TEXT": "Etkin oturum görünümünde yalnızca klasik arabirimde\nkullanılabilecek ek işlevler bulunabilir.\n\nDilediğiniz zaman yeni arabirimdeki \"İzleme” \ngörünümüne dönebilirsiniz."
+      }
+    },
+    "FILTERS": {
+      "SECTION": "Filtreler",
+      "SESSIONS_PROPERTIES": "Oturum özellikleri",
+      "SESSOION_PROPERTIES_HINT_TITLE": "Oturum özelliklerine göre filtrele",
+      "SESSOION_PROPERTIES_HINT": "Kullanıcı, İstemci, Hesap Kullanıcı Adı, Hesap Adresi, Hesap Politika Kimliği, Çağrı Kimliği ve daha fazlası.\n\nAynı oturumda birden fazla özellikle arama yapmak için boşlukla ayırın, örneğin: root 192.168.0.1\n\nİfade aramak için tırnak işareti kullanın",
+      "SESSIONS_ACTIVITIES": "Oturum aktiviteleri",
+      "COMMANDS_AND_EVENTS_HINT_TITLE": "Oturum aktivitelerine göre filtrele",
+      "COMMANDS_AND_EVENTS_HINT": "Windows Kutucukları, SQL Komutları, SSH Komutları, SCP Komutları, Tuş vuruşları, Engellenmiş komutlar (\"DENIED\" anahtar sözcüğünü kullanın).\n\nAynı oturumda birden fazla aktiviteyle arama yapmak için boşlukla ayırın, örneğin: sudo rm.\n\nİfade aramak için tırnak işareti kullanın, örneğin: \"ifConfig -a\"",
+      "FROM": "Başlangıç",
+      "TO": "Bitiş",
+      "SAVE_FILTER": "Filtreyi Kaydet",
+      "APPLY": "Uygula"
+    },
+    "RECORDING_DETAILS": {
+      "HEADER_TITLE": "{{user}}, {{address}} üzerinden {{accountUserName}} olarak bağlandı",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Klasik arabirimdeki ek ayrıntılar ve eylemler",
+        "CALLOUT_TITLE": "Klasik Arabirim",
+        "CALLOUT_TEXT": "Bu oturumda yalnızca klasik arabirimde\nkullanılabilecek ek işlevler bulunabilir.\n\nDilediğiniz zaman yeni \"İzleme” görünümüne dönebilirsiniz."
+      }
+    },
+    "LIVE_SESSION_DETAILS": {
+      "HEADER_TITLE": "{{user}}, {{address}} üzerinden {{accountUserName}} olarak bağlandı",
+      "MONITOR_BUTTON": "İzle",
+      "TERMINATE_BUTTON": "Sonlandır",
+      "TERMINATE_DIALOG": {
+        "TITLE": "Etkin Oturumu Sonlandır",
+        "MESSAGE": "Bu oturumu sonlandırmak istediğinizden emin misiniz?",
+        "CANCEL_BUTTON": "İptal"
+      },
+      "SUSPEND_BUTTON": "Askıya al",
+      "SUSPEND_DIALOG": {
+        "TITLE": "Etkin Oturumu Askıya Al",
+        "MESSAGE": "Bu oturumu askıya almak istediğinizden emin misiniz?",
+        "CANCEL_BUTTON": "İptal"
+      },
+      "RESUME_BUTTON": "Sürdür",
+      "RESUME_DIALOG": {
+        "TITLE": "Askıya Alınmış Oturumu Sürdür",
+        "MESSAGE": "Bu oturumu sürdürmek istediğinizden emin misiniz?",
+        "CANCEL_BUTTON": "İptal"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Klasik arabirimdeki ek ayrıntılar ve eylemler",
+        "CALLOUT_TITLE": "Klasik Arabirim",
+        "CALLOUT_TEXT": "Bu oturumda yalnızca klasik arabirimde\nkullanılabilecek ek işlevler bulunabilir.\n\nDilediğiniz zaman yeni \"İzleme” görünümüne dönebilirsiniz."
+      }
+    },
+    "TABS": {
+      "RECORDING": "Kayıtlar",
+      "LIVE_SESSIONS": "Etkin oturumlar",
+      "SESSION_ACTIVITIES": "Aktiviteler",
+      "ATTESTATION": "Tasdik",
+      "PERMISSIONS": "İzinler",
+      "SESSION_PROPERTIES": "Ayrıntılar"
+    },
+    "PROPERTIES": {
+      "SESSION_PROPERTIES_TITLE": "Oturum Özellikleri",
+      "ADDITIONAL_PROPERTIES_TITLE": "Ek Özellikler",
+      "ACCOUNT_DETAILS_TITLE": "Hesap Özellikleri",
+      "VIDEO_RECORDING_TITLE": "Video Kaydı",
+      "TEXT_RECORDING_TITLE": "Metin Kaydı",
+      "CONNECTED_FROM": "Şuradan Bağlanıldı",
+      "REMOTE_MACHINE": "Uzak Bilgisayar",
+      "INTERFACE": "Arabirim",
+      "CONNECTION_TYPE": "Bağlantı Türü",
+      "PROTOCOL": "Protokol",
+      "START": "Başlangıç",
+      "END": "Son",
+      "DURATION": "Süre",
+      "RETAINED_BY": "Saklayan",
+      "PLATFORM_NAME": "Platform adı",
+      "TARGET_USER": "Hedef kullanıcı",
+      "TARGET_ADDRESS": "Hedef adres",
+      "VIDEO_SIZE": "Boyut",
+      "VIDEO_LAST_VIEWED_BY": "Son gözden geçiren",
+      "TEXT_SIZE": "Boyut",
+      "TEXT_LAST_VIEWED_BY": "Son gözden geçiren",
+      "TEXT_LAST_VIEWED_DATE": "Son gözden geçirme tarihi"
+    },
+    "ACTIVITIES": {
+      "ACTIVITIES_IN_SESSION": " Oturumdaki aktivite",
+      "NO_ACTIVITIES": "Gösterilecek aktivite yok"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSM Ağ Geçidi Bağlantısı"
+    }
+  },
+  "ONBOARDING_RULES": {
+    "PAGE_TITLE": "Ekleme Kuralları",
+    "TITLE": "Ekleme Kuralları",
+    "ANY": "Tümü",
+    "SERVER": "Sunucu",
+    "WORKSTATION": "İş İstasyonu",
+    "LOCAL": "Yerel",
+    "DOMAIN": "Etki alanı",
+    "PRIVILEGED": "Ayrıcalıklı",
+    "NON_PRIVILEGED": "Ayrıcalıklı değil",
+    "BUILT_IN_ADMINISTRATOR_WINDOWS": "Yerleşik Yönetici (SID = 500)",
+    "BUILT_IN_ADMINISTRATOR_UNIX": "Kök (UID = 0)",
+    "BEGINS_WITH": "Başı",
+    "END_WITH": "Sonu",
+    "EXACT": "Eşittir",
+    "OPTIONAL": "isteğe bağlı",
+    "EMPTY_STATE": {
+      "TITLE": "hesap ekleme yöntemi",
+      "TITLE_FAST": "Hızlı",
+      "TITLE_AND": "ve",
+      "TITLE_EASY": "kolay",
+      "DESCRIPTION": "Ekleme kuralları, keşfedilen hesapları otomatik olarak CyberArk’a ekler. Bu kuralları uygulayarak zaman kazanırsınız ve manuel ekleme yapmak zorunda kalmazsınız. Keşfedilen hesaplara, bekleyen olarak işaretlenmeden önce ekleme kuralları uygularız.",
+      "READ_MORE": " Daha fazla oku",
+      "CREATE_RULE_LINK": "Yeni bir ekleme kuralı oluşturmaya başla",
+      "AUTOMATIC_ONBOARDING_RULE": "Otomatik ekleme kuralı",
+      "PENDING_ACCOUNTS": "Bekleyen hesaplar",
+      "MANUAL_ONBOARDING": "Manuel ekleme",
+      "ACCOUNTS_DISCOVERY": "Hesap keşfi"
+    },
+    "FILTERS": {
+      "TITLE": "Filtreler",
+      "RULES_SCOPE": {
+        "TITLE": "Kural kapsamı",
+        "SYSTEM_TYPE": "Sistem türü",
+        "ACCOUNT_TYPE": "Hesap türü",
+        "MACHINE_TYPE": "Makine türü",
+        "CATEGORY": "Hesap kategorisi",
+        "DROPDOWN": {
+          "PLACEHOLDER": "Seç"
+        },
+        "KEYWORDS": {
+          "LABEL": "Anahtar sözcük ayrıntılandır",
+          "PLACEHOLDER": "Kural adı, tanım, kullanıcı adı veya makine adı"
+        }
+      },
+      "DESTINATION": {
+        "TITLE": "Hedef",
+        "PLATFORM": {
+          "LABEL": "Platform",
+          "PLACEHOLDER": "Seç",
+          "NO_MATCH_TEXT": "Eşleşen platform yok"
+        },
+        "SAFE": {
+          "LABEL": "Safe",
+          "PLACEHOLDER": "Seç",
+          "NO_MATCH_TEXT": "Eşleşen safe yok"
+        }
+      }
+    },
+    "SELECTED_ITEM_DETAILS": {
+      "DETAILS_TITLE": "Ayrıntılar",
+      "RULE_SCOPE": {
+        "TITLE": "Kural kapsamı",
+        "SYSTEM_TYPE": "Sistem türü",
+        "MACHINE_TYPE": "Makine türü",
+        "ACCOUNT_TYPE": "Hesap türü",
+        "CATEGORY": "Hesap kategorisi",
+        "USER_NAME": "Kullanıcı Adı",
+        "METHOD": {
+          "BEGINS": "Şununla başlar: {{ruleFilterValue}}",
+          "ENDS": "Şununla biter: {{ruleFilterValue}}",
+          "EQUALS": "Eşittir: {{ruleFilterValue}}",
+          "BEGINS_WITH": "Şununla başlar: {{ruleFilterValue}}",
+          "END_WITH": "Şununla biter: {{ruleFilterValue}}",
+          "EXACT": "Eşittir: {{ruleFilterValue}}"
+        },
+        "ACCOUNT_CATEGORY_FILTER": {
+          "TITLE": "Ayrıcalıklı hesap türü",
+          "PRIVILEGED": "Ayrıcalıklı",
+          "NONPRIVILEGED": "Ayrıcalıklı değil",
+          "ANY": "Tümü"
+        },
+        "LOCAL": "Yerel",
+        "ANY": "Tümü",
+        "ADMIN_ONLY": {
+          "WINDOWS": "Yerleşik Yönetici (SID = 500)",
+          "UNIX": "Kök (UID = 0)"
+        },
+        "MACHINE_NAME": "Makine adı / adresi"
+      },
+      "DESTINATION": {
+        "TITLE": "Hedef",
+        "PLATFORM": "Platform",
+        "SAFE": "Safe"
+      },
+      "RULE_PROPERTIES": {
+        "TITLE": "Kural özellikleri",
+        "RULE_NAME": "Ad",
+        "RULE_DESCRIPTION": "Açıklama"
+      },
+      "PASSWORD_SETTINGS": {
+        "TITLE": "Başlangıç parolası ayarları",
+        "INITIAL_PASSWORD": "Başlangıç parolası ayarları",
+        "USE_PLATFORM": "Varsayılan platform uzlaştırma hesabını kullanarak",
+        "NO_RECONCILE_ACCOUNT": "Seçilen platform için uzlaştırma hesabı yok",
+        "RECONCILE_ACCOUNT": "Platform uzlaştırma hesabı"
+      },
+      "OVERVIEW": {
+        "TITLE": "Genel Bakış",
+        "LAST_ONBOARDED": "Son ekleme"
+      }
+    },
+    "CREATE_RULE": "Kural oluştur",
+    "REFRESH": "Yenile",
+    "RULE_NAME_COLUMN_TITLE": "Kural adı",
+    "SYSTEM_TYPE_COLUMN_TITLE": "Sistem türü",
+    "CREATE_ONBOARDING_RULES": {
+      "CASE_SENSITIVE": "Büyük/küçük harfe duyarlı",
+      "PAGE_TITLE": "Kural Oluştur",
+      "PAGE_TITLE_EDIT_MODE": "Kuralı Düzenle",
+      "TITLE": "Yeni ekleme kuralı",
+      "TITLE_EDIT_MODE": "Ekleme kuralını düzenle: {{string}}",
+      "SUBMIT_TEXT": "Kural oluştur",
+      "SUBMIT_TEXT_EDIT_MODE": "Değişiklikleri kaydet",
+      "UPDATE": "Güncelleştir",
+      "IDENTICAL_RULE_ERROR_HEADER": "Özdeş kapsam",
+      "IDENTICAL_RULE_NAME_ERROR_HEADER": "Özdeş kural adı",
+      "DEFAULT_ERROR_HEADER": "Hata",
+      "CREATE_RULE_SUCCESS_MESSAGE": "Kural başarıyla oluşturuldu",
+      "EDIT_RULE_SUCCESS_MESSAGE": "Kural başarıyla güncelleştirildi",
+      "STEPS": {
+        "SELECT_SYSTEM_TYPE": "Sistem türünü seç",
+        "SELECT_SYSTEM_TYPE_EDIT_MODE": "Sistem türü",
+        "SELECT_SYSTEM_TYPE_TITLE": "Eklenecek sistem türünü seçin",
+        "SELECT_SYSTEM_TYPE_TITLE_EDIT_MODE": "Sistem türü",
+        "SELECT_SCOPE": "Kapsam seç",
+        "SELECT_SCOPE_EDIT_MODE": "Kapsam",
+        "SELECT_SCOPE_TITLE": "Kural kapsamını seç",
+        "SELECT_SCOPE_TITLE_EDIT_MODE": "Kapsam",
+        "ASSIGN_PLATFORM": "Platforma ata",
+        "ASSIGN_PLATFORM_EDIT_MODE": "Platform",
+        "ASSIGN_PLATFORM_TITLE": "Platform seçin",
+        "ASSIGN_PLATFORM_TITLE_EDIT_MODE": "Platform",
+        "SELECT_SAFE": "Safe içinde sakla",
+        "SELECT_SAFE_EDIT_MODE": "Safe",
+        "SELECT_SAFE_TITLE": "Safe Seçin",
+        "SELECT_SAFE_TITLE_EDIT_MODE": "Safe",
+        "DEFINE_PROPERTIES": "Özellikleri tanımla",
+        "DEFINE_PROPERTIES_EDIT_MODE": "Özellikler",
+        "DEFINE_PROPERTIES_TITLE": "Kural özelliklerini tanımlayın",
+        "DEFINE_PROPERTIES_TITLE_EDIT_MODE": "Özellikler",
+        "DEFINE_PROPERTIES_STEP": {
+          "NAME_LABEL": "Ad",
+          "NAME_PLACEHOLDER": "Benzersiz bir ad girin",
+          "DESCRIPTION_LABEL": "Açıklama (isteğe bağlı)",
+          "DESCRIPTION": "Açıklama",
+          "DESCRIPTION_VALUE": "Valued",
+          "DESCRIPTION_CHARACTERS_LEFT": " Karakter kaldı",
+          "DESCRIPTION_CHARACTERS_OVER": " Karakter fazla",
+          "RULE_NAME_IS_NOT_UNIQUE_MESSAGE": "Bu ada sahip bir kural zaten var",
+          "RULE_NAME_MAX_LENGTH_MESSAGE": "Bu alan maks. 255 karakter içermelidir",
+          "SETTINGS": {
+            "INITIAL_PASSWORD": "Başlangıç parolası ayarları",
+            "USE_PLATFORM": "Platform uzlaştırma hesabını kullanıyor",
+            "NO_RECONCILE_ACCOUNT": "Seçilen platform için uzlaştırma hesabı yok"
+          },
+          "MODAL_ERROR_HEADER": "Hata",
+          "MODAL_CLOSE_ACTION": "Kapat"
+        },
+        "SUMMARY": "Özet",
+        "SUMMARY_TITLE": "Özet"
+      },
+      "SELECT_SCOPE": {
+        "INFO_MESSAGE_APPLY_WINDOWS": "Otomatik ekleme kuralları, bağımlılığı olmayan hesaplara uygulanır",
+        "INFO_MESSAGE_APPLY_UNIX": "Otomatik ekleme kuralları, güvenleri olmayan hesaplara uygulanır",
+        "INFO_MESSAGE_NEW_RULE": "Yeni bir kuralın mevcut bir kurala göre önceliği vardır",
+        "MACHINE_TYPE": "Makine türü",
+        "ACCOUNT_TYPE": "Hesap türü",
+        "ACCOUNT_TYPE_INFO": "Şu anda etki alanı hesapları otomatik olarak eklenemiyor.",
+        "ACCOUNT_CATEGORY": "Hesap kategorisi",
+        "ACCOUNT_CATEGORY_INFO": "Ayrıcalıklı hesaplar, yöneticiler veya yetkili kullanıcılar gibi \nayrıcalıklı grupların üyeleridir.",
+        "PRIVILEGED_ACCOUNT_TYPE": "Ayrıcalıklı hesap türü",
+        "USERNAME": "Kullanıcı Adı",
+        "MACHINE_NAME_OR_ADDRESS": "Makine adı / adresi",
+        "IDENTICAL_MESSAGE_TITLE": "Özdeş kural bulundu: {{string}}",
+        "IDENTICAL_MESSAGE_TEXT": "Yinelemeyi engellemek için bu kuralın kapsamını değiştirin"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "İptali onayla",
+        "BODY": "Ekleme kuralını oluşturma işlemini iptal etmek istediğinizden emin misiniz?",
+        "SECONDARY_MESSAGE": "Yaptığınız değişiklikler iptal edilecek",
+        "MAIN_ACTION": "İptali onayla",
+        "SECONDARY_ACTION": "İptal etme"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "CHANGE_SYSTEM_TYPE_TITLE": "Sistem türünü değiştir",
+        "CHANGE_PLATFORM_TITLE": "Platformu değiştir",
+        "OK": "Değiştir",
+        "CANCEL": "İptal",
+        "SYSTEM_TYPE_PRIMARY_MESSAGE": "Sistem türünü şu şekilde değiştirmek istediğinizden emin misiniz",
+        "PLATFORM_PRIMARY_MESSAGE": "Platformu şu şekilde değiştirmek istediğinizden emin misiniz",
+        "SECONDARY_MESSAGE": "Kural tanımlarını güncelleştirmeniz gerekebilir."
+      }
+    },
+    "NO_RULES_FOUND": "Gösterilecek kural yok",
+    "PRECEDENCE_COLUMN_TITLE": "Öncelik",
+    "DESCRIPTION_COLUMN_TITLE": "Açıklama",
+    "MACHINE_TYPE_COLUMN_TITLE": "Makine türü",
+    "ACCOUNT_TYPE_COLUMN_TITLE": "Hesap türü",
+    "LAST_ONBOARDED_COLUMN_TITLE": "Son ekleme",
+    "DELETE_RULE": {
+      "ACTION_TITLE": "Kuralı sil",
+      "FEEDBACK_TITLE": "Kuralı sil",
+      "FEEDBACK_DESCRIPTION": "'{RULE_NAME}' adlı kuralı silmek istediğinizden emin misiniz?",
+      "FEEDBACK_DELETE_BUTTON": "Kuralı sil",
+      "FEEDBACK_CANCEL_BUTTON": "İptal",
+      "FLOATING_SUCCESS_MESSAGE": "Kural silindi"
+    },
+    "EDIT_RULE": {
+      "ACTION_TITLE": "Kuralı düzenle"
+    },
+    "FEEDBACK_MESSAGES": {
+      "DELETE_ONBOARDING_RULES": "Ekleme kuralını sil",
+      "GET_ONBOARDING_RULES": "Ekleme kurallarını al"
+    }
+  },
+  "PTA": {
+    "MESSAGES": {
+      "SUCCESS_MESSAGES": {
+        "SETTINGS": {
+          "PSM": {
+            "UPDATE": "Kural başarıyla güncelleştirildi",
+            "ADD": "Kural başarıyla eklendi"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "Bekleyene Ekle düzeltmesi başarıyla güncelleştirildi",
+            "ROTATE_CREDENTIALS": "Kimlik Bilgileri Rotasyonu düzeltmesi başarıyla güncelleştirildi",
+            "RECONCILE_CREDENTIALS": "Kimlik Bilgilerini Uzlaştır düzeltmesi başarıyla güncelleştirildi"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "Oturum sürdürme başarıyla başlatıldı"
+        }
+      },
+      "ERROR_TITLES": {
+        "DEFAULT": "HATA",
+        "SETTINGS": {
+          "GET": "Güvenlik yapılandırmaları yüklenemedi",
+          "PSM": {
+            "UPDATE": "Kural güncelleştirilemedi",
+            "ADD": "Kural eklenemedi"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "Bekleyene Ekle düzeltmesi güncelleştirilemedi",
+            "ROTATE_CREDENTIALS": "Kimlik Bilgileri Rotasyonu düzeltmesi güncelleştirilemedi",
+            "RECONCILE_CREDENTIALS": "Kimlik Bilgilerini Uzlaştır düzeltmesi güncelleştirilemedi"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "Oturum sürdürme başlatılamadı"
+        }
+      },
+      "CLOSE_BUTTON": "Kapat"
+    },
+    "EVENTS": {
+      "ACTION_BUTTONS": {
+        "SUCCESS_MESSAGES": {
+          "RESUME": "Oturum sürdürme başarıyla başlatıldı"
+        },
+        "ERROR_TITLES": {
+          "RESUME": "Oturum sürdürme başlatılamadı"
+        }
+      },
+      "PAGE_HEADER": "Güvenlik olayları",
+      "PROVIDER": {
+        "UNKNOWN": "bilinmiyor",
+        "ANOMALIES_TITLES": {
+          "ACTIVE_DORMANT": "Etkin uykudaki kullanıcı",
+          "AGGREGATIVE_ICE": "Birden fazla makineye anormal erişim",
+          "DUAL_USAGE": "Hizmet Hesabı etkileşimli olarak oturum açtı",
+          "GOLDEN_TICKET": "Altın Bilet saldırısı",
+          "IRREGULAR_HOUR_USER": "Vault’a anormal saatler esnasında ayrıcalıklı erişim",
+          "MALICIOUS_RETRIEVAL": "Etki Alanı Hesaplarının Kötü Amaçlı Alınması",
+          "OVER_PASS_THE_HASH": "Overpass the Hash saldırısı",
+          "PAC_ATTACK": "PAC Saldırısı",
+          "RISKY_COMMAND": "Ayrıcalıklı bir oturumda şüpheli etkinlikler tespit edildi",
+          "SCT": "Şüphelenilen kimlik bilgisi hırsızlığı",
+          "SPC": "Şüpheli parola değişimi",
+          "UNMANAGED": "Yönetilmeyen ayrıcalıklı hesap",
+          "VAULT_IRREGULAR_IP": "Vault’a anormal IP’den ayrıcalıklı erişim",
+          "CLEARTEXT": "Korunmasız kimlik bilgileri"
+        },
+        "EVENT_SEVERITIES": {
+          "LOW": "Düşük",
+          "MEDIUM": "Orta",
+          "HIGH": "Yüksek"
+        },
+        "FILTERS": {
+          "EVENT_ID": "Olay Kimliği",
+          "SESSION_ID": "Oturum Kimliği",
+          "TITLE": "Filtreler",
+          "SEVERITY": "Önem Derecesi",
+          "TYPE": "Olay Türü",
+          "FROM_DATE": "Başlangıç",
+          "TO_DATE": "Bitiş"
+        },
+        "NOTIFICATIONS": {
+          "LOW": "Yeni düşük olay tespit edildi",
+          "MEDIUM": "Yeni orta olay tespit edildi",
+          "HIGH": "Yeni yüksek olay tespit edildi"
+        }
+      },
+      "CARDS": {
+        "GENERAL": {
+          "LISTS": {
+            "ENTITIES": {
+              "COMMAND": "komut",
+              "ACCOUNT": "hesap",
+              "MACHINE": "makine",
+              "DC": "DC"
+            },
+            "TITLES": {
+              "MOST_RETYPED_ACTIVITIES": "En çok yeniden yazılan etkinlikler",
+              "MOST_ACCESSED_ACCOUNTS": "En çok erişilen hesaplar",
+              "EXPOSED_ACCOUNTS": "Korunmasız hesaplar",
+              "MOST_ACCESSED_MACHINES": "En çok erişilen makineler",
+              "SOURCE_MACHINES": "Kaynak makineler",
+              "MOST_ACCESSED_DCS": "En çok erişilen DC’ler",
+              "ACCESSED_DCS": "Erişilen DC’ler"
+            },
+            "RECORD": {
+              "MULTI_OCCURRENCES": "{{entity}} ({{occurrences}} oluşum)",
+              "SINGLE_OCCURRENCE": "{{entity}} ({{occurrences}} oluşum)"
+            }
+          },
+          "ORIGINAL_EVENTS": {
+            "ORIGINAL_EVENT": "İlk olay {{originTime}} meydana geldi.",
+            "ORIGINAL_EVENT_SOURCE_TARGET": "İlk olay {{source}} kaynağından {{target}} hedefinde {{originTime}} meydana geldi.",
+            "ORIGINAL_EVENT_SOURCE_DC": "İlk olay {{source}} kaynağından DC {{target}} hedefinde {{originTime}} meydana geldi.",
+            "ORIGINAL_SUSPICIOUS_ACTIVITY": "İlk şüpheli etkinlik meydana gelme zamanı: {{originTime}}."
+          },
+          "DIAGRAM_ENTITY_TITLE": {
+            "TARGET_MACHINE": "Hedef makine",
+            "SOURCE_MACHINE": "Kaynak makine",
+            "PRIVILEGED_ACCOUNT": "Ayrıcalıklı hesap",
+            "UNMANAGED_PRIVILEGED_ACCOUNT": "Yönetilmeyen ayrıcalıklı hesap",
+            "CYBERARK_PAS": "Cyberark PAS",
+            "VAULT_USER": "Vault kullanıcısı",
+            "TARGET_SERVICE": "Hedef hizmet",
+            "SERVICE_ACCOUNT": "Hizmet hesabı",
+            "SERVICE": "Hizmet"
+          }
+        },
+        "GENERIC": {
+          "ACTIVE": "Etkin oturum",
+          "REMEDIATION": "Başlatılan düzeltme",
+          "OCCURRENCES": "({{occurrences}} oluşum)",
+          "EVENT_ID": "Kimlik {{id}}",
+          "SESSION_ID": "Oturum Kimliği",
+          "RECOMMENDATION_TITLE": "Öneri"
+        },
+        "ACTIVE_DORMANT": {
+          "SUBTITLE_SINGLE_ACCOUNT": "Vault kullanıcısı {{user}}, {{inactiveDays}} günden fazla pasif kaldıktan sonra {{account}} hesabı parolasını CyberArk PAS’tan aldı.",
+          "SUBTITLE_MULTI_ACCOUNTS": "Vault kullanıcısı {{user}}, {{inactiveDays}} günden fazla pasif kaldıktan sonra {{numOfAccounts}} hesabın parolasını CyberArk PAS’tan aldı.",
+          "RECOMMENDATION": "Bu Vault kullanıcısının etkin olduğundan emin olun; eğer değilse kullanıcının erişimini kısıtlamanız yararlı olabilir."
+        },
+        "AGGREGATIVE_ICE": {
+          "SUBTITLE": "{{account}} hesabı, bu hesap için alışılmadık bir şekilde çok sayıda yeni makineye bağlandı.<br>Bu eylemler, {{account}} kimlik bilgilerinin yanal hareket doğrultusunda kötüye kullanıldığının belirtisi olabilir.",
+          "RECOMMENDATION": "Potansiyel hasarı değerlendirin ve IOC arayın:",
+          "RECOMMENDATION_SUGGESTION_1": "Hedef makinelerde etkin oturumu olan hesapları gözden geçirin",
+          "RECOMMENDATION_SUGGESTION_2": "Hedef makinelerde saklanan kimlik bilgilerini gözden geçirin",
+          "RECOMMENDATION_SUGGESTION_3": "Hedef makinelerdeki diğer saldırı belirtilerini inceleyin"
+        },
+        "DUAL_USAGE": {
+          "SUBTITLE_SINGLE_MACHINE": "{{Account}} hizmet hesabı ile {{target}} makinesinde etkileşimli olarak oturum açıldı.",
+          "SUBTITLE_MULTI_MACHINES": "{{Account}} hizmet hesabı ile {{numOfMachines}} makinede etkileşimli olarak oturum açıldı.",
+          "RECOMMENDATION": "Hizmet hesaplarınızın ve kişilere ait hesaplarınızın kullanımını ayırın."
+        },
+        "GOLDEN_TICKET": {
+          "SUBTITLE": "{{Domain}} etki alanında bir Altın Bilet saldırısı tespit edildi. Saldırgan {{account}} hesabı için {{target}} makinesinde sahte bir Kerberos bileti kullandı.<br>Bu bilet {{source}} makinesinden çıktı.",
+          "RECOMMENDATION": "Bir saldırgan, etki alnınızı tehlikeye attı. Ortamınızı dikkatlice inceleyin ve saldırganı kontrol altına almak için harekete geçin."
+        },
+        "IRREGULAR_HOUR_USER": {
+          "SUBTITLE": "{{user}} Vault kullanıcısı, {{target}} makinesinde {{account}} ayrıcalıklı kullanıcı parolasını aldı; zaman:{{startTime}}.<br>{{user}} normalde bu zaman diliminde bağlanmadığı için bu eylem güvenlik olayı olarak işaretlendi.",
+          "RECOMMENDATION": "Bu Vault kullanıcısının etkinliklerini gözden geçirin ve bunların geçerli olduğundan emin olun."
+        },
+        "MALICIOUS_RETRIEVAL": {
+          "SUBTITLE_ONE_OCCURRENCE": " {{source}} makinesinde {{target}} etki alanı denetleyicisinden (DC) potansiyel olarak kötü amaçlı bir kimlik bilgisi alma işlemi tespit edildi.<br>Kimlik bilgisi alma işlemi, başarılı bir etki alanı denetleyicisi çoğaltması ile yürütüldü.",
+          "SUBTITLE_MULTI_OCCURRENCES": "{{source}} makinesinde potansiyel olarak kötü amaçlı birden fazla kimlik bilgisi alma işlemi tespit edildi.<br>Kimlik bilgisi alma işlemi, başarılı bir etki alanı denetleyicisi (DC) çoğaltması ile yürütüldü.",
+          "RECOMMENDATION": "Bir Etki alanı denetleyicisi çoğaltma isteği (DCSync) yalnızca etki alanı denetleyicileri tarafından başlatılmalıdır.<br>Eğer ağınızdaki başka bir kimlik doğrulama veya yönetim hizmeti tarafından da etki alanı denetleyicisi çoğaltması yürütülürse<br>bu hizmetlere de etki alanı denetleyicileriyle aynı düzeyde koruma sağlanması şiddetle önerilir."
+        },
+        "OVER_PASS_THE_HASH": {
+          "SUBTITLE": "{{domain}} etki alanında {{source}} makinesinden kaynaklanan bir Overpass the Hash saldırısı tespit edildi.<br>Saldırı, {{account}} hesabının kimlik bilgilerini kötüye kullanıyor.",
+          "RECOMMENDATION_NO_REMEDIATION": "{{account} hesabının kimlik bilgilerini sıfırlayın.",
+          "RECOMMENDATION_REMEDIATION": "Parola değişimi isteği başlatıldı. Bir saldırgan, etki alnınızı tehlikeye attı. Ortamınızı dikkatlice inceleyin ve saldırganı kontrol altına almak için harekete geçin."
+        },
+        "PAC_ATTACK": {
+          "SUBTITLE": "{{domain}} etki alanında {{source}} makinesinden kaynaklanan bir PAC Saldırısı (MS14-068 istismarı) girişimi tespit edildi.<br>Saldırgan, {{account}} hesabının ayrıcalıklarını yükseltmeye çalıştı.",
+          "RECOMMENDATION": "{{target}} Etki Alanı Denetleyicisinin KB3011780 düzeltme eki ile güncelleştirildiğinden emin olun."
+        },
+        "RISKY_COMMAND": {
+          "SUBTITLE": "Ayrıcalıklı bir oturumda {{target}} hedefinde şüpheli oturum etkinlikleri tespit edildi.<br>Oturum, {{user}} Vault kullanıcısı tarafından {{account}} hesabı ile {{command}} etkinliği gerçekleştirerek başlatıldı.",
+          "RECOMMENDATION_LIVE": "Oturum ve oturumun etkinlikleri ile ilişkili tüm güvenlik olaylarını gözden geçirin ve devam eden oturumu canlı izleme veya manuel olarak sonlandırma gibi bir yanıtın gerekip gerekmediğini değerlendirin.",
+          "RECOMMENDATION_NON_LIVE": "Oturum ile ilişkili tüm güvenlik olaylarını gözden geçirin ve oturumun etkinliklerini ve kaydını kullanarak riski değerlendirin. Bu oturumun bağlantısı zaten kesildi.",
+          "RECOMMENDATION_SUSPENDED_SESSION": "Oturumu askıya alma isteği başlatıldı. Oturum ve oturumun etkinlikleri ile ilişkili tüm güvenlik olaylarını gözden geçirin ve askıya alınan oturumu manuel sürdürme veya sonlandırma gibi ek bir yanıtın gerekip gerekmediğini değerlendirin.",
+          "RECOMMENDATION_TERMINATED_SESSION": "Oturumu sonlandırma isteği başlatıldı. Oturum ve oturumun etkinlikleri ile ilişkili tüm güvenlik olaylarını gözden geçirin ve ek bir yanıtın gerekip gerekmediğini değerlendirin."
+        },
+        "SCT": {
+          "SUBTITLE_SINGLE_MACHINE": "{{account}} ayrıcalıklı hesabı, CyberArk PAS'tan alınmayan bir parola ile {{target}} makinesine erişti.",
+          "SUBTITLE_MULTI_MACHINES": "{{account}} ayrıcalıklı hesabı, CyberArk PAS'tan alınmayan bir parola ile {{numOfMachines}} makineye erişti.",
+          "RECOMMENDATION_NO_REMEDIATION": "Alınmadan kullanılan parolaları değiştirmenizde yarar var.",
+          "RECOMMENDATION_REMEDIATION": "Parola değişimi isteği başlatıldı. Kuruluş politikanızın ve PAS kontrollerinin atlanmadığından ve yönetilen hesaplarınızın kontrol edildiğinden emin olun."
+        },
+        "SPC": {
+          "SUBTITLE": "{{account}} ayrıcalıklı hesabının parolası CyberArk PAS dışında değiştirildi.",
+          "RECOMMENDATION_NO_REMEDIATION": "CyberArk PAS dışında değiştirilen hesap parolasını uzlaştırmanızda yarar var.",
+          "RECOMMENDATION_RECONCILIATION": "Parola uzlaştırma isteği başlatıldı. Kuruluş politikanızın ve PAS kontrollerinin atlanmadığından emin olun ve yönetilen hesaplarınızın kontrolünü ele alın."
+        },
+        "UNMANAGED": {
+          "SUBTITLE_SINGLE_MACHINE": "{{account}} ayrıcalıklı hesabı, CyberArk PAS'ta yönetilmediği halde {{target}} hedefine erişmek için kullanıldı.",
+          "SUBTITLE_MULTI_MACHINES": "{{account}} ayrıcalıklı hesabı, CyberArk PAS'ta yönetilmediği halde {{numOfMachines}} makineye erişmek için kullanıldı.",
+          "RECOMMENDATION_NO_REMEDIATION": "Yönetilmeyen ayrıcalıklı hesabı CyberArk PAS’a eklemenizde yarar var.",
+          "RECOMMENDATION_REMEDIATION": "Yeni keşfedilen hesabı ekleyin ve hesabı güvenli bir şekilde yönetmek için uygun platformu atayın. Otomatik bir ekleme kuralı ile filtrelenen keşfedilen hesaplar manuel eylem gerektirmez."
+        },
+        "VAULT_IRREGULAR_IP": {
+          "SUBTITLE": "{{User}} Vault kullanıcısı Vault’a {{source}} anormal IP’si ile erişti.<br>{{user}}, Vault’a normalde bu IP ile erişmediği için bu eylem güvenlik olayı olarak işaretlendi.",
+          "RECOMMENDATION": "Bu Vault kullanıcısının etkinliklerini gözden geçirin ve bunların geçerli olduğundan emin olun."
+        },
+        "CLEARTEXT": {
+          "SUBTITLE": "LDAP basit bağlantısı kullanan {{source}} kaynağından gönderilen hesap kimlik bilgileri düz metin olarak kullanıma sunuldu.",
+          "RECOMMENDATION": "İlgili hizmetleri, LDAP basit bağlantısı yerine LDAPS kullanarak kimlik doğrulama yapacak şekilde yapılandırın.<br>Hassas hesaplar için parola rotasyonu yapmanızı şiddetle öneririz."
+        }
+      }
+    },
+    "SETTINGS": {
+      "PAGE_HEADER": "Güvenlik Yapılandırmaları",
+      "PSM": {
+        "HEADER": "Ayrıcalıklı Oturum Analizi ve Yanıt",
+        "SUB_HEADER": "Kayıtlı kullanıcı oturumları sırasında tespit edilen yüksek riskli etkinliklere bir risk puanı ve otomatik yanıt atayın.",
+        "ADD_RULE_BUTTON": "Kural ekle",
+        "RULE_CATEGORY": {
+          "KEYSTROKES": "Evrensel tuş vuruşları",
+          "SCP": "SCP",
+          "SQL": "SQL",
+          "SSH": "SSH",
+          "WINDOWS": "Pencere başlıkları"
+        },
+        "RULE_CATEGORY_EXAMPLES": {
+          "KEYSTROKES_EXAMPLE": "örneğin: kill(.*)",
+          "SCP_EXAMPLE": "örneğin: 10.1.1.22(.*)",
+          "SQL_EXAMPLE": "örneğin: DROP TABLE(.*)",
+          "SSH_EXAMPLE": "örneğin: rm -r(.*)",
+          "WINDOWS_EXAMPLE": "örneğin: Task Manager(.*)"
+        },
+        "SUCCESS_MESSAGES": {
+          "UPDATE": "Kural başarıyla güncelleştirildi",
+          "ADD": "Kural başarıyla eklendi"
+        },
+        "ERROR_TITLES": {
+          "UPDATE": "Kural güncelleştirilemedi",
+          "ADD": "Kural eklenemedi"
+        },
+        "RULE_MODAL": {
+          "ADD_RULE_TITLE": "Kural Ekle",
+          "EDIT_RULE_TITLE": "Kuralı Düzenle",
+          "CATEGORY": "Kategori",
+          "SELECT_CATEGORY": "Kategori seç",
+          "PATTERN": "Düzen",
+          "PATTERN_PLACEHOLDER": "Düzenli ifade girin",
+          "DESCRIPTION": "Açıklama (isteğe bağlı)",
+          "SESSION_RESPONSE": {
+            "TITLE": "Oturum yanıtı",
+            "SUSPEND": "Askıya al",
+            "TERMINATE": "Sonlandır",
+            "NONE": "Yok"
+          },
+          "SCORE_TITLE": "Puan",
+          "SCORE_DESCRIPTION": "Puanı belirle (1 - 100)",
+          "ACTIVE_STATUS_TITLE": "Durum",
+          "ACTIVE_STATUS_ACTIVE_DESCRIPTION": "Etkin",
+          "ACTIVE_STATUS_INACTIVE_DESCRIPTION": "Etkin Değil",
+          "SCOPE_TITLE": "Kapsam",
+          "SCOPE_DESCRIPTION": {
+            "BASIC_DESCRIPTION": "Bu kural şunlara uygulanacak: {vaultUsersCategory}, {accountsCategory} ve {machinesCategory}",
+            "ALL": "tüm {category}",
+            "EXCLUDE": "{amount} {category} dışında tüm",
+            "INCLUDE": "{amount} spesifik {category}"
+          },
+          "ADD": "Ekle",
+          "SAVE": "Kaydet",
+          "CANCEL": "İptal"
+        },
+        "SCOPE_MODAL": {
+          "TITLE": "Kapsamı değiştir",
+          "EXCLUDE": "Hariç tut",
+          "INCLUDE": "Yalnızca şunları dahil et",
+          "SAVE": "Kapsamı Değiştir",
+          "CANCEL": "İptal",
+          "VAULT_USERS": {
+            "CATEGORY_NAME": "Vault kullanıcıları",
+            "TAB_TITLE": "Vault kullanıcıları",
+            "WATERMARK": "Joker karakterler kullanabilir",
+            "INCLUDE_MARK": "Bu kural yalnızca seçili Vault kullanıcılarına uygulanacak",
+            "EXCLUDE_MARK": "Bu kural, seçili olanlar hariç tüm Vault kullanıcılarına uygulanacak"
+          },
+          "ACCOUNTS": {
+            "CATEGORY_NAME": "hesaplar",
+            "TAB_TITLE": "Hesaplar",
+            "WATERMARK": "Joker karakterler kullanabilir",
+            "INCLUDE_MARK": "Bu kural yalnızca seçili hesaplara uygulanacak",
+            "EXCLUDE_MARK": "Bu kural seçili olanlar hariç tüm hesaplara uygulanacak"
+          },
+          "MACHINES": {
+            "CATEGORY_NAME": "makineler",
+            "TAB_TITLE": "Makineler",
+            "WATERMARK": "Joker karakterler kullanabilir",
+            "INCLUDE_MARK": "Bu kural yalnızca seçili makinelere uygulanacak",
+            "EXCLUDE_MARK": "Bu kural seçili olanlar hariç tüm makinelere uygulanacak"
+          }
+        },
+        "GRID_COLUMNS": {
+          "CATEGORY": "Kategori",
+          "PATTERN": "Düzen",
+          "SCORE": "Puan",
+          "DESCRIPTION": "Açıklama",
+          "RESPONSE": "Yanıt",
+          "STATUS": "Durum"
+        }
+      },
+      "REMEDIATION": {
+        "HEADER": "Otomatik Düzeltmeler",
+        "SUB_HEADER": "Riskleri kontrol altına almak ve şüpheli etkinlikleri durdurmak için her güvenlik olayının otomatik yanıtını yapılandırın.",
+        "ADD_TO_PENDING": "Bekleyene Ekle",
+        "UNMANAGED_PRIVILEGED_ACCOUNT": "Yönetilmeyen Ayrıcalıklı Hesap",
+        "ROTATE_CREDENTIALS": "Kimlik Bilgileri Rotasyonu",
+        "OVER_PASS_THE_HASH": "Overpass the Hash",
+        "SUSPECTED_CREDENTIAL_THEFT": "Şüphelenilen Kimlik Bilgisi Hırsızlığı",
+        "RECONCILE_CREDENTIALS": "Kimlik Bilgilerini Uzlaştır",
+        "SUSPICIOUS_PASSWORD_CHANGE": "Şüpheli Parola Değişimi",
+        "SUCCESS_MESSAGES": {
+          "ADD_TO_PEND": "Bekleyene Ekle düzeltmesi başarıyla güncelleştirildi",
+          "ROTATE_CREDENTIALS": "Kimlik Bilgileri Rotasyonu düzeltmesi başarıyla güncelleştirildi",
+          "RECONCILE_CREDENTIALS": "Kimlik Bilgilerini Uzlaştır düzeltmesi başarıyla güncelleştirildi"
+        },
+        "ERROR_TITLES": {
+          "ADD_TO_PEND": "Bekleyene Ekle düzeltmesi güncelleştirilemedi",
+          "ROTATE_CREDENTIALS": "Kimlik Bilgileri Rotasyonu düzeltmesi güncelleştirilemedi",
+          "RECONCILE_CREDENTIALS": "Kimlik Bilgilerini Uzlaştır düzeltmesi güncelleştirilemedi"
+        }
+      },
+      "EVENT_STATUS": {
+        "CLOSE_MESSAGE": "Bu Güvenlik Olayını kapatmak istediğinizden emin misiniz?\n\nKapalı olaylar, Durum filtresi kullanılarak yine de görüntülenebilir",
+        "OPEN_MESSAGE": "Bu Güvenlik Olayını yeniden açmak istediğinizden emin misiniz?"
+      },
+      "EDIT": "Düzenle",
+      "DELETE": "Sil",
+      "GET_ERROR_TITLE": "Güvenlik yapılandırmaları yüklenemedi"
+    }
+  },
+  "DASHBOARD": {
+    "HEADER": "Sistem Durumu",
+    "ERROR_MESSAGE": "Sunucu hatası oluştu, lütfen daha sonra tekrar deneyin",
+    "VAULTS": "Vault’lar",
+    "CONNECTING_COMPONENTS": "Bileşenlere Bağlanılıyor",
+    "METER_CONNECTED": "Bağlandı",
+    "METER_DISCONNECTED": "Bağlantı kesildi",
+    "REFRESH": "Yenile",
+    "MASTER": "Master",
+    "PRIMARY": "Birincil",
+    "SATELLITE": "Satellite",
+    "DR": "DR",
+    "OFFLINE": "Offline",
+    "DASHBOARD_DETAILS": {
+      "COMPONENT_IDENTIFIER_COLUMN_TITLE": "Bileşen Tanımlayıcı",
+      "IP_COLUMN_TITLE": "IP",
+      "VERSION_COLUMN_TITLE": "Sürüm",
+      "CONNECTIVITY_STATUS_COLUMN_TITLE": "Bağlantı Durumu",
+      "LAST_LOGON_DATE_COLUMN_TITLE": "Son oturum açma tarihi",
+      "GRID_CONNECTED": "Bağlandı",
+      "GRID_DISCONNECTED": "Bağlantı kesildi",
+      "BACK_TO_MAIN_PAGE": "Sistem Durumuna Geri Dön"
+    },
+    "COMPONENTS_METER_TOTAL_DESCRIPTION": {
+      "PVWA": "Etkin Kullanıcılar",
+      "CPM": "Yönetilen Hesaplar",
+      "SESSIONMANAGEMENT": "Eşzamanlı Oturumlar",
+      "AIM": "Uygulamalar"
+    },
+    "DIALOGS": {
+      "RESTORE_CONNECTIVITY": {
+        "SUCCESS": "Bağlantının yeniden kurulması birkaç dakika sürebilir"
+      }
+    }
+  },
+  "LDAP_INTEGRATION": {
+    "PAGE_TITLE": "LDAP Tümleştirmesi",
+    "REFRESH": "Yenile",
+    "NEW_DOMAIN": "Yeni Etki Alanı",
+    "MAPPINGS": "Eşlemeler",
+    "DOMAINS": "etki alanları",
+    "DELETE_DOMAIN_DIALOG": {
+      "TITLE": "Etki alanı bağlantısı silinsin mi?",
+      "BODY": "\"{DOMAIN_NAME}\" etki alanını CyberArk'tan silmek istediğinizden emin misiniz?",
+      "SUB_TITLE": "\nAşağıdaki dizin eşlemesi de silinecek:\n{MAPPINGS}",
+      "MAIN_ACTION": "Sil",
+      "SECONDARY_ACTION": "İptal",
+      "DELETED_SUCCESS": "Etki alanı bağlantısı başarıyla silindi",
+      "ERROR": {
+        "CLOSE_BUTTON": "Kapat",
+        "TITLE": "Etki alanı bağlantısı silinemedi",
+        "BODY": "\"{DOMAIN_NAME}\" etki alanı bağlantısı silinemedi"
+      }
+    },
+    "DELETE_MAPPING_DIALOG": {
+      "TITLE": "Dizin eşlemesi silinsin mi?",
+      "BODY": "\"{{MAPPING_NAME}}\" dizin eşlemesini silmek istediğinizden emin misiniz?",
+      "SUB_TITLE": "\nBu eylem, halihazırda yetkilendirilmiş LDAP kullanıcılarının CyberArk sistemine erişimini engelleyebilir. ",
+      "MAIN_ACTION": "Eşlemeyi sil",
+      "SECONDARY_ACTION": "İptal",
+      "DELETED_SUCCESS": "Eşleme silindi",
+      "ERROR": {
+        "CLOSE_BUTTON": "Kapat",
+        "TITLE": "Dizin eşlemesi silinemedi",
+        "BODY": "\"{{MAPPING_NAME}}\" dizin eşlemesi silinemedi"
+      }
+    },
+    "MAPPING_DETAILS": {
+      "AUTH_TAB": {
+        "ALLOW": "İzin Ver",
+        "DENY": "Reddet"
+      },
+      "DETAILS_TAB": {
+        "MAPPING_CRITERIA_TITLE": "Eşleme kriteri",
+        "LDAP_BRANCH": "LDAP dalı",
+        "CRITERIA_DETAILS": "Şununla eşlenen kullanıcılar",
+        "MAPPING_DESTINATION_TITLE": "Eşleme hedefi",
+        "LOCATION": "Konum",
+        "GROUP": "Grup",
+        "AUTHENTICATION_TITLE": "Kimlik Doğrulama",
+        "AUTHENTICATION_METHOD": "Kimlik Doğrulama yöntemi",
+        "ACTIVITY_LOGS_TITLE": "Etkinlik günlükleri",
+        "KEEP_USER_ACTIVITY_LOGS": "Kullanıcı etkinlik günlüklerini en az şu kadar tut",
+        "DAYS": "gün",
+        "ROOT": "Kök"
+      },
+      "AUTHENTICATIONS": {
+        "AUTHTYPEVAULTPKI": "PKI",
+        "AUTHTYPELDAP": "LDAP",
+        "AUTHTYPENT": "NT",
+        "AUTHTYPERADIUS": "RADIUS"
+      }
+    },
+    "DIRECTORY_MAPPINGS": "dizin eşlemeleri",
+    "GROUPS_NAME": {
+      "VAULT_ADMINS": "Vault yöneticileri",
+      "SAFE_MANAGERS": "Safe yöneticileri",
+      "AUDITORS": "Denetleyiciler",
+      "USERS": "Kullanıcılar"
+    },
+    "AUTHORIZATIONS": {
+      "NONE": "Yok",
+      "ADDSAFES": "Safe ekleme",
+      "AUDITUSERS": "Kullanıcıları denetleme",
+      "ADDUPDATEUSERS": "Kullanıcı ekleme/güncelleştirme",
+      "RESETUSERSPASSWORDS": "Kullanıcıların parolasını sıfırlama",
+      "ACTIVATEUSERS": "Kullanıcıları etkinleştirme",
+      "ADDNETWORKAREAS": "Ağ alanları ekleme",
+      "MANAGEDIRECTORYMAPPING": "Dizin eşlemesini yönetme",
+      "MANAGESERVERFILECATEGORIES": "Sunucu dosya kategorilerini yönetme",
+      "BACKUPALLSAFES": "Tüm safe’leri yedekleme",
+      "RESTOREALLSAFES": "Tüm safe’leri geri yükleme"
+    },
+    "CREATE": {
+      "PAGE_TITLE": "LDAP Tümleştirmesi oluştur",
+      "TITLE": "LDAP Tümleştirmesi",
+      "SAVE": "Kaydet",
+      "CONNECT": "Bağlan >",
+      "DOMAIN_CONNECTED_SUCCESSFULLY": "{{domainName}} adlı etki alanına bağlantı başarılı",
+      "THE_DIRECTORY_WERE_CREATED_SUCCESSFULLY": "Dizin başarıyla oluşturuldu",
+      "THE_DIRECTORY_AND_MAPPING_WERE_CREATED_SUCCESSFULLY": "Dizin ve eşleme başarıyla oluşturuldu",
+      "STEPS": {
+        "SELECT_DIRECTORY_TYPE": "Dizin türünü seç",
+        "SELECT_DIRECTORY_TYPE_TITLE": "Dizin türünü seç",
+        "CONNECT_DOMAIN": "Etki alanını bağla",
+        "CONNECT_DOMAIN_TITLE": "Etki alanını bağla",
+        "CREATE_DIRECTORY_MAPPINGS": "Dizin eşlemesi oluştur",
+        "CREATE_DIRECTORY_MAPPINGS_TITLE": "Dizin eşlemesi oluştur (isteğe bağlı)"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "İptali onayla",
+        "BODY": "LDAP Tümleştirmesi oluşturma işlemini iptal etmek istediğinizden emin misiniz?",
+        "SECONDARY_MESSAGE": "Yaptığınız değişiklikler iptal edilecek",
+        "MAIN_ACTION": "İptali onayla",
+        "SECONDARY_ACTION": "İptal etme"
+      },
+      "CONTINUE_DIALOG": {
+        "TITLE": "Devam etmek istediğinizden emin misiniz?",
+        "TITLE_NO_MAPPING": "Eşleme oluşturmadan bu sayfayı atlamak istediğinizden emin misiniz?",
+        "BODY": "Şu dizin eşlemesi oluşturulmayacak:",
+        "BODY_NO_MAPPING": "LDAP kullanıcılarını CyberArk sistemine sağlamak için dizin eşlemeleri gereklidir",
+        "MAIN_ACTION": "Kaydet",
+        "SECONDARY_ACTION": "Kal"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "TITLE": "Etki alanı bağlantısını değiştir",
+        "CHANGE": "Değiştir",
+        "CANCEL": "İptal",
+        "PRIMARY_MESSAGE": "Etki alanı bağlantısını değiştirmek istediğinizden emin misiniz?",
+        "SECONDARY_MESSAGE": "Dizin eşlemelerini güncelleştirmeniz gerekebilir"
+      },
+      "CONFIRMATION_MESSAGES_DIRECTORY_TYPE": {
+        "TITLE": "Dizin türünü değiştir",
+        "CHANGE": "Değiştir",
+        "CANCEL": "İptal",
+        "PRIMARY_MESSAGE": "Dizin türünü değiştirmek istediğinizden emin misiniz?",
+        "SECONDARY_MESSAGE": "Etki alanı bağlantısını güncelleştirmeniz gerekebilir"
+      },
+      "DIRECTORY_TYPE_STEP": {
+        "NO_DIRECTORY_TYPE_CONFIGURED": "Dizin türü yapılandırılmadı",
+        "EMPTY_MESSAGE": "Lütfen yapılandırma dosyasında en az bir dizin türü yapılandırın.\nBunu buradan yapabilirsiniz: Yönetim > Yapılandırma Seçenekleri > LDAP Tümleştirmesi > Profiller > Profil Ekle"
+      },
+      "CONNECT_DOMAIN_STEP": {
+        "CONNECT_TO": "Bağlantı kur",
+        "CONNECT_VIA": "Şunun üzerinden bağlan",
+        "CONNECT_WITH": "Şununla bağlan",
+        "DOMAIN_NAME": "Etki alanı adı",
+        "START_DOMAIN_INTEGRATION_FROM": "Etki alanı tümleştirmesini şuradan başlat",
+        "DOMAIN_BASE_CONTEXT": "Etki alanı temel bağlamı",
+        "BIND_USERNAME": "Bağlama kullanıcı adı",
+        "CONNECTION": "Bağlantı",
+        "SECURED_CONNECTION": "Güvenli (SSL)",
+        "UNSECURE_CONNECTION": "Güvenli değil",
+        "BIND_USERNAME_PLACEHOLDER": "ör. JohnSmith@etkialanıAdı.com",
+        "BIND_PASSWORD": "Bağlama kullanıcı parolası",
+        "DOMAIN_NAME_MAX_LENGTH_MESSAGE": "Bu alan maks. 160 karakter içermelidir",
+        "USE_SSL": "Güvenli bağlantı (SSL) kullan",
+        "USE_SSL_MAIN_TITLE": "SSL tabanlı şifreleme için LDAPS sertifikası gerekir.",
+        "USE_SSL_SUB_TITLE": "Lütfen ilerlemeden önce güvenli SSL tabanlı bağlantı oluşturmak için bu etki alanı sertifikasını içeri aktarın.",
+        "USE_SSL_TOOLTIP": "SSL tabanlı şifreleme güvenli bir bağlantıdır (Bağlantı noktası 636)",
+        "SSL_MORE_INFO_LINK": "Talimatlara bak",
+        "SSL_MORE_INFO_HEADER": "Etki alanı sertifikası nasıl içeri aktarılır",
+        "SSL_MORE_INFO_BODY": "1. İstenen etki alanının ortak etki alanı sertifikasını alın.\n\n2. Vault makinesinde ve IIS makinesinde dosya menüsünden Ek Bileşen Ekle/Kaldır seçeneğini seçin.\n\n3. Sol menüden “Sertifikalar” ekleyin ve ekle seçeneğine tıklayın.\n\n4. “Bilgisayar Hesabı” öğesini ve ardından “Yerel Bilgisayar” öğesini seçin.\n\n5. Sertifikaları (Yerel Bilgisayar) genişletin, ardından Güvenilen \nKök Sertifika Yetkilileri seçeneğini genişletin. Genişlettiğinizde Sertifikalar klasörü belirir.\n\n6. Tüm kurumsal Vault’lar için tüm etki alanı sertifikalarını\nşu depolama alanına Aktarın ve Yerleştirin.\n\n7. Etki alanı adını (sertifikada göründüğü gibi), Vault bağlantısıyla\nilgili tüm IP Adresleriyle birlikte Vault yerel ANA BİLGİSAYARLAR\ndosyasına ekleyin.\n\n8. Devam Edin ve etki alanınızı Bağlayın.",
+        "SSL_MORE_INFO_CANCEL": "İptal",
+        "FAILED_TO_CONNECT_DOMAIN": "Etki alanına bağlanılamıyor",
+        "FAILED_TO_CONNECT_DOMAIN_MORE_INFO": "Olası bağlanamama nedeni:\n• Etki alanı adı, Bağlama kullanıcı adı veya Bağlama kullanıcı parolası yanlış.\n• LDAPS sertifikası yapılandırmasında bir problem var (güvenli bağlantı kullanıyorsanız).\n• Etki alanı sunucusu çalışmıyor.",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT": "Bu etki alanı zaten bağlı",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT_MORE_INFO": "Lütfen etki alanı adını değiştirin",
+        "LDAP_USERS_DIALOG": {
+          "TITLE": "Arama kriterini karşılayan LDAP kullanıcıları",
+          "TEXT": "{{GROUP_NAME}} için {{NUMBER_OF_OBJECTS}} kullanıcı sunuluyor",
+          "NO_USERS": "Gösterilecek kullanıcı yok",
+          "WATERMARK": "Kullanıcı veya grup adına göre filtrele",
+          "INFO_MESSAGE": "1000’den fazla kullanıcınız var, lütfen farklı bir kullanıcı bulmayı deneyin",
+          "WARNING_MESSAGE": "Yalnızca bulunan ilk 1000 kullanıcıyı sunduğumuz için aradığınız spesifik kullanıcıyı bulamayabilirsiniz",
+          "GRID_COLUMNS": {
+            "USER_NAME": "Kullanıcı adı",
+            "GROUP_NAME": "Grup"
+          },
+          "CLOSE": "Kapat"
+        }
+      },
+      "CREATE_DIRECTORY_MAPPING_STEP": {
+        "DOMAIN_BASE_CONTEXT": "Etki alanı temel bağlamı",
+        "DOMAIN_BASE_CONTEXT_INFO": "Etki alanı tümleştirmesini yalnızca bu seviyeden aşağı doğru başlat",
+        "INFO_MESSAGE": "Bu araç önerilen varsayılan dizin eşleşmelerimizi oluşturur; oluşturma işleminden sonra bunları şirketinizin ihtiyaçlarına göre düzenleyebilirsiniz.",
+        "DEFINE_MAP": "Eşlemeyi tanımla",
+        "DEFINED": "Tanımlandı",
+        "GROUPS_INFO": "Bu eşleşmeyi oluşturmak için ilgili grupları seçin",
+        "SELECT_LDAP_GROUPS": "LDAP gruplarını seç",
+        "MAPPED_USERS_WILL_BE_ADDED_TO": "Eşlenmiş kullanıcılar şuraya eklenecek",
+        "ACCESS_LIMITATIONS": "Erişim Kısıtlamaları",
+        "KEEP_USER_ACTIVITY_LOGS_FOR": "Etkinlik günlüklerini şu kadar süre için tut",
+        "AUTHORIZATIONS": "Yetkilendirmeler",
+        "MAPPED_GROUPS": "Eşlenmiş gruplar şuraya eklenecek:",
+        "VIEW_USERS": "Kullanıcıları görüntüle",
+        "LOCATION": "Konum",
+        "GROUP": "Grup",
+        "NONE": "Yok",
+        "DAYS": "gün",
+        "FAILED_TO_CREATE_NAME_DIRECTORY": "Dizin oluşturulamadı",
+        "FAILED_TO_CREATE_DIRECTORY_MAPPING": "Dizin eşlemesi oluşturulamadı",
+        "FAILED_TO_CREATE_NAME_DIRECTORY_MAPPING": "'{MAPPING_NAME}' adlı dizin eşlemesi oluşturulamadı",
+        "THE_FOLLOWING_DIRECTORY_MAPPING_FAILED_TO_BE_CREATED": "Şu dizin eşlemesi oluşturulamadı",
+        "CLOSE": "Kapat"
+      }
+    },
+    "EDIT_MAPPING": {
+      "CHANGES_SAVED_SUCCESSFULLY": "Değişiklikler başarıyla kaydedildi",
+      "CANCEL_DIALOG": {
+        "TITLE": "İptali onayla",
+        "BODY": "Dizin eşlemesini düzenleme işlemini iptal etmek istediğinizden emin misiniz? Yaptığınız değişiklikler iptal edilecek.",
+        "MAIN_ACTION": "İptali onayla",
+        "SECONDARY_ACTION": "İptal etme"
+      },
+      "CONFIRM_DIALOG": {
+        "TITLE": "Değişiklikleri onayla",
+        "BODY": "Bu dizin eşlemesi için değişiklikleri kaydetmek istediğinizden emin misiniz? Bu, LDAP kullanıcılarının CyberArk sistemine sağlanma sürecini etkileyecektir.",
+        "MAIN_ACTION": "Değişiklikleri onayla",
+        "SECONDARY_ACTION": "Sayfada kal"
+      },
+      "ERROR": {
+        "TITLE": "Bir hata oluştu"
+      }
+    },
+    "ADD_MAPPING": {
+      "MESSAGE_SAVED_SUCCESSFULLY": "Dizin eşlemesi başarıyla eklendi",
+      "MESSAGE_REORDER_FAILED": {
+        "TITLE": "Dizin eşlemeleri yeniden sıralanamadı",
+        "BODY": "\"{{mapping_name}}” Dizin Eşlemesi başarıyla oluşturuldu ancak talep ettiğiniz konuma eklenemedi. Listenin sonuna eklenmiştir.",
+        "MAIN_ACTION": "Kapat"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "İptali onayla",
+        "BODY": "Dizin eşlemesini ekleme işlemini iptal etmek istediğinizden emin misiniz? Yaptığınız değişiklikler silinecek",
+        "MAIN_ACTION": "İptali onayla",
+        "SECONDARY_ACTION": "İptal etme"
+      },
+      "ERROR_DIALOG": {
+        "TITLE": "Eşleme eklenemedi",
+        "MAIN_ACTION": "Kapat"
+      }
+    },
+    "EMPTY_STATE": {
+      "TITLE_TEXT": "Etki alanlarınızı bağlayarak LDAP tümleştirmesi işlemini başlatın",
+      "MAPPING_TEXT_ONE": "Dizin eşlemesi",
+      "MAPPING_TEXT_TWO": "oluştur",
+      "NEW_DOMAIN_TEXT_ONE": "Yeni etki alanı",
+      "NEW_DOMAIN_TEXT_TWO": "bağla",
+      "USERS_TEXT_ONE": "LDAP kullanıcıları",
+      "USERS_TEXT_TWO": "CyberArk’a sağlandı"
+    }
+  },
+  "ADD_SAFE_DIALOG": {
+    "TITLE": "Safe Oluştur",
+    "CREATE_SAFE_BUTTON": "Safe Oluştur",
+    "CANCEL_BUTTON": "İptal",
+    "NEW_SAFE_NAME_LABEL": "Yeni Safe adı",
+    "SAFE_NAME_HINT_TEXT_EXTRA_DETAILS": "En az 28 karakter kullanın",
+    "SAFE_ALREADY_EXISTS_ERROR": "{SAFE_NAME} adlı Safe zaten var"
+  },
+  "BUSINESS_USERS": {
+    "PAGE_TITLE": "İşletme Kullanıcıları",
+    "TAG_EDITOR": {
+      "MAX_TAGS_ERROR": {
+        "TITLE": "Maksimum etiket kotasına ulaşıldı",
+        "TEXT": "Maksimum {{max}} etikete izin verilir"
+      },
+      "SAVED_SUCCESSFULLY": "Öğe başarıyla kaydedildi"
+    },
+    "CONFIRM_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "\"{{name}}\" öğesini silmek istediğinizden emin misiniz?",
+        "MAIN_MESSAGE": "Tüm öğe detayları kaybolacak."
+      }
+    },
+    "DELETE_BUTTON_TEXT": "Sil",
+    "CANCEL_DIALOG": {
+      "TITLE": "İptali onayla",
+      "ADD_BODY": "Öğeyi ekleme işlemini iptal etmek istediğinizden emin misiniz?",
+      "EDIT_BODY": "Öğeyi düzenleme işlemini iptal etmek istediğinizden emin misiniz?",
+      "SECONDARY_MESSAGE": "Yaptığınız değişiklikler iptal edilecek",
+      "MAIN_ACTION": "İptali onayla",
+      "SECONDARY_ACTION": "İptal etme"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Kapat",
+      "TITLE": "HATA"
+    },
+    "ADD_SUCCESS_MESSAGE": {
+      "TITLE": "Öğe başarıyla eklendi"
+    },
+    "EDIT_SUCCESS_MESSAGE": {
+      "TITLE": "Öğe başarıyla düzenlendi"
+    },
+    "FAILURE_MESSAGE": {
+      "MAIN_MESSAGE": "Form gönderilemiyor",
+      "SECONDARY_MESSAGE": "Lütfen tekrar deneyin veya yöneticinizle iletişime geçin"
+    },
+    "ERROR_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "Hesap silinemedi"
+      },
+      "ADD_ACCOUNT": {
+        "TITLE": "Hesap eklenemedi"
+      },
+      "EDIT_ACCOUNT": {
+        "TITLE": "Hesap düzenlenemedi"
+      },
+      "SHOW_PASSWORD": {
+        "TITLE": "Parola gösterilemedi"
+      },
+      "ADD_BUSINESS_SAFE": {
+        "TITLE": "Eklenemedi",
+        "TEXT": "Safe otomatik olarak oluşturulmadığından, ayrıcalıklı iş kimlik bilgileri eklenemedi.\nBu sorunu çözmek için yöneticinizle iletişime geçin.",
+        "SAFE_PROBLEM_TITLE": "Eklenemedi",
+        "SAFE_PROBLEM_TEXT": "Safe ile ilgili bir sorun nedeniyle ayrıcalıklı işletme kimlik bilgileri eklenemedi.\nBu sorunu çözmek için yöneticinizle iletişime geçin."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "Parolayı göster",
+      "PASSWORD_INPUT_LABEL": "Parola",
+      "COPY_BUTTON_TEXT": "Kopyala",
+      "SHOW_BUTTON_TEXT": "Göster",
+      "CHANGE_BUTTON_TEXT": "Değiştir",
+      "CLOSE_BUTTON_TEXT": "Kapat",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "Parola boş"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "Bu parola tamamı gösterilemeyecek kadar uzun. Parolanın tamamını kopyalamak için Kopyala düğmesine tıklayın."
+      },
+      "FAILURE_MAIN_TEXT": "Parola gösterilemedi"
+    },
+    "SHOW_USERNAME_DIALOG": {
+      "TITLE": "Kullanıcı adını göster",
+      "USERNAME_INPUT_LABEL": "Kullanıcı Adı",
+      "COPY_BUTTON_TEXT": "Kopyala",
+      "SHOW_BUTTON_TEXT": "Göster",
+      "CLOSE_BUTTON_TEXT": "Kapat",
+      "WARNINGS": {
+        "EMPTY_USERNAME": "Kullanıcı adı boş"
+      },
+      "INFORMATION": {
+        "TOO_LONG_USERNAME": "Bu kullanıcı adı tam olarak görüntülenemeyecek kadar uzun. Tüm kullanıcı adını kopyalamak için kopyala seçeneğine tıklayın."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "Parolayı kopyala",
+      "COPY_BUTTON_TEXT": "Kopyala"
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Parola panoya kopyalandı",
+      "DELETE_ACCOUNT": "Öğe silindi"
+    },
+    "ADD": {
+      "PAGE_TITLE": "Ayrıcalıklı İş Kimlik Bilgileri Ekleyin"
+    },
+    "EDIT": {
+      "PAGE_TITLE": "Ayrıcalıklı İş Kimlik Bilgilerini Düzenle"
+    },
+    "CLIPBOARD": {
+      "DOWNLOAD_EXTENSION_DIALOG": {
+        "COPY_PASSWORD_TITLE": "Parolayı Kopyala",
+        "COPY_USERNAME_TITLE": "Kullanıcı Adını Kopyala",
+        "MAIN_MESSAGE": "Bu özelliği kullanmak için tarayıcı uzantısını/eklentisini indirin ve yükleyin."
+      },
+      "FETCH_PASSWORD_FAILED_DIALOG": {
+        "TITLE": "Parolayı Kopyala",
+        "MAIN_MESSAGE": "Parola kopyalanamadı"
+      },
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Parola panoya kopyalandı",
+      "USERNAME_COPIED_TO_CLIPBOARD": "Kullanıcı adı not panosuna kopyalandı",
+      "WARNINGS": {
+        "EMPTY_PASSWORD_COPY_TITLE": "Parolayı kopyala",
+        "EMPTY_USERNAME_COPY_TITLE": "Kullanıcı adını kopyala",
+        "CANNOT_COPY_EMPTY_PASSWORD": "Boş parola kopyalanamaz. Not panosunun içeriği değiştirilmedi.",
+        "CANNOT_COPY_EMPTY_USERNAME": "Boş bir kullanıcı adı kopyalanamaz. Not panosunun içeriği değiştirilmedi."
+      }
+    }
+  },
+  "USERS": {
+    "ACTIVATE": "Kullanıcı başarıyla etkinleştirildi",
+    "CREATE": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} başarıyla oluşturuldu"
+    },
+    "DISABLE": {
+      "SUCCESS_MESSAGE": "kullanıcı başarıyla devre dışı bırakıldı"
+    },
+    "EDIT": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} başarıyla güncelleştirildi"
+    },
+    "ERRORS": {
+      "GET_USERS": "Kullanıcılar alınırken hata",
+      "GET_USER_DETAILS": "Kullanıcı ayrıntıları alınırken hata",
+      "FAILED_TO_ASSIGN_GROUP": "Gruba atanamadı",
+      "ADD_USER_TO_GROUPS_ON_CREATE": "Kullanıcı başarıyla oluşturuldu ancak tüm seçili gruplara atanamadı.\nPrivateArk İstemcisini açın ve kullanıcıyı gruplara manuel olarak atayın.",
+      "ACTIVATE_USER": "Kullanıcı etkinleştirilirken hata",
+      "DISABLE_USER": "Kullanıcı devre dışı bırakılırken hata"
+    },
+    "DIALOGS": {
+      "CREATE_CANCELLATION": {
+        "TITLE": "İptali onayla",
+        "BODY": "Yeni CyberArk kullanıcısı ekleme işlemini iptal etmek istediğinizden emin misiniz?",
+        "SECONDARY_MESSAGE": "Yaptığınız değişiklikler iptal edilecek",
+        "MAIN_ACTION": "İptali onayla",
+        "SECONDARY_ACTION": "İptal etme"
+      },
+      "EDIT_CANCELLATION": {
+        "TITLE": "İptali onayla",
+        "BODY": "{{USERNAME}} kullanıcısında yapılan değişiklikler iptal edilsin mi?",
+        "SECONDARY_MESSAGE": "Yaptığınız değişiklikler iptal edilecek",
+        "MAIN_ACTION": "İptali onayla",
+        "SECONDARY_ACTION": "İptal etme"
+      },
+      "USERNAME_CHANGED": {
+        "TITLE": "Yeni parola gerekli",
+        "BODY": "Kullanıcı adını değiştirirseniz yeni bir parola girmelisiniz",
+        "MAIN_ACTION": "Kullanıcı adını değiştir",
+        "SECONDARY_ACTION": "İptal"
+      }
+    }
+  },
+  "GROUPS": {
+    "ERRORS": {
+      "GET_GROUPS": "Gruplar alınırken hata"
+    },
+    "CREATE_SUCCESS_MESSAGE": "{{NAME}} grubu başarıyla oluşturuldu"
+  },
+  "PLATFORMS": {
+    "TITLE": "Platform Yönetimi",
+    "REFRESH": "Yenile",
+    "PLATFORMS_ACTIONS": {
+      "SEARCH_TEXT": "Hedef hesap platformlarını arayın",
+      "ERROR_MESSAGE": {
+        "CLOSE": "Kapat",
+        "OK": "Tamam",
+        "GENERAL_ERROR": {
+          "HEADER_TITLE": "İsteğinizi işleme koyarken sorun yaşıyoruz",
+          "MAIN_TITLE": "Lütfen birkaç dakika içinde tekrar deneyin",
+          "SUB_TITLE": "Bu işe yaramazsa yöneticinizle iletişime geçin"
+        }
+      },
+      "ACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Platformu etkinleştir",
+          "PRIMARY_MESSAGE": "{{PLATFORM_NAME}} platformunu etkinleştirmek istediğinizden emin misiniz?",
+          "SECONDARY_MESSAGE": "Bu platformla ilişkili hesaplar varsa bunlar etkinleştirilecektir.",
+          "ACTIVATE": "Etkinleştir",
+          "CANCEL": "İptal"
+        },
+        "ERROR_MESSAGE": "Platform etkinleştirilemedi",
+        "SUCCESS_MESSAGE": "Platform başarıyla etkinleştirildi"
+      },
+      "DEACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Platformu devre dışı bırak",
+          "PRIMARY_MESSAGE": "{{PLATFORM_NAME}} platformunu devre dışı bırakmak istediğinizden emin misiniz?",
+          "SECONDARY_MESSAGE": "Kimlik bilgileri yönetimi artık bu platformla ilişkili hesaplar için kullanılamayacak.",
+          "DEACTIVATE": "Devre dışı bırak",
+          "CANCEL": "İptal"
+        },
+        "ERROR_MESSAGE": "Platform devre dışı bırakılamadı",
+        "SUCCESS_MESSAGE": "Platform başarıyla devre dışı bırakıldı"
+      },
+      "DELETE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Platformu sil",
+          "PRIMARY_MESSAGE": "{{PLATFORM_NAME}} platformunu silmek istediğinizden emin misiniz?",
+          "SECONDARY_MESSAGE": "Kimlik bilgileri yönetimi artık bu platformla ilişkili hesaplar için kullanılamayacak.",
+          "DELETE": "Sil",
+          "CANCEL": "İptal"
+        },
+        "ERROR_MESSAGE": "Platform silinemedi",
+        "SUCCESS_MESSAGE": "Platform başarıyla silindi"
+      },
+      "DUPLICATE": {
+        "ERROR_MESSAGE": "Platform çağaltılamadı",
+        "SUCCESS_MESSAGE": "Platform başarıyla çağlatıldı",
+        "ERROR": {
+          "OK": "Tamam"
+        }
+      },
+      "EXPORT": {
+        "ERROR_MESSAGE": "Platform dışa aktarılamadı",
+        "SUCCESS_MESSAGE": "Platform başarıyla dışa aktarıldı"
+      },
+      "GET_CLASSIC_UI_EDIT_URL": {
+        "ERROR_MESSAGE": "Düzenleme platformu yüklenemedi"
+      },
+      "MANAGE_CONNECTORS": {
+        "UPDATE_PLATFORMS": {
+          "ERROR_MESSAGE": "Platform ayrıcalığı oturum yönetimi güncelleştirilemedi",
+          "SUCCESS_MESSAGE": "Platform ayrıcalık oturum yönetimi başarıyla güncelleştirildi"
+        },
+        "ERROR_MESSAGE": {
+          "IMPORT_CONNECTION_COMPONENT": "Bağlantı bileşeni içe aktarılamadı",
+          "FAILED_TO_DISPLAY_CONNECTORS_TITLE": "Bağlayıcılar görüntülenemedi",
+          "FAILED_TO_DISPLAY_CONNECTORS_MESSAGE": "Şu anda bu platform için bağlayıcıları görüntüleyemiyoruz.\nPlatform Yönetimi sayfasına geri dönün ve tekrar deneyin."
+        },
+        "CONFIRMATION_MESSAGE": {
+          "TITLE": "Bu sayfadan ayrılmak istiyor musunuz?",
+          "BODY": "Değişiklikleriniz kaybolacak.",
+          "MAIN_ACTION": "Ayrıl",
+          "SECONDARY_ACTION": "Kal"
+        }
+      }
+    },
+    "MARKETPLACE": "Marketplace",
+    "IMPORT_PLATFORM": "Platformu içe aktar",
+    "ERROR_MESSAGES": {
+      "IMPORT_PLATFORM_FAILURE": "Platform içe aktarılamadı",
+      "IMPORT_PLATFORM_MAX_SIZE": "Maksimum dosya boyutu sınırı aşıldı",
+      "IMPORT_FILE_MAX_SIZE": "Maksimum dosya boyutu sınırı aşıldı",
+      "READ_FILE_FAILURE": "Dosya okunamadı"
+    },
+    "SUCCESS_MESSAGES": {
+      "IMPORT_PLATFORM": "Platform başarıyla içe aktarıldı"
+    }
+  },
+  "AUTH_METHOD_CONFIG": {
+    "OIDC_PROVIDER": {
+      "SAVE_PROVIDER_SUCCESS_MESSAGE": "{{PROVIDER_ID}} sağlayıcısı başarıyla kaydedildi",
+      "ERROR_MESSAGE": {
+        "CLOSE": "Kapat",
+        "ADD_PROVIDER_HEADER_TITLE": "OIDC Sağlayıcısı kaydedilemedi",
+        "PARTIAL_SUCCESS_TITLE": "Sağlayıcının bilgileri kısmen kaydedildi. Aşağıdaki hata oluştu:",
+        "REMOVE_PROVIDER_HEADER_TITLE": "OIDC Sağlayıcısı kaldırılamadı",
+        "PARTIAL_REMOVE_TITLE": "Sağlayıcının bilgileri kısmen kaldırıldı. Aşağıdaki hata oluştu:"
+      },
+      "REMOVE_PROVIDER_SUCCESS_MESSAGE": "{{PROVIDER_ID}} sağlayıcısı başarıyla kaldırıldı",
+      "REMOVE_DIALOG": {
+        "TITLE": "Sağlayıcıyı kaldırmak istediğinizden emin misiniz?",
+        "REMOVE": "Kaldır",
+        "CANCEL": "İptal"
+      }
+    }
+  }
+}

@@ -1,0 +1,2236 @@
+{
+  "APPLICATION_RESOURCES": {
+    "TITLE": "密碼保險庫 Web 存取",
+    "SIGNOUT": "登出",
+    "ABOUT": "關於",
+    "CHANGE_LANGUAGE": "變更",
+    "SKIP_LINK": "跳至主內容",
+    "LEFT_NAVBAR": {
+      "COLLAPSE": "收合",
+      "EXPAND": "展開"
+    },
+    "TOP_NAVBAR": {
+      "TITLE": "登入資訊",
+      "LAST_SIGN_IN": "上次登入",
+      "LAST_SUCCESS_LOGIN_TIME": "上次登入時間",
+      "LAST_FAIL_LOGIN_TIME": "上次登入失敗時間",
+      "LAST_SUCCESS_LOGIN_IP": "上次登入的來源 IP",
+      "LAST_FAIL_LOGIN_IP": "上次登入失敗的來源 IP",
+      "FAILED_LOGINS": "失敗的登入嘗試",
+      "COMFORTABLE_VIEW": "舒適檢視",
+      "CONDENSED_VIEW": "精簡檢視"
+    }
+  },
+  "LOGIN": {
+    "PAGE_TITLE": "登入"
+  },
+  "CULTURE": {
+    "FEEDBACK_MODAL_CHANGE_LANGUAGE": {
+      "TITLE": "變更語言失敗",
+      "MAIN_TITLE": "無法更新使用者喜好設定",
+      "CLOSE_BUTTON_TEXT": "關閉"
+    }
+  },
+  "ABOUT_DIALOG": {
+    "TITLE": "關於 CyberArk Privileged Access Security",
+    "VERSION": "版本",
+    "COPYRIGHT": "著作權 1999-2021 © CyberArk Software",
+    "CLOSE_BUTTON_TEXT": "關閉",
+    "CHECK_VERSION": "檢查最新的版本",
+    "CONTENT": {
+      "P1_1": "請檢視我們的 ",
+      "P1_2": "以取得 CyberArk Vault Software 中包含的開放原始碼軟體程式清單.",
+      "CYBERARK_ACKNOWLEDGMENT": " 認可 "
+    }
+  },
+  "NAVIGATION": {
+    "BUSINESSUSERS": "企業使用者",
+    "USERPROVISIONING": "使用者佈建",
+    "USERS": "使用者",
+    "GROUPS": "群組",
+    "POLICIES": "原則",
+    "APPLICATIONS": "應用程式",
+    "ADMINISTRATION": "管理",
+    "PLATFORMMANAGEMENT": "平臺管理",
+    "AUTHMETHODCONFIG": "OIDC 驗證",
+    "CONFIGURATIONOPTIONS": "組態選項",
+    "REPORTS": "報表",
+    "GENERATEREPORT": "產生報表",
+    "REPORTDEFINITIONS": "報表定義",
+    "SECURITY": "安全性",
+    "SECURITYEVENTS": "安全性事件",
+    "SECURITYSETTINGS": "安全性組態",
+    "ACCOUNTSLIST": "帳戶檢視",
+    "ACCOUNTSLISTLEGACY": "帳戶檢視 (傳統 UI)",
+    "ACTIVITIES": "活動",
+    "COMPLIANCE": "合規",
+    "INVENTORY": "庫存",
+    "MONITORING": "監控",
+    "PRIVILEGEDSESSIONS": "具有權限的工作階段",
+    "MONITORINGLEGACY": "監控 (傳統 UI)",
+    "MYREQUESTS": "我的請求",
+    "INCOMINGREQUESTS": "傳入請求",
+    "ACCOUNTSFEEDV9": "待處理與探索",
+    "ACCOUNTSFEED": "帳戶摘要",
+    "FILES": "檔案",
+    "ALLFILES": "所有檔案",
+    "MSP": "客戶管理",
+    "HELP": "說明",
+    "ACCOUNTS": "帳戶",
+    "DASHBOARD": "系統健康",
+    "ACCOUNTSANDREQUESTS": "帳戶與請求",
+    "ONBOARDINGRULES": "上線規則",
+    "LDAPINTEGRATION": "LDAP 整合"
+  },
+  "SESSION_EXPIRED": {
+    "FEEDBACK_MESSAGE": {
+      "SAME_USER_CONNECTED_MAIN_TITLE": "此工作階段已停止，因為同一使用者已連線至其他地方",
+      "DEFAULT_MAIN_TITLE": "工作階段已過期，並且使用者已斷開。",
+      "HEADER_TITLE": "工作階段已過期",
+      "SUB_TITLE": "按一下「確定」，返回登入畫面",
+      "CONFIRM_BUTTON_TEXT": "確定",
+      "CLOSE_BUTTON_TEXT": "關閉"
+    }
+  },
+  "READ_ONLY_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "PASWS222E 因系統目前為唯讀模式，所以無法執行此動作.",
+      "SUB_TITLE": "在唯讀模式下，所有寫入操作（如新增帳戶、請求、確認請求、變更密碼和產生報告）均被停用。您仍然可以對系統進行讀取操作，例如不受雙重控制、一次性或獨佔密碼工作流程保護的密碼顯示/複製.",
+      "HEADER_TITLE": "動作不可用",
+      "CLOSE_BUTTON_TEXT": "關閉"
+    },
+    "TOP_NAVBAR": {
+      "HEADER_INDICATION_TITLE_TEXT": "唯讀模式",
+      "HEADER_INDICATION_SUBTITLE_TEXT": "一些動作不可用"
+    }
+  },
+  "READ_ONLY_MASTER_IS_AVAILABLE_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "現在可以使用全部功能.",
+      "SUB_TITLE": "要完成此動作，必須重新登入才能退出唯讀模式.",
+      "HEADER_TITLE": "此動作在唯讀模式下不提供",
+      "IGNORE_BUTTON_TEXT": "忽略",
+      "LOGOUT_BUTTON_TEXT": "登出"
+    }
+  },
+  "ACCOUNT": {
+    "PAGE_TITLE": "帳戶",
+    "SELECT_THE_ACCOUNT_TYPE": "選擇新的帳戶類型",
+    "SEARCH_PLATFORM_PLACEHOLDER": "依平台名稱過濾清單",
+    "NO_PLATFORMS_FOUND": "沒有可顯示的平台",
+    "SELECT_SAFE": "選擇保險櫃",
+    "SEARCH_SAFE_PLACEHOLDER": "依保險櫃名稱過濾清單",
+    "NO_SAFES_FOUND": "沒有可顯示的保險櫃",
+    "FORM_PRIMARY_PROPERTIES": "主要屬性",
+    "FORM_ADDITIONAL_PROPERTIES": "額外屬性",
+    "FORM_ACCOUNT_MANAGEMENT": "帳戶管理",
+    "OPTIONAL_PROPERTY": "選擇性",
+    "PASSWORD": "密碼",
+    "RESOLVE": "解析",
+    "ACCOUNT_NAME": "帳戶名稱",
+    "CUSTOMIZE_ACCOUNT_NAME": "自訂帳戶名稱",
+    "CUSTOMIZE_ACCOUNT_NAME_PLACEHOLDER": "指定自訂帳戶名稱",
+    "AUTO_GENERATE_CALLOUT_TITLE": "自動產生的密碼名稱型式",
+    "AUTO_CPM_MANAGE": "允許自動化密碼管理",
+    "AUTO_CPM_MANAGE_PLACEHOLDER": "指定手動管理請求的原因",
+    "CONFIRM_PASSWORD": "確認密碼",
+    "AMAZON_ACCESS_KEY": "AWS 存取金鑰秘密",
+    "FEEDBACK_MESSAGE_TITLE": "修正以下錯誤",
+    "LIMIT_ACCESS_TO_MACHINES": "僅限制存取這些機器",
+    "REMOTE_MACHINE_ACCESS": "遠端機器存取",
+    "KEYWORDS_PROPERTY_HINT_TEXT": "關鍵字以分號分隔"
+  },
+  "ADD_ACCOUNT": {
+    "TITLE": "新增帳戶",
+    "PAGE_TITLE": "新增帳戶",
+    "SELECTED_TILE_HOVER_TEXT": "變更",
+    "ADD_ACTION": "新增",
+    "CANCEL": "取消",
+    "ADD_SAFE": "建立保險櫃",
+    "STEPS": {
+      "SELECT_SYSTEM_TYPE": "選擇系統類型",
+      "SELECT_SYSTEM_TYPE_TITLE": "選擇系統類型",
+      "ASSIGN_PLATFORM": "分配到平台",
+      "ASSIGN_PLATFORM_TITLE": "選擇平台",
+      "SELECT_SAFE": "儲存在保險櫃中",
+      "SELECT_SAFE_TITLE": "選擇保險櫃",
+      "DEFINE_PROPERTIES": "定義屬性",
+      "DEFINE_PROPERTIES_TITLE": "定義帳戶屬性"
+    },
+    "SUCCESS_MESSAGE": {
+      "TITLE": "帳戶已成功新增"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "新增帳戶時失敗。原因:"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "變更平台",
+      "CHANGE_SYSTEM_TYPE_TITLE": "變更系統類型",
+      "OK": "變更",
+      "CANCEL": "取消",
+      "SECONDARY_MESSAGE": "要完成此變更，您可能需要更新帳戶屬性.",
+      "PLATFORM_PRIMARY_MESSAGE": "您確定要變更平台為",
+      "SYSTEM_TYPE_PRIMARY_MESSAGE": "您確定要將系統類型變更為"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "關閉",
+      "TITLE": "錯誤"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "確認取消",
+      "BODY": "您確定要取消新增帳戶?",
+      "SECONDARY_MESSAGE": "將放棄您所做的變更",
+      "MAIN_ACTION": "確認取消",
+      "SECONDARY_ACTION": "不要取消"
+    }
+  },
+  "EDIT_ACCOUNT": {
+    "TITLE": "編輯帳戶",
+    "PAGE_TITLE": "編輯帳戶",
+    "CHANGE_THE_PLATFORM_TYPE": "變更平台",
+    "SAVE": "儲存",
+    "CANCEL": "取消",
+    "GENERAL": "常規",
+    "CANCEL_EDIT": "取消編輯",
+    "INACTIVE_PLATFORM": "非作用中的平台",
+    "DELETED_PLATFORM": "找不到平台",
+    "PLATFORM_X_INACTIVE": "平台 {{platformName}} 為非作用中",
+    "WAS_DELETED": "已經刪除",
+    "DELETED_PLATFORM_MESSAGE": "找不到分配至此帳戶的平台",
+    "DELETED_PLATFORM_SECONDARY_MESSAGE": "選擇另一個平台。此將自動設定帳戶類型",
+    "SELECT_PLATFORM": "選擇平台",
+    "SELECT_A_PLATFORM": "選擇平台",
+    "CHANGE_PLATFORM": "變更平台",
+    "INACTIVE": "非使用中",
+    "INACTIVE_PLATFORM_MESSAGE": "帳戶管理並未套用到非作用中的平台",
+    "CONTINUE_WITH_CURRENT": "繼續使用目前的平台",
+    "DELETED": "已刪除",
+    "STEPS": {
+      "SELECTED_SYSTEM_TYPE": "選擇的系統類型",
+      "ASSIGNED_PLATFORM": "已分配到平台",
+      "CHANGE_PLATFORM_TITLE": "變更平台",
+      "SELECTED_SAFE": "儲存在保險櫃中",
+      "ACCOUNT_PROPERTIES": "帳戶屬性",
+      "ACCOUNT_PROPERTIES_TITLE": "帳戶屬性"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "變更平台",
+      "OK": "變更",
+      "CANCEL": "取消",
+      "SECONDARY_MESSAGE": "要完成此變更，您可能需要更新帳戶屬性.",
+      "PLATFORM_PRIMARY_MESSAGE": "您確定要變更平台為"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "確認取消",
+      "BODY": "您確定要取消編輯帳戶?",
+      "SECONDARY_MESSAGE": "將放棄您所做的變更",
+      "MAIN_ACTION": "確認取消",
+      "SECONDARY_ACTION": "不要取消"
+    },
+    "SUCCESS_MESSAGE": "已成功儲存帳戶",
+    "FEEDBACK_MODAL": {
+      "CLOSE": "關閉",
+      "TITLE": "編輯帳戶",
+      "CANCEL": "取消"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "未能更新帳戶。原因：{{errorReason}}",
+      "MAIN_MESSAGE": "並未更新所有屬性。請再試一次"
+    }
+  },
+  "SAFES": {
+    "PAGE_TITLE": "保險櫃",
+    "TITLE": "保險櫃",
+    "SEARCH_TEXT": "依保險櫃名稱搜尋",
+    "ADD_ACTION": "新保險櫃",
+    "DETAILS": "詳情",
+    "MEMBERS": "成員",
+    "DELETE": "刪除",
+    "EDIT": "編輯",
+    "CLOSE_ACTION": "關閉"
+  },
+  "ADD_SAFE": {
+    "PAGE_TITLE": "新保險櫃",
+    "ADD_ACTION": "新增",
+    "CANCEL_ACTION": "取消",
+    "CLOSE_ACTION": "關閉",
+    "SAFE_NAME_FIELD_TITLE": "保險櫃名稱",
+    "SAFE_NAME_HINT_TEXT": "根據您組織的命名規則，輸入保險櫃名稱.",
+    "SAFE_DESCRIPTION_FIELD_TITLE": "描述（選擇性）",
+    "OLAC_LABEL": "物件層級存取控制",
+    "OLAC_WARNING_MESSAGE": "新增保險櫃後，將無法停用此功能",
+    "ADVANCED_DETAILS_LABEL": "進階詳情",
+    "CHARACTERS_LEFT_LABEL": " 剩餘字元",
+    "CHARACTERS_OVER_LABEL": " 超過字元",
+    "ASSIGNED_CPM_FIELD_TITLE": "已分配給 CPM",
+    "ASSIGNED_CPM_NO_VALUE": "[無]",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "已成功新增保險櫃"
+    },
+    "ERROR_MESSAGE": {
+      "HEADER_TITLE": "新保險櫃",
+      "SUB_TITLE": "請重試."
+    },
+    "SAFE_VERSION_MANAGEMENT_FIELD_TITLE": "版本管理",
+    "RADIO_BUTTONS": {
+      "RETENTION": {
+        "TEXT": "儲存帳戶版本",
+        "BOLD_TEXT": "時間期間:",
+        "UNITS": "天"
+      },
+      "VERSIONS": {
+        "TEXT": "儲存最後帳戶",
+        "BOLD_TEXT": "版本:",
+        "UNITS": "版本"
+      }
+    }
+  },
+  "SAFE_DETAILS": {
+    "SAFE_NAME": "保險櫃名稱",
+    "ASSIGNED_CPM": "已分配給 CPM",
+    "DESCRIPTION": "說明",
+    "VERSION_MANAGEMENT": "版本管理",
+    "OLAC_ENABLED": "物件層級存取控制",
+    "AUTO_PURGE_ENABLED": "安全自動清除",
+    "ADVANCED_DETAILS": "進階詳情",
+    "NONE_STR": "[無]",
+    "DASH_STR": "-",
+    "ENABLED_STR": "已啟用",
+    "DISABLED_STR": "已停用",
+    "VERSIONS_RETENTION_FIRST_PART": "儲存最近 ",
+    "VERSIONS_RETENTION_SECOND_PART": " 帳戶",
+    "VERSIONS_RETENTION_THIRD_PART": " 版本",
+    "VERSIONS_RETENTION_SINGLE": "正在儲存最近帳戶 ",
+    "VERSIONS_RETENTION_SINGLE_BOLD": "版本",
+    "DAYS_RETENTION_FIRST_PART": "儲存帳戶版本，範圍為最近 ",
+    "DAYS_RETENTION_SECOND_PART": " 天",
+    "DAYS_RETENTION_SINGLE": "儲存帳戶版本，範圍為最近 ",
+    "DAYS_RETENTION_SINGLE_BOLD": "天",
+    "EXPIRED_MEMBERSHIP_ERROR": "您對保險櫃的所有權已過期"
+  },
+  "FEEDBACK_MESSAGE": {
+    "CLOSE": "關閉",
+    "REFRESH": "重新整理",
+    "GENERIC_DATA_ERROR": {
+      "TITLE": "發生問題",
+      "SUBTITLE": "請重試或連絡管理員"
+    }
+  },
+  "ACCOUNTS": {
+    "DELETE_SUCCESS": "帳戶已成功刪除",
+    "CHANGE_IN_VAULT_SUCCESS": "保險庫中的密碼已成功變更",
+    "PAGE_TITLE": "帳戶",
+    "TITLE": "帳戶檢視",
+    "SEARCH_TEXT": "搜尋帳戶",
+    "REFRESH": "重新整理",
+    "ADD_ACTION": "新增帳戶",
+    "AD_HOC_CONNECT_ACTION": "臨機操作連線",
+    "EDIT_ACTION": "編輯帳戶",
+    "ADD_TO_FAVORITE": "新增到我的最愛",
+    "DELETE_FROM_FAVORITE": "從我的最愛中刪除",
+    "COUNTER_TITLE": "帳戶",
+    "COUNTER_TITLE_ON_SEARCH": "帳戶：: ",
+    "SELECTED_ACCOUNTS": "已選取的帳戶",
+    "SELECTED_ACCOUNT": "已選取的帳戶",
+    "NO_ACCOUNTS": "沒有可顯示的帳戶",
+    "AD_HOC_CONNECTION": {
+      "AD_HOC_CONNECTION_TITLE": "臨機操作連線",
+      "CONNECT_BUTTON": "連線",
+      "CANCEL_BUTTON": "取消"
+    },
+    "ACCOUNT_DETAILS": {
+      "ALL": "全部",
+      "NO_RESULTS": "沒有找到符合您過濾器的結果",
+      "ACTION": "動作",
+      "SEARCH": "搜尋",
+      "PAGE_TITLE": "帳戶詳情",
+      "SAFE": "保險櫃",
+      "PLATFORM": "平台",
+      "PLATFORM_DETAILS": "平臺詳細資訊",
+      "PLATFORM_PROPERTIES": "平台屬性",
+      "DUAL_CONTROL": "雙重控制",
+      "COPY": "複製",
+      "SHOW": "顯示",
+      "EDIT": "編輯",
+      "CONNECT": "連線",
+      "INACTIVE_PLATFORM": "非作用中的平台",
+      "ON": "開啟",
+      "ACTIVITIES": "活動",
+      "GROUP_NAME": "組名稱",
+      "GROUP_PLATFORM": "群組平台",
+      "LATEST": "最近",
+      "LAST": "最後的",
+      "COMPLIANT": "合規",
+      "NOT_COMPLIANT": "不合規",
+      "COMPLIANCE_STATUS": "合規狀態",
+      "LAST_VERIFIED": "上次驗證",
+      "VERIFIED_BY": "驗證者",
+      "VERIFIED_ON": "驗證於",
+      "NEVER_VERIFIED": "從未驗證",
+      "CREATED": "建立時間",
+      "DAYS_AGO": "天前",
+      "FAILED": "已失敗",
+      "TOTAL": "總數",
+      "BY": "由",
+      "Reconcile": "重新調整者",
+      "Change": "變更者",
+      "LAST_ACCESS": "最後存取",
+      "YESTERDAY": "昨天",
+      "TODAY": "今天",
+      "DEPENDENCIES": "相依性",
+      "OVERVIEW": "概觀",
+      "DETAILS": "詳情",
+      "RECORDINGS": "錄製",
+      "NO_RECORDINGS": "此帳戶沒有錄製",
+      "NO_ACTIVITIES": "此帳戶沒有活動",
+      "ACTIVITIES_FOR_THIS_ACCOUNT": "此帳戶沒有活動",
+      "NO_ACTIVITIES_FOUND": "找不到活動",
+      "USER": "使用者",
+      "DATE": "日期",
+      "DURATION": "持續時間",
+      "RISK": "風險",
+      "NA": "N/A",
+      "NONE": "無",
+      "UNKNOWN": "未知",
+      "VERSION": "版本",
+      "SUGGESTED_REMOTE_MACHINES": "建議的遠端機器",
+      "PERMITTED_REMOTE_MACHINES": "許可的遠端機器",
+      "FEEDBACK_MODAL": {
+        "CLOSE": "關閉",
+        "TITLE": "帳戶詳情",
+        "MESSAGE": "無法取得帳戶詳情."
+      },
+      "ACCOUNT_STATUS": {
+        "CANCEL": "取消",
+        "RESUME": "恢復",
+        "RESTORE": "還原",
+        "CHECKIN": "簽入",
+        "MORE": "更多",
+        "MODAL_TITLE_ERROR": "錯誤詳情",
+        "MODAL_TITLE_DISABLED": "CPM 已停用",
+        "REASON": "CPM 正在嘗試 (0) 此密碼，因為其狀態符合以下搜尋條件: (1)",
+        "TASK_TYPES": {
+          "ReconcileTask": "重新調整",
+          "VerifyTask": "驗證",
+          "ChangeTask": "變更",
+          "UnknownTask": "[未知]",
+          "DeleteTask": "刪除"
+        }
+      },
+      "DUAL_CONTROL_STATUS": {
+        "REQUEST_NEEDED": "需要的請求",
+        "WAITING": "待處理的請求",
+        "CONFIRMED": "確認的請求",
+        "REJECTED": "已拒絕的請求",
+        "EXPIRED": "已過期的請求"
+      },
+      "ACCOUNT_STATUS_TYPE": {
+        "TITLE": {
+          "CheckedOut": "此帳戶已由 LOCKED_BY 簽出",
+          "AutomaticManagementCPM": "CPM 已停用此帳戶的自動管理",
+          "CPMFailed": "CPM 在此帳戶上的操作失敗",
+          "DisabledByCPM": "由 CPM 停用",
+          "FailedToVerify": "CPM 未能驗證此密碼",
+          "FailedToReconcile": "CPM 未能重新調整此密碼",
+          "FailedToChange": "CPM 未能變更此密碼",
+          "FailedToDelete": "CPM 未能刪除此密碼",
+          "Inactive": "無法自動管理該帳戶，因為已將其分配給非作用中的平台",
+          "NewlyAdded": "新增的帳戶",
+          "Deleted": "此帳戶已於 DELETED_TIME 由 DELETED_BY 刪除",
+          "ScheduleForDeletion": "此帳戶已計畫刪除",
+          "ScheduleForVerify": "已計畫將該帳戶進行立即驗證",
+          "ScheduleForReconcile": "已計畫將該帳戶用於立即重新調整",
+          "ScheduleForChange": "已手動計畫變更此帳戶的密碼",
+          "DisabledByUser": "使用者已停用了該帳戶的自動管理",
+          "AutomaticDisabled": "使用者已停用了此帳戶的自動管理"
+        }
+      },
+      "ACCOUNT_PROPERTIES": "帳戶屬性",
+      "LINKED_ACCOUNTS": "連結的帳戶",
+      "VERSIONS_TAB": {
+        "MODIFIED_BY": "修改者",
+        "DATE": "日期",
+        "TIME": "時間",
+        "CPM_TEMPORARY_TOGGLE": "隱藏 CPM 臨時密碼版本",
+        "TEMP": "（臨時）"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "傳統介面中的額外詳情與動作",
+        "CALLOUT_TITLE": "傳統介面",
+        "CALLOUT_TEXT": "此帳戶可能包含僅可於傳統介面中使用的\n額外功能。\n\n您隨時能返回「帳戶檢視」."
+      },
+      "CPM_TASKS": {
+        "VERIFY": {
+          "ACTION": "驗證",
+          "SUCCESS": "已標記帳戶以驗證",
+          "ERROR_MESSAGE": "無法標記帳戶以驗證",
+          "ERROR_TITLE": "發生問題"
+        },
+        "RECONCILE": {
+          "ACTION": "重新調整",
+          "SUCCESS": "已標記帳戶以重新調整",
+          "ERROR_MESSAGE": "無法標記帳戶以重新調整",
+          "ERROR_TITLE": "發生問題"
+        },
+        "CHANGE": {
+          "ACTION": "變更",
+          "SUCCESS": "已標記帳戶以變更",
+          "ERROR_MESSAGE": "無法標記帳戶以變更",
+          "ERROR_TITLE": "發生問題",
+          "DIALOG": {
+            "TITLE": "變更帳戶的密碼",
+            "MESSAGE": "CPM 會將密碼變更為新的隨機密碼",
+            "CHANGE_BUTTON_TEXT": "變更",
+            "CANCEL_BUTTON_TEXT": "取消",
+            "BELONGS_TO_GROUP_MESSAGE": "此帳戶屬於帳戶群組。CPM 將會:",
+            "CHANGE_ENTIRE_GROUP": "變更整個群組的密碼",
+            "SYNC_WITH_GROUP": "將目前帳戶的密碼與群組的密碼同步處理",
+            "CHANGE_GROUP_CLASSIC_UI": "您可在傳統 UI 中變更群組帳戶的密碼。\n在傳統 UI 中開啟此帳戶.",
+            "REDIRECT_BUTTON_TEXT": "開啟"
+          }
+        },
+        "OK_BUTTON": "確定"
+      }
+    },
+    "CATEGORIES": {
+      "MY_ACCOUNTS": "我的帳戶",
+      "STATUS": "狀態",
+      "OPERATIONAL_STATE": "作業狀態"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSM 閘道連線"
+    },
+    "FILTERS": {
+      "ALL_ACCOUNTS": "所有帳戶",
+      "RECENTLY_USED": "最近使用",
+      "FAVORITES": "我的最愛",
+      "DISABLED_BY_CPM": "由 CPM 停用",
+      "CHECKED-OUT": "已簽出",
+      "FAILED": "已失敗",
+      "FAILED_DEPENDENCIES": "失敗的相依性",
+      "NEWLY_ADDED": "新增的",
+      "DELETED": "已刪除",
+      "DISABLED_BY_USER": "由使用者停用",
+      "SCHEDULED_FOR_CHANGE": "已計畫用於變更",
+      "SCHEDULED_FOR_VERIFICATION": "已計畫用於驗證",
+      "SCHEDULED_FOR_RECONCILIATION": "已計畫用於重新調整",
+      "SUCCESSFULLY_RECONCILED": "已成功重新調整",
+      "ACCESS_IN_LAST_X_DAYS": "在過去的 {{number}} 天內存取",
+      "MODIFIED_BY_USER_IN_LAST_X_DAYS": "在過去的 {{number}} 天內由使用者修改",
+      "MODIFIED_BY_CPM_IN_LAST_X_DAYS": "在過去的 {{number}} 天內由 CPM 修改"
+    },
+    "EMPTY_STATE": {
+      "RECENT_EMPTY_TITLE": "沒有可顯示的最近檢視",
+      "SAVED_EMPTY_TITLE": "沒有已儲存的檢視可供顯示",
+      "SAVED_EMPTY_TEXT": "儲存您最近的檢視"
+    },
+    "SAVED_SEARCHES_INFO_MESSAGE": {
+      "PRIMARY_TEXT": "更多儲存的檢視",
+      "SECONDARY_TEXT": "在 V9 介面中管理儲存的檢視"
+    },
+    "REASON": {
+      "REASON_DEFAULT_CAPTION": "原因",
+      "OPTIONAL": "選擇性",
+      "SELECT": "選擇",
+      "ENTER_OR_SELECT_A_REASON": "輸入或選擇原因",
+      "OTHER": "其他"
+    },
+    "TICKETING": {
+      "TICKETING_SECTION_MAIN_TITLE": "單證資訊",
+      "TICKETING_SYSTEM_DEFAULT_CAPTION": "票證系統",
+      "TICKETING_ID_DEFAULT_CAPTION": "票證 ID",
+      "TICKETING_BYPASS_SUCCESS_MESSAGE": "已成功輸入略過票證",
+      "TICKETING_ID_IS_INVALID": "無效的票證 ID"
+    },
+    "CONNECTION": {
+      "TITLE": "遠端連線詳情",
+      "SAVE_TO_ACCOUNTS": "將此儲存在帳戶屬性中",
+      "OPTIONAL": "選擇性",
+      "AVAILABLE_MACHINES_TITLE": "可用的機器:",
+      "AVAILABLE_MACHINES_ACCOUNTS_HINT": "如需所有可用的機器清單，請進入帳戶詳情",
+      "AVAILABLE_MACHINES_REQUEST_HINT": "如需所有可用的機器清單，請進入請求詳情",
+      "SEPARATE_THE_MACHINE_WITH_COMMA": "以逗號分隔機器",
+      "ADD_MORE_REMOTE_MACHINE_TO_THE_LIST": "將更多遠端機器新增至清單",
+      "ENTER_OR_SELECT_A_REMOTE_MACHINE": "輸入或選擇遠端機器"
+    },
+    "GRID_ACTIONS": {
+      "COPY_ACTION": "複製",
+      "REQUEST_COPY_ACTION": "請求複製",
+      "SHOW_ACTION": "顯示",
+      "REQUEST_SHOW_ACTION": "請求顯示",
+      "EDIT_ACTION": "編輯",
+      "CONNECT_ACTION": "連線",
+      "REQUEST_CONNECT_ACTION": "請求連線",
+      "Default": "預設值",
+      "CONNECT_WITH": "連線",
+      "CHECKIN_ACTION": {
+        "TITLE": "簽入",
+        "SUCCESS_MESSAGE": "已標記帳戶以簽入",
+        "OK": "確定"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "傳統介面中的額外詳情與動作",
+        "CALLOUT_TITLE": "傳統介面",
+        "CALLOUT_TEXT": "帳戶檢視可能包含僅可於傳統介面中使用的\n額外功能。\n\n您隨時能返回新介面中的「帳戶檢視」."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "顯示密碼",
+      "PASSWORD_INPUT_LABEL": "密碼",
+      "COPY_BUTTON_TEXT": "複製",
+      "SHOW_BUTTON_TEXT": "顯示",
+      "CLOSE_BUTTON_TEXT": "關閉",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "密碼是空的"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "此密碼太常，無法完整顯示。按一下複製以複製完整的密碼."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "複製密碼",
+      "COPY_BUTTON_TEXT": "複製"
+    },
+    "SAVE_SEARCH_DIALOG": {
+      "TITLE": "另存新檔",
+      "SAVE_BUTTON_TEXT": "儲存",
+      "CANCEL_BUTTON_TEXT": "取消",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "此檢視已經被儲存",
+        "WARNING": {
+          "HEADER_TEXT": "無法儲存",
+          "MAIN_TEXT": "已經存在此名稱的檢視"
+        },
+        "ERROR": {
+          "HEADER_TEXT": "已經達到儲存檢視的限制",
+          "MAIN_TEXT": "您已經達到儲存檢視的限制。刪除現有的檢視以便儲存新的檢視.",
+          "CLOSE_BUTTON_TEXT": "關閉"
+        }
+      }
+    },
+    "RENAME_DIALOG": {
+      "TITLE": "重新命名",
+      "RENAME_BUTTON_TEXT": "重新命名",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "此檢視已經被重新命名",
+        "WARNING": {
+          "HEADER_TEXT": "無法重新命名",
+          "MAIN_TEXT": "已經存在此名稱的檢視"
+        },
+        "WARNING_OLD_UI": {
+          "HEADER_TEXT": "無法重新命名",
+          "MAIN_TEXT": "V9 介面中已經存在此名稱的檢視"
+        },
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "關閉"
+        }
+      }
+    },
+    "COMMON_DIALOG": {
+      "CANCEL_BUTTON_TEXT": "取消"
+    },
+    "DELETE_ACTION": {
+      "TITLE": "刪除",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "此檢視已經被刪除",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "關閉"
+        }
+      },
+      "DELETE_DEFAULT_CONFIRMATION": {
+        "TITLE": "刪除檢視",
+        "MAIN_TEXT": " 是目前的預設檢視。當您刪除之後，將由系統設定決定預設檢視",
+        "SUB_TEXT": "您確定要刪除此檢視?",
+        "CONFIRM_BUTTON_TEXT": "刪除檢視",
+        "CANCEL_BUTTON_TEXT": "取消"
+      }
+    },
+    "SET_DEFAULT_ACTION": {
+      "TITLE": "設為預設值",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "已經將此檢視設定為預設值",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "關閉"
+        }
+      }
+    },
+    "FILTERS_ACTIONS": {
+      "SAVE_ACTION_TEXT": "另存新檔",
+      "SET_AT_DEFAULT_TEXT": "設為預設值",
+      "RENAME_TEXT": "重新命名",
+      "DELETE_TEXT": "刪除"
+    },
+    "CONNECT_PREREQUISITES_DIALOG": {
+      "TITLE": "連線",
+      "CONNECT_BUTTON_TEXT": "連線"
+    },
+    "DUAL_CONTROL": {
+      "PAGE_TITLE": "建立請求",
+      "HEADER": {
+        "REQUEST_SHOW": "要顯示的請求",
+        "REQUEST_COPY": "要複製的請求",
+        "REQUEST_CONNECT": "要連接的請求"
+      },
+      "TIMEFRAME_TITLE": "時間表",
+      "REQUEST_TIMEFRAME": "請求時間表",
+      "MULTIPLE_ACCESS_REQUIRED": "需要多次存取",
+      "MULTIPLE_ACCESS_LABEL": "此期間內將允許多次存取",
+      "CONFIRMATION": {
+        "TITLE": "確認",
+        "CURRENTLY_THERE_ARE_NO_CONFIRMERS_TO_DISPLAY": "目前無可顯示的多個確認者",
+        "MULTIPLE_USERS_MUST_CONFIRM": "必須有 {{number}} 位使用者確認請求",
+        "ONE_USER_MUST_CONFIRM": "必須有一位使用者確認請求",
+        "MULTILEVEL_MULTIPLE_USERS_MUST_CONFIRM": "{{number}} 位第一層的使用者及 {{number}} 位第二層的使用者必須確認請求",
+        "MULTILEVEL_ONE_USER_MUST_CONFIRM": "一位第一層的使用者及一位第二層的使用者必須確認請求",
+        "CONFIRMERS_LIST_TOGGLE": "確認者清單"
+      },
+      "ADDITIONAL_INFORMATION_TITLE": "其他資訊",
+      "SEND_REQUEST": "傳送請求"
+    },
+    "BULK_CHANGE": {
+      "DIALOG_TITLE": "變更 {{value}} 帳戶",
+      "DIALOG_PROGRESS_BAR_TITLE": "帳戶變更"
+    },
+    "ERRORS": {
+      "CREATE_REQUEST_COPY_PASSWORD_ERROR_DIALOG_TITLE": "建立請求以複製密碼",
+      "CREATE_REQUEST_SHOW_PASSWORD_ERROR_DIALOG_TITLE": "建立請求以顯示密碼",
+      "CREATE_REQUEST_CONNECT_PASSWORD_ERROR_DIALOG_TITLE": "建立請求以使用密碼連接"
+    },
+    "COPY_EXTENSIONS_CONFIRM_MESSAGES": "要使用此功能，請下載並安裝瀏覽器延伸/附掛程式.",
+    "WARNINGS_MESSAGES": {
+      "EMPTY_COPY_TITLE": "複製密碼",
+      "CANNOT_COPY_EMPTY_PASSWORD": "無法複製空白的密碼。剪貼簿內容未變更."
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "密碼已複製到剪貼簿",
+      "REQUEST_WAS_SENT": "請求已傳送"
+    },
+    "DUAL_CONTROL_TOOLTIPS": {
+      "REQUEST_NEEDED": "需要請求",
+      "WAITING_RESTRICTED": "您已經有顯示或複製請求的待處理請求，請刪除此請求後提交一個新的請求.",
+      "WAITING_NOT_RESTRICTED": "此請求為待處理中",
+      "CONFIRMED_RESTRICTED": "此連接請求已確認",
+      "CONFIRMED_NOT_RESTRICTED": "此請求已確認",
+      "REJECTED": "此請求已被拒絕",
+      "EXPIRED": "此請求已過期",
+      "INVALID": "此請求無效",
+      "FUTURE_REQUEST_CONFIRMED": "已經核准了未來請求",
+      "RESTRICTED_CONNECTION_REQUEST_CONFIRMED": "已經核准了連接請求。若要取得 {{actionName}} 確認，請刪除現有的請求，並建立一個新的請求.",
+      "RESTRICTED_FUTURE_CONNECTION_REQUEST_CONFIRMED": "已經核准了未來的連線請求。若要取得 {{actionName}} 確認，請刪除現有的請求，並建立一個新的請求."
+    }
+  },
+  "PENDING_ACCOUNTS": {
+    "PAGE_TITLE": "待處理帳戶",
+    "TITLE": "待處理帳戶",
+    "NO_PENDING_ACCOUNTS": "沒有可顯示的待處理帳戶",
+    "COUNTER_TITLE": "待處理帳戶",
+    "SELECTED_PENDING_ACCOUNTS": "已選取的待處理帳戶",
+    "SEARCH_TEXT": "搜尋待處理帳戶",
+    "ERROR_FEEDBACK_MODAL": {
+      "TITLE": "發生問題",
+      "OK": "確定"
+    },
+    "FILTERS": {
+      "SYSTEM_TYPE": {
+        "TITLE": "系統類型",
+        "OPTIONS": {
+          "ALL": "全部",
+          "WINDOWS": "視窗",
+          "UNIX": "Unix"
+        }
+      },
+      "ACCOUNT_TYPE": {
+        "TITLE": "帳戶類型",
+        "OPTIONS": {
+          "LOCAL": "本機",
+          "DOMAIN": "網域",
+          "ALL": "全部"
+        }
+      },
+      "ACCOUNT_CATEGORY": {
+        "TITLE": "帳戶類別",
+        "OPTIONS": {
+          "PRIVILEGED": "特權",
+          "NON_PRIVILEGED": "非特權",
+          "ALL": "全部"
+        }
+      },
+      "DISCOVERED_BY": {
+        "TITLE": "探索者",
+        "OPTIONS": {
+          "CPM_SCANNER": "CPM 掃描程式",
+          "EXTERNAL_SOURCE": "外部來源",
+          "ALL": "全部"
+        }
+      }
+    },
+    "APPLYFILTERS": "套用過濾器"
+  },
+  "REQUESTS": {
+    "DETAILS": {
+      "TITLE_KEY": "請求",
+      "TITLE_VALUE_PREFIX": "帳戶",
+      "TIMEFRAME": "時間範圍",
+      "REASON": "原因",
+      "PERMISSION": "權限給",
+      "ACCESS": "存取",
+      "REQUESTED_ON": "請求於",
+      "REQUEST_ID": "請求 ID",
+      "ADDRESS": "位址",
+      "ACCOUNT_NAME": "AccountName",
+      "ACCOUNT_SAFE": "AccountSafe",
+      "ACCOUNT_PLATFORM": "AccountPlatform",
+      "EMERGENCY": "緊急",
+      "STATUS": "狀態",
+      "START_FOR_SCCESS": "的",
+      "END_FOR_SCCESS": "存取",
+      "FOR_ACCOUNT": "給帳戶"
+    },
+    "ACCOUNT_DETAILS": {
+      "NAME": "名稱",
+      "SAFE": "保險櫃",
+      "PLATFORM": "平台",
+      "ADDRESS": "位址",
+      "USERNAME": "使用者名",
+      "LOGON TO": "登入",
+      "LOCATION": "位置",
+      "OWNER NAME": "所有者名稱",
+      "USER DN": "使用者 DN",
+      "COPY": "複製",
+      "SHOW": "顯示",
+      "CONNECT": "連線"
+    },
+    "CONFIRMERS": {
+      "GROUP_TOOLTIP": "確認者群組",
+      "SINGLE_TOOLTIP": "單一確認者"
+    },
+    "UPDATE_INFO": "此標籤內的資訊比在請求清單內的資訊還新 | 更新於 - {{string}}"
+  },
+  "MY_REQUESTS": {
+    "PAGE_TITLE": "我的請求",
+    "TITLE": "我的請求",
+    "COUNTER_TITLE": "結果:",
+    "NO_MY_REQUESTS": "沒有可顯示的請求",
+    "SELECTED_REQUESTS": "已選擇的請求",
+    "FILTERS": {
+      "ALL": "所有請求",
+      "WAITING_AND_CONFIRMED": "已確認與待處理的請求",
+      "WAITING": "待處理的請求",
+      "EXPIRED_AND_WAITING": "待處理、已過期與被拒絕的請求"
+    },
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "請求視圖"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "我的請求詳情",
+      "ITEM": "請求",
+      "ACTION_TYPE": "已刪除"
+    },
+    "DELETE_TEXT": "刪除",
+    "DELETE_ERROR_HEADER": "刪除請求錯誤",
+    "DELETE_SUCCESS_TEXT": "已成功刪除請求.",
+    "OK": "確定"
+  },
+  "INCOMING_REQUESTS": {
+    "TITLE": "傳入請求",
+    "NO_INCOMING_REQUESTS": "沒有可顯示的請求",
+    "SELECTED_REQUESTS": "已選擇的請求",
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "請求視圖"
+    },
+    "DETAILS": {
+      "REQUEST_TITLE": "請求",
+      "ACCOUNT_TITLE": "帳戶",
+      "REQUESTOR_USERNAME": "請求者使用者名稱",
+      "REQUESTOR_FULLNAME": "請求者全名"
+    },
+    "DETAILS_FULL_PAGE": {
+      "ITEM": "請求",
+      "ACTION_TYPE": "已刪除",
+      "TITLE": "傳入請求詳情"
+    },
+    "TICKETING_SYSTEM": {
+      "NAME": "票證系統名稱",
+      "NUMBER": "票證編號."
+    },
+    "FILTERS": {
+      "ALL": "所有請求",
+      "WAITING_AND_CONFIRMED": "待處理與已確認的請求",
+      "WAITING": "待處理的請求",
+      "EXPIRED_AND_WAITING": "待處理與已過期的請求"
+    },
+    "OK": "確定",
+    "CONFIRM_TEXT": "確認",
+    "REJECT_TEXT": "拒絕",
+    "CANCEL_TEXT": "取消",
+    "BULK_CONFIRM_MODAL_TITLE": "確認存取至 {{number}} 個帳戶",
+    "BULK_CONFIRM_MODAL_TEXT": "請指定確認的原因",
+    "BULK_REJECT_MODAL_TITLE": "拒絕存取至 {{number}} 個帳戶",
+    "BULK_REJECT_MODAL_TEXT": "請指定拒絕的原因",
+    "BULK_CONFIRM_REJECT_MODAL_WARNING": "只會確認尚未處理的請求",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_TITLE": "正在確認 {{number}} 個請求",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_TITLE": "正在拒絕 {{number}} 個請求",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_SUB_TITLE": "正在確認請求",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_SUB_TITLE": "正在拒絕請求",
+    "BULK_CONFIRM_SUCCESS_ACCORDION_TITLE": "已經成功確認請求",
+    "BULK_REJECT_SUCCESS_ACCORDION_TITLE": "已經成功拒絕請求",
+    "BULK_CONFIRM_FAILURE_ACCORDION_TITLE": "請求並未成功確認",
+    "BULK_REJECT_FAILURE_ACCORDION_TITLE": "請求並未成功拒絕",
+    "BULK_MODAL_PROGRESS_BAR_DONE_BUTTON": "關閉",
+    "BULK_MODAL_PROGRESS_BAR_DONE_TITLE": "完成",
+    "BULK_MODAL_PROGRESS_BAR_DONE_FAILURE_SUB_TITLE": "包含失敗",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_CONFIRM": "正在確認...",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_REJECT": "正在拒絕...",
+    "REJECT_HEADER_TEXT": "請求拒絕的原因",
+    "REJECT_CONTENT_TEXT": "指定拒絕的原因:",
+    "CONFIRM_HEADER_TEXT": "請求確認的原因",
+    "CONFIRM_CONTENT_TEXT": "指定確認的原因:",
+    "CONFIRM_ERROR_HEADER": "確認請求錯誤",
+    "REJECT_ERROR_HEADER": "拒絕請求錯誤",
+    "CONFIRM_SUCCESS_TEXT": "已成功確認請求.",
+    "REJECT_SUCCESS_TEXT": "已成功拒絕請求."
+  },
+  "CONTENT_TITLE": {
+    "HEADER": {
+      "FOR": "為:",
+      "ALL": "全部",
+      "CLEAR_ALL": "清除全部"
+    },
+    "SHOWING": "顯示"
+  },
+  "DISCOVERIES": {
+    "DEFAULT_DASH": "-",
+    "PAGE_TITLE": "探索管理",
+    "GRID_TITLE": "探索設定",
+    "ADD_ACTION": "新探索",
+    "LAST_RUN_STATUS": {
+      "DONE": "完成",
+      "FAILED": "已失敗",
+      "DONE_WITH_ISSUES": "完成",
+      "CANCELED_DUE_TO_UPGRADE": "取消",
+      "STOPPED": "已停止"
+    },
+    "STATE": {
+      "RUNNING": "正在執行",
+      "PENDING": "待處理",
+      "STOPPING": "正在停止"
+    },
+    "LAST_RUN_TIME": {
+      "NA": "N/A"
+    },
+    "DISCOVERY_TYPE": {
+      "ONETIME": "一次性",
+      "RECURRING": "週期性"
+    }
+  },
+  "FILTERS_VIEWS_LAYOUT": {
+    "SHOW_MORE": "詳細顯示",
+    "SHOW_LESS": "精簡顯示",
+    "APPLY": "套用"
+  },
+  "FORM_VALIDATIONS": {
+    "REQUIRED": "此欄位是必填項",
+    "IS_NUMERIC": "此欄位僅能包含數字",
+    "IS_I18N": "此欄位不得包含國際字元",
+    "IS_PASSWORD_MATCH": "密碼與確認欄位不相符",
+    "REQUIRED_SAFE_NAME": "欄位名稱不得為空白",
+    "STARTING_WHITE_SPACE": "欄位名稱不可以空格開頭",
+    "ENDING_WHITE_SPACE": "欄位名稱不可以空格結束",
+    "PATTERN": "欄位名稱不可包含無效的字元",
+    "MIN_VALUE": "超過最小值",
+    "MAX_VALUE": "超過最大值",
+    "INVALID_VALUE": "有效值介於 {minValue} 與 {maxValue} 之間",
+    "NOT_EXIST_IN_MACHINE_LIST": "此機器並未包含在可用的機器清單內"
+  },
+  "FORM_SAFES_VALIDATIONS": {
+    "SAFE_NAME_REQUIRED": "保險櫃名稱不得為空白",
+    "SAFE_NAME_STARTING_WHITE_SPACE": "保險櫃名稱不可以空格開頭",
+    "SAFE_NAME_ENDING_WHITE_SPACE": "保險櫃名稱不可以空格結束",
+    "SAFE_NAME_PATTERN": "保險櫃名稱不可包含無效的字元",
+    "SAFE_NAME_MAX_CHAR": "保險櫃名稱長度不得超過 28 個字元",
+    "SAFE_DESCRIPTION_PATTERN": "保險櫃描述不可包含無效的字元",
+    "MANAGING_CPM_REQUIRED": "從清單選擇一個值"
+  },
+  "COMMON": {
+    "VIEWS_TAB_TITLE": "視圖",
+    "RECENT_TAB_TITLE": "最近",
+    "SAVED_TAB_TITLE": "已儲存",
+    "FILTERS_TAB_TITLE": "篩選器",
+    "CLOSE_BUTTON_TEXT": "關閉",
+    "CANCEL_BUTTON_TEXT": "取消",
+    "DOWNLOAD_BUTTON_TEXT": "下載",
+    "SELECT_BUTTON_TEXT": "選擇",
+    "OPTIONAL_FORM_CONTROL": "{{fieldName}} (選擇性)",
+    "ACCOUNT_TYPES": {
+      "PASSWORD": "密碼",
+      "SSH_KEY": "SSH 金鑰"
+    },
+    "GENERAL_MESSAGES": {
+      "FAILURE_MAIN_TEXT": "失敗"
+    }
+  },
+  "AUTHENTICATION": {
+    "SESSION_EXPIRED_MESSAGE": {
+      "HEADER_TITLE": "工作階段已過期",
+      "MAIN_TITLE": "您的工作階段已過期",
+      "SUB_TITLE": "按一下「確定」，返回登入畫面",
+      "OK_OPTION": "確定"
+    }
+  },
+  "MONITORING": {
+    "TITLE": "監控",
+    "REFRESH": "重新整理",
+    "RISK_CARD": {
+      "TITLE": "工作階段風險分數",
+      "SUB_TITLE": "最強的影響活動/事件",
+      "SECURITY_INCIDENT": "安全事件",
+      "GO_TO_INCIDENT_DETAILS": "前往事件詳情",
+      "ID": "ID",
+      "PLAY": "播放",
+      "TOOLTIP_TITLE": "工作階段內可疑的活動",
+      "TOOLTIP_SUB_TITLE": "最有風險的活動",
+      "NO_RISK_SCORE": "沒有分析或偵測到風險"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "工作階段詳情",
+      "ITEM": "工作階段",
+      "ACTION_TYPE": "已刪除",
+      "BACK_TEXT": "監控"
+    },
+    "GRID_TITLE": {
+      "RECORDED_SESSIONS": "錄製",
+      "LIVE_SESSIONS": "作用中的工作階段",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "傳統介面中的額外詳情與動作",
+        "CALLOUT_TITLE": "傳統介面",
+        "CALLOUT_TEXT": "監控檢視可能包含僅可在舊版介面中使用的\n額外功能。\n\n您隨時能返回新介面中的「監控」."
+      }
+    },
+    "RECORDING": {
+      "NO_RECORDINGS_FOUND": "沒有可顯示的錄製",
+      "PLAY": "播放",
+      "PLAY_VIDEO": "播放視訊",
+      "CONNECTED_AS": "連接身份",
+      "AS": "作為",
+      "ON": "開",
+      "OFF": "關閉",
+      "SKIP_IDLE": "跳過閒置:",
+      "MANUAL": "手動",
+      "AUTOMATIC": "自動",
+      "GO_TO_V9": "播放視訊 (V9 UI)",
+      "SESSION_WAS_NOT_FOUND": "無法使用此工作階段的活動"
+    },
+    "LIVE_SESSIONS": {
+      "NO_LIVE_SESSIONS_FOUND": "沒有可顯示的作用中工作階段",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "傳統介面中的額外詳情與動作",
+        "CALLOUT_TITLE": "傳統介面",
+        "CALLOUT_TEXT": "作用中工作階段檢視可能包含僅可在傳統\n介面中使用的額外功能。\n\n您隨時能返回新介面中的「監控」."
+      }
+    },
+    "FILTERS": {
+      "SECTION": "篩選器",
+      "SESSIONS_PROPERTIES": "工作階段屬性",
+      "SESSOION_PROPERTIES_HINT_TITLE": "依工作階段屬性過濾",
+      "SESSOION_PROPERTIES_HINT": "使用者、用戶端、帳戶使用者名稱、帳戶地址、帳戶原則 ID、票證 ID 與更多。\n\n若要在相同的工作階段中依多種屬性搜尋，請使用空格區隔，例如: root 192.168.0.1\n\n使用引號以搜尋片語",
+      "SESSIONS_ACTIVITIES": "工作階段活動",
+      "COMMANDS_AND_EVENTS_HINT_TITLE": "依工作階段活動過濾",
+      "COMMANDS_AND_EVENTS_HINT": "視窗標題、SQL 指令、SSH 指令、SCP 指令、按鍵輸入、已封鎖的命令 (使用「DENIED」關鍵字)。\n\n若要在相同的工作階段中依多種活動搜尋，請使用空格區隔，例如：sudo rm。\n\n使用引號以搜尋片語，例如:「ifConfig -a」",
+      "FROM": "自",
+      "TO": "至",
+      "SAVE_FILTER": "儲存過濾器",
+      "APPLY": "套用"
+    },
+    "RECORDING_DETAILS": {
+      "HEADER_TITLE": "{{user}} 在 {{address}} 以 {{accountUserName}} 的身份連接",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "傳統介面中的額外詳情與動作",
+        "CALLOUT_TITLE": "傳統介面",
+        "CALLOUT_TEXT": "此工作階段可能包含僅可在傳統介面中使用的\n額外功能。\n\n您隨時能返回新「監控」."
+      }
+    },
+    "LIVE_SESSION_DETAILS": {
+      "HEADER_TITLE": "{{user}} 在 {{address}} 以 {{accountUserName}} 的身份連接",
+      "MONITOR_BUTTON": "監控",
+      "TERMINATE_BUTTON": "終止",
+      "TERMINATE_DIALOG": {
+        "TITLE": "終止作用中工作階段",
+        "MESSAGE": "您確定要終止此工作階段嗎?",
+        "CANCEL_BUTTON": "取消"
+      },
+      "SUSPEND_BUTTON": "暫停",
+      "SUSPEND_DIALOG": {
+        "TITLE": "暫停作用中的工作階段",
+        "MESSAGE": "您確定要暫停此工作階段?",
+        "CANCEL_BUTTON": "取消"
+      },
+      "RESUME_BUTTON": "恢復",
+      "RESUME_DIALOG": {
+        "TITLE": "恢復暫停的工作階段",
+        "MESSAGE": "您確定要恢復此工作階段?",
+        "CANCEL_BUTTON": "取消"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "傳統介面中的額外詳情與動作",
+        "CALLOUT_TITLE": "傳統介面",
+        "CALLOUT_TEXT": "此工作階段可能包含僅可在傳統介面中使用的\n額外功能。\n\n您隨時能返回新「監控」."
+      }
+    },
+    "TABS": {
+      "RECORDING": "錄製",
+      "LIVE_SESSIONS": "作用中工作階段",
+      "SESSION_ACTIVITIES": "活動",
+      "ATTESTATION": "證明",
+      "PERMISSIONS": "權限",
+      "SESSION_PROPERTIES": "詳情"
+    },
+    "PROPERTIES": {
+      "SESSION_PROPERTIES_TITLE": "工作階段屬性",
+      "ADDITIONAL_PROPERTIES_TITLE": "額外屬性",
+      "ACCOUNT_DETAILS_TITLE": "帳戶屬性",
+      "VIDEO_RECORDING_TITLE": "視訊錄製",
+      "TEXT_RECORDING_TITLE": "文字錄製",
+      "CONNECTED_FROM": "連線機器",
+      "REMOTE_MACHINE": "遠端計算機",
+      "INTERFACE": "介面",
+      "CONNECTION_TYPE": "連線類型",
+      "PROTOCOL": "通訊協定",
+      "START": "開始",
+      "END": "結束",
+      "DURATION": "持續時間",
+      "RETAINED_BY": "保留者",
+      "PLATFORM_NAME": "平台名稱",
+      "TARGET_USER": "目標使用者",
+      "TARGET_ADDRESS": "目標位址",
+      "VIDEO_SIZE": "大小",
+      "VIDEO_LAST_VIEWED_BY": "上次檢查者",
+      "TEXT_SIZE": "大小",
+      "TEXT_LAST_VIEWED_BY": "上次檢查者",
+      "TEXT_LAST_VIEWED_DATE": "上次檢查日期"
+    },
+    "ACTIVITIES": {
+      "ACTIVITIES_IN_SESSION": " 工作階段內的活動",
+      "NO_ACTIVITIES": "沒有可顯示的活動"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSM 閘道連線"
+    }
+  },
+  "ONBOARDING_RULES": {
+    "PAGE_TITLE": "上線規則",
+    "TITLE": "上線規則",
+    "ANY": "任何",
+    "SERVER": "伺服器",
+    "WORKSTATION": "工作站",
+    "LOCAL": "本機",
+    "DOMAIN": "網域",
+    "PRIVILEGED": "特權",
+    "NON_PRIVILEGED": "非具有權限",
+    "BUILT_IN_ADMINISTRATOR_WINDOWS": "內建管理員 (SID = 500)",
+    "BUILT_IN_ADMINISTRATOR_UNIX": "根 (UID = 0)",
+    "BEGINS_WITH": "開頭",
+    "END_WITH": "結尾",
+    "EXACT": "等於",
+    "OPTIONAL": "選擇性",
+    "EMPTY_STATE": {
+      "TITLE": "的上線帳戶方式",
+      "TITLE_FAST": "快速",
+      "TITLE_AND": "與",
+      "TITLE_EASY": "簡單",
+      "DESCRIPTION": "上線規則會自動將已探索帳戶上線至 CyberArk。套用這些規則，即可節省時間，不必手動上線。我們會先將上線規則套用至已探索帳戶，再將已探索帳戶標記為待處理.",
+      "READ_MORE": " 深入瞭解",
+      "CREATE_RULE_LINK": "開始建立新上線規則",
+      "AUTOMATIC_ONBOARDING_RULE": "自動上線規則",
+      "PENDING_ACCOUNTS": "待處理帳戶",
+      "MANUAL_ONBOARDING": "手動上線",
+      "ACCOUNTS_DISCOVERY": "帳戶探索"
+    },
+    "FILTERS": {
+      "TITLE": "篩選器",
+      "RULES_SCOPE": {
+        "TITLE": "規則範圍",
+        "SYSTEM_TYPE": "系統類型",
+        "ACCOUNT_TYPE": "帳戶類型",
+        "MACHINE_TYPE": "機器類型",
+        "CATEGORY": "帳戶類別",
+        "DROPDOWN": {
+          "PLACEHOLDER": "選擇"
+        },
+        "KEYWORDS": {
+          "LABEL": "依關鍵字調整",
+          "PLACEHOLDER": "規則名稱、描述、使用者名稱或機器名稱"
+        }
+      },
+      "DESTINATION": {
+        "TITLE": "目的地",
+        "PLATFORM": {
+          "LABEL": "平台",
+          "PLACEHOLDER": "選擇",
+          "NO_MATCH_TEXT": "沒有符合的平台"
+        },
+        "SAFE": {
+          "LABEL": "保險櫃",
+          "PLACEHOLDER": "選擇",
+          "NO_MATCH_TEXT": "沒有符合的保險櫃"
+        }
+      }
+    },
+    "SELECTED_ITEM_DETAILS": {
+      "DETAILS_TITLE": "詳情",
+      "RULE_SCOPE": {
+        "TITLE": "規則範圍",
+        "SYSTEM_TYPE": "系統類型",
+        "MACHINE_TYPE": "機器類型",
+        "ACCOUNT_TYPE": "帳戶類型",
+        "CATEGORY": "帳戶類別",
+        "USER_NAME": "使用者名",
+        "METHOD": {
+          "BEGINS": "開頭: {{ruleFilterValue}}",
+          "ENDS": "結尾: {{ruleFilterValue}}",
+          "EQUALS": "等於: {{ruleFilterValue}}",
+          "BEGINS_WITH": "開頭: {{ruleFilterValue}}",
+          "END_WITH": "結尾: {{ruleFilterValue}}",
+          "EXACT": "等於: {{ruleFilterValue}}"
+        },
+        "ACCOUNT_CATEGORY_FILTER": {
+          "TITLE": "具有權限的帳戶類型",
+          "PRIVILEGED": "特權",
+          "NONPRIVILEGED": "非具有權限",
+          "ANY": "任何"
+        },
+        "LOCAL": "本機",
+        "ANY": "任何",
+        "ADMIN_ONLY": {
+          "WINDOWS": "內建管理員 (SID = 500)",
+          "UNIX": "根 (UID = 0)"
+        },
+        "MACHINE_NAME": "機器名稱/位址"
+      },
+      "DESTINATION": {
+        "TITLE": "目的地",
+        "PLATFORM": "平台",
+        "SAFE": "保險櫃"
+      },
+      "RULE_PROPERTIES": {
+        "TITLE": "規則屬性",
+        "RULE_NAME": "名稱",
+        "RULE_DESCRIPTION": "說明"
+      },
+      "PASSWORD_SETTINGS": {
+        "TITLE": "初始密碼設定",
+        "INITIAL_PASSWORD": "初始密碼設定",
+        "USE_PLATFORM": "使用預設平台的重新調整帳戶",
+        "NO_RECONCILE_ACCOUNT": "所選平台沒有重新調整帳戶",
+        "RECONCILE_ACCOUNT": "平台的重新調整帳戶"
+      },
+      "OVERVIEW": {
+        "TITLE": "概觀",
+        "LAST_ONBOARDED": "上次上線"
+      }
+    },
+    "CREATE_RULE": "建立規則",
+    "REFRESH": "重新整理",
+    "RULE_NAME_COLUMN_TITLE": "規則名稱",
+    "SYSTEM_TYPE_COLUMN_TITLE": "系統類型",
+    "CREATE_ONBOARDING_RULES": {
+      "CASE_SENSITIVE": "區分大小寫",
+      "PAGE_TITLE": "建立規則",
+      "PAGE_TITLE_EDIT_MODE": "編輯規則",
+      "TITLE": "新上線規則",
+      "TITLE_EDIT_MODE": "編輯上線規則：{{string}}",
+      "SUBMIT_TEXT": "建立規則",
+      "SUBMIT_TEXT_EDIT_MODE": "儲存變更",
+      "UPDATE": "更新",
+      "IDENTICAL_RULE_ERROR_HEADER": "範圍相同",
+      "IDENTICAL_RULE_NAME_ERROR_HEADER": "規則名稱相同",
+      "DEFAULT_ERROR_HEADER": "錯誤",
+      "CREATE_RULE_SUCCESS_MESSAGE": "已成功建立規則",
+      "EDIT_RULE_SUCCESS_MESSAGE": "已成功更新規則",
+      "STEPS": {
+        "SELECT_SYSTEM_TYPE": "選擇系統類型",
+        "SELECT_SYSTEM_TYPE_EDIT_MODE": "系統類型",
+        "SELECT_SYSTEM_TYPE_TITLE": "選擇要上線的系統類型",
+        "SELECT_SYSTEM_TYPE_TITLE_EDIT_MODE": "系統類型",
+        "SELECT_SCOPE": "選擇範圍",
+        "SELECT_SCOPE_EDIT_MODE": "範圍",
+        "SELECT_SCOPE_TITLE": "選擇規則範圍",
+        "SELECT_SCOPE_TITLE_EDIT_MODE": "範圍",
+        "ASSIGN_PLATFORM": "分配到平台",
+        "ASSIGN_PLATFORM_EDIT_MODE": "平台",
+        "ASSIGN_PLATFORM_TITLE": "選擇平台",
+        "ASSIGN_PLATFORM_TITLE_EDIT_MODE": "平台",
+        "SELECT_SAFE": "儲存在保險櫃中",
+        "SELECT_SAFE_EDIT_MODE": "保險櫃",
+        "SELECT_SAFE_TITLE": "選擇保險櫃",
+        "SELECT_SAFE_TITLE_EDIT_MODE": "保險櫃",
+        "DEFINE_PROPERTIES": "定義屬性",
+        "DEFINE_PROPERTIES_EDIT_MODE": "屬性",
+        "DEFINE_PROPERTIES_TITLE": "定義規則屬性",
+        "DEFINE_PROPERTIES_TITLE_EDIT_MODE": "屬性",
+        "DEFINE_PROPERTIES_STEP": {
+          "NAME_LABEL": "名稱",
+          "NAME_PLACEHOLDER": "輸入不重複的名稱",
+          "DESCRIPTION_LABEL": "描述（選擇性）",
+          "DESCRIPTION": "說明",
+          "DESCRIPTION_VALUE": "Valued",
+          "DESCRIPTION_CHARACTERS_LEFT": " 個剩餘的字元",
+          "DESCRIPTION_CHARACTERS_OVER": " 個超過的字元",
+          "RULE_NAME_IS_NOT_UNIQUE_MESSAGE": "已經存在此名稱的規則",
+          "RULE_NAME_MAX_LENGTH_MESSAGE": "此欄位最多可包含 255 個字元",
+          "SETTINGS": {
+            "INITIAL_PASSWORD": "初始密碼設定",
+            "USE_PLATFORM": "使用平台的重新調整帳戶",
+            "NO_RECONCILE_ACCOUNT": "所選平台沒有重新調整帳戶"
+          },
+          "MODAL_ERROR_HEADER": "錯誤",
+          "MODAL_CLOSE_ACTION": "關閉"
+        },
+        "SUMMARY": "摘要",
+        "SUMMARY_TITLE": "摘要"
+      },
+      "SELECT_SCOPE": {
+        "INFO_MESSAGE_APPLY_WINDOWS": "自動上線規則會套用至沒有相依性的帳戶",
+        "INFO_MESSAGE_APPLY_UNIX": "自動上線規則會套用至不信任的帳戶",
+        "INFO_MESSAGE_NEW_RULE": "新規則會優先於現有規則",
+        "MACHINE_TYPE": "機器類型",
+        "ACCOUNT_TYPE": "帳戶類型",
+        "ACCOUNT_TYPE_INFO": "網域帳戶目前無法自動上線.",
+        "ACCOUNT_CATEGORY": "帳戶類別",
+        "ACCOUNT_CATEGORY_INFO": "具有權限的帳戶為具有權限之群組的成員，例如\n管理員或進階使用者.",
+        "PRIVILEGED_ACCOUNT_TYPE": "具有權限的帳戶類型",
+        "USERNAME": "使用者名",
+        "MACHINE_NAME_OR_ADDRESS": "機器名稱/位址",
+        "IDENTICAL_MESSAGE_TITLE": "找到相同規則: {{string}}",
+        "IDENTICAL_MESSAGE_TEXT": "變更此規則的範圍以避免重複"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "確認取消",
+        "BODY": "您確定要取消建立上線規則?",
+        "SECONDARY_MESSAGE": "將放棄您所做的變更",
+        "MAIN_ACTION": "確認取消",
+        "SECONDARY_ACTION": "不要取消"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "CHANGE_SYSTEM_TYPE_TITLE": "變更系統類型",
+        "CHANGE_PLATFORM_TITLE": "變更平台",
+        "OK": "變更",
+        "CANCEL": "取消",
+        "SYSTEM_TYPE_PRIMARY_MESSAGE": "您確定要將系統類型變更為",
+        "PLATFORM_PRIMARY_MESSAGE": "您確定要變更平台為",
+        "SECONDARY_MESSAGE": "您可能需要更新規則定義."
+      }
+    },
+    "NO_RULES_FOUND": "沒有可顯示的規則",
+    "PRECEDENCE_COLUMN_TITLE": "優先順序",
+    "DESCRIPTION_COLUMN_TITLE": "說明",
+    "MACHINE_TYPE_COLUMN_TITLE": "機器類型",
+    "ACCOUNT_TYPE_COLUMN_TITLE": "帳戶類型",
+    "LAST_ONBOARDED_COLUMN_TITLE": "上次上線",
+    "DELETE_RULE": {
+      "ACTION_TITLE": "刪除規則",
+      "FEEDBACK_TITLE": "刪除規則",
+      "FEEDBACK_DESCRIPTION": "您確定要刪除「{RULE_NAME}」規則?",
+      "FEEDBACK_DELETE_BUTTON": "刪除規則",
+      "FEEDBACK_CANCEL_BUTTON": "取消",
+      "FLOATING_SUCCESS_MESSAGE": "已刪除規則"
+    },
+    "EDIT_RULE": {
+      "ACTION_TITLE": "編輯規則"
+    },
+    "FEEDBACK_MESSAGES": {
+      "DELETE_ONBOARDING_RULES": "刪除上線規則",
+      "GET_ONBOARDING_RULES": "取得上線規則"
+    }
+  },
+  "PTA": {
+    "MESSAGES": {
+      "SUCCESS_MESSAGES": {
+        "SETTINGS": {
+          "PSM": {
+            "UPDATE": "已成功更新規則",
+            "ADD": "已成功新增規則"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "已成功更新「新增至待處理」補救",
+            "ROTATE_CREDENTIALS": "已成功更新「定期更換認證」補救",
+            "RECONCILE_CREDENTIALS": "已成功更新「重新調整認證」補救"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "已成功初始化工作階段恢復"
+        }
+      },
+      "ERROR_TITLES": {
+        "DEFAULT": "錯誤",
+        "SETTINGS": {
+          "GET": "無法載入安全性組態",
+          "PSM": {
+            "UPDATE": "無法更新規則",
+            "ADD": "無法新增規則"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "無法更新「新增至待處理」補救",
+            "ROTATE_CREDENTIALS": "無法更新「定期更換認證」補救",
+            "RECONCILE_CREDENTIALS": "無法更新「重新調整認證」補救"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "無法初始化工作階段恢復"
+        }
+      },
+      "CLOSE_BUTTON": "關閉"
+    },
+    "EVENTS": {
+      "ACTION_BUTTONS": {
+        "SUCCESS_MESSAGES": {
+          "RESUME": "已成功初始化工作階段恢復"
+        },
+        "ERROR_TITLES": {
+          "RESUME": "無法初始化工作階段恢復"
+        }
+      },
+      "PAGE_HEADER": "安全性事件",
+      "PROVIDER": {
+        "UNKNOWN": "未知",
+        "ANOMALIES_TITLES": {
+          "ACTIVE_DORMANT": "作用中的休眠使用者",
+          "AGGREGATIVE_ICE": "異常存取多部機器",
+          "DUAL_USAGE": "以互動方式登入的服務帳戶",
+          "GOLDEN_TICKET": "Golden Ticket 攻擊",
+          "IRREGULAR_HOUR_USER": "異常時間對保險庫之具有權限的存取",
+          "MALICIOUS_RETRIEVAL": "惡意擷取網域帳戶",
+          "OVER_PASS_THE_HASH": "侵犯雜湊攻擊",
+          "PAC_ATTACK": "PAC 攻擊",
+          "RISKY_COMMAND": "於具有權限的工作階段中偵測到的可疑活動",
+          "SCT": "疑似竊取認證",
+          "SPC": "可疑的密碼變更",
+          "UNMANAGED": "非受管之具有權限的帳戶",
+          "VAULT_IRREGULAR_IP": "經由異常 IP 對保險庫之具有權限的存取",
+          "CLEARTEXT": "已揭示的認證"
+        },
+        "EVENT_SEVERITIES": {
+          "LOW": "低度",
+          "MEDIUM": "中度",
+          "HIGH": "高度"
+        },
+        "FILTERS": {
+          "EVENT_ID": "事件 ID",
+          "SESSION_ID": "工作階段 ID",
+          "TITLE": "篩選器",
+          "SEVERITY": "嚴重程度",
+          "TYPE": "事件類型",
+          "FROM_DATE": "自",
+          "TO_DATE": "至"
+        },
+        "NOTIFICATIONS": {
+          "LOW": "偵測到新的低度事件",
+          "MEDIUM": "偵測到新的中度事件",
+          "HIGH": "偵測到新的高度事件"
+        }
+      },
+      "CARDS": {
+        "GENERAL": {
+          "LISTS": {
+            "ENTITIES": {
+              "COMMAND": "指令",
+              "ACCOUNT": "帳戶",
+              "MACHINE": "機器",
+              "DC": "DC"
+            },
+            "TITLES": {
+              "MOST_RETYPED_ACTIVITIES": "最常輸入的活動",
+              "MOST_ACCESSED_ACCOUNTS": "最常存取的帳戶",
+              "EXPOSED_ACCOUNTS": "揭示的帳戶",
+              "MOST_ACCESSED_MACHINES": "最常存取的機器",
+              "SOURCE_MACHINES": "來源機器",
+              "MOST_ACCESSED_DCS": "最常存取的 DC",
+              "ACCESSED_DCS": "已存取的 DC"
+            },
+            "RECORD": {
+              "MULTI_OCCURRENCES": "{{entity}} (發生 {{occurrences}} 次)",
+              "SINGLE_OCCURRENCE": "{{entity}} (發生 {{occurrences}} 次)"
+            }
+          },
+          "ORIGINAL_EVENTS": {
+            "ORIGINAL_EVENT": "原始事件發生於 {{originTime}}.",
+            "ORIGINAL_EVENT_SOURCE_TARGET": "原始事件於 {{originTime}} 從來源 {{source}} 發生在 {{target}}.",
+            "ORIGINAL_EVENT_SOURCE_DC": "原始事件於 {{originTime}} 從來源 {{source}} 發生在 DC {{target}}.",
+            "ORIGINAL_SUSPICIOUS_ACTIVITY": "首次可疑活動發生於 {{originTime}}."
+          },
+          "DIAGRAM_ENTITY_TITLE": {
+            "TARGET_MACHINE": "目標機器",
+            "SOURCE_MACHINE": "來源機器",
+            "PRIVILEGED_ACCOUNT": "具有權限的帳戶",
+            "UNMANAGED_PRIVILEGED_ACCOUNT": "非受管之具有權限的帳戶",
+            "CYBERARK_PAS": "Cyberark PAS",
+            "VAULT_USER": "保險庫使用者",
+            "TARGET_SERVICE": "目標服務",
+            "SERVICE_ACCOUNT": "服務帳戶",
+            "SERVICE": "服務"
+          }
+        },
+        "GENERIC": {
+          "ACTIVE": "作用中的工作階段",
+          "REMEDIATION": "已進行補救",
+          "OCCURRENCES": "(發生 {{occurrences}} 次)",
+          "EVENT_ID": "ID {{id}}",
+          "SESSION_ID": "工作階段 ID",
+          "RECOMMENDATION_TITLE": "建議"
+        },
+        "ACTIVE_DORMANT": {
+          "SUBTITLE_SINGLE_ACCOUNT": "保險庫使用者 {{user}} 在處於非作用中狀態超過 {{inactiveDays}} 天後，從 CyberArk PAS 擷取帳戶 {{account}} 的密碼.",
+          "SUBTITLE_MULTI_ACCOUNTS": "保險庫使用者 {{user}} 在處於非作用中狀態超過 {{inactiveDays}} 天後，從 CyberArk PAS 擷取 {{numOfAccounts}} 個帳戶的密碼.",
+          "RECOMMENDATION": "確認此保險庫使用者處於作用中狀態，若否，請考慮限制使用者的存取權."
+        },
+        "AGGREGATIVE_ICE": {
+          "SUBTITLE": "帳戶 {{account}} 已連線至大量的新機器，這對此帳戶來說很不尋常。<br>這些動作可能表示有人濫用 {{account}} 的認證進行橫向移動.",
+          "RECOMMENDATION": "評估潛在的傷害並尋找 IOC:",
+          "RECOMMENDATION_SUGGESTION_1": "檢查目標機器上有作用中工作階段的帳戶",
+          "RECOMMENDATION_SUGGESTION_2": "檢查目標機器上保存的認證",
+          "RECOMMENDATION_SUGGESTION_3": "尋找目標機器上其他的攻擊跡象"
+        },
+        "DUAL_USAGE": {
+          "SUBTITLE_SINGLE_MACHINE": "服務帳戶 {{account}} 以互動方式登入至 {{target}} 機器.",
+          "SUBTITLE_MULTI_MACHINES": "服務帳戶 {{account}} 以互動方式登入至 {{numOfMachines}} 部機器.",
+          "RECOMMENDATION": "分別使用服務帳戶及實際帳戶."
+        },
+        "GOLDEN_TICKET": {
+          "SUBTITLE": "在網域 {{domain}} 中偵測到 Golden Ticket 攻擊。攻擊者在機器 {{target}} 上使用偽造的帳戶 {{account}} Kerberos 票證。<br>此票證源自機器 {{source}}.",
+          "RECOMMENDATION": "攻擊者已入侵您的網域。仔細調查環境，並採取措施遏止攻擊者."
+        },
+        "IRREGULAR_HOUR_USER": {
+          "SUBTITLE": "保險庫使用者 {{user}} 於 {{startTime}} 在機器 {{target}} 上，擷取了具有權限之使用者 {{account}} 的密碼。<br>由於 {{user}} 通常不會於此時連線，因此系統將此動作標記為安全性事件.",
+          "RECOMMENDATION": "檢查此保險庫使用者的活動，並確定這些活動有效."
+        },
+        "MALICIOUS_RETRIEVAL": {
+          "SUBTITLE_ONE_OCCURRENCE": " 機器 {{source}}.上偵測到網域控制器 {{target}} 可能惡意擷取認證。<br>此次擷取認證由成功的網域控制器複寫執行.",
+          "SUBTITLE_MULTI_OCCURRENCES": "機器 {{source}} 上偵測到多次潛在惡意擷取認證。<br>擷取認證由成功的網域控制器複寫執行.",
+          "RECOMMENDATION": "網域控制器複寫請求 (DCSync) 僅可由網域控制器發起。<br>若網路中其他驗證或管理服務也執行網域控制器複寫，<br>強烈建議您以與網域控制器相同的層級，保護這些服務."
+        },
+        "OVER_PASS_THE_HASH": {
+          "SUBTITLE": "網域 {{domain}} 中偵測到侵犯雜湊攻擊，其來自於機器 {{source}}。<br>此攻擊濫用帳戶 {{account}} 的認證.",
+          "RECOMMENDATION_NO_REMEDIATION": "重設帳戶 {{account}} 的認證.",
+          "RECOMMENDATION_REMEDIATION": "已發起密碼變更請求。攻擊者已入侵您的網域。仔細調查環境，並採取措施遏止攻擊者."
+        },
+        "PAC_ATTACK": {
+          "SUBTITLE": "網域 {{domain}} 中偵測到 PAC 攻擊 (利用 MS14-068 漏洞) 嘗試，其來自於機器 {{source}}。<br>此攻擊者嘗試提升帳戶 {{account}} 的權限.",
+          "RECOMMENDATION": "確認使用修補程式 KB3011780 更新網域控制器 {{target}}."
+        },
+        "RISKY_COMMAND": {
+          "SUBTITLE": "具有權限的工作階段中偵測到 {{target}} 上的可疑工作階段活動。<br>此工作階段由保險庫使用者 {{user}} 透過執行 {{command}} 活動，以帳戶 {{account}} 發起.",
+          "RECOMMENDATION_LIVE": "檢查與工作階段及其活動相關的每起安全性事件，並評估是否需要做出回應，例如即時監控或手動終止進行中的工作階段.",
+          "RECOMMENDATION_NON_LIVE": "使用工作階段的活動與錄製，檢查與工作階段相關的每起安全性事件，並評估其風險。已中斷此工作階段的連線.",
+          "RECOMMENDATION_SUSPENDED_SESSION": "已發起工作階段暫停請求。檢查與工作階段及其活動相關的每起安全性事件，並評估是否需要做出額外的回應，例如手動恢復或終止暫停的工作階段.",
+          "RECOMMENDATION_TERMINATED_SESSION": "已發起工作階段終止請求。檢查與工作階段及其活動相關的每起安全性事件，並評估是否需要做出額外的回應."
+        },
+        "SCT": {
+          "SUBTITLE_SINGLE_MACHINE": "具有權限的帳戶 {{account}} 使用非從 CyberArk PAS 中擷取的密碼，存取 {{target}} 機器.",
+          "SUBTITLE_MULTI_MACHINES": "具有權限的帳戶 {{account}} 使用非從 CyberArk PAS 中擷取的密碼，存取 {{numOfMachines}} 部機器.",
+          "RECOMMENDATION_NO_REMEDIATION": "請考慮變更未經擷取而使用的密碼.",
+          "RECOMMENDATION_REMEDIATION": "已發起密碼變更請求。確定沒有略過組織原則及 PAS 控制項，且您受管的帳戶已受到控制."
+        },
+        "SPC": {
+          "SUBTITLE": "已從 CyberArk PAS 外變更了具有權限的帳戶 {{account}} 密碼.",
+          "RECOMMENDATION_NO_REMEDIATION": "請考慮重新調整已從 CyberArk PAS 外變更密碼的帳戶.",
+          "RECOMMENDATION_RECONCILIATION": "已發起密碼重新調整請求。確定沒有略過組織原則及 PAS 控制項，且完全掌控受管的帳戶."
+        },
+        "UNMANAGED": {
+          "SUBTITLE_SINGLE_MACHINE": "具有權限的帳戶 {{account}} 並非於 CyberArk PAS 受到管理，但遭用以存取 {{target}}.",
+          "SUBTITLE_MULTI_MACHINES": "具有權限的帳戶 {{account}} 並非於 CyberArk PAS 受到管理，但遭用以存取 {{numOfMachines}} 部機器.",
+          "RECOMMENDATION_NO_REMEDIATION": "請考慮將未受管之具有權限的帳戶上線至 CyberArk PAS.",
+          "RECOMMENDATION_REMEDIATION": "將新探索的帳戶上線，並分配適當的平台以安全地管理帳戶。依自動上線規則篩選已探索帳戶不需要手動操作."
+        },
+        "VAULT_IRREGULAR_IP": {
+          "SUBTITLE": "保險庫使用者 {{user}} 自異常 IP {{source}} 存取保險庫。<br>由於 {{user}} 通常不會自此 IP 存取保險庫，因此系統將此動作標記為安全性事件.",
+          "RECOMMENDATION": "檢查此保險庫使用者的活動，並確定這些活動有效."
+        },
+        "CLEARTEXT": {
+          "SUBTITLE": "使用 LDAP 簡易綁定從 {{source}} 傳送的帳戶認證是以明文形式揭示.",
+          "RECOMMENDATION": "設定相關服務，以使用 LDAPS (而非 LDAP 簡易綁定) 進行驗證。<br>我們強烈建議定期更換敏感帳戶的密碼."
+        }
+      }
+    },
+    "SETTINGS": {
+      "PAGE_HEADER": "安全性組態",
+      "PSM": {
+        "HEADER": "具有權限的工作階段分析與回應",
+        "SUB_HEADER": "將風險分數與自動回應，分配至已記錄之使用者工作階段期間偵測到的高風險活動.",
+        "ADD_RULE_BUTTON": "新增規則",
+        "RULE_CATEGORY": {
+          "KEYSTROKES": "通用按鍵輸入",
+          "SCP": "SCP",
+          "SQL": "SQL",
+          "SSH": "SSH",
+          "WINDOWS": "視窗標題"
+        },
+        "RULE_CATEGORY_EXAMPLES": {
+          "KEYSTROKES_EXAMPLE": "例如: kill(.*)",
+          "SCP_EXAMPLE": "例如: 10.1.1.22(.*)",
+          "SQL_EXAMPLE": "例如: DROP TABLE(.*)",
+          "SSH_EXAMPLE": "例如: rm -r(.*)",
+          "WINDOWS_EXAMPLE": "例如: Task Manager(.*)"
+        },
+        "SUCCESS_MESSAGES": {
+          "UPDATE": "已成功更新規則",
+          "ADD": "已成功新增規則"
+        },
+        "ERROR_TITLES": {
+          "UPDATE": "無法更新規則",
+          "ADD": "無法新增規則"
+        },
+        "RULE_MODAL": {
+          "ADD_RULE_TITLE": "新增規則",
+          "EDIT_RULE_TITLE": "編輯規則",
+          "CATEGORY": "類別",
+          "SELECT_CATEGORY": "選擇類別",
+          "PATTERN": "模式",
+          "PATTERN_PLACEHOLDER": "輸入規則運算式",
+          "DESCRIPTION": "描述（選擇性）",
+          "SESSION_RESPONSE": {
+            "TITLE": "工作階段回應",
+            "SUSPEND": "暫停",
+            "TERMINATE": "終止",
+            "NONE": "無"
+          },
+          "SCORE_TITLE": "分數",
+          "SCORE_DESCRIPTION": "設定分數 (1 - 100)",
+          "ACTIVE_STATUS_TITLE": "狀態",
+          "ACTIVE_STATUS_ACTIVE_DESCRIPTION": "使用中",
+          "ACTIVE_STATUS_INACTIVE_DESCRIPTION": "非使用中",
+          "SCOPE_TITLE": "範圍",
+          "SCOPE_DESCRIPTION": {
+            "BASIC_DESCRIPTION": "此規則將套用至 {vaultUsersCategory}、{accountsCategory} 及 {machinesCategory}",
+            "ALL": "所有 {category}",
+            "EXCLUDE": "除了 {amount} 個 {category} 外的所有",
+            "INCLUDE": "{amount} 個特定 {category}"
+          },
+          "ADD": "新增",
+          "SAVE": "儲存",
+          "CANCEL": "取消"
+        },
+        "SCOPE_MODAL": {
+          "TITLE": "變更範圍",
+          "EXCLUDE": "排除",
+          "INCLUDE": "僅包含",
+          "SAVE": "變更範圍",
+          "CANCEL": "取消",
+          "VAULT_USERS": {
+            "CATEGORY_NAME": "保險庫使用者",
+            "TAB_TITLE": "保險庫使用者",
+            "WATERMARK": "可以使用萬用字元",
+            "INCLUDE_MARK": "下列規則僅會套用至選擇的保險庫使用者",
+            "EXCLUDE_MARK": "除了選擇的保險庫使用者外，下列規則會套用至所有保險庫使用者"
+          },
+          "ACCOUNTS": {
+            "CATEGORY_NAME": "帳戶",
+            "TAB_TITLE": "帳戶",
+            "WATERMARK": "可以使用萬用字元",
+            "INCLUDE_MARK": "下列規則僅會套用至選擇的帳戶",
+            "EXCLUDE_MARK": "除了選擇的帳戶外，下列規則會套用至所有帳戶"
+          },
+          "MACHINES": {
+            "CATEGORY_NAME": "機器",
+            "TAB_TITLE": "機器",
+            "WATERMARK": "可以使用萬用字元",
+            "INCLUDE_MARK": "下列規則僅會套用至選擇的機器",
+            "EXCLUDE_MARK": "除了選擇的機器外，下列規則會套用至所有機器"
+          }
+        },
+        "GRID_COLUMNS": {
+          "CATEGORY": "類別",
+          "PATTERN": "模式",
+          "SCORE": "分數",
+          "DESCRIPTION": "說明",
+          "RESPONSE": "回應",
+          "STATUS": "狀態"
+        }
+      },
+      "REMEDIATION": {
+        "HEADER": "自動補救",
+        "SUB_HEADER": "設定每起安全性事件的自動回應，以降低風險並停止可疑的活動.",
+        "ADD_TO_PENDING": "新增至待處理",
+        "UNMANAGED_PRIVILEGED_ACCOUNT": "非受管之具有權限的帳戶",
+        "ROTATE_CREDENTIALS": "定期更換認證",
+        "OVER_PASS_THE_HASH": "侵犯雜湊",
+        "SUSPECTED_CREDENTIAL_THEFT": "疑似竊取認證",
+        "RECONCILE_CREDENTIALS": "重新調整認證",
+        "SUSPICIOUS_PASSWORD_CHANGE": "可疑的密碼變更",
+        "SUCCESS_MESSAGES": {
+          "ADD_TO_PEND": "已成功更新「新增至待處理」補救",
+          "ROTATE_CREDENTIALS": "已成功更新「定期更換認證」補救",
+          "RECONCILE_CREDENTIALS": "已成功更新「重新調整認證」補救"
+        },
+        "ERROR_TITLES": {
+          "ADD_TO_PEND": "無法更新「新增至待處理」補救",
+          "ROTATE_CREDENTIALS": "無法更新「定期更換認證」補救",
+          "RECONCILE_CREDENTIALS": "無法更新「重新調整認證」補救"
+        }
+      },
+      "EVENT_STATUS": {
+        "CLOSE_MESSAGE": "是否確定要關閉此安全事件?\n\n已關閉的事件仍然可以使用狀態篩選器檢視",
+        "OPEN_MESSAGE": "是否確定要重新開啟此安全事件?"
+      },
+      "EDIT": "編輯",
+      "DELETE": "刪除",
+      "GET_ERROR_TITLE": "無法載入安全性組態"
+    }
+  },
+  "DASHBOARD": {
+    "HEADER": "系統健康",
+    "ERROR_MESSAGE": "發生伺服器錯誤，請稍後再試",
+    "VAULTS": "保險庫",
+    "CONNECTING_COMPONENTS": "連線元件",
+    "METER_CONNECTED": "已連線",
+    "METER_DISCONNECTED": "已中斷連線",
+    "REFRESH": "重新整理",
+    "MASTER": "Master",
+    "PRIMARY": "Primary",
+    "SATELLITE": "Satellite",
+    "DR": "DR",
+    "OFFLINE": "Offline",
+    "DASHBOARD_DETAILS": {
+      "COMPONENT_IDENTIFIER_COLUMN_TITLE": "元件識別碼",
+      "IP_COLUMN_TITLE": "IP",
+      "VERSION_COLUMN_TITLE": "版本",
+      "CONNECTIVITY_STATUS_COLUMN_TITLE": "連線狀態",
+      "LAST_LOGON_DATE_COLUMN_TITLE": "上次登入日期",
+      "GRID_CONNECTED": "已連線",
+      "GRID_DISCONNECTED": "已中斷連線",
+      "BACK_TO_MAIN_PAGE": "返回系統健康"
+    },
+    "COMPONENTS_METER_TOTAL_DESCRIPTION": {
+      "PVWA": "作用中的使用者",
+      "CPM": "受管帳戶",
+      "SESSIONMANAGEMENT": "並行工作階段",
+      "AIM": "應用程式"
+    },
+    "DIALOGS": {
+      "RESTORE_CONNECTIVITY": {
+        "SUCCESS": "恢復連線可能需要幾分鐘"
+      }
+    }
+  },
+  "LDAP_INTEGRATION": {
+    "PAGE_TITLE": "LDAP 整合",
+    "REFRESH": "重新整理",
+    "NEW_DOMAIN": "新網域",
+    "MAPPINGS": "對應",
+    "DOMAINS": "網域",
+    "DELETE_DOMAIN_DIALOG": {
+      "TITLE": "刪除網域連線?",
+      "BODY": "是否確定要從 CyberArk 中刪除 '{DOMAIN_NAME}' 網域?",
+      "SUB_TITLE": "\n以下目錄映射也將被刪除: \n{MAPPINGS}",
+      "MAIN_ACTION": "刪除",
+      "SECONDARY_ACTION": "取消",
+      "DELETED_SUCCESS": "網域連線已成功刪除",
+      "ERROR": {
+        "CLOSE_BUTTON": "關閉",
+        "TITLE": "刪除網域連線失敗",
+        "BODY": "網域 '{DOMAIN_NAME}' 連線刪除失敗"
+      }
+    },
+    "DELETE_MAPPING_DIALOG": {
+      "TITLE": "刪除目錄映射?",
+      "BODY": "是否確定要刪除 '{{MAPPING_NAME}}' 目錄映射?",
+      "SUB_TITLE": "\n此動作可能會阻止已提供的 LDAP 使用者存取 CyberArk 系統. ",
+      "MAIN_ACTION": "刪除映射",
+      "SECONDARY_ACTION": "取消",
+      "DELETED_SUCCESS": "映射已刪除",
+      "ERROR": {
+        "CLOSE_BUTTON": "關閉",
+        "TITLE": "刪除目錄映射失敗",
+        "BODY": "目錄映射 '{{MAPPING_NAME}}' 刪除失敗"
+      }
+    },
+    "MAPPING_DETAILS": {
+      "AUTH_TAB": {
+        "ALLOW": "允許",
+        "DENY": "拒絕"
+      },
+      "DETAILS_TAB": {
+        "MAPPING_CRITERIA_TITLE": "對應條件",
+        "LDAP_BRANCH": "LDAP 子目錄",
+        "CRITERIA_DETAILS": "使用者對應依據",
+        "MAPPING_DESTINATION_TITLE": "對應目的地",
+        "LOCATION": "位置",
+        "GROUP": "群組",
+        "AUTHENTICATION_TITLE": "驗證",
+        "AUTHENTICATION_METHOD": "驗證方法",
+        "ACTIVITY_LOGS_TITLE": "活動記錄",
+        "KEEP_USER_ACTIVITY_LOGS": "保留使用者活動記錄至少",
+        "DAYS": "天",
+        "ROOT": "Root"
+      },
+      "AUTHENTICATIONS": {
+        "AUTHTYPEVAULTPKI": "PKI",
+        "AUTHTYPELDAP": "LDAP",
+        "AUTHTYPENT": "NT",
+        "AUTHTYPERADIUS": "RADIUS"
+      }
+    },
+    "DIRECTORY_MAPPINGS": "目錄對應",
+    "GROUPS_NAME": {
+      "VAULT_ADMINS": "保險庫管理員",
+      "SAFE_MANAGERS": "保險櫃管理員",
+      "AUDITORS": "稽核員",
+      "USERS": "使用者"
+    },
+    "AUTHORIZATIONS": {
+      "NONE": "無",
+      "ADDSAFES": "新增保險櫃",
+      "AUDITUSERS": "稽核使用者",
+      "ADDUPDATEUSERS": "新增/更新使用者",
+      "RESETUSERSPASSWORDS": "重設使用者密碼",
+      "ACTIVATEUSERS": "啟動使用者",
+      "ADDNETWORKAREAS": "新增網路區域",
+      "MANAGEDIRECTORYMAPPING": "管理目錄對應",
+      "MANAGESERVERFILECATEGORIES": "管理伺服器檔案類別",
+      "BACKUPALLSAFES": "備份所有保險櫃",
+      "RESTOREALLSAFES": "還原所有保險櫃"
+    },
+    "CREATE": {
+      "PAGE_TITLE": "建立 LDAP 整合",
+      "TITLE": "LDAP 整合",
+      "SAVE": "儲存",
+      "CONNECT": "連線 >",
+      "DOMAIN_CONNECTED_SUCCESSFULLY": "已成功連線網域 {{domainName}}",
+      "THE_DIRECTORY_WERE_CREATED_SUCCESSFULLY": "已成功建立目錄",
+      "THE_DIRECTORY_AND_MAPPING_WERE_CREATED_SUCCESSFULLY": "已成功建立目錄和對應",
+      "STEPS": {
+        "SELECT_DIRECTORY_TYPE": "選擇目錄類型",
+        "SELECT_DIRECTORY_TYPE_TITLE": "選擇目錄類型",
+        "CONNECT_DOMAIN": "連接網域",
+        "CONNECT_DOMAIN_TITLE": "連接網域",
+        "CREATE_DIRECTORY_MAPPINGS": "建立目錄對應",
+        "CREATE_DIRECTORY_MAPPINGS_TITLE": "建立目錄對應（選擇性）"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "確認取消",
+        "BODY": "您確定要取消建立 LDAP 整合?",
+        "SECONDARY_MESSAGE": "將放棄您所做的變更",
+        "MAIN_ACTION": "確認取消",
+        "SECONDARY_ACTION": "不要取消"
+      },
+      "CONTINUE_DIALOG": {
+        "TITLE": "您確定要繼續?",
+        "TITLE_NO_MAPPING": "您確定要略過此頁面而不建立任何對應?",
+        "BODY": "將不會建立下列目錄對應:",
+        "BODY_NO_MAPPING": "需要目錄映射才能將 LDAP 使用者提供給 CyberArk 系統",
+        "MAIN_ACTION": "儲存",
+        "SECONDARY_ACTION": "留在此頁面"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "TITLE": "變更網域連線",
+        "CHANGE": "變更",
+        "CANCEL": "取消",
+        "PRIMARY_MESSAGE": "您確定要變更網域連線?",
+        "SECONDARY_MESSAGE": "您可能需要更新目錄對應"
+      },
+      "CONFIRMATION_MESSAGES_DIRECTORY_TYPE": {
+        "TITLE": "變更目錄類型",
+        "CHANGE": "變更",
+        "CANCEL": "取消",
+        "PRIMARY_MESSAGE": "您確定要變更目錄類型?",
+        "SECONDARY_MESSAGE": "您將需要更新網域連線"
+      },
+      "DIRECTORY_TYPE_STEP": {
+        "NO_DIRECTORY_TYPE_CONFIGURED": "未設定任何目錄類型",
+        "EMPTY_MESSAGE": "請在組態檔案中設定至少一種目錄類型。\n您可以在此設定：管理 > 組態選項 > LDAP 整合 > 設定檔 > 新增設定檔"
+      },
+      "CONNECT_DOMAIN_STEP": {
+        "CONNECT_TO": "連接至",
+        "CONNECT_VIA": "連接方式",
+        "CONNECT_WITH": "連線",
+        "DOMAIN_NAME": "網域名稱",
+        "START_DOMAIN_INTEGRATION_FROM": "開始網域整合的來源:",
+        "DOMAIN_BASE_CONTEXT": "網域基底環境",
+        "BIND_USERNAME": "綁定使用者名稱",
+        "CONNECTION": "連線",
+        "SECURED_CONNECTION": "安全 (SSL)",
+        "UNSECURE_CONNECTION": "不安全",
+        "BIND_USERNAME_PLACEHOLDER": "例如 JohnSmith@domainName.com",
+        "BIND_PASSWORD": "綁定使用者密碼",
+        "DOMAIN_NAME_MAX_LENGTH_MESSAGE": "此欄位最多可包含 160 個字元",
+        "USE_SSL": "使用安全連線 (SSL)",
+        "USE_SSL_MAIN_TITLE": "SSL 型加密需有 LDAPS 憑證.",
+        "USE_SSL_SUB_TITLE": "繼續之前，請先匯入此網域憑證以建立安全的 SSL 型連線.",
+        "USE_SSL_TOOLTIP": "SSL 型加密為安全連線 (連接埠 636)",
+        "SSL_MORE_INFO_LINK": "請參閱說明",
+        "SSL_MORE_INFO_HEADER": "如何匯入網域憑證",
+        "SSL_MORE_INFO_BODY": "1。取得請求之網域的公開網域憑證。\n\n2.在保險庫機器和 IIS 機器上，從檔案功能表中選擇「新增/移除嵌入式管理單元」。\n\n3.從左側功能表中新增「憑證」，然後按一下「新增」。\n\n4.依序選擇「電腦帳戶」及「本機電腦」。\n\n5.依序展開「憑證 (本機電腦)」及「信任的根憑證授權\n單位」，「憑證」資料夾隨即顯示。\n\n6.匯入所有網域憑證，並將其放入下列保存區中，以供\n所有企業保險庫使用。\n\n7.將網域名稱 (如憑證中所示) 新增至保險庫本機 HOSTS \n檔案，其中每個 IP 位址皆與來自保險庫的連線\n相關。\n\n8.繼續並連線網域.",
+        "SSL_MORE_INFO_CANCEL": "取消",
+        "FAILED_TO_CONNECT_DOMAIN": "無法連線至網域",
+        "FAILED_TO_CONNECT_DOMAIN_MORE_INFO": "這可能是因為：\n•「網域名稱」、「綁定使用者名稱」，或「綁定使用者密碼」錯誤。\n•LDAPS 憑證組態有問題 (若您正使用安全連線)。\n•網域伺服器已停止.",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT": "此網域已連線",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT_MORE_INFO": "請變更網域名稱",
+        "LDAP_USERS_DIALOG": {
+          "TITLE": "符合搜尋條件的 LDAP 使用者",
+          "TEXT": "顯示 {{GROUP_NAME}} 的 {{NUMBER_OF_OBJECTS}} 位使用者",
+          "NO_USERS": "沒有可顯示的使用者",
+          "WATERMARK": "依使用者或群組名稱篩選",
+          "INFO_MESSAGE": "有超過 1000 位使用者，請嘗試尋找其他使用者",
+          "WARNING_MESSAGE": "由於我們僅能顯示前 1000 位找到的使用者，您可能無法找到正在尋找的特定使用者",
+          "GRID_COLUMNS": {
+            "USER_NAME": "使用者名稱",
+            "GROUP_NAME": "群組"
+          },
+          "CLOSE": "關閉"
+        }
+      },
+      "CREATE_DIRECTORY_MAPPING_STEP": {
+        "DOMAIN_BASE_CONTEXT": "網域基底環境",
+        "DOMAIN_BASE_CONTEXT_INFO": "僅從此層級向下開始網域整合",
+        "INFO_MESSAGE": "此工具會建立我們建議的預設目錄對應，建立後，您可以根據您公司的需求將其編輯.",
+        "DEFINE_MAP": "定義對應",
+        "DEFINED": "已定義",
+        "GROUPS_INFO": "若要建立此對應，請選擇相關群組",
+        "SELECT_LDAP_GROUPS": "選擇 LDAP 群組",
+        "MAPPED_USERS_WILL_BE_ADDED_TO": "對應的使用者將新增至",
+        "ACCESS_LIMITATIONS": "存取限制",
+        "KEEP_USER_ACTIVITY_LOGS_FOR": "保留使用者活動記錄的時間",
+        "AUTHORIZATIONS": "授權",
+        "MAPPED_GROUPS": "對應的群組將新增至:",
+        "VIEW_USERS": "檢視使用者",
+        "LOCATION": "位置",
+        "GROUP": "群組",
+        "NONE": "無",
+        "DAYS": "天",
+        "FAILED_TO_CREATE_NAME_DIRECTORY": "無法建立目錄",
+        "FAILED_TO_CREATE_DIRECTORY_MAPPING": "無法建立目錄對應",
+        "FAILED_TO_CREATE_NAME_DIRECTORY_MAPPING": "無法建立「{MAPPING_NAME}」目錄對應",
+        "THE_FOLLOWING_DIRECTORY_MAPPING_FAILED_TO_BE_CREATED": "無法建立下列目錄對應",
+        "CLOSE": "關閉"
+      }
+    },
+    "EDIT_MAPPING": {
+      "CHANGES_SAVED_SUCCESSFULLY": "變更已成功儲存",
+      "CANCEL_DIALOG": {
+        "TITLE": "確認取消",
+        "BODY": "是否確定要取消編輯目錄映射? 所做的變更將被放棄.",
+        "MAIN_ACTION": "確認取消",
+        "SECONDARY_ACTION": "不要取消"
+      },
+      "CONFIRM_DIALOG": {
+        "TITLE": "確認變更",
+        "BODY": "是否確定要儲存此目錄映射的變更? 這將影響 CyberArk 系統的 LDAP 使用者提供程式.",
+        "MAIN_ACTION": "確認變更",
+        "SECONDARY_ACTION": "留在頁面"
+      },
+      "ERROR": {
+        "TITLE": "發生了錯誤"
+      }
+    },
+    "ADD_MAPPING": {
+      "MESSAGE_SAVED_SUCCESSFULLY": "目錄映射已成功新增",
+      "MESSAGE_REORDER_FAILED": {
+        "TITLE": "重新排序目錄映射失敗",
+        "BODY": "\"{{mapping_name}}\" 目錄映射已成功建立，但無法新增至請求的位置。它已新增至清單的末尾.",
+        "MAIN_ACTION": "關閉"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "確認取消",
+        "BODY": "是否確定要取消新增目錄映射? 所做的變更將被放棄",
+        "MAIN_ACTION": "確認取消",
+        "SECONDARY_ACTION": "不要取消"
+      },
+      "ERROR_DIALOG": {
+        "TITLE": "新增映射失敗",
+        "MAIN_ACTION": "關閉"
+      }
+    },
+    "EMPTY_STATE": {
+      "TITLE_TEXT": "透過連接網域，開始 LDAP 整合程序",
+      "MAPPING_TEXT_ONE": "建立目錄",
+      "MAPPING_TEXT_TWO": "對應",
+      "NEW_DOMAIN_TEXT_ONE": "連接新",
+      "NEW_DOMAIN_TEXT_TWO": "網域",
+      "USERS_TEXT_ONE": "LDAP 使用者",
+      "USERS_TEXT_TWO": "佈建於 CyberArk 中"
+    }
+  },
+  "ADD_SAFE_DIALOG": {
+    "TITLE": "建立保險櫃",
+    "CREATE_SAFE_BUTTON": "建立保險櫃",
+    "CANCEL_BUTTON": "取消",
+    "NEW_SAFE_NAME_LABEL": "新保險櫃名稱",
+    "SAFE_NAME_HINT_TEXT_EXTRA_DETAILS": "最多使用 28 個字元",
+    "SAFE_ALREADY_EXISTS_ERROR": "保險櫃 {SAFE_NAME} 已存在"
+  },
+  "BUSINESS_USERS": {
+    "PAGE_TITLE": "企業使用者",
+    "TAG_EDITOR": {
+      "MAX_TAGS_ERROR": {
+        "TITLE": "已達到最大標籤配額",
+        "TEXT": "最多容許 {{max}} 個標籤"
+      },
+      "SAVED_SUCCESSFULLY": "該項目已成功儲存"
+    },
+    "CONFIRM_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "是否確定要刪除 '{{name}}'？",
+        "MAIN_MESSAGE": "所有項目的詳情將丟失."
+      }
+    },
+    "DELETE_BUTTON_TEXT": "刪除",
+    "CANCEL_DIALOG": {
+      "TITLE": "確認取消",
+      "ADD_BODY": "是否確定要取消新增項目?",
+      "EDIT_BODY": "是否確定要取消編輯項目?",
+      "SECONDARY_MESSAGE": "將放棄您所做的變更",
+      "MAIN_ACTION": "確認取消",
+      "SECONDARY_ACTION": "不要取消"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "關閉",
+      "TITLE": "錯誤"
+    },
+    "ADD_SUCCESS_MESSAGE": {
+      "TITLE": "該項目已成功新增"
+    },
+    "EDIT_SUCCESS_MESSAGE": {
+      "TITLE": "該項目已成功編輯"
+    },
+    "FAILURE_MESSAGE": {
+      "MAIN_MESSAGE": "無法提交表單",
+      "SECONDARY_MESSAGE": "請重試或連絡管理員"
+    },
+    "ERROR_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "刪除帳戶失敗"
+      },
+      "ADD_ACCOUNT": {
+        "TITLE": "新增帳戶失敗"
+      },
+      "EDIT_ACCOUNT": {
+        "TITLE": "編輯帳戶失敗"
+      },
+      "SHOW_PASSWORD": {
+        "TITLE": "顯示密碼失敗"
+      },
+      "ADD_BUSINESS_SAFE": {
+        "TITLE": "新增失敗",
+        "TEXT": "由於沒有自動建立保險櫃，因此新增特權企業認證失敗。\n請與管理員連絡以解決此問題。",
+        "SAFE_PROBLEM_TITLE": "新增失敗",
+        "SAFE_PROBLEM_TEXT": "由於沒有自動建立保險櫃，因此新增特權企業認證失敗。\n請與管理員連絡以解決此問題。"
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "顯示密碼",
+      "PASSWORD_INPUT_LABEL": "密碼",
+      "COPY_BUTTON_TEXT": "複製",
+      "SHOW_BUTTON_TEXT": "顯示",
+      "CHANGE_BUTTON_TEXT": "變更",
+      "CLOSE_BUTTON_TEXT": "關閉",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "密碼是空的"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "此密碼太常，無法完整顯示。按一下複製以複製完整的密碼."
+      },
+      "FAILURE_MAIN_TEXT": "顯示密碼失敗"
+    },
+    "SHOW_USERNAME_DIALOG": {
+      "TITLE": "顯示使用者名",
+      "USERNAME_INPUT_LABEL": "使用者名",
+      "COPY_BUTTON_TEXT": "複製",
+      "SHOW_BUTTON_TEXT": "顯示",
+      "CLOSE_BUTTON_TEXT": "關閉",
+      "WARNINGS": {
+        "EMPTY_USERNAME": "使用者名為空"
+      },
+      "INFORMATION": {
+        "TOO_LONG_USERNAME": "此使用者名太長，無法完整顯示。按一下複製以複製整個使用者名."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "複製密碼",
+      "COPY_BUTTON_TEXT": "複製"
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "密碼已複製到剪貼簿",
+      "DELETE_ACCOUNT": "該項目已刪除"
+    },
+    "ADD": {
+      "PAGE_TITLE": "新增特權企業認證"
+    },
+    "EDIT": {
+      "PAGE_TITLE": "編輯特權企業認證"
+    },
+    "CLIPBOARD": {
+      "DOWNLOAD_EXTENSION_DIALOG": {
+        "COPY_PASSWORD_TITLE": "複製密碼",
+        "COPY_USERNAME_TITLE": "複製使用者名",
+        "MAIN_MESSAGE": "要使用此功能，請下載並安裝瀏覽器延伸/附掛程式."
+      },
+      "FETCH_PASSWORD_FAILED_DIALOG": {
+        "TITLE": "複製密碼",
+        "MAIN_MESSAGE": "複製密碼失敗"
+      },
+      "PASSWORD_COPIED_TO_CLIPBOARD": "密碼已複製到剪貼簿",
+      "USERNAME_COPIED_TO_CLIPBOARD": "使用者名已複製到剪貼簿",
+      "WARNINGS": {
+        "EMPTY_PASSWORD_COPY_TITLE": "複製密碼",
+        "EMPTY_USERNAME_COPY_TITLE": "複製使用者名",
+        "CANNOT_COPY_EMPTY_PASSWORD": "無法複製空白的密碼。剪貼簿內容未變更.",
+        "CANNOT_COPY_EMPTY_USERNAME": "無法複製空使用者名。剪貼簿的內容未變更."
+      }
+    }
+  },
+  "USERS": {
+    "ACTIVATE": "使用者已成功啟動",
+    "CREATE": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} 已成功建立"
+    },
+    "DISABLE": {
+      "SUCCESS_MESSAGE": "使用者已成功停用"
+    },
+    "EDIT": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} 已成功更新"
+    },
+    "ERRORS": {
+      "GET_USERS": "取得使用者時發生錯誤",
+      "GET_USER_DETAILS": "取得使用者詳情時發生錯誤",
+      "FAILED_TO_ASSIGN_GROUP": "分配給群組失敗",
+      "ADD_USER_TO_GROUPS_ON_CREATE": "使用者已成功建立，但無法分配給所有選定的群組。\n開啟 PrivateArk Client，然後手動將使用者分配給群組.",
+      "ACTIVATE_USER": "啟動使用者時發生錯誤",
+      "DISABLE_USER": "停用使用者時發生錯誤"
+    },
+    "DIALOGS": {
+      "CREATE_CANCELLATION": {
+        "TITLE": "確認取消",
+        "BODY": "是否確定要取消新增 CyberArk 使用者?",
+        "SECONDARY_MESSAGE": "將放棄您所做的變更",
+        "MAIN_ACTION": "確認取消",
+        "SECONDARY_ACTION": "不要取消"
+      },
+      "EDIT_CANCELLATION": {
+        "TITLE": "確認取消",
+        "BODY": "取消變更 {{USERNAME}} 使用者?",
+        "SECONDARY_MESSAGE": "將放棄您所做的變更",
+        "MAIN_ACTION": "確認取消",
+        "SECONDARY_ACTION": "不要取消"
+      },
+      "USERNAME_CHANGED": {
+        "TITLE": "需要新密碼",
+        "BODY": "如果變更使用者名，則必須輸入新密碼",
+        "MAIN_ACTION": "變更使用者名",
+        "SECONDARY_ACTION": "取消"
+      }
+    }
+  },
+  "GROUPS": {
+    "ERRORS": {
+      "GET_GROUPS": "取得群組時發生錯誤"
+    },
+    "CREATE_SUCCESS_MESSAGE": "群組 {{NAME}} 已成功建立"
+  },
+  "PLATFORMS": {
+    "TITLE": "平臺管理",
+    "REFRESH": "重新整理",
+    "PLATFORMS_ACTIONS": {
+      "SEARCH_TEXT": "搜尋目標帳戶平台",
+      "ERROR_MESSAGE": {
+        "CLOSE": "關閉",
+        "OK": "確定",
+        "GENERAL_ERROR": {
+          "HEADER_TITLE": "我們在處理請求時遇到問題",
+          "MAIN_TITLE": "請在幾分鐘後重試",
+          "SUB_TITLE": "如果這樣不起作用，請與管理員連絡"
+        }
+      },
+      "ACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "啟動平台",
+          "PRIMARY_MESSAGE": "是否確定要啟動平台 {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "如果存在與此平台關聯的帳戶，則將啟動它們.",
+          "ACTIVATE": "啟動",
+          "CANCEL": "取消"
+        },
+        "ERROR_MESSAGE": "啟動平台失敗",
+        "SUCCESS_MESSAGE": "平台已成功啟動"
+      },
+      "DEACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "停用平台",
+          "PRIMARY_MESSAGE": "是否確定要停用平台 {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "與此平台關聯的帳戶將不再可以使用認證管理.",
+          "DEACTIVATE": "停用",
+          "CANCEL": "取消"
+        },
+        "ERROR_MESSAGE": "停用平台失敗",
+        "SUCCESS_MESSAGE": "平台已成功停用"
+      },
+      "DELETE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "刪除平台",
+          "PRIMARY_MESSAGE": "是否確定要刪除平台 {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "與此平台關聯的帳戶將不再可以使用認證管理.",
+          "DELETE": "刪除",
+          "CANCEL": "取消"
+        },
+        "ERROR_MESSAGE": "刪除平台失敗",
+        "SUCCESS_MESSAGE": "平台已成功刪除"
+      },
+      "DUPLICATE": {
+        "ERROR_MESSAGE": "複製平台失敗",
+        "SUCCESS_MESSAGE": "平台已成功複製",
+        "ERROR": {
+          "OK": "確定"
+        }
+      },
+      "EXPORT": {
+        "ERROR_MESSAGE": "匯出平台失敗",
+        "SUCCESS_MESSAGE": "平台已成功匯出"
+      },
+      "GET_CLASSIC_UI_EDIT_URL": {
+        "ERROR_MESSAGE": "載入編輯平台失敗"
+      },
+      "MANAGE_CONNECTORS": {
+        "UPDATE_PLATFORMS": {
+          "ERROR_MESSAGE": "更新平台特權工作階段管理失敗",
+          "SUCCESS_MESSAGE": "平台特權工作階段管理已成功更新"
+        },
+        "ERROR_MESSAGE": {
+          "IMPORT_CONNECTION_COMPONENT": "匯入連線元件失敗",
+          "FAILED_TO_DISPLAY_CONNECTORS_TITLE": "顯示連接器失敗",
+          "FAILED_TO_DISPLAY_CONNECTORS_MESSAGE": "我們目前無法顯示此平台的連接器。\n返回「平台管理」頁面，然後重試."
+        },
+        "CONFIRMATION_MESSAGE": {
+          "TITLE": "是否要離開此頁面?",
+          "BODY": "您的變更將丟失.",
+          "MAIN_ACTION": "離開",
+          "SECONDARY_ACTION": "留在此頁面"
+        }
+      }
+    },
+    "MARKETPLACE": "市集",
+    "IMPORT_PLATFORM": "匯入平台",
+    "ERROR_MESSAGES": {
+      "IMPORT_PLATFORM_FAILURE": "匯入平台失敗",
+      "IMPORT_PLATFORM_MAX_SIZE": "超出最大檔案大小限制",
+      "IMPORT_FILE_MAX_SIZE": "超出最大檔案大小限制",
+      "READ_FILE_FAILURE": "讀取檔案失敗"
+    },
+    "SUCCESS_MESSAGES": {
+      "IMPORT_PLATFORM": "平台已成功匯入"
+    }
+  },
+  "AUTH_METHOD_CONFIG": {
+    "OIDC_PROVIDER": {
+      "SAVE_PROVIDER_SUCCESS_MESSAGE": "{{PROVIDER_ID}} 提供程式已成功儲存",
+      "ERROR_MESSAGE": {
+        "CLOSE": "關閉",
+        "ADD_PROVIDER_HEADER_TITLE": "儲存 OIDC 提供程式失敗",
+        "PARTIAL_SUCCESS_TITLE": "提供程式的資訊已部分儲存。發生以下錯誤:",
+        "REMOVE_PROVIDER_HEADER_TITLE": "刪除 OIDC 提供程式失敗",
+        "PARTIAL_REMOVE_TITLE": "提供程式的資訊已部分刪除。發生以下錯誤:"
+      },
+      "REMOVE_PROVIDER_SUCCESS_MESSAGE": "{{PROVIDER_ID}} 提供程式已成功刪除",
+      "REMOVE_DIALOG": {
+        "TITLE": "是否確定要刪除提供程式?",
+        "REMOVE": "刪除",
+        "CANCEL": "取消"
+      }
+    }
+  }
+}

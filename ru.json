@@ -1,0 +1,2236 @@
+{
+  "APPLICATION_RESOURCES": {
+    "TITLE": "Password Vault Web Access",
+    "SIGNOUT": "Выход",
+    "ABOUT": "Сведения",
+    "CHANGE_LANGUAGE": "Изменить",
+    "SKIP_LINK": "Пропустить и перейти к основному содержанию",
+    "LEFT_NAVBAR": {
+      "COLLAPSE": "Свернуть",
+      "EXPAND": "Развернуть"
+    },
+    "TOP_NAVBAR": {
+      "TITLE": "Информация о входе в систему",
+      "LAST_SIGN_IN": "Последний вход",
+      "LAST_SUCCESS_LOGIN_TIME": "Время последнего входа",
+      "LAST_FAIL_LOGIN_TIME": "Время последнего неудачного входа",
+      "LAST_SUCCESS_LOGIN_IP": "Исходный IP-адрес последнего входа",
+      "LAST_FAIL_LOGIN_IP": "Исходный IP-адрес последнего неудачного входа",
+      "FAILED_LOGINS": "Неудачные попытки входа",
+      "COMFORTABLE_VIEW": "Удобный просмотр",
+      "CONDENSED_VIEW": "Компактный просмотр"
+    }
+  },
+  "LOGIN": {
+    "PAGE_TITLE": "Вход"
+  },
+  "CULTURE": {
+    "FEEDBACK_MODAL_CHANGE_LANGUAGE": {
+      "TITLE": "Не удалось изменить язык",
+      "MAIN_TITLE": "Не удалось обновить ваши пользовательские настройки",
+      "CLOSE_BUTTON_TEXT": "Закрыть"
+    }
+  },
+  "ABOUT_DIALOG": {
+    "TITLE": "О службе безопасности привилегированного доступа CyberArk",
+    "VERSION": "Версия",
+    "COPYRIGHT": "© CyberArk Software, 1999-2021",
+    "CLOSE_BUTTON_TEXT": "Закрыть",
+    "CHECK_VERSION": "Проверить наличие новой версии",
+    "CONTENT": {
+      "P1_1": "Просмотрите наш ",
+      "P1_2": "для получения списка программ с открытым исходным кодом, включенных в пакет CyberArk Vault Software.",
+      "CYBERARK_ACKNOWLEDGMENT": " Благодарности "
+    }
+  },
+  "NAVIGATION": {
+    "BUSINESSUSERS": "Бизнес-пользователи",
+    "USERPROVISIONING": "Выделение ресурсов пользователям",
+    "USERS": "Пользователи",
+    "GROUPS": "Группы",
+    "POLICIES": "Политики",
+    "APPLICATIONS": "Приложения",
+    "ADMINISTRATION": "Администрирование",
+    "PLATFORMMANAGEMENT": "Управление платформами",
+    "AUTHMETHODCONFIG": "Аутентификация OIDC",
+    "CONFIGURATIONOPTIONS": "Параметры конфигурации",
+    "REPORTS": "Отчеты",
+    "GENERATEREPORT": "Создать отчет",
+    "REPORTDEFINITIONS": "Определения отчета",
+    "SECURITY": "Безопасность",
+    "SECURITYEVENTS": "События системы безопасности",
+    "SECURITYSETTINGS": "Конфигурации системы безопасности",
+    "ACCOUNTSLIST": "Просмотр учетных записей",
+    "ACCOUNTSLISTLEGACY": "Просмотр учетных записей (классический интерфейс)",
+    "ACTIVITIES": "Действия",
+    "COMPLIANCE": "Соответствие стандартам",
+    "INVENTORY": "Ведомость",
+    "MONITORING": "Мониторинг",
+    "PRIVILEGEDSESSIONS": "Привилегированные сеансы",
+    "MONITORINGLEGACY": "Мониторинг (классический интерфейс)",
+    "MYREQUESTS": "Мои запросы",
+    "INCOMINGREQUESTS": "Входящие запросы",
+    "ACCOUNTSFEEDV9": "В режиме ожидания и обнаружения",
+    "ACCOUNTSFEED": "Канал учетных записей",
+    "FILES": "Файлы",
+    "ALLFILES": "Все файлы",
+    "MSP": "Управление клиентами",
+    "HELP": "Справка",
+    "ACCOUNTS": "Учетные записи",
+    "DASHBOARD": "Состояние системы",
+    "ACCOUNTSANDREQUESTS": "Учетные записи и запросы",
+    "ONBOARDINGRULES": "Правила адаптации",
+    "LDAPINTEGRATION": "Интеграция LDAP"
+  },
+  "SESSION_EXPIRED": {
+    "FEEDBACK_MESSAGE": {
+      "SAME_USER_CONNECTED_MAIN_TITLE": "Этот сеанс был остановлен, поскольку тот же пользователь подключился в другом месте",
+      "DEFAULT_MAIN_TITLE": "Время вашего сеанса истекло, и ваш пользователь отключен.",
+      "HEADER_TITLE": "Время действия сеанса истекло",
+      "SUB_TITLE": "Нажмите ОК, чтобы вернуться к экрану входа в систему",
+      "CONFIRM_BUTTON_TEXT": "ОК",
+      "CLOSE_BUTTON_TEXT": "Закрыть"
+    }
+  },
+  "READ_ONLY_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "PASWS222E Данное действие не может быть выполнено, поскольку система находится в режиме только чтения.",
+      "SUB_TITLE": "В режиме «Только чтение» все операции записи, такие как «Добавить учетную запись», «Запросы», «Подтвердить запрос», «Изменить пароль» и «Создать отчет», отключены. Вы по-прежнему можете использовать систему для операций чтения, таких как отображение/копирование паролей, которые не защищены рабочими процессами «Двойной контроль», «Разовый» или «Пароль с эксклюзивным доступом».",
+      "HEADER_TITLE": "Действие недоступно",
+      "CLOSE_BUTTON_TEXT": "Закрыть"
+    },
+    "TOP_NAVBAR": {
+      "HEADER_INDICATION_TITLE_TEXT": "Режим только для чтения",
+      "HEADER_INDICATION_SUBTITLE_TEXT": "некоторые действия недоступны"
+    }
+  },
+  "READ_ONLY_MASTER_IS_AVAILABLE_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "Теперь доступен полный набор функций.",
+      "SUB_TITLE": "Для завершения этого действия необходимо повторно войти в систему, чтобы выйти из режима только для чтения.",
+      "HEADER_TITLE": "Это действие недоступно в режиме только для чтения",
+      "IGNORE_BUTTON_TEXT": "Игнорировать",
+      "LOGOUT_BUTTON_TEXT": "Выход"
+    }
+  },
+  "ACCOUNT": {
+    "PAGE_TITLE": "Учетная запись",
+    "SELECT_THE_ACCOUNT_TYPE": "Выберите тип новой учетной записи",
+    "SEARCH_PLATFORM_PLACEHOLDER": "Фильтр по имени платформы",
+    "NO_PLATFORMS_FOUND": "Нет платформ для отображения",
+    "SELECT_SAFE": "Выберите сейф",
+    "SEARCH_SAFE_PLACEHOLDER": "Фильтр по имени сейфа",
+    "NO_SAFES_FOUND": "Нет сейфов для отображения",
+    "FORM_PRIMARY_PROPERTIES": "Основные свойства",
+    "FORM_ADDITIONAL_PROPERTIES": "Дополнительные свойства",
+    "FORM_ACCOUNT_MANAGEMENT": "Управление учетными записями",
+    "OPTIONAL_PROPERTY": "необязательно",
+    "PASSWORD": "Пароль",
+    "RESOLVE": "Разрешить",
+    "ACCOUNT_NAME": "Учетная запись",
+    "CUSTOMIZE_ACCOUNT_NAME": "Изменить имя учетной записи",
+    "CUSTOMIZE_ACCOUNT_NAME_PLACEHOLDER": "Укажите пользовательское имя учетной записи",
+    "AUTO_GENERATE_CALLOUT_TITLE": "Шаблон имени автоматически сформированного пароля",
+    "AUTO_CPM_MANAGE": "Разрешить автоматическое управление паролями",
+    "AUTO_CPM_MANAGE_PLACEHOLDER": "Укажите причину запроса ручного управления",
+    "CONFIRM_PASSWORD": "Подтверждение пароля",
+    "AMAZON_ACCESS_KEY": "Секрет ключа доступа AWS",
+    "FEEDBACK_MESSAGE_TITLE": "Исправьте следующие ошибки",
+    "LIMIT_ACCESS_TO_MACHINES": "Ограничить доступ только к следующим компьютерам",
+    "REMOTE_MACHINE_ACCESS": "Доступ к удаленному компьютеру",
+    "KEYWORDS_PROPERTY_HINT_TEXT": "Ключевые слова, разделенные точкой с запятой"
+  },
+  "ADD_ACCOUNT": {
+    "TITLE": "Добавить учетную запись",
+    "PAGE_TITLE": "Добавить учетную запись",
+    "SELECTED_TILE_HOVER_TEXT": "Изменить",
+    "ADD_ACTION": "Добавить",
+    "CANCEL": "Отменить",
+    "ADD_SAFE": "Создать сейф",
+    "STEPS": {
+      "SELECT_SYSTEM_TYPE": "Выбрать тип системы",
+      "SELECT_SYSTEM_TYPE_TITLE": "Выбрать тип системы",
+      "ASSIGN_PLATFORM": "Присвоить платформе",
+      "ASSIGN_PLATFORM_TITLE": "Выбрать платформу",
+      "SELECT_SAFE": "Сохранить в сейфе",
+      "SELECT_SAFE_TITLE": "Выберите сейф",
+      "DEFINE_PROPERTIES": "Определить свойства",
+      "DEFINE_PROPERTIES_TITLE": "Определите свойства учетной записи"
+    },
+    "SUCCESS_MESSAGE": {
+      "TITLE": "Учетная запись успешно добавлена"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "Не удалось добавить учетную запись. Причина:"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "Изменить платформу",
+      "CHANGE_SYSTEM_TYPE_TITLE": "Изменить тип системы",
+      "OK": "Изменить",
+      "CANCEL": "Отменить",
+      "SECONDARY_MESSAGE": "Чтобы завершить это изменение, вам может понадобиться обновить свойства учетной записи.",
+      "PLATFORM_PRIMARY_MESSAGE": "Изменить платформу на",
+      "SYSTEM_TYPE_PRIMARY_MESSAGE": "Изменить тип системы на"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Закрыть",
+      "TITLE": "ОШИБКА"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "Подтверждение отмены",
+      "BODY": "Отменить добавление учетной записи?",
+      "SECONDARY_MESSAGE": "Сделанные вами изменения будут отменены",
+      "MAIN_ACTION": "Подтверждение отмены",
+      "SECONDARY_ACTION": "Не отменять"
+    }
+  },
+  "EDIT_ACCOUNT": {
+    "TITLE": "Изменить учетную запись",
+    "PAGE_TITLE": "Изменить учетную запись",
+    "CHANGE_THE_PLATFORM_TYPE": "Изменить платформу",
+    "SAVE": "Сохранить",
+    "CANCEL": "Отменить",
+    "GENERAL": "Общее",
+    "CANCEL_EDIT": "Отменить редактирование",
+    "INACTIVE_PLATFORM": "Неактивная платформа",
+    "DELETED_PLATFORM": "Платформа не найдена",
+    "PLATFORM_X_INACTIVE": "Платформа {{platformName}} неактивна",
+    "WAS_DELETED": "удален",
+    "DELETED_PLATFORM_MESSAGE": "Не удалось найти платформу, присвоенную данной учетной записи",
+    "DELETED_PLATFORM_SECONDARY_MESSAGE": "Выберите другую платформу При этом будет автоматически установлен тип учетной записи",
+    "SELECT_PLATFORM": "Выбрать платформу",
+    "SELECT_A_PLATFORM": "Выберите платформу",
+    "CHANGE_PLATFORM": "Изменить платформу",
+    "INACTIVE": "неактивн",
+    "INACTIVE_PLATFORM_MESSAGE": "Управление учетными записями не применяется к неактивным платформам",
+    "CONTINUE_WITH_CURRENT": "Продолжить с использованием текущей платформы",
+    "DELETED": "удален",
+    "STEPS": {
+      "SELECTED_SYSTEM_TYPE": "Выбранный тип системы",
+      "ASSIGNED_PLATFORM": "Присвоенные платформе",
+      "CHANGE_PLATFORM_TITLE": "Изменить платформу",
+      "SELECTED_SAFE": "Сохраненные в сейфе",
+      "ACCOUNT_PROPERTIES": "Свойства учетной записи",
+      "ACCOUNT_PROPERTIES_TITLE": "Свойства учетной записи"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "Изменить платформу",
+      "OK": "Изменить",
+      "CANCEL": "Отменить",
+      "SECONDARY_MESSAGE": "Чтобы завершить это изменение, вам может понадобиться обновить свойства учетной записи.",
+      "PLATFORM_PRIMARY_MESSAGE": "Изменить платформу на"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "Подтверждение отмены",
+      "BODY": "Отменить изменение учетной записи?",
+      "SECONDARY_MESSAGE": "Сделанные вами изменения будут отменены",
+      "MAIN_ACTION": "Подтверждение отмены",
+      "SECONDARY_ACTION": "Не отменять"
+    },
+    "SUCCESS_MESSAGE": "Учетная запись успешно сохранена",
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Закрыть",
+      "TITLE": "Изменить учетную запись",
+      "CANCEL": "Отменить"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "Не удалось изменить учетную запись. Причина: {{errorReason}}",
+      "MAIN_MESSAGE": "Не все свойства были обновлены. Повторите попытку"
+    }
+  },
+  "SAFES": {
+    "PAGE_TITLE": "Сейфы",
+    "TITLE": "Сейфы",
+    "SEARCH_TEXT": "Поиск по имени сейфа",
+    "ADD_ACTION": "Новый сейф",
+    "DETAILS": "Подробно",
+    "MEMBERS": "Участники",
+    "DELETE": "Удалить",
+    "EDIT": "Правка",
+    "CLOSE_ACTION": "Закрыть"
+  },
+  "ADD_SAFE": {
+    "PAGE_TITLE": "Новый сейф",
+    "ADD_ACTION": "Добавить",
+    "CANCEL_ACTION": "Отменить",
+    "CLOSE_ACTION": "Закрыть",
+    "SAFE_NAME_FIELD_TITLE": "Имя сейфа",
+    "SAFE_NAME_HINT_TEXT": "Введите имя сейфа в соответствии с правилами именования, принятыми в вашей организации.",
+    "SAFE_DESCRIPTION_FIELD_TITLE": "Описание (необязательно)",
+    "OLAC_LABEL": "Управление доступом на уровне объектов",
+    "OLAC_WARNING_MESSAGE": "Данную функцию невозможно будет отключить после добавления сейфа",
+    "ADVANCED_DETAILS_LABEL": "Расширенные сведения",
+    "CHARACTERS_LEFT_LABEL": " символов осталось",
+    "CHARACTERS_OVER_LABEL": " лишних символов",
+    "ASSIGNED_CPM_FIELD_TITLE": "Назначено диспетчеру CPM",
+    "ASSIGNED_CPM_NO_VALUE": "[нет]",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "Сейф успешно добавлен"
+    },
+    "ERROR_MESSAGE": {
+      "HEADER_TITLE": "Новый сейф",
+      "SUB_TITLE": "Повторите попытку."
+    },
+    "SAFE_VERSION_MANAGEMENT_FIELD_TITLE": "Управление версиями",
+    "RADIO_BUTTONS": {
+      "RETENTION": {
+        "TEXT": "Сохранять версии учетной записи за",
+        "BOLD_TEXT": "период времени:",
+        "UNITS": "дней"
+      },
+      "VERSIONS": {
+        "TEXT": "Сохранить последнюю учетную запись",
+        "BOLD_TEXT": "версии:",
+        "UNITS": "версии"
+      }
+    }
+  },
+  "SAFE_DETAILS": {
+    "SAFE_NAME": "Имя сейфа",
+    "ASSIGNED_CPM": "Назначено диспетчеру CPM",
+    "DESCRIPTION": "Описание",
+    "VERSION_MANAGEMENT": "Управление версиями",
+    "OLAC_ENABLED": "Управление доступом на уровне объектов",
+    "AUTO_PURGE_ENABLED": "Автоматическое очищение сейфа",
+    "ADVANCED_DETAILS": "Расширенные сведения",
+    "NONE_STR": "[нет]",
+    "DASH_STR": "-",
+    "ENABLED_STR": "Включено",
+    "DISABLED_STR": "Отключено",
+    "VERSIONS_RETENTION_FIRST_PART": "Сохранение последних ",
+    "VERSIONS_RETENTION_SECOND_PART": " учетная запись",
+    "VERSIONS_RETENTION_THIRD_PART": " версии",
+    "VERSIONS_RETENTION_SINGLE": "Сохранение последней учетной записи ",
+    "VERSIONS_RETENTION_SINGLE_BOLD": "версия",
+    "DAYS_RETENTION_FIRST_PART": "Сохранение версий последней учетной записи за последние ",
+    "DAYS_RETENTION_SECOND_PART": " дней",
+    "DAYS_RETENTION_SINGLE": "Сохранить версий учетной записи за последний ",
+    "DAYS_RETENTION_SINGLE_BOLD": "день",
+    "EXPIRED_MEMBERSHIP_ERROR": "Срок вашего членства в этом сейфе истек"
+  },
+  "FEEDBACK_MESSAGE": {
+    "CLOSE": "Закрыть",
+    "REFRESH": "Обновить",
+    "GENERIC_DATA_ERROR": {
+      "TITLE": "Произошла ошибка",
+      "SUBTITLE": "Повторите попытку или обратитесь к администратору"
+    }
+  },
+  "ACCOUNTS": {
+    "DELETE_SUCCESS": "Учетная запись успешно удалена",
+    "CHANGE_IN_VAULT_SUCCESS": "Пароль к хранилищу успешно изменен",
+    "PAGE_TITLE": "Учетные записи",
+    "TITLE": "Просмотр учетных записей",
+    "SEARCH_TEXT": "Поиск учетных записей",
+    "REFRESH": "Обновить",
+    "ADD_ACTION": "Добавить учетную запись",
+    "AD_HOC_CONNECT_ACTION": "Специальное подключение",
+    "EDIT_ACTION": "Изменить учетную запись",
+    "ADD_TO_FAVORITE": "Добавить в Избранное",
+    "DELETE_FROM_FAVORITE": "Удалить из избранного",
+    "COUNTER_TITLE": "Учетные записи",
+    "COUNTER_TITLE_ON_SEARCH": "Учетные записи: ",
+    "SELECTED_ACCOUNTS": "выбранные учетные записи",
+    "SELECTED_ACCOUNT": "выбранная учетная запись",
+    "NO_ACCOUNTS": "Нет учетных записей для отображения",
+    "AD_HOC_CONNECTION": {
+      "AD_HOC_CONNECTION_TITLE": "Специальное подключение",
+      "CONNECT_BUTTON": "Подключение",
+      "CANCEL_BUTTON": "Отменить"
+    },
+    "ACCOUNT_DETAILS": {
+      "ALL": "Все",
+      "NO_RESULTS": "Результаты, соответствующие выбранным фильтрам, не найдены",
+      "ACTION": "Действие",
+      "SEARCH": "Поиск",
+      "PAGE_TITLE": "Свойства учетной записи",
+      "SAFE": "Сейф",
+      "PLATFORM": "Платформа",
+      "PLATFORM_DETAILS": "Данные платформы",
+      "PLATFORM_PROPERTIES": "Свойства платформы",
+      "DUAL_CONTROL": "Двойной контроль",
+      "COPY": "Копировать",
+      "SHOW": "Показать",
+      "EDIT": "Правка",
+      "CONNECT": "Подключение",
+      "INACTIVE_PLATFORM": "Неактивная платформа",
+      "ON": "вкл",
+      "ACTIVITIES": "Действия",
+      "GROUP_NAME": "Имя группы",
+      "GROUP_PLATFORM": "Платформа группы",
+      "LATEST": "Последние",
+      "LAST": "Последние",
+      "COMPLIANT": "Соответствует",
+      "NOT_COMPLIANT": "Несовместимо",
+      "COMPLIANCE_STATUS": "Состояние соответствия",
+      "LAST_VERIFIED": "Последние проверенные",
+      "VERIFIED_BY": "Проверенные пользователем",
+      "VERIFIED_ON": "Проверенные в",
+      "NEVER_VERIFIED": "Не проверенные",
+      "CREATED": "Дата создания",
+      "DAYS_AGO": "Дней назад",
+      "FAILED": "с ошибками",
+      "TOTAL": "всего",
+      "BY": "кто",
+      "Reconcile": "Автор согласования",
+      "Change": "Автор изменения",
+      "LAST_ACCESS": "Последний доступ",
+      "YESTERDAY": "Вчера",
+      "TODAY": "Сегодня",
+      "DEPENDENCIES": "Зависимости",
+      "OVERVIEW": "Обзор",
+      "DETAILS": "Подробно",
+      "RECORDINGS": "Записи",
+      "NO_RECORDINGS": "отсутствуют записи для данной учетной записи",
+      "NO_ACTIVITIES": "отсутствуют действия для данной учетной записи",
+      "ACTIVITIES_FOR_THIS_ACCOUNT": "— действий для данной учетной записи",
+      "NO_ACTIVITIES_FOUND": "Действия не найдены",
+      "USER": "Пользователь",
+      "DATE": "Дата",
+      "DURATION": "Продолжительность",
+      "RISK": "Риск",
+      "NA": "Нет данных",
+      "NONE": "Нет",
+      "UNKNOWN": "Нет данных",
+      "VERSION": "Версии",
+      "SUGGESTED_REMOTE_MACHINES": "Предлагаемые удаленные компьютеры",
+      "PERMITTED_REMOTE_MACHINES": "Разрешенные удаленные компьютеры",
+      "FEEDBACK_MODAL": {
+        "CLOSE": "Закрыть",
+        "TITLE": "Свойства учетной записи",
+        "MESSAGE": "Не удалось получить свойства учетной записи."
+      },
+      "ACCOUNT_STATUS": {
+        "CANCEL": "ОТМЕНИТЬ",
+        "RESUME": "ВОЗОБНОВИТЬ",
+        "RESTORE": "ВОССТАНОВИТЬ",
+        "CHECKIN": "ВОЗВРАТ НА СЕРВЕР",
+        "MORE": "Еще",
+        "MODAL_TITLE_ERROR": "Сведения об ошибке",
+        "MODAL_TITLE_DISABLED": "CPM отключен",
+        "REASON": "CPM пытается (0) этот пароль, так как его состояние соответствует следующим критериям поиска: (1)",
+        "TASK_TYPES": {
+          "ReconcileTask": "согласовать",
+          "VerifyTask": "проверить",
+          "ChangeTask": "изменить",
+          "UnknownTask": "[неизвестно]",
+          "DeleteTask": "удалить"
+        }
+      },
+      "DUAL_CONTROL_STATUS": {
+        "REQUEST_NEEDED": "Требуется запрос",
+        "WAITING": "Запрос в режиме ожидания",
+        "CONFIRMED": "Подтвержденный запрос",
+        "REJECTED": "Отклоненный запрос",
+        "EXPIRED": "Запрос с истекшим сроком действия"
+      },
+      "ACCOUNT_STATUS_TYPE": {
+        "TITLE": {
+          "CheckedOut": "Эта учетная запись получена пользователем LOCKED_BY",
+          "AutomaticManagementCPM": "CPM отключил автоматическое управление для этой учетной записи",
+          "CPMFailed": "CPM не удалось выполнить действие ACTION для данной учетной записи",
+          "DisabledByCPM": "Отключенные CPM",
+          "FailedToVerify": "CPM не удалось подтвердить этот пароль",
+          "FailedToReconcile": "CPM не удалось согласовать этот пароль",
+          "FailedToChange": "CPM не удалось изменить этот пароль",
+          "FailedToDelete": "CPM не удалось удалить этот пароль",
+          "Inactive": "Автоматическое управление данной учетной записью невозможно, она присвоена неактивной платформе",
+          "NewlyAdded": "Вновь добавленная учетная запись",
+          "Deleted": "Эта учетная запись была удалена пользователем DELETED_BY в DELETED_TIME",
+          "ScheduleForDeletion": "Эта учетная запись внесена в график удаления",
+          "ScheduleForVerify": "Эта учетная запись подлежит немедленной проверке",
+          "ScheduleForReconcile": "Эта учетная запись подлежит немедленной реконсиляции",
+          "ScheduleForChange": "Для данной учетной записи была вручную запланирована смена пароля",
+          "DisabledByUser": "Автоматическое управление отключено пользователем",
+          "AutomaticDisabled": "Пользователь отключил автоматическое управление для этой учетной записи"
+        }
+      },
+      "ACCOUNT_PROPERTIES": "Свойства учетной записи",
+      "LINKED_ACCOUNTS": "Связанные учетные записи",
+      "VERSIONS_TAB": {
+        "MODIFIED_BY": "Кем изменено",
+        "DATE": "Дата",
+        "TIME": "Время",
+        "CPM_TEMPORARY_TOGGLE": "Скрыть временные версии пароля CPM",
+        "TEMP": "(ВРЕМЕННО)"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Дополнительные сведения и действия в классическом интерфейсе",
+        "CALLOUT_TITLE": "Классический интерфейс",
+        "CALLOUT_TEXT": "Данная учетная запись может содержать дополнительную\nфункциональность, поддерживаемую только в классическом интерфейсе.\n\nВы всегда сможете вернуться к разделу «Просмотры\nуч. зап.»."
+      },
+      "CPM_TASKS": {
+        "VERIFY": {
+          "ACTION": "Проверить",
+          "SUCCESS": "Учетная запись отмечена для проверки",
+          "ERROR_MESSAGE": "Не удалось отметить учетную запись для проверки",
+          "ERROR_TITLE": "Произошла ошибка"
+        },
+        "RECONCILE": {
+          "ACTION": "Согласовать",
+          "SUCCESS": "Учетная запись отмечена для реконсиляции",
+          "ERROR_MESSAGE": "Не удалось отметить учетную запись для реконсиляции",
+          "ERROR_TITLE": "Произошла ошибка"
+        },
+        "CHANGE": {
+          "ACTION": "Изменить",
+          "SUCCESS": "Учетная запись отмечена для изменения",
+          "ERROR_MESSAGE": "Не удалось отметить учетную запись для изменения",
+          "ERROR_TITLE": "Произошла ошибка",
+          "DIALOG": {
+            "TITLE": "Изменение пароля учетной записи",
+            "MESSAGE": "CPM сменит пароль на новый случайным образом подобранный пароль",
+            "CHANGE_BUTTON_TEXT": "Изменить",
+            "CANCEL_BUTTON_TEXT": "Отменить",
+            "BELONGS_TO_GROUP_MESSAGE": "Эта учетная запись относится к группе учетных записей. CPM выполнит следующие действия:",
+            "CHANGE_ENTIRE_GROUP": "Изменить пароль всей группы",
+            "SYNC_WITH_GROUP": "Синхронизировать текущий пароль учетной записи с паролем группы",
+            "CHANGE_GROUP_CLASSIC_UI": "Изменение пароля для учетной записи, принадлежащей к группе, поддерживается в классическом интерфейсе.\nОткройте эту учетную запись в классическом интерфейсе.",
+            "REDIRECT_BUTTON_TEXT": "Открыть"
+          }
+        },
+        "OK_BUTTON": "ОК"
+      }
+    },
+    "CATEGORIES": {
+      "MY_ACCOUNTS": "Мои учетные записи",
+      "STATUS": "Статус",
+      "OPERATIONAL_STATE": "Операционное состояние"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "Подключение шлюза PSM"
+    },
+    "FILTERS": {
+      "ALL_ACCOUNTS": "Все учетные записи",
+      "RECENTLY_USED": "Недавно использовавшиеся",
+      "FAVORITES": "Избранное",
+      "DISABLED_BY_CPM": "Отключенные CPM",
+      "CHECKED-OUT": "Получено с сервера",
+      "FAILED": "Произошла ошибка",
+      "FAILED_DEPENDENCIES": "Зависимости, которые не удалось выполнить",
+      "NEWLY_ADDED": "Вновь добавленные",
+      "DELETED": "Удалено",
+      "DISABLED_BY_USER": "Отключенные пользователем",
+      "SCHEDULED_FOR_CHANGE": "Запланированные к изменению",
+      "SCHEDULED_FOR_VERIFICATION": "Запланированные к проверке",
+      "SCHEDULED_FOR_RECONCILIATION": "Запланированные к согласованию",
+      "SUCCESSFULLY_RECONCILED": "Успешно согласованные",
+      "ACCESS_IN_LAST_X_DAYS": "Доступ за последние {{number}} дней",
+      "MODIFIED_BY_USER_IN_LAST_X_DAYS": "Изменены пользователем за последние {{number}} дней",
+      "MODIFIED_BY_CPM_IN_LAST_X_DAYS": "Изменены CPM за последние {{number}} дней"
+    },
+    "EMPTY_STATE": {
+      "RECENT_EMPTY_TITLE": "Нет недавних просмотров для отображения",
+      "SAVED_EMPTY_TITLE": "Нет сохраненных просмотров для отображения",
+      "SAVED_EMPTY_TEXT": "Сохраните последние просмотры"
+    },
+    "SAVED_SEARCHES_INFO_MESSAGE": {
+      "PRIMARY_TEXT": "Дополнительные сохраненные просмотры",
+      "SECONDARY_TEXT": "Управление сохраненными просмотрами в интерфейсе V9"
+    },
+    "REASON": {
+      "REASON_DEFAULT_CAPTION": "Причина",
+      "OPTIONAL": "Необязательно",
+      "SELECT": "Выбрать",
+      "ENTER_OR_SELECT_A_REASON": "Введите или выберите причину",
+      "OTHER": "Прочее"
+    },
+    "TICKETING": {
+      "TICKETING_SECTION_MAIN_TITLE": "Сведения о билете",
+      "TICKETING_SYSTEM_DEFAULT_CAPTION": "Система обработки запросов",
+      "TICKETING_ID_DEFAULT_CAPTION": "Код билета",
+      "TICKETING_BYPASS_SUCCESS_MESSAGE": "Обходной билет успешно введен",
+      "TICKETING_ID_IS_INVALID": "Недопустимый код билета"
+    },
+    "CONNECTION": {
+      "TITLE": "Сведения об удаленном подключении",
+      "SAVE_TO_ACCOUNTS": "Сохранить в свойствах учетной записи",
+      "OPTIONAL": "Необязательно",
+      "AVAILABLE_MACHINES_TITLE": "Доступные компьютеры:",
+      "AVAILABLE_MACHINES_ACCOUNTS_HINT": "Чтобы просмотреть список всех доступных компьютеров, перейдите к свойствам учетной записи",
+      "AVAILABLE_MACHINES_REQUEST_HINT": "Чтобы просмотреть список всех доступных компьютеров, перейдите к свойствам запроса",
+      "SEPARATE_THE_MACHINE_WITH_COMMA": "Укажите компьютеры через запятые",
+      "ADD_MORE_REMOTE_MACHINE_TO_THE_LIST": "Добавить еще одни удаленный компьютер к списку",
+      "ENTER_OR_SELECT_A_REMOTE_MACHINE": "Введите или выберите удаленный компьютер"
+    },
+    "GRID_ACTIONS": {
+      "COPY_ACTION": "Копировать",
+      "REQUEST_COPY_ACTION": "Запрос копирования",
+      "SHOW_ACTION": "Показать",
+      "REQUEST_SHOW_ACTION": "Запрос отображения",
+      "EDIT_ACTION": "Правка",
+      "CONNECT_ACTION": "Подключение",
+      "REQUEST_CONNECT_ACTION": "Запрос подключения",
+      "Default": "По умолчанию",
+      "CONNECT_WITH": "Подключиться к",
+      "CHECKIN_ACTION": {
+        "TITLE": "Вернуть на сервер",
+        "SUCCESS_MESSAGE": "Учетная запись отмечена для возврата на сервер",
+        "OK": "ОК"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Дополнительные сведения и действия в классическом интерфейсе",
+        "CALLOUT_TITLE": "Классический интерфейс",
+        "CALLOUT_TEXT": "Представление учетных записей может содержать дополнительную\nфункциональность, поддерживаемую только в классическом интерфейсе.\n\nВы всегда сможете вернуться к разделу «Просмотры\nуч. зап.» в новом интерфейсе."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "Отобразить пароль",
+      "PASSWORD_INPUT_LABEL": "Пароль",
+      "COPY_BUTTON_TEXT": "Копировать",
+      "SHOW_BUTTON_TEXT": "Показать",
+      "CLOSE_BUTTON_TEXT": "Закрыть",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "Пустой пароль"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "Данный пароль слишком длинный для полного отображения. Нажмите «Копировать», чтобы скопировать весь пароль."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "Копировать пароль",
+      "COPY_BUTTON_TEXT": "Копировать"
+    },
+    "SAVE_SEARCH_DIALOG": {
+      "TITLE": "Сохранить как",
+      "SAVE_BUTTON_TEXT": "Сохранить",
+      "CANCEL_BUTTON_TEXT": "Отменить",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Этот просмотр был сохранен",
+        "WARNING": {
+          "HEADER_TEXT": "Невозможно сохранить",
+          "MAIN_TEXT": "Просмотр с таким именем уже существует"
+        },
+        "ERROR": {
+          "HEADER_TEXT": "Достигнут предел сохраненных просмотров",
+          "MAIN_TEXT": "Вы достигли предела сохраненных просмотров. Чтобы сохранить новые просмотры, удалите часть существующих.",
+          "CLOSE_BUTTON_TEXT": "Закрыть"
+        }
+      }
+    },
+    "RENAME_DIALOG": {
+      "TITLE": "Переименовать",
+      "RENAME_BUTTON_TEXT": "Переименовать",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Данный просмотр был переименован",
+        "WARNING": {
+          "HEADER_TEXT": "Невозможно переименовать",
+          "MAIN_TEXT": "Просмотр с таким именем уже существует"
+        },
+        "WARNING_OLD_UI": {
+          "HEADER_TEXT": "Невозможно переименовать",
+          "MAIN_TEXT": "Просмотр с таким именем уже существует в интерфейсе V9"
+        },
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Закрыть"
+        }
+      }
+    },
+    "COMMON_DIALOG": {
+      "CANCEL_BUTTON_TEXT": "Отменить"
+    },
+    "DELETE_ACTION": {
+      "TITLE": "Удалить",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Данный просмотр был удален",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Закрыть"
+        }
+      },
+      "DELETE_DEFAULT_CONFIRMATION": {
+        "TITLE": "Удалить просмотр",
+        "MAIN_TEXT": " сейчас выбран как просмотр по умолчанию. После его удаления просмотр по умолчанию будет определяться настройками системы",
+        "SUB_TEXT": "Удалить этот просмотр?",
+        "CONFIRM_BUTTON_TEXT": "Удалить просмотр",
+        "CANCEL_BUTTON_TEXT": "Отменить"
+      }
+    },
+    "SET_DEFAULT_ACTION": {
+      "TITLE": "Установить по умолчанию",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Данный просмотр выбран просмотром по умолчанию",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Закрыть"
+        }
+      }
+    },
+    "FILTERS_ACTIONS": {
+      "SAVE_ACTION_TEXT": "Сохранить как",
+      "SET_AT_DEFAULT_TEXT": "Установить по умолчанию",
+      "RENAME_TEXT": "Переименовать",
+      "DELETE_TEXT": "Удалить"
+    },
+    "CONNECT_PREREQUISITES_DIALOG": {
+      "TITLE": "Подключение",
+      "CONNECT_BUTTON_TEXT": "Подключение"
+    },
+    "DUAL_CONTROL": {
+      "PAGE_TITLE": "Создать просмотр",
+      "HEADER": {
+        "REQUEST_SHOW": "Запрос отображения",
+        "REQUEST_COPY": "Запрос копирования",
+        "REQUEST_CONNECT": "Запрос подключения к"
+      },
+      "TIMEFRAME_TITLE": "Временные рамки",
+      "REQUEST_TIMEFRAME": "Интервал времени для запроса",
+      "MULTIPLE_ACCESS_REQUIRED": "Требуется множественный доступ",
+      "MULTIPLE_ACCESS_LABEL": "В течение этого периода будет разрешен множественный доступ",
+      "CONFIRMATION": {
+        "TITLE": "Подтверждение операций",
+        "CURRENTLY_THERE_ARE_NO_CONFIRMERS_TO_DISPLAY": "Нет подтверждающих для отображения",
+        "MULTIPLE_USERS_MUST_CONFIRM": "{{number}} — количество пользователей, которые должны подтвердить данный запрос",
+        "ONE_USER_MUST_CONFIRM": "Один пользователь должен подтвердить данный запрос",
+        "MULTILEVEL_MULTIPLE_USERS_MUST_CONFIRM": "Пользователи первого уровня: {{number}} и пользователи второго уровня: {{number}} должны подтвердить данный запрос",
+        "MULTILEVEL_ONE_USER_MUST_CONFIRM": "Один пользователь первого уровня и один пользователь второго уровня должны подтвердить данный запрос",
+        "CONFIRMERS_LIST_TOGGLE": "Список подтверждающих"
+      },
+      "ADDITIONAL_INFORMATION_TITLE": "Дополнительные сведения",
+      "SEND_REQUEST": "Отправить запрос"
+    },
+    "BULK_CHANGE": {
+      "DIALOG_TITLE": "Изменяются учетные записи: {{value}}",
+      "DIALOG_PROGRESS_BAR_TITLE": "учетных записей в процессе изменения"
+    },
+    "ERRORS": {
+      "CREATE_REQUEST_COPY_PASSWORD_ERROR_DIALOG_TITLE": "Создать запрос копирования пароля",
+      "CREATE_REQUEST_SHOW_PASSWORD_ERROR_DIALOG_TITLE": "Создать запрос отображения пароля",
+      "CREATE_REQUEST_CONNECT_PASSWORD_ERROR_DIALOG_TITLE": "Создать запрос подключения с паролем"
+    },
+    "COPY_EXTENSIONS_CONFIRM_MESSAGES": "Чтобы воспользоваться этой функцией, загрузите и установите расширение или подключаемый модуль браузера.",
+    "WARNINGS_MESSAGES": {
+      "EMPTY_COPY_TITLE": "Копировать пароль",
+      "CANNOT_COPY_EMPTY_PASSWORD": "Нельзя скопировать пустой пароль. Содержание буфера обмена не изменилось."
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Пароль скопирован в буфер обмена",
+      "REQUEST_WAS_SENT": "Запрос был отправлен"
+    },
+    "DUAL_CONTROL_TOOLTIPS": {
+      "REQUEST_NEEDED": "Требуется запрос",
+      "WAITING_RESTRICTED": "У вас уже есть запрос подключения в режиме ожидания, чтобы подать запрос на отображение или копирование, удалите этот запрос и подайте новый.",
+      "WAITING_NOT_RESTRICTED": "Данный запрос находится в режиме ожидания",
+      "CONFIRMED_RESTRICTED": "Данный запрос подключения подтвержден",
+      "CONFIRMED_NOT_RESTRICTED": "Данный запрос подтвержден",
+      "REJECTED": "Данный запрос отклонен",
+      "EXPIRED": "Время действия данного запроса истекло",
+      "INVALID": "Запрос недопустим",
+      "FUTURE_REQUEST_CONFIRMED": "Был утвержден запрос на будущее",
+      "RESTRICTED_CONNECTION_REQUEST_CONFIRMED": "Был утвержден запрос подключения. Чтобы получить подтверждение для действия {{actionName}}, удалите существующий запрос и создайте новый.",
+      "RESTRICTED_FUTURE_CONNECTION_REQUEST_CONFIRMED": "Был утвержден запрос подключения на будущее. Чтобы получить подтверждение для действия {{actionName}}, удалите существующий запрос и создайте новый."
+    }
+  },
+  "PENDING_ACCOUNTS": {
+    "PAGE_TITLE": "Обнаруженные учетные записи",
+    "TITLE": "Обнаруженные учетные записи",
+    "NO_PENDING_ACCOUNTS": "Нет учетных записей в режиме ожидания для отображения",
+    "COUNTER_TITLE": "Обнаруженные учетные записи",
+    "SELECTED_PENDING_ACCOUNTS": "выбранные учетные записи",
+    "SEARCH_TEXT": "Поиск учетных записей в режиме ожидания",
+    "ERROR_FEEDBACK_MODAL": {
+      "TITLE": "Произошла ошибка",
+      "OK": "ОК"
+    },
+    "FILTERS": {
+      "SYSTEM_TYPE": {
+        "TITLE": "Тип системы",
+        "OPTIONS": {
+          "ALL": "Все",
+          "WINDOWS": "Windows",
+          "UNIX": "Unix"
+        }
+      },
+      "ACCOUNT_TYPE": {
+        "TITLE": "Тип учетной записи",
+        "OPTIONS": {
+          "LOCAL": "Локальная",
+          "DOMAIN": "Домен",
+          "ALL": "Все"
+        }
+      },
+      "ACCOUNT_CATEGORY": {
+        "TITLE": "Категория учетной записи",
+        "OPTIONS": {
+          "PRIVILEGED": "Привилегированные",
+          "NON_PRIVILEGED": "Непривилегированные",
+          "ALL": "Все"
+        }
+      },
+      "DISCOVERED_BY": {
+        "TITLE": "Кем обнаружено",
+        "OPTIONS": {
+          "CPM_SCANNER": "Сканер CPM",
+          "EXTERNAL_SOURCE": "Внешний источник",
+          "ALL": "Все"
+        }
+      }
+    },
+    "APPLYFILTERS": "Применить фильтры"
+  },
+  "REQUESTS": {
+    "DETAILS": {
+      "TITLE_KEY": "Запрос",
+      "TITLE_VALUE_PREFIX": "Учетная запись",
+      "TIMEFRAME": "Период времени",
+      "REASON": "Причина",
+      "PERMISSION": "Право на",
+      "ACCESS": "Доступ",
+      "REQUESTED_ON": "Запрос подан",
+      "REQUEST_ID": "Код (ID) запроса",
+      "ADDRESS": "Адрес",
+      "ACCOUNT_NAME": "AccountName",
+      "ACCOUNT_SAFE": "AccountSafe",
+      "ACCOUNT_PLATFORM": "AccountPlatform",
+      "EMERGENCY": "Экстренная ситуация",
+      "STATUS": "Статус",
+      "START_FOR_SCCESS": "для",
+      "END_FOR_SCCESS": "доступ",
+      "FOR_ACCOUNT": "для учетной записи"
+    },
+    "ACCOUNT_DETAILS": {
+      "NAME": "Имя",
+      "SAFE": "Сейф",
+      "PLATFORM": "Платформа",
+      "ADDRESS": "Адрес",
+      "USERNAME": "Имя пользователя",
+      "LOGON TO": "Вход в",
+      "LOCATION": "Размещение",
+      "OWNER NAME": "Имя владельца",
+      "USER DN": "Отличительное имя пользователя",
+      "COPY": "Копировать",
+      "SHOW": "Показать",
+      "CONNECT": "Подключение"
+    },
+    "CONFIRMERS": {
+      "GROUP_TOOLTIP": "Группа подтверждающих",
+      "SINGLE_TOOLTIP": "Один подтверждающий"
+    },
+    "UPDATE_INFO": "Информация на этой вкладке более поздняя, чем информация в списке запроса | Дата обновления: {{string}}"
+  },
+  "MY_REQUESTS": {
+    "PAGE_TITLE": "Мои запросы",
+    "TITLE": "Мои запросы",
+    "COUNTER_TITLE": "результатов для:",
+    "NO_MY_REQUESTS": "Нет запросов для отображения",
+    "SELECTED_REQUESTS": "выбранных запросов",
+    "FILTERS": {
+      "ALL": "Все запросы",
+      "WAITING_AND_CONFIRMED": "Подтвержденные запросы и запросы в режиме ожидания",
+      "WAITING": "Запросы в режиме ожидания",
+      "EXPIRED_AND_WAITING": "Подтвержденные запросы и запросы в режиме ожидания и с истекшим сроком действия"
+    },
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "Просмотры запросов"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "Данные моих запросов",
+      "ITEM": "запрос",
+      "ACTION_TYPE": "удален"
+    },
+    "DELETE_TEXT": "Удалить",
+    "DELETE_ERROR_HEADER": "Ошибка удаления запроса",
+    "DELETE_SUCCESS_TEXT": "Запрос был успешно удален.",
+    "OK": "ОК"
+  },
+  "INCOMING_REQUESTS": {
+    "TITLE": "Входящие запросы",
+    "NO_INCOMING_REQUESTS": "Нет запросов для отображения",
+    "SELECTED_REQUESTS": "выбранных запросов",
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "Просмотры запросов"
+    },
+    "DETAILS": {
+      "REQUEST_TITLE": "Запрос",
+      "ACCOUNT_TITLE": "Учетная запись",
+      "REQUESTOR_USERNAME": "Имя пользователя, подавшего запрос",
+      "REQUESTOR_FULLNAME": "Полное имя пользователя, подавшего запрос"
+    },
+    "DETAILS_FULL_PAGE": {
+      "ITEM": "запрос",
+      "ACTION_TYPE": "удален",
+      "TITLE": "Данные входящего запроса"
+    },
+    "TICKETING_SYSTEM": {
+      "NAME": "Название системы обработки запросов",
+      "NUMBER": "Билет №."
+    },
+    "FILTERS": {
+      "ALL": "Все запросы",
+      "WAITING_AND_CONFIRMED": "Подтвержденные запросы и запросы в режиме ожидания",
+      "WAITING": "Запросы в режиме ожидания",
+      "EXPIRED_AND_WAITING": "Запросы в режиме ожидания и с истекшим сроком действия"
+    },
+    "OK": "ОК",
+    "CONFIRM_TEXT": "Подтвердить",
+    "REJECT_TEXT": "Отклонить",
+    "CANCEL_TEXT": "Отменить",
+    "BULK_CONFIRM_MODAL_TITLE": "Подтвердить доступ к учетным записям: {{number}}",
+    "BULK_CONFIRM_MODAL_TEXT": "Укажите причину подтверждения",
+    "BULK_REJECT_MODAL_TITLE": "Отказать в доступе к учетным записям: {{number}}",
+    "BULK_REJECT_MODAL_TEXT": "Укажите причину отказа",
+    "BULK_CONFIRM_REJECT_MODAL_WARNING": "Будут подтверждены только необработанные запросы",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_TITLE": "Подтверждаются запросы: {{number}}",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_TITLE": "Отвергаются запросы: {{number}}",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_SUB_TITLE": "Подтверждение запросов",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_SUB_TITLE": "Отклонение запросов",
+    "BULK_CONFIRM_SUCCESS_ACCORDION_TITLE": "— запросы были успешно подтверждены",
+    "BULK_REJECT_SUCCESS_ACCORDION_TITLE": "— запросы были успешно отклонены",
+    "BULK_CONFIRM_FAILURE_ACCORDION_TITLE": "— запросы не были успешно подтверждены",
+    "BULK_REJECT_FAILURE_ACCORDION_TITLE": "— запросы не были успешно отклонены",
+    "BULK_MODAL_PROGRESS_BAR_DONE_BUTTON": "Закрыть",
+    "BULK_MODAL_PROGRESS_BAR_DONE_TITLE": "Готово",
+    "BULK_MODAL_PROGRESS_BAR_DONE_FAILURE_SUB_TITLE": "с ошибками",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_CONFIRM": "Подтверждение...",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_REJECT": "Отклонение...",
+    "REJECT_HEADER_TEXT": "Причина отклонения запроса",
+    "REJECT_CONTENT_TEXT": "Укажите причину отказа:",
+    "CONFIRM_HEADER_TEXT": "Причина подтверждения запроса",
+    "CONFIRM_CONTENT_TEXT": "Укажите причину подтверждения:",
+    "CONFIRM_ERROR_HEADER": "Ошибка подтверждения запроса",
+    "REJECT_ERROR_HEADER": "Ошибка отклонения запроса",
+    "CONFIRM_SUCCESS_TEXT": "Запрос был успешно подтвержден.",
+    "REJECT_SUCCESS_TEXT": "Запрос был успешно отклонен."
+  },
+  "CONTENT_TITLE": {
+    "HEADER": {
+      "FOR": "для:",
+      "ALL": "Все",
+      "CLEAR_ALL": "Очистить все"
+    },
+    "SHOWING": "Отображение"
+  },
+  "DISCOVERIES": {
+    "DEFAULT_DASH": "-",
+    "PAGE_TITLE": "Управление обнаружением",
+    "GRID_TITLE": "Настройки обнаружения",
+    "ADD_ACTION": "Новое обнаружение",
+    "LAST_RUN_STATUS": {
+      "DONE": "Завершено",
+      "FAILED": "Произошла ошибка",
+      "DONE_WITH_ISSUES": "Завершено",
+      "CANCELED_DUE_TO_UPGRADE": "Отменено",
+      "STOPPED": "Остановлено"
+    },
+    "STATE": {
+      "RUNNING": "Работает",
+      "PENDING": "Отложено",
+      "STOPPING": "Останавливается"
+    },
+    "LAST_RUN_TIME": {
+      "NA": "Нет данных"
+    },
+    "DISCOVERY_TYPE": {
+      "ONETIME": "Разовое",
+      "RECURRING": "Повторяющееся"
+    }
+  },
+  "FILTERS_VIEWS_LAYOUT": {
+    "SHOW_MORE": "Дополнительно",
+    "SHOW_LESS": "Показать меньше",
+    "APPLY": "Применить"
+  },
+  "FORM_VALIDATIONS": {
+    "REQUIRED": "Это обязательное поле",
+    "IS_NUMERIC": "Это поле может содержать только цифры",
+    "IS_I18N": "Это поле не может содержать международные символы",
+    "IS_PASSWORD_MATCH": "Пароли не совпадают",
+    "REQUIRED_SAFE_NAME": "Имя файла не может быть не указано",
+    "STARTING_WHITE_SPACE": "Имя поля не может начинаться с пробела",
+    "ENDING_WHITE_SPACE": "Имя поля не может заканчиваться пробелом",
+    "PATTERN": "Поле не может содержать недопустимые символы",
+    "MIN_VALUE": "Превышено минимально допустимое значение",
+    "MAX_VALUE": "Превышено максимально допустимое значение",
+    "INVALID_VALUE": "Допустимы значения в диапазоне {minValue}–{maxValue}",
+    "NOT_EXIST_IN_MACHINE_LIST": "Данный компьютер не включен в список доступных компьютеров"
+  },
+  "FORM_SAFES_VALIDATIONS": {
+    "SAFE_NAME_REQUIRED": "Имя сейфа не может быть не указано",
+    "SAFE_NAME_STARTING_WHITE_SPACE": "Имя сейфа не может начинаться с пробела",
+    "SAFE_NAME_ENDING_WHITE_SPACE": "Имя сейфа не может заканчиваться пробелом",
+    "SAFE_NAME_PATTERN": "Имя сейфа не может содержать недопустимые символы",
+    "SAFE_NAME_MAX_CHAR": "Имя сейфа не может содержать более 28 символов",
+    "SAFE_DESCRIPTION_PATTERN": "Описание сейфа не может содержать недопустимые символы",
+    "MANAGING_CPM_REQUIRED": "Выберите значение из списка"
+  },
+  "COMMON": {
+    "VIEWS_TAB_TITLE": "Представления",
+    "RECENT_TAB_TITLE": "Недавние",
+    "SAVED_TAB_TITLE": "Сохраненные",
+    "FILTERS_TAB_TITLE": "Фильтры",
+    "CLOSE_BUTTON_TEXT": "Закрыть",
+    "CANCEL_BUTTON_TEXT": "Отменить",
+    "DOWNLOAD_BUTTON_TEXT": "Загрузка",
+    "SELECT_BUTTON_TEXT": "Выбрать",
+    "OPTIONAL_FORM_CONTROL": "{{fieldName}} (необязательно)",
+    "ACCOUNT_TYPES": {
+      "PASSWORD": "Пароль",
+      "SSH_KEY": "Ключ SSH"
+    },
+    "GENERAL_MESSAGES": {
+      "FAILURE_MAIN_TEXT": "Не удалось"
+    }
+  },
+  "AUTHENTICATION": {
+    "SESSION_EXPIRED_MESSAGE": {
+      "HEADER_TITLE": "Время действия сеанса истекло",
+      "MAIN_TITLE": "Время действия вашего сеанса истекло",
+      "SUB_TITLE": "Нажмите ОК, чтобы вернуться к экрану входа в систему",
+      "OK_OPTION": "ОК"
+    }
+  },
+  "MONITORING": {
+    "TITLE": "Мониторинг",
+    "REFRESH": "Обновить",
+    "RISK_CARD": {
+      "TITLE": "Оценка риска сеанса",
+      "SUB_TITLE": "Действие/событие с наиболее серьезными последствиями",
+      "SECURITY_INCIDENT": "Инцидент системы безопасности",
+      "GO_TO_INCIDENT_DETAILS": "Перейти к свойствам инцидента",
+      "ID": "Идентификатор",
+      "PLAY": "ВОСПРОИЗВЕДЕНИЕ",
+      "TOOLTIP_TITLE": "Подозрительные действия в сеансе",
+      "TOOLTIP_SUB_TITLE": "Самые опасные действия",
+      "NO_RISK_SCORE": "В процессе анализа и обнаружения риски не найдены"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "Данные сеанса",
+      "ITEM": "сеанс",
+      "ACTION_TYPE": "удален",
+      "BACK_TEXT": "Мониторинг"
+    },
+    "GRID_TITLE": {
+      "RECORDED_SESSIONS": "Ведется запись",
+      "LIVE_SESSIONS": "Активные сеансы",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Дополнительные сведения и действия в классическом интерфейсе",
+        "CALLOUT_TITLE": "Классический интерфейс",
+        "CALLOUT_TEXT": "Представление мониторинга может содержать дополнительную\nфункциональность, поддерживаемую только в классическом интерфейсе.\n\nВы всегда сможете вернуться к разделу «Мониторинг» \nв новом интерфейсе."
+      }
+    },
+    "RECORDING": {
+      "NO_RECORDINGS_FOUND": "Нет записей для отображения",
+      "PLAY": "Воспроизведение",
+      "PLAY_VIDEO": "Воспроизвести видео",
+      "CONNECTED_AS": "Подключен как",
+      "AS": "как",
+      "ON": "с компьютера",
+      "OFF": "выкл",
+      "SKIP_IDLE": "Пропустить неиспользуемые:",
+      "MANUAL": "Ручной",
+      "AUTOMATIC": "Автоматический",
+      "GO_TO_V9": "Воспроизвести видео (интерфейс V9)",
+      "SESSION_WAS_NOT_FOUND": "Действия для данного сеанса недоступны"
+    },
+    "LIVE_SESSIONS": {
+      "NO_LIVE_SESSIONS_FOUND": "Нет активных сеансов для отображения",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Дополнительные сведения и действия в классическом интерфейсе",
+        "CALLOUT_TITLE": "Классический интерфейс",
+        "CALLOUT_TEXT": "Активный сеанс может содержать дополнительную\nфункциональность, поддерживаемую только в классическом интерфейсе.\n\nВы всегда сможете вернуться к разделу «Мониторинг» \nв новом интерфейсе."
+      }
+    },
+    "FILTERS": {
+      "SECTION": "Фильтры",
+      "SESSIONS_PROPERTIES": "Свойства сеанса",
+      "SESSOION_PROPERTIES_HINT_TITLE": "Фильтр по свойствам сеанса",
+      "SESSOION_PROPERTIES_HINT": "Пользователь, клиент, имя пользователя учетной записи, адрес учетной записи, идентификатор политики учетной записи, идентификатор билета и пр.\n\nДля поиска по нескольким свойствам в одном сеансе разделяйте их пробелом, например: root 192.168.0.1\n\nДля поиска по фразам используйте кавычки",
+      "SESSIONS_ACTIVITIES": "Действия сеансов",
+      "COMMANDS_AND_EVENTS_HINT_TITLE": "Фильтр по действиям сеансов",
+      "COMMANDS_AND_EVENTS_HINT": "Заголовки окон, команды SQL, команды SSH, команды SCP, нажимаемые клавиши, заблокированные команды (используйте ключевое слово DENIED).\n\nДля поиска по нескольким действиям в одном сеансе разделяйте их пробелом, например: sudo rm.\n\nДля поиска по фразам используйте кавычки, например: \"ifConfig -a\"",
+      "FROM": "От",
+      "TO": "До",
+      "SAVE_FILTER": "Сохранить фильтр",
+      "APPLY": "Применить"
+    },
+    "RECORDING_DETAILS": {
+      "HEADER_TITLE": "Пользователь {{user}} подключен как {{accountUserName}} по адресу {{address}}",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Дополнительные сведения и действия в классическом интерфейсе",
+        "CALLOUT_TITLE": "Классический интерфейс",
+        "CALLOUT_TEXT": "Этот сеанс может содержать дополнительную\nфункциональность, поддерживаемую только в классическом интерфейсе.\n\nВы всегда сможете вернуться к разделу «Мониторинг» в новом интерфейсе."
+      }
+    },
+    "LIVE_SESSION_DETAILS": {
+      "HEADER_TITLE": "Пользователь {{user}} подключен как {{accountUserName}} по адресу {{address}}",
+      "MONITOR_BUTTON": "Мониторинг",
+      "TERMINATE_BUTTON": "Завершить",
+      "TERMINATE_DIALOG": {
+        "TITLE": "Завершение активного сеанса",
+        "MESSAGE": "Завершить данный сеанс?",
+        "CANCEL_BUTTON": "Отменить"
+      },
+      "SUSPEND_BUTTON": "Приостановить",
+      "SUSPEND_DIALOG": {
+        "TITLE": "Приостановить активный сеанс",
+        "MESSAGE": "Приостановить этот сеанс?",
+        "CANCEL_BUTTON": "Отменить"
+      },
+      "RESUME_BUTTON": "Возобновить",
+      "RESUME_DIALOG": {
+        "TITLE": "Возобновить приостановленный сеанс",
+        "MESSAGE": "Возобновить этот сеанс?",
+        "CANCEL_BUTTON": "Отменить"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Дополнительные сведения и действия в классическом интерфейсе",
+        "CALLOUT_TITLE": "Классический интерфейс",
+        "CALLOUT_TEXT": "Этот сеанс может содержать дополнительную\nфункциональность, поддерживаемую только в классическом интерфейсе.\n\nВы всегда сможете вернуться к разделу «Мониторинг» в новом интерфейсе."
+      }
+    },
+    "TABS": {
+      "RECORDING": "Записи",
+      "LIVE_SESSIONS": "Активные сеансы",
+      "SESSION_ACTIVITIES": "Действия",
+      "ATTESTATION": "Аттестация",
+      "PERMISSIONS": "Права доступа",
+      "SESSION_PROPERTIES": "Подробно"
+    },
+    "PROPERTIES": {
+      "SESSION_PROPERTIES_TITLE": "Свойства сеанса",
+      "ADDITIONAL_PROPERTIES_TITLE": "Дополнительные свойства",
+      "ACCOUNT_DETAILS_TITLE": "Свойства учетной записи",
+      "VIDEO_RECORDING_TITLE": "Запись видео",
+      "TEXT_RECORDING_TITLE": "Запись текста",
+      "CONNECTED_FROM": "Откуда подключен",
+      "REMOTE_MACHINE": "Удаленный компьютер",
+      "INTERFACE": "Интерфейс",
+      "CONNECTION_TYPE": "Тип подключения",
+      "PROTOCOL": "Протокол",
+      "START": "Начало",
+      "END": "Конец",
+      "DURATION": "Продолжительность",
+      "RETAINED_BY": "Кем сохранен",
+      "PLATFORM_NAME": "Имя платформы",
+      "TARGET_USER": "Целевой пользователь",
+      "TARGET_ADDRESS": "Целевой адрес",
+      "VIDEO_SIZE": "Размер",
+      "VIDEO_LAST_VIEWED_BY": "Последний пересмотр пользователем",
+      "TEXT_SIZE": "Размер",
+      "TEXT_LAST_VIEWED_BY": "Последний пересмотр пользователем",
+      "TEXT_LAST_VIEWED_DATE": "Дата последнего пересмотра"
+    },
+    "ACTIVITIES": {
+      "ACTIVITIES_IN_SESSION": " Действия в сеансе",
+      "NO_ACTIVITIES": "Нет действий для отображения"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "Подключение шлюза PSM"
+    }
+  },
+  "ONBOARDING_RULES": {
+    "PAGE_TITLE": "Правила адаптации",
+    "TITLE": "Правила адаптации",
+    "ANY": "Любые",
+    "SERVER": "Сервер",
+    "WORKSTATION": "Рабочая станция",
+    "LOCAL": "Локальная",
+    "DOMAIN": "Домен",
+    "PRIVILEGED": "Привилегированные",
+    "NON_PRIVILEGED": "Непривилегированные",
+    "BUILT_IN_ADMINISTRATOR_WINDOWS": "Встроенный администратор (SID = 500)",
+    "BUILT_IN_ADMINISTRATOR_UNIX": "Root (UID = 0)",
+    "BEGINS_WITH": "Начинается с",
+    "END_WITH": "Заканчивается на",
+    "EXACT": "Равно",
+    "OPTIONAL": "необязательно",
+    "EMPTY_STATE": {
+      "TITLE": "способ адаптации учетных записей",
+      "TITLE_FAST": "Быстрый",
+      "TITLE_AND": "и",
+      "TITLE_EASY": "Легкий",
+      "DESCRIPTION": "Правила адаптации определяют автоматическую адаптацию обнаруженных учетных записей в CyberArk. Применение таких правил позволяет сэкономить время и избежать адаптации вручную. Правила адаптации применяются к обнаруженным учетным записям до того, как они маркируются «в режиме ожидания».",
+      "READ_MORE": " Подробнее",
+      "CREATE_RULE_LINK": "Начать создание нового правила адаптации",
+      "AUTOMATIC_ONBOARDING_RULE": "Правило автоматической адаптации",
+      "PENDING_ACCOUNTS": "Учетные записи в режиме ожидания",
+      "MANUAL_ONBOARDING": "Адаптация вручную",
+      "ACCOUNTS_DISCOVERY": "Обнаружение учетных записей"
+    },
+    "FILTERS": {
+      "TITLE": "Фильтры",
+      "RULES_SCOPE": {
+        "TITLE": "Охват правила",
+        "SYSTEM_TYPE": "Тип системы",
+        "ACCOUNT_TYPE": "Тип учетной записи",
+        "MACHINE_TYPE": "Тип компьютера",
+        "CATEGORY": "Категория учетной записи",
+        "DROPDOWN": {
+          "PLACEHOLDER": "Выбрать"
+        },
+        "KEYWORDS": {
+          "LABEL": "Уточнить по ключевому слову",
+          "PLACEHOLDER": "Имя правила, описание, имя пользователя или компьютера"
+        }
+      },
+      "DESTINATION": {
+        "TITLE": "Назначение",
+        "PLATFORM": {
+          "LABEL": "Платформа",
+          "PLACEHOLDER": "Выбрать",
+          "NO_MATCH_TEXT": "Нет соответствующих платформ"
+        },
+        "SAFE": {
+          "LABEL": "Сейф",
+          "PLACEHOLDER": "Выбрать",
+          "NO_MATCH_TEXT": "Нет соответствующих сейфов"
+        }
+      }
+    },
+    "SELECTED_ITEM_DETAILS": {
+      "DETAILS_TITLE": "Подробно",
+      "RULE_SCOPE": {
+        "TITLE": "Охват правила",
+        "SYSTEM_TYPE": "Тип системы",
+        "MACHINE_TYPE": "Тип компьютера",
+        "ACCOUNT_TYPE": "Тип учетной записи",
+        "CATEGORY": "Категория учетной записи",
+        "USER_NAME": "Имя пользователя",
+        "METHOD": {
+          "BEGINS": "Начинается с: {{ruleFilterValue}}",
+          "ENDS": "Заканчивается на: {{ruleFilterValue}}",
+          "EQUALS": "Равно: {{ruleFilterValue}}",
+          "BEGINS_WITH": "Начинается с: {{ruleFilterValue}}",
+          "END_WITH": "Заканчивается на: {{ruleFilterValue}}",
+          "EXACT": "Равно: {{ruleFilterValue}}"
+        },
+        "ACCOUNT_CATEGORY_FILTER": {
+          "TITLE": "Тип привилегированной учетной записи",
+          "PRIVILEGED": "Привилегированные",
+          "NONPRIVILEGED": "Непривилегированные",
+          "ANY": "Любые"
+        },
+        "LOCAL": "Локальная",
+        "ANY": "Любые",
+        "ADMIN_ONLY": {
+          "WINDOWS": "Встроенный администратор (SID = 500)",
+          "UNIX": "Root (UID = 0)"
+        },
+        "MACHINE_NAME": "Имя и адрес компьютера"
+      },
+      "DESTINATION": {
+        "TITLE": "Назначение",
+        "PLATFORM": "Платформа",
+        "SAFE": "Сейф"
+      },
+      "RULE_PROPERTIES": {
+        "TITLE": "Свойства правила",
+        "RULE_NAME": "Имя",
+        "RULE_DESCRIPTION": "Описание"
+      },
+      "PASSWORD_SETTINGS": {
+        "TITLE": "Исходные настройки пароля",
+        "INITIAL_PASSWORD": "Исходные настройки пароля",
+        "USE_PLATFORM": "С использованием учетной записи согласования платформы по умолчанию",
+        "NO_RECONCILE_ACCOUNT": "Для выбранной платформы нет учетной записи согласования",
+        "RECONCILE_ACCOUNT": "Учетная запись согласования платформы"
+      },
+      "OVERVIEW": {
+        "TITLE": "Обзор",
+        "LAST_ONBOARDED": "Последняя адаптация"
+      }
+    },
+    "CREATE_RULE": "Создать правило",
+    "REFRESH": "Обновить",
+    "RULE_NAME_COLUMN_TITLE": "Имя правила",
+    "SYSTEM_TYPE_COLUMN_TITLE": "Тип системы",
+    "CREATE_ONBOARDING_RULES": {
+      "CASE_SENSITIVE": "С учетом регистра",
+      "PAGE_TITLE": "Создать правило",
+      "PAGE_TITLE_EDIT_MODE": "Изменить правило",
+      "TITLE": "Создать правило адаптации",
+      "TITLE_EDIT_MODE": "Изменить правило адаптации: {{string}}",
+      "SUBMIT_TEXT": "Создать правило",
+      "SUBMIT_TEXT_EDIT_MODE": "Сохранить изменения",
+      "UPDATE": "Обновление",
+      "IDENTICAL_RULE_ERROR_HEADER": "Совпадает охват",
+      "IDENTICAL_RULE_NAME_ERROR_HEADER": "Совпадает имя правила",
+      "DEFAULT_ERROR_HEADER": "Ошибка",
+      "CREATE_RULE_SUCCESS_MESSAGE": "Правило успешно создано",
+      "EDIT_RULE_SUCCESS_MESSAGE": "Правило успешно изменено",
+      "STEPS": {
+        "SELECT_SYSTEM_TYPE": "Выбрать тип системы",
+        "SELECT_SYSTEM_TYPE_EDIT_MODE": "Тип системы",
+        "SELECT_SYSTEM_TYPE_TITLE": "Выберите тип системы для адаптации",
+        "SELECT_SYSTEM_TYPE_TITLE_EDIT_MODE": "Тип системы",
+        "SELECT_SCOPE": "Выбрать охват",
+        "SELECT_SCOPE_EDIT_MODE": "Охват",
+        "SELECT_SCOPE_TITLE": "Выберите охват правила",
+        "SELECT_SCOPE_TITLE_EDIT_MODE": "Охват",
+        "ASSIGN_PLATFORM": "Присвоить платформе",
+        "ASSIGN_PLATFORM_EDIT_MODE": "Платформа",
+        "ASSIGN_PLATFORM_TITLE": "Выбрать платформу",
+        "ASSIGN_PLATFORM_TITLE_EDIT_MODE": "Платформа",
+        "SELECT_SAFE": "Сохранить в сейфе",
+        "SELECT_SAFE_EDIT_MODE": "Сейф",
+        "SELECT_SAFE_TITLE": "Выберите сейф",
+        "SELECT_SAFE_TITLE_EDIT_MODE": "Сейф",
+        "DEFINE_PROPERTIES": "Определить свойства",
+        "DEFINE_PROPERTIES_EDIT_MODE": "Свойства",
+        "DEFINE_PROPERTIES_TITLE": "Определите свойства правила",
+        "DEFINE_PROPERTIES_TITLE_EDIT_MODE": "Свойства",
+        "DEFINE_PROPERTIES_STEP": {
+          "NAME_LABEL": "Имя",
+          "NAME_PLACEHOLDER": "Введите уникальное имя",
+          "DESCRIPTION_LABEL": "Описание (необязательно)",
+          "DESCRIPTION": "Описание",
+          "DESCRIPTION_VALUE": "Значение",
+          "DESCRIPTION_CHARACTERS_LEFT": " Символов осталось",
+          "DESCRIPTION_CHARACTERS_OVER": " Лишних символов",
+          "RULE_NAME_IS_NOT_UNIQUE_MESSAGE": "Правило с таким именем уже существует",
+          "RULE_NAME_MAX_LENGTH_MESSAGE": "Это поле должно содержать не более 255 символов",
+          "SETTINGS": {
+            "INITIAL_PASSWORD": "Исходные настройки пароля",
+            "USE_PLATFORM": "С использованием учетной записи согласования платформы",
+            "NO_RECONCILE_ACCOUNT": "Для выбранной платформы нет учетной записи согласования"
+          },
+          "MODAL_ERROR_HEADER": "Ошибка",
+          "MODAL_CLOSE_ACTION": "Закрыть"
+        },
+        "SUMMARY": "Сводка",
+        "SUMMARY_TITLE": "Сводка"
+      },
+      "SELECT_SCOPE": {
+        "INFO_MESSAGE_APPLY_WINDOWS": "Правила автоматической адаптации применяются к учетным записям без зависимостей",
+        "INFO_MESSAGE_APPLY_UNIX": "Правила автоматической адаптации применяются к учетным записям без доверительных отношений",
+        "INFO_MESSAGE_NEW_RULE": "Новое правило получает приоритет над существующим правилом",
+        "MACHINE_TYPE": "Тип компьютера",
+        "ACCOUNT_TYPE": "Тип учетной записи",
+        "ACCOUNT_TYPE_INFO": "В настоящее время автоматическая адаптация учетных записей доменов не поддерживается.",
+        "ACCOUNT_CATEGORY": "Категория учетной записи",
+        "ACCOUNT_CATEGORY_INFO": "Привилегированные учетные записи — это члены привилегированных групп, такие как \nадминистраторы или привилегированные пользователи.",
+        "PRIVILEGED_ACCOUNT_TYPE": "Тип привилегированной учетной записи",
+        "USERNAME": "Имя пользователя",
+        "MACHINE_NAME_OR_ADDRESS": "Имя и адрес компьютера",
+        "IDENTICAL_MESSAGE_TITLE": "Найдено идентичное правило: {{string}}",
+        "IDENTICAL_MESSAGE_TEXT": "Чтобы не допустить дублирования, измените охват данного правила"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Подтверждение отмены",
+        "BODY": "Отменить создание правила адаптации?",
+        "SECONDARY_MESSAGE": "Сделанные вами изменения будут отменены",
+        "MAIN_ACTION": "Подтверждение отмены",
+        "SECONDARY_ACTION": "Не отменять"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "CHANGE_SYSTEM_TYPE_TITLE": "Изменить тип системы",
+        "CHANGE_PLATFORM_TITLE": "Изменить платформу",
+        "OK": "Изменить",
+        "CANCEL": "Отменить",
+        "SYSTEM_TYPE_PRIMARY_MESSAGE": "Изменить тип системы на",
+        "PLATFORM_PRIMARY_MESSAGE": "Изменить платформу на",
+        "SECONDARY_MESSAGE": "Может понадобиться обновить определение правила."
+      }
+    },
+    "NO_RULES_FOUND": "Нет правил для отображения",
+    "PRECEDENCE_COLUMN_TITLE": "Приоритет",
+    "DESCRIPTION_COLUMN_TITLE": "Описание",
+    "MACHINE_TYPE_COLUMN_TITLE": "Тип компьютера",
+    "ACCOUNT_TYPE_COLUMN_TITLE": "Тип учетной записи",
+    "LAST_ONBOARDED_COLUMN_TITLE": "Последняя адаптация",
+    "DELETE_RULE": {
+      "ACTION_TITLE": "Удалить правило",
+      "FEEDBACK_TITLE": "Удалить правило",
+      "FEEDBACK_DESCRIPTION": "Удалить правило «{RULE_NAME}»?",
+      "FEEDBACK_DELETE_BUTTON": "Удалить правило",
+      "FEEDBACK_CANCEL_BUTTON": "Отменить",
+      "FLOATING_SUCCESS_MESSAGE": "Правило было удалено"
+    },
+    "EDIT_RULE": {
+      "ACTION_TITLE": "Изменить правило"
+    },
+    "FEEDBACK_MESSAGES": {
+      "DELETE_ONBOARDING_RULES": "Удалить правило адаптации",
+      "GET_ONBOARDING_RULES": "Выбрать правила адаптации"
+    }
+  },
+  "PTA": {
+    "MESSAGES": {
+      "SUCCESS_MESSAGES": {
+        "SETTINGS": {
+          "PSM": {
+            "UPDATE": "Правило успешно изменено",
+            "ADD": "Правило успешно добавлено"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "Исправление добавлением в режим ожидания было успешно обновлено",
+            "ROTATE_CREDENTIALS": "Исправление сменой учетных данных было успешно обновлено",
+            "RECONCILE_CREDENTIALS": "Исправление согласованием учетных данных было успешно обновлено"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "Возобновление сеанса успешно инициировано"
+        }
+      },
+      "ERROR_TITLES": {
+        "DEFAULT": "ОШИБКА",
+        "SETTINGS": {
+          "GET": "Не удалось загрузить конфигурации безопасности",
+          "PSM": {
+            "UPDATE": "Не удалось обновить правило",
+            "ADD": "Не удалось добавить правило"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "Не удалось обновить исправление добавлением в режим ожидания",
+            "ROTATE_CREDENTIALS": "Не удалось обновить исправление сменой учетных данных",
+            "RECONCILE_CREDENTIALS": "Не удалось обновить исправление согласованием учетных данных"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "Не удалось инициировать возобновление сеанса"
+        }
+      },
+      "CLOSE_BUTTON": "Закрыть"
+    },
+    "EVENTS": {
+      "ACTION_BUTTONS": {
+        "SUCCESS_MESSAGES": {
+          "RESUME": "Возобновление сеанса успешно инициировано"
+        },
+        "ERROR_TITLES": {
+          "RESUME": "Не удалось инициировать возобновление сеанса"
+        }
+      },
+      "PAGE_HEADER": "События системы безопасности",
+      "PROVIDER": {
+        "UNKNOWN": "неизвестно",
+        "ANOMALIES_TITLES": {
+          "ACTIVE_DORMANT": "Активный нечастый пользователь",
+          "AGGREGATIVE_ICE": "Необычный доступ к нескольким компьютерам",
+          "DUAL_USAGE": "Интерактивный вход в систему служебной учетной записи",
+          "GOLDEN_TICKET": "Атака типа Golden Ticket",
+          "IRREGULAR_HOUR_USER": "Привилегированный доступ к Vault в необычное время",
+          "MALICIOUS_RETRIEVAL": "Вредоносное получение учетных записей домена",
+          "OVER_PASS_THE_HASH": "Атака типа Overpass the Hash",
+          "PAC_ATTACK": "Атака типа PAC",
+          "RISKY_COMMAND": "В привилегированном сеансе обнаружены подозрительные действия",
+          "SCT": "Подозрение на хищение учетных данных",
+          "SPC": "Подозрительное изменение пароля",
+          "UNMANAGED": "Неуправляемая привилегированная учетная запись",
+          "VAULT_IRREGULAR_IP": "Привилегированный доступ к Vault с необычного IP-адреса",
+          "CLEARTEXT": "Вскрытые учетные данные"
+        },
+        "EVENT_SEVERITIES": {
+          "LOW": "Низкий",
+          "MEDIUM": "Средний",
+          "HIGH": "Высокий"
+        },
+        "FILTERS": {
+          "EVENT_ID": "Идентификатор события",
+          "SESSION_ID": "Идентификатор сеанса",
+          "TITLE": "Фильтры",
+          "SEVERITY": "Уровень опасности",
+          "TYPE": "Тип события",
+          "FROM_DATE": "От",
+          "TO_DATE": "До"
+        },
+        "NOTIFICATIONS": {
+          "LOW": "Обнаружено новое событие низкого уровня",
+          "MEDIUM": "Обнаружено новое событие среднего уровня",
+          "HIGH": "Обнаружено новое событие высокого уровня"
+        }
+      },
+      "CARDS": {
+        "GENERAL": {
+          "LISTS": {
+            "ENTITIES": {
+              "COMMAND": "Команда",
+              "ACCOUNT": "учетная запись",
+              "MACHINE": "компьютер",
+              "DC": "Контроллер домена"
+            },
+            "TITLES": {
+              "MOST_RETYPED_ACTIVITIES": "Чаще всего используемые команды",
+              "MOST_ACCESSED_ACCOUNTS": "Чаще всего запрашиваемые учетные записи",
+              "EXPOSED_ACCOUNTS": "Вскрытые учетные записи",
+              "MOST_ACCESSED_MACHINES": "Чаще всего запрашиваемые компьютеры",
+              "SOURCE_MACHINES": "Исходные компьютеры",
+              "MOST_ACCESSED_DCS": "Чаще всего запрашиваемые контроллеры домена",
+              "ACCESSED_DCS": "Запрашиваемые контроллеры домена"
+            },
+            "RECORD": {
+              "MULTI_OCCURRENCES": "{{entity}} ({{occurrences}} случаев)",
+              "SINGLE_OCCURRENCE": "{{entity}} ({{occurrences}} случай)"
+            }
+          },
+          "ORIGINAL_EVENTS": {
+            "ORIGINAL_EVENT": "Исходное событие произошло {{originTime}}.",
+            "ORIGINAL_EVENT_SOURCE_TARGET": "Исходное событие произошло {{originTime}} из источника {{source}} к целевому объекту {{target}}.",
+            "ORIGINAL_EVENT_SOURCE_DC": "Исходное событие произошло {{originTime}} из источника {{source}} к контроллеру домена {{target}}.",
+            "ORIGINAL_SUSPICIOUS_ACTIVITY": "Первое подозрительное действие произошло {{originTime}}."
+          },
+          "DIAGRAM_ENTITY_TITLE": {
+            "TARGET_MACHINE": "Целевой компьютер",
+            "SOURCE_MACHINE": "Исходный компьютер",
+            "PRIVILEGED_ACCOUNT": "Привилегированная учетная запись",
+            "UNMANAGED_PRIVILEGED_ACCOUNT": "Неуправляемая привилегированная учетная запись",
+            "CYBERARK_PAS": "Cyberark PAS",
+            "VAULT_USER": "Пользователь хранилища",
+            "TARGET_SERVICE": "Целевая служба",
+            "SERVICE_ACCOUNT": "Служебная учетная запись",
+            "SERVICE": "Служба"
+          }
+        },
+        "GENERIC": {
+          "ACTIVE": "Активный сеанс",
+          "REMEDIATION": "Инициировано исправление",
+          "OCCURRENCES": "({{occurrences}} случаев)",
+          "EVENT_ID": "Идентификатор {{id}}",
+          "SESSION_ID": "Идентификатор сеанса",
+          "RECOMMENDATION_TITLE": "Рекомендация"
+        },
+        "ACTIVE_DORMANT": {
+          "SUBTITLE_SINGLE_ACCOUNT": "Пользователь Vault {{user}} получил пароль к учетной записи {{account}} из CyberArk PAS после периода неактивности продолжительностью {{inactiveDays}} дней.",
+          "SUBTITLE_MULTI_ACCOUNTS": "Пользователь Vault {{user}} получил пароль к учетным записям {{numOfAccounts}} из CyberArk PAS после периода неактивности продолжительностью {{inactiveDays}} дней.",
+          "RECOMMENDATION": "Убедитесь, что этот пользователь Vault активен, а если нет, возможно, вам следует ограничить доступ для этого пользователя."
+        },
+        "AGGREGATIVE_ICE": {
+          "SUBTITLE": "Учетная запись {{account}} подключилась к большому количеству новых компьютеров, что нетипично для данной учетной записи.<br>Такие действия могут свидетельствовать о том, что учетные данные записи {{account}} были скомпрометированы и используются для ненаправленного выявления уязвимостей сети.",
+          "RECOMMENDATION": "Проанализируйте потенциальный ущерб и убедитесь в отсутствии перехвата данных:",
+          "RECOMMENDATION_SUGGESTION_1": "Проверьте учетные записи, у которых есть активные сеансы подключения к целевым компьютерам",
+          "RECOMMENDATION_SUGGESTION_2": "Проверьте учетные данные, которые хранятся на целевых компьютерах",
+          "RECOMMENDATION_SUGGESTION_3": "Посмотрите, нет ли других признаков возможных атак на целевых компьютерах"
+        },
+        "DUAL_USAGE": {
+          "SUBTITLE_SINGLE_MACHINE": "Служебная учетная запись {{account}} интерактивно вошла в систему на компьютере {{target}}.",
+          "SUBTITLE_MULTI_MACHINES": "Служебная учетная запись {{account}} интерактивно вошла в систему на {{numOfMachines}} компьютерах.",
+          "RECOMMENDATION": "Используйте служебные и пользовательские учетные записи для разных целей и не смешивайте их."
+        },
+        "GOLDEN_TICKET": {
+          "SUBTITLE": "В домене {{domain}} обнаружена атака типа Golden Ticket. Злоумышленник использовал фальсифицированный билет Kerberos для учетной записи {{account}} на компьютере {{target}}.<br>Источник происхождения этого билета — компьютер {{source}}.",
+          "RECOMMENDATION": "Ваш домен был скомпрометирован злоумышленниками. Тщательно исследуйте свое окружение и примите меры по противодействию атаке."
+        },
+        "IRREGULAR_HOUR_USER": {
+          "SUBTITLE": "Пользователь Vault {{user}} получил пароль привилегированного пользователя {{account}} на компьютере {{target}} в {{startTime}}.<br>Это действие отмечено как событие системы безопасности, потому что обычно пользователь {{user}} в это время не подключается.",
+          "RECOMMENDATION": "Проанализируйте действия данного пользователя Vault и убедитесь, что они не представляют угрозы."
+        },
+        "MALICIOUS_RETRIEVAL": {
+          "SUBTITLE_ONE_OCCURRENCE": " Потенциально опасное получение учетных данных с контроллера домена {{target}} было обнаружено на компьютере {{source}}.<br>Получение учетных данных было выполнено в рамках успешной репликации контроллера домена.",
+          "SUBTITLE_MULTI_OCCURRENCES": "Неоднократное потенциально опасное получение учетных данных было обнаружено на компьютере {{source}}.<br>Получение учетных данных было выполнено в рамках успешной репликации контроллера домена.",
+          "RECOMMENDATION": "Запрос репликации контроллера домена (DCSync) может инициироваться только контроллерами доменов.<br>Если другая служба аутентификации или управления в вашей сети также выполняет репликации контроллера домена,<br>настоятельно рекомендуется обеспечить защиту этих служб на том же уровне, что и для контроллеров доменов."
+        },
+        "OVER_PASS_THE_HASH": {
+          "SUBTITLE": "В домене {{domain}} обнаружена атака типа Overpass the Hash, инициированная с компьютера {{source}}.<br>В этой атаке используются данные учетной записи {{account}}.",
+          "RECOMMENDATION_NO_REMEDIATION": "Измените учетные данные для учетной записи {{account}}.",
+          "RECOMMENDATION_REMEDIATION": "Был инициирован запрос изменения пароля. Ваш домен был скомпрометирован злоумышленниками. Тщательно исследуйте свое окружение и примите меры по противодействию атаке."
+        },
+        "PAC_ATTACK": {
+          "SUBTITLE": "В домене {{domain}} обнаружена атака типа PAC (использование уязвимости MS14-068), инициированная с компьютера {{source}}.<br>Инициатор атаки попытался повысить уровень полномочий учетной записи {{account}}.",
+          "RECOMMENDATION": "Убедитесь, что для контроллера домена {{target}} установлено исправление KB3011780."
+        },
+        "RISKY_COMMAND": {
+          "SUBTITLE": "В рамках привилегированного сеанса обнаружены подозрительные действия на компьютере {{target}}.<br>Сеанс был инициирован пользователем Vault {{user}} с учетной записью {{account}} посредством выполнения команды {{command}}.",
+          "RECOMMENDATION_LIVE": "Проанализируйте все события системы безопасности для данного сеанса и его операций и установите, необходимо ли реагирование, например, постоянный мониторинг или завершение выполняющегося сеанса вручную.",
+          "RECOMMENDATION_NON_LIVE": "Проанализируйте все события системы безопасности для данного сеанса и оцените связанный с ними риск, используя операции и записи данного сеанса. Этот сеанс уже отключен.",
+          "RECOMMENDATION_SUSPENDED_SESSION": "Был инициирован запрос приостановления сеанса. Проанализируйте все события системы безопасности для данного сеанса и его операций и установите, необходимо ли дополнительное реагирование, например, возобновление или завершение выполняющегося сеанса вручную.",
+          "RECOMMENDATION_TERMINATED_SESSION": "Был инициирован запрос завершения сеанса. Проанализируйте все события системы безопасности для данного сеанса и его операций и установите, необходимо ли дополнительное реагирование."
+        },
+        "SCT": {
+          "SUBTITLE_SINGLE_MACHINE": "Привилегированная учетная запись {{account}} получила доступ к компьютеру {{target}} с паролем, который не был получен из CyberArk PAS.",
+          "SUBTITLE_MULTI_MACHINES": "Привилегированная учетная запись {{account}} получила доступ к {{numOfMachines}} компьютерам с паролем, который не был получен из CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Возможно, вам следует изменить пароли, которые использовались без получения.",
+          "RECOMMENDATION_REMEDIATION": "Был инициирован запрос изменения пароля. Убедитесь, что не осуществляется обход вашей организационной политики и средств управления PAS и что ваши управляемые учетные записи находятся под вашим контролем."
+        },
+        "SPC": {
+          "SUBTITLE": "Пароль привилегированной учетной записи {{account}} был изменен не в CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Возможно, вам следует выполнить реконсиляцию пароля учетной записи, который был изменен не в CyberArk PAS.",
+          "RECOMMENDATION_RECONCILIATION": "Был инициирован запрос реконсиляции пароля. Убедитесь, что не осуществляется обход вашей организационной политики и средств управления PAS, и возьмите под свой контроль управляемые учетные записи."
+        },
+        "UNMANAGED": {
+          "SUBTITLE_SINGLE_MACHINE": "Привилегированная учетная запись {{account}} использовалась для доступа к компьютеру {{target}}, но эта учетная запись не управляется в CyberArk PAS.",
+          "SUBTITLE_MULTI_MACHINES": "Привилегированная учетная запись {{account}} использовалась для доступа к {{numOfMachines}} компьютерам , но эта учетная запись не управляется в CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Возможно, вам следует выполнить адаптацию неуправляемой привилегированной учетной записи в CyberArk PAS.",
+          "RECOMMENDATION_REMEDIATION": "Выполните адаптацию вновь обнаруженной учетной записи и назначьте соответствующую платформу для безопасного управления учетной записью. Для обнаруженных учетных записей, которые фильтруются правилом автоматической адаптации, не требуется выполнять действия вручную."
+        },
+        "VAULT_IRREGULAR_IP": {
+          "SUBTITLE": "Пользователь Vault {{user}} получил доступ к Vault с необычного IP-адреса {{source}}.<br>Это действие отмечено как событие системы безопасности, потому что обычно пользователь {{user}} не подключается к Vault с этого IP-адреса.",
+          "RECOMMENDATION": "Проанализируйте действия данного пользователя Vault и убедитесь, что они не представляют угрозы."
+        },
+        "CLEARTEXT": {
+          "SUBTITLE": "Данные учетной записи, отправленные из источника {{source}} с использованием простой привязки LDAP, были представлены в виде открытого текста.",
+          "RECOMMENDATION": "Настройте соответствующие службы на выполнение аутентификации с использованием LDAPS, а не простой привязки LDAP.<br>Настоятельно рекомендуем вам регулярно менять пароли важных учетных записей."
+        }
+      }
+    },
+    "SETTINGS": {
+      "PAGE_HEADER": "Конфигурации системы безопасности",
+      "PSM": {
+        "HEADER": "Анализ привилегированных сеансов и реагирование",
+        "SUB_HEADER": "Присвоение оценки риска и мер автоматического реагирования действиям с высокой степенью риска, обнаруживаемым в ходе записываемых пользовательских сеансов.",
+        "ADD_RULE_BUTTON": "Добавить правило",
+        "RULE_CATEGORY": {
+          "KEYSTROKES": "Универсальные нажатия клавиш",
+          "SCP": "SCP",
+          "SQL": "SQL",
+          "SSH": "SSH",
+          "WINDOWS": "Заголовки окон"
+        },
+        "RULE_CATEGORY_EXAMPLES": {
+          "KEYSTROKES_EXAMPLE": "например: kill(.*)",
+          "SCP_EXAMPLE": "например: 10.1.1.22(.*)",
+          "SQL_EXAMPLE": "например: DROP TABLE(.*)",
+          "SSH_EXAMPLE": "например: rm -r(.*)",
+          "WINDOWS_EXAMPLE": "например: Диспетчер задач(.*)"
+        },
+        "SUCCESS_MESSAGES": {
+          "UPDATE": "Правило успешно изменено",
+          "ADD": "Правило успешно добавлено"
+        },
+        "ERROR_TITLES": {
+          "UPDATE": "Не удалось обновить правило",
+          "ADD": "Не удалось добавить правило"
+        },
+        "RULE_MODAL": {
+          "ADD_RULE_TITLE": "Добавить правило",
+          "EDIT_RULE_TITLE": "Изменить правило",
+          "CATEGORY": "Категория",
+          "SELECT_CATEGORY": "Выберите категорию",
+          "PATTERN": "Шаблон",
+          "PATTERN_PLACEHOLDER": "Введите регулярное выражение",
+          "DESCRIPTION": "Описание (необязательно)",
+          "SESSION_RESPONSE": {
+            "TITLE": "Реагирование в отношении сеанса",
+            "SUSPEND": "Приостановить",
+            "TERMINATE": "Завершить",
+            "NONE": "Нет"
+          },
+          "SCORE_TITLE": "Оценка",
+          "SCORE_DESCRIPTION": "Задайте оценку (1-100)",
+          "ACTIVE_STATUS_TITLE": "Статус",
+          "ACTIVE_STATUS_ACTIVE_DESCRIPTION": "Активно",
+          "ACTIVE_STATUS_INACTIVE_DESCRIPTION": "Неактивно",
+          "SCOPE_TITLE": "Охват",
+          "SCOPE_DESCRIPTION": {
+            "BASIC_DESCRIPTION": "Данное правило будет применяться к категориям: {vaultUsersCategory}, {accountsCategory} и {machinesCategory}",
+            "ALL": "все {category}",
+            "EXCLUDE": "все кроме {amount} {category}",
+            "INCLUDE": "{amount} конкретных категорий {category}"
+          },
+          "ADD": "Добавить",
+          "SAVE": "Сохранить",
+          "CANCEL": "Отменить"
+        },
+        "SCOPE_MODAL": {
+          "TITLE": "Изменить охват",
+          "EXCLUDE": "Исключить",
+          "INCLUDE": "Включить только",
+          "SAVE": "Изменить охват",
+          "CANCEL": "Отменить",
+          "VAULT_USERS": {
+            "CATEGORY_NAME": "Пользователи Vault",
+            "TAB_TITLE": "Пользователи Vault",
+            "WATERMARK": "Использовать подстановочные знаки",
+            "INCLUDE_MARK": "Следующее правило будет применяться только к выбранным пользователям Vault",
+            "EXCLUDE_MARK": "Следующее правило будет применяться ко всем пользователям Vault, кроме выбранных"
+          },
+          "ACCOUNTS": {
+            "CATEGORY_NAME": "учетные записи",
+            "TAB_TITLE": "Учетные записи",
+            "WATERMARK": "Использовать подстановочные знаки",
+            "INCLUDE_MARK": "Следующее правило будет применяться только к выбранным учетным записям",
+            "EXCLUDE_MARK": "Следующее правило будет применяться ко всем учетным записям, кроме выбранных"
+          },
+          "MACHINES": {
+            "CATEGORY_NAME": "компьютеры",
+            "TAB_TITLE": "Компьютеры",
+            "WATERMARK": "Использовать подстановочные знаки",
+            "INCLUDE_MARK": "Следующее правило будет применяться только к выбранным компьютерам",
+            "EXCLUDE_MARK": "Следующее правило будет применяться ко всем компьютерам, кроме выбранных"
+          }
+        },
+        "GRID_COLUMNS": {
+          "CATEGORY": "Категория",
+          "PATTERN": "Шаблон",
+          "SCORE": "Оценка",
+          "DESCRIPTION": "Описание",
+          "RESPONSE": "Реакция",
+          "STATUS": "Статус"
+        }
+      },
+      "REMEDIATION": {
+        "HEADER": "Автоматическое исправление",
+        "SUB_HEADER": "Настройте автоматическое реагирование на каждое событие системы безопасности для защиты от рисков и прерывания подозрительных действий.",
+        "ADD_TO_PENDING": "Добавить в режим ожидания",
+        "UNMANAGED_PRIVILEGED_ACCOUNT": "Неуправляемая привилегированная учетная запись",
+        "ROTATE_CREDENTIALS": "Сменить учетные данные",
+        "OVER_PASS_THE_HASH": "Атака типа Overpass the Hash",
+        "SUSPECTED_CREDENTIAL_THEFT": "Подозрение на хищение учетных данных",
+        "RECONCILE_CREDENTIALS": "Согласовать учетные данные",
+        "SUSPICIOUS_PASSWORD_CHANGE": "Подозрительное изменение пароля",
+        "SUCCESS_MESSAGES": {
+          "ADD_TO_PEND": "Исправление добавлением в режим ожидания было успешно обновлено",
+          "ROTATE_CREDENTIALS": "Исправление сменой учетных данных было успешно обновлено",
+          "RECONCILE_CREDENTIALS": "Исправление согласованием учетных данных было успешно обновлено"
+        },
+        "ERROR_TITLES": {
+          "ADD_TO_PEND": "Не удалось обновить исправление добавлением в режим ожидания",
+          "ROTATE_CREDENTIALS": "Не удалось обновить исправление сменой учетных данных",
+          "RECONCILE_CREDENTIALS": "Не удалось обновить исправление согласованием учетных данных"
+        }
+      },
+      "EVENT_STATUS": {
+        "CLOSE_MESSAGE": "Вы действительно хотите закрыть это событие безопасности?\n\nЗакрытые события по-прежнему можно просмотреть с помощью фильтра состояния",
+        "OPEN_MESSAGE": "Вы действительно хотите повторно открыть это событие безопасности?"
+      },
+      "EDIT": "Правка",
+      "DELETE": "Удалить",
+      "GET_ERROR_TITLE": "Не удалось загрузить конфигурации безопасности"
+    }
+  },
+  "DASHBOARD": {
+    "HEADER": "Состояние системы",
+    "ERROR_MESSAGE": "Произошла ошибка на сервере, повторите попытку",
+    "VAULTS": "Vault",
+    "CONNECTING_COMPONENTS": "Компоненты подключения",
+    "METER_CONNECTED": "Подключено",
+    "METER_DISCONNECTED": "Отключено",
+    "REFRESH": "Обновить",
+    "MASTER": "Главный",
+    "PRIMARY": "Основной",
+    "SATELLITE": "Подчиненный",
+    "DR": "Аварийное восстановление",
+    "OFFLINE": "Не подключенный",
+    "DASHBOARD_DETAILS": {
+      "COMPONENT_IDENTIFIER_COLUMN_TITLE": "Идентификация компонента",
+      "IP_COLUMN_TITLE": "IP-адрес",
+      "VERSION_COLUMN_TITLE": "Версия",
+      "CONNECTIVITY_STATUS_COLUMN_TITLE": "Состояние подключения",
+      "LAST_LOGON_DATE_COLUMN_TITLE": "Дата последнего входа в систему",
+      "GRID_CONNECTED": "Подключено",
+      "GRID_DISCONNECTED": "Отключено",
+      "BACK_TO_MAIN_PAGE": "Вернуться к состоянию системы"
+    },
+    "COMPONENTS_METER_TOTAL_DESCRIPTION": {
+      "PVWA": "Активные пользователи",
+      "CPM": "Учетные записи под управлением",
+      "SESSIONMANAGEMENT": "Параллельные сеансы",
+      "AIM": "Приложения"
+    },
+    "DIALOGS": {
+      "RESTORE_CONNECTIVITY": {
+        "SUCCESS": "Восстановление соединения может занять несколько минут"
+      }
+    }
+  },
+  "LDAP_INTEGRATION": {
+    "PAGE_TITLE": "Интеграция LDAP",
+    "REFRESH": "Обновить",
+    "NEW_DOMAIN": "Новый домен",
+    "MAPPINGS": "Сопоставления",
+    "DOMAINS": "домены",
+    "DELETE_DOMAIN_DIALOG": {
+      "TITLE": "Удалить подключение к домену?",
+      "BODY": "Вы действительно хотите удалить домен{DOMAIN_NAME} из CyberArk?",
+      "SUB_TITLE": "\nСледующее сопоставление каталогов также будет удалено:\n{MAPPINGS}",
+      "MAIN_ACTION": "Удалить",
+      "SECONDARY_ACTION": "Отменить",
+      "DELETED_SUCCESS": "Подключение к домену успешно удалено",
+      "ERROR": {
+        "CLOSE_BUTTON": "Закрыть",
+        "TITLE": "Не удалось удалить подключение к домену",
+        "BODY": "Не удалось удалить подключение к домену {DOMAIN_NAME}"
+      }
+    },
+    "DELETE_MAPPING_DIALOG": {
+      "TITLE": "Удалить сопоставление каталогов?",
+      "BODY": "Вы действительно хотите удалить сопоставление каталогов {{MAPPING_NAME}}?",
+      "SUB_TITLE": "\nЭто действие может помешать уже подключенным пользователям LDAP получить доступ к системе CyberArk. ",
+      "MAIN_ACTION": "Удалить сопоставление",
+      "SECONDARY_ACTION": "Отменить",
+      "DELETED_SUCCESS": "Сопоставление удалено",
+      "ERROR": {
+        "CLOSE_BUTTON": "Закрыть",
+        "TITLE": "Не удалось удалить сопоставление каталогов",
+        "BODY": "Не удалось удалить сопоставление каталогов {{MAPPING_NAME}}"
+      }
+    },
+    "MAPPING_DETAILS": {
+      "AUTH_TAB": {
+        "ALLOW": "Разрешить",
+        "DENY": "Запретить"
+      },
+      "DETAILS_TAB": {
+        "MAPPING_CRITERIA_TITLE": "Критерии сопоставления",
+        "LDAP_BRANCH": "Ветвь LDAP",
+        "CRITERIA_DETAILS": "Сопоставление пользователей выполнено по признаку",
+        "MAPPING_DESTINATION_TITLE": "Конечная цель сопоставления",
+        "LOCATION": "Размещение",
+        "GROUP": "Группировать",
+        "AUTHENTICATION_TITLE": "Проверка подлинности",
+        "AUTHENTICATION_METHOD": "Метод аутентификации",
+        "ACTIVITY_LOGS_TITLE": "Журнал действий",
+        "KEEP_USER_ACTIVITY_LOGS": "Вести журналы действий пользователей по меньшей мере",
+        "DAYS": "дней",
+        "ROOT": "Root"
+      },
+      "AUTHENTICATIONS": {
+        "AUTHTYPEVAULTPKI": "PKI",
+        "AUTHTYPELDAP": "LDAP",
+        "AUTHTYPENT": "NT",
+        "AUTHTYPERADIUS": "RADIUS"
+      }
+    },
+    "DIRECTORY_MAPPINGS": "сопоставления каталогов",
+    "GROUPS_NAME": {
+      "VAULT_ADMINS": "Администраторы Vault",
+      "SAFE_MANAGERS": "Управляющие сейфами",
+      "AUDITORS": "Аудиторы",
+      "USERS": "Пользователи"
+    },
+    "AUTHORIZATIONS": {
+      "NONE": "Нет",
+      "ADDSAFES": "Добавление сейфов",
+      "AUDITUSERS": "Аудит пользователей",
+      "ADDUPDATEUSERS": "Добавить/обновить пользователей",
+      "RESETUSERSPASSWORDS": "Сброс пароля пользователя",
+      "ACTIVATEUSERS": "Активация пользователей",
+      "ADDNETWORKAREAS": "Добавление сетевых зон",
+      "MANAGEDIRECTORYMAPPING": "Управление сопоставлением каталога",
+      "MANAGESERVERFILECATEGORIES": "Управление категориями файлов на сервере",
+      "BACKUPALLSAFES": "Резервное копирование всех сейфов",
+      "RESTOREALLSAFES": "Восстановление всех сейфов"
+    },
+    "CREATE": {
+      "PAGE_TITLE": "Создать интеграцию LDAP",
+      "TITLE": "Интеграция LDAP",
+      "SAVE": "Сохранить",
+      "CONNECT": "Подключение >",
+      "DOMAIN_CONNECTED_SUCCESSFULLY": "Домен {{domainName}} успешно подключен",
+      "THE_DIRECTORY_WERE_CREATED_SUCCESSFULLY": "Каталог успешно создан",
+      "THE_DIRECTORY_AND_MAPPING_WERE_CREATED_SUCCESSFULLY": "Каталог и сопоставление успешно созданы",
+      "STEPS": {
+        "SELECT_DIRECTORY_TYPE": "Выбрать тип каталога",
+        "SELECT_DIRECTORY_TYPE_TITLE": "Выбрать тип каталога",
+        "CONNECT_DOMAIN": "Подключить домен",
+        "CONNECT_DOMAIN_TITLE": "Подключить домен",
+        "CREATE_DIRECTORY_MAPPINGS": "Создать сопоставление каталога",
+        "CREATE_DIRECTORY_MAPPINGS_TITLE": "Создать сопоставление каталога (необязательно)"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Подтверждение отмены",
+        "BODY": "Отменить создание интеграции LDAP?",
+        "SECONDARY_MESSAGE": "Сделанные вами изменения будут отменены",
+        "MAIN_ACTION": "Подтверждение отмены",
+        "SECONDARY_ACTION": "Не отменять"
+      },
+      "CONTINUE_DIALOG": {
+        "TITLE": "Продолжить?",
+        "TITLE_NO_MAPPING": "Пропустить эту страницу без создания сопоставления?",
+        "BODY": "Следующее сопоставление каталога не будет создано:",
+        "BODY_NO_MAPPING": "Сопоставления каталогов необходимы для подключения пользователей LDAP к системе CyberArk",
+        "MAIN_ACTION": "Сохранить",
+        "SECONDARY_ACTION": "Остаться"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "TITLE": "Изменить подключение к домену",
+        "CHANGE": "Изменить",
+        "CANCEL": "Отменить",
+        "PRIMARY_MESSAGE": "Изменить подключение к домену?",
+        "SECONDARY_MESSAGE": "Может понадобиться обновить сопоставления каталога"
+      },
+      "CONFIRMATION_MESSAGES_DIRECTORY_TYPE": {
+        "TITLE": "Изменить тип каталога",
+        "CHANGE": "Изменить",
+        "CANCEL": "Отменить",
+        "PRIMARY_MESSAGE": "Изменить тип каталога?",
+        "SECONDARY_MESSAGE": "Потребуется обновить подключение к домену"
+      },
+      "DIRECTORY_TYPE_STEP": {
+        "NO_DIRECTORY_TYPE_CONFIGURED": "Нет настроенных типов каталогов",
+        "EMPTY_MESSAGE": "Настройте по меньшей мере один тип каталога в файле конфигурации.\nЭто можно сделать здесь: Администрирование > Параметры конфигурации > Интеграция LDAP > Профили > Добавить профиль"
+      },
+      "CONNECT_DOMAIN_STEP": {
+        "CONNECT_TO": "Подключиться к",
+        "CONNECT_VIA": "Подключение через",
+        "CONNECT_WITH": "Подключиться к",
+        "DOMAIN_NAME": "Имя домена",
+        "START_DOMAIN_INTEGRATION_FROM": "Начать интеграцию домена из источника",
+        "DOMAIN_BASE_CONTEXT": "Базовый контекст домена",
+        "BIND_USERNAME": "Имя пользователя Bind",
+        "CONNECTION": "Подключение",
+        "SECURED_CONNECTION": "Безопасное (SSL)",
+        "UNSECURE_CONNECTION": "Небезопасное",
+        "BIND_USERNAME_PLACEHOLDER": "например, JohnSmith@domainName.com",
+        "BIND_PASSWORD": "Пароль пользователя Bind",
+        "DOMAIN_NAME_MAX_LENGTH_MESSAGE": "Это поле должно содержать не более 160 символов",
+        "USE_SSL": "Использовать безопасное подключение (SSL)",
+        "USE_SSL_MAIN_TITLE": "Шифрование на основе SSL требует сертификата LDAPS.",
+        "USE_SSL_SUB_TITLE": "Прежде чем выполнять другие действия, импортируйте сертификат этого домена, чтобы создать базовое безопасное подключение SSL.",
+        "USE_SSL_TOOLTIP": "Шифрование на основе SSL — это безопасное подключение (порт 636)",
+        "SSL_MORE_INFO_LINK": "См. инструкции",
+        "SSL_MORE_INFO_HEADER": "Импорт сертификата домена",
+        "SSL_MORE_INFO_BODY": "1. Получите общий сертификат для запрашиваемого домена.\n\n2. На компьютере Vault и на компьютере IIS выберите в меню «Файл» пункт «Добавить/Удалить оснастку».\n\n3. Выберите пункт «Сертификаты» в меню слева и нажмите «Добавить».\n\n4. Выберите «Учетная запись компьютера», а затем «Локальный компьютер».\n\n5. Разверните пункт «Сертификаты (локальный компьютер)», затем разверните пункт «Доверенные \nкорневые центры сертификации». Появится папка «Сертификаты».\n\n6. Импортируйте и поместите все сертификаты домена в следующее хранилище\nдля всех Vault предприятия.\n\n7. Добавьте имя домена (как указано в сертификате) в локальный файл \nHOSTS данного Vault для каждого IP-адреса, используемого для \nподключения из Vault.\n\n8. Продолжите и подключите ваш домен.",
+        "SSL_MORE_INFO_CANCEL": "Отменить",
+        "FAILED_TO_CONNECT_DOMAIN": "Не удалось подключиться к домену",
+        "FAILED_TO_CONNECT_DOMAIN_MORE_INFO": "Возможные причины:\n• Неправильное имя домена, имя или пароль пользователя Bind.\n• Возникла проблема с конфигурацией сертификата LDAPS (если используется безопасное подключение).\n• Сервер домена не отвечает.",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT": "Этот домен уже подключен",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT_MORE_INFO": "Измените имя домена",
+        "LDAP_USERS_DIALOG": {
+          "TITLE": "Пользователи LDAP, отвечающие критериям поиска",
+          "TEXT": "Представление {{NUMBER_OF_OBJECTS}} пользователей для группы {{GROUP_NAME}}",
+          "NO_USERS": "Нет пользователей для отображения",
+          "WATERMARK": "Фильтр по имени пользователя или группы",
+          "INFO_MESSAGE": "У вас больше 1000 пользователей, попытайтесь найти другого пользователя",
+          "WARNING_MESSAGE": "Возможно, вы не нашли интересующего вас пользователя, потому что отображаются только первые 1000 пользователей",
+          "GRID_COLUMNS": {
+            "USER_NAME": "Имя пользователя",
+            "GROUP_NAME": "Группировать"
+          },
+          "CLOSE": "Закрыть"
+        }
+      },
+      "CREATE_DIRECTORY_MAPPING_STEP": {
+        "DOMAIN_BASE_CONTEXT": "Базовый контекст домена",
+        "DOMAIN_BASE_CONTEXT_INFO": "Начать интеграцию домена от этого уровня и ниже",
+        "INFO_MESSAGE": "Этот инструмент создает предлагаемые по умолчанию сопоставления каталогов. После создания вы сможете изменить их в соответствии с потребностями вашей организации.",
+        "DEFINE_MAP": "Определить карту",
+        "DEFINED": "Определена",
+        "GROUPS_INFO": "Чтобы создать это сопоставление, выберите соответствующие группы",
+        "SELECT_LDAP_GROUPS": "Выберите группы LDAP",
+        "MAPPED_USERS_WILL_BE_ADDED_TO": "Сопоставленные пользователи будут добавлены в",
+        "ACCESS_LIMITATIONS": "Ограничения доступа",
+        "KEEP_USER_ACTIVITY_LOGS_FOR": "Вести журналы действий пользователей",
+        "AUTHORIZATIONS": "Авторизации",
+        "MAPPED_GROUPS": "Сопоставленные группы будут добавлены в:",
+        "VIEW_USERS": "Показать пользователей",
+        "LOCATION": "Размещение",
+        "GROUP": "Группировать",
+        "NONE": "Нет",
+        "DAYS": "дней",
+        "FAILED_TO_CREATE_NAME_DIRECTORY": "Не удалось создать каталог",
+        "FAILED_TO_CREATE_DIRECTORY_MAPPING": "Не удалось создать сопоставление каталога",
+        "FAILED_TO_CREATE_NAME_DIRECTORY_MAPPING": "Не удалось создать сопоставление каталога '{MAPPING_NAME}'",
+        "THE_FOLLOWING_DIRECTORY_MAPPING_FAILED_TO_BE_CREATED": "Следующее сопоставление каталога создать не удалось",
+        "CLOSE": "Закрыть"
+      }
+    },
+    "EDIT_MAPPING": {
+      "CHANGES_SAVED_SUCCESSFULLY": "Изменения успешно сохранены",
+      "CANCEL_DIALOG": {
+        "TITLE": "Подтверждение отмены",
+        "BODY": "Вы действительно хотите отменить изменение сопоставления каталогов? Внесенные вами изменения будут отменены.",
+        "MAIN_ACTION": "Подтверждение отмены",
+        "SECONDARY_ACTION": "Не отменять"
+      },
+      "CONFIRM_DIALOG": {
+        "TITLE": "Подтвердить изменения",
+        "BODY": "Вы действительно хотите сохранить изменения для этого сопоставления каталогов? Это повлияет на процесс выделения ресурсов пользователям LDAP в системе CyberArk.",
+        "MAIN_ACTION": "Подтвердить изменения",
+        "SECONDARY_ACTION": "Остаться на странице"
+      },
+      "ERROR": {
+        "TITLE": "Произошла ошибка"
+      }
+    },
+    "ADD_MAPPING": {
+      "MESSAGE_SAVED_SUCCESSFULLY": "Сопоставление каталогов успешно добавлено",
+      "MESSAGE_REORDER_FAILED": {
+        "TITLE": "Не удалось изменить порядок сопоставлений каталогов",
+        "BODY": "Сопоставление каталогов {{mapping_name}} успешно создано, но не может быть добавлено в указанную вами позицию. Оно добавлено в конец списка.",
+        "MAIN_ACTION": "Закрыть"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Подтверждение отмены",
+        "BODY": "Вы действительно хотите отменить добавление сопоставления каталогов? Внесенные вами изменения будут отменены",
+        "MAIN_ACTION": "Подтверждение отмены",
+        "SECONDARY_ACTION": "Не отменять"
+      },
+      "ERROR_DIALOG": {
+        "TITLE": "Не удалось добавить сопоставление",
+        "MAIN_ACTION": "Закрыть"
+      }
+    },
+    "EMPTY_STATE": {
+      "TITLE_TEXT": "Начните процесс интеграции LDAP, подключив свои домены",
+      "MAPPING_TEXT_ONE": "Создать сопоставление",
+      "MAPPING_TEXT_TWO": "каталога",
+      "NEW_DOMAIN_TEXT_ONE": "Подключить новый",
+      "NEW_DOMAIN_TEXT_TWO": "домен",
+      "USERS_TEXT_ONE": "Ресурсы для пользователей LDAP",
+      "USERS_TEXT_TWO": "выделяются в системе CyberArk"
+    }
+  },
+  "ADD_SAFE_DIALOG": {
+    "TITLE": "Создать сейф",
+    "CREATE_SAFE_BUTTON": "Создать сейф",
+    "CANCEL_BUTTON": "Отменить",
+    "NEW_SAFE_NAME_LABEL": "Имя нового сейфа",
+    "SAFE_NAME_HINT_TEXT_EXTRA_DETAILS": "Не более 28 символов",
+    "SAFE_ALREADY_EXISTS_ERROR": "Сейф {SAFE_NAME} уже существует"
+  },
+  "BUSINESS_USERS": {
+    "PAGE_TITLE": "Бизнес-пользователи",
+    "TAG_EDITOR": {
+      "MAX_TAGS_ERROR": {
+        "TITLE": "Достигнуто максимальное количество тегов",
+        "TEXT": "Разрешено не более {{max}} тегов"
+      },
+      "SAVED_SUCCESSFULLY": "Элемент успешно сохранен"
+    },
+    "CONFIRM_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "Вы действительно хотите удалить {{name}}?",
+        "MAIN_MESSAGE": "Все сведения об элементе будут потеряны."
+      }
+    },
+    "DELETE_BUTTON_TEXT": "Удалить",
+    "CANCEL_DIALOG": {
+      "TITLE": "Подтверждение отмены",
+      "ADD_BODY": "Вы действительно хотите отменить добавление элемента?",
+      "EDIT_BODY": "Вы действительно хотите отменить редактирование элемента?",
+      "SECONDARY_MESSAGE": "Сделанные вами изменения будут отменены",
+      "MAIN_ACTION": "Подтверждение отмены",
+      "SECONDARY_ACTION": "Не отменять"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Закрыть",
+      "TITLE": "ОШИБКА"
+    },
+    "ADD_SUCCESS_MESSAGE": {
+      "TITLE": "Элемент успешно добавлен"
+    },
+    "EDIT_SUCCESS_MESSAGE": {
+      "TITLE": "Элемент успешно изменен"
+    },
+    "FAILURE_MESSAGE": {
+      "MAIN_MESSAGE": "Невозможно отправить форму",
+      "SECONDARY_MESSAGE": "Повторите попытку или обратитесь к администратору"
+    },
+    "ERROR_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "Не удалось удалить учетную запись"
+      },
+      "ADD_ACCOUNT": {
+        "TITLE": "Не удалось добавить учетную запись"
+      },
+      "EDIT_ACCOUNT": {
+        "TITLE": "Не удалось изменить учетную запись"
+      },
+      "SHOW_PASSWORD": {
+        "TITLE": "Не удалось отобразить пароль"
+      },
+      "ADD_BUSINESS_SAFE": {
+        "TITLE": "Не удалось добавить",
+        "TEXT": "Не удалось добавить учетные данные привилегированного бизнес-пользователя, поскольку сейф не был создан автоматически.\nОбратитесь к администратору для решения этой проблемы.",
+        "SAFE_PROBLEM_TITLE": "Не удалось добавить",
+        "SAFE_PROBLEM_TEXT": "Не удалось добавить учетные данные привилегированного бизнес-пользователя из-за проблемы с вашим сейфом.\nОбратитесь к администратору для решения этой проблемы."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "Отобразить пароль",
+      "PASSWORD_INPUT_LABEL": "Пароль",
+      "COPY_BUTTON_TEXT": "Копировать",
+      "SHOW_BUTTON_TEXT": "Показать",
+      "CHANGE_BUTTON_TEXT": "Изменить",
+      "CLOSE_BUTTON_TEXT": "Закрыть",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "Пустой пароль"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "Данный пароль слишком длинный для полного отображения. Нажмите «Копировать», чтобы скопировать весь пароль."
+      },
+      "FAILURE_MAIN_TEXT": "Не удалось отобразить пароль"
+    },
+    "SHOW_USERNAME_DIALOG": {
+      "TITLE": "Показать имя пользователя",
+      "USERNAME_INPUT_LABEL": "Имя пользователя",
+      "COPY_BUTTON_TEXT": "Копировать",
+      "SHOW_BUTTON_TEXT": "Показать",
+      "CLOSE_BUTTON_TEXT": "Закрыть",
+      "WARNINGS": {
+        "EMPTY_USERNAME": "Имя пользователя пусто"
+      },
+      "INFORMATION": {
+        "TOO_LONG_USERNAME": "Это имя пользователя слишком длинное для отображения полностью. Нажмите «Копировать», чтобы скопировать все имя пользователя."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "Копировать пароль",
+      "COPY_BUTTON_TEXT": "Копировать"
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Пароль скопирован в буфер обмена",
+      "DELETE_ACCOUNT": "Элемент удален"
+    },
+    "ADD": {
+      "PAGE_TITLE": "Добавить учетные данные привилегированного бизнес-пользователя"
+    },
+    "EDIT": {
+      "PAGE_TITLE": "Изменить учетные данные привилегированного бизнес-пользователя"
+    },
+    "CLIPBOARD": {
+      "DOWNLOAD_EXTENSION_DIALOG": {
+        "COPY_PASSWORD_TITLE": "Копировать пароль",
+        "COPY_USERNAME_TITLE": "Копировать имя пользователя",
+        "MAIN_MESSAGE": "Чтобы воспользоваться этой функцией, загрузите и установите расширение или подключаемый модуль браузера."
+      },
+      "FETCH_PASSWORD_FAILED_DIALOG": {
+        "TITLE": "Копировать пароль",
+        "MAIN_MESSAGE": "Не удалось скопировать пароль"
+      },
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Пароль скопирован в буфер обмена",
+      "USERNAME_COPIED_TO_CLIPBOARD": "Имя пользователя скопировано в буфер обмена",
+      "WARNINGS": {
+        "EMPTY_PASSWORD_COPY_TITLE": "Копировать пароль",
+        "EMPTY_USERNAME_COPY_TITLE": "Копировать имя пользователя",
+        "CANNOT_COPY_EMPTY_PASSWORD": "Нельзя скопировать пустой пароль. Содержание буфера обмена не изменилось.",
+        "CANNOT_COPY_EMPTY_USERNAME": "Невозможно скопировать пустое имя пользователя. Содержимое буфера обмена не изменилось."
+      }
+    }
+  },
+  "USERS": {
+    "ACTIVATE": "Пользователь успешно активирован",
+    "CREATE": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} успешно создан"
+    },
+    "DISABLE": {
+      "SUCCESS_MESSAGE": "пользователь успешно отключен"
+    },
+    "EDIT": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} успешно обновлен"
+    },
+    "ERRORS": {
+      "GET_USERS": "Ошибка при получении пользователей",
+      "GET_USER_DETAILS": "Ошибка при получении сведений о пользователе",
+      "FAILED_TO_ASSIGN_GROUP": "Не удалось назначить в группу",
+      "ADD_USER_TO_GROUPS_ON_CREATE": "Пользователь успешно создан, но не может быть назначен во все выбранные группы. \n Откройте клиент PrivateArk и вручную назначьте пользователя группам.",
+      "ACTIVATE_USER": "Ошибка при активации пользователя",
+      "DISABLE_USER": "Ошибка при отключении пользователя"
+    },
+    "DIALOGS": {
+      "CREATE_CANCELLATION": {
+        "TITLE": "Подтверждение отмены",
+        "BODY": "Вы действительно хотите отменить добавление нового пользователя CyberArk?",
+        "SECONDARY_MESSAGE": "Сделанные вами изменения будут отменены",
+        "MAIN_ACTION": "Подтверждение отмены",
+        "SECONDARY_ACTION": "Не отменять"
+      },
+      "EDIT_CANCELLATION": {
+        "TITLE": "Подтверждение отмены",
+        "BODY": "Отменить изменения пользователя {{USERNAME}}?",
+        "SECONDARY_MESSAGE": "Сделанные вами изменения будут отменены",
+        "MAIN_ACTION": "Подтверждение отмены",
+        "SECONDARY_ACTION": "Не отменять"
+      },
+      "USERNAME_CHANGED": {
+        "TITLE": "Требуется новый пароль",
+        "BODY": "При изменении имени пользователя необходимо ввести новый пароль",
+        "MAIN_ACTION": "Изменить имя пользователя",
+        "SECONDARY_ACTION": "Отменить"
+      }
+    }
+  },
+  "GROUPS": {
+    "ERRORS": {
+      "GET_GROUPS": "Ошибка при получении групп"
+    },
+    "CREATE_SUCCESS_MESSAGE": "Группа {{NAME}} успешно создана"
+  },
+  "PLATFORMS": {
+    "TITLE": "Управление платформами",
+    "REFRESH": "Обновить",
+    "PLATFORMS_ACTIONS": {
+      "SEARCH_TEXT": "Поиск платформ целевых учетных записей",
+      "ERROR_MESSAGE": {
+        "CLOSE": "Закрыть",
+        "OK": "ОК",
+        "GENERAL_ERROR": {
+          "HEADER_TITLE": "Возникла проблема с обработкой вашего запроса",
+          "MAIN_TITLE": "Повторите попытку через несколько минут",
+          "SUB_TITLE": "Если проблема не исчезнет, обратитесь к администратору"
+        }
+      },
+      "ACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Активировать платформу",
+          "PRIMARY_MESSAGE": "Вы действительно хотите активировать платформу {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "Если с этой платформой связаны учетные записи, они будут активированы.",
+          "ACTIVATE": "Активировать",
+          "CANCEL": "Отменить"
+        },
+        "ERROR_MESSAGE": "Не удалось активировать платформу",
+        "SUCCESS_MESSAGE": "Платформа успешно активирована"
+      },
+      "DEACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Деактивировать платформу",
+          "PRIMARY_MESSAGE": "Вы действительно хотите деактивировать платформу {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "Управление учетными данными больше не будет доступно для учетных записей, связанных с этой платформой.",
+          "DEACTIVATE": "Деактивировать",
+          "CANCEL": "Отменить"
+        },
+        "ERROR_MESSAGE": "Не удалось деактивировать платформу",
+        "SUCCESS_MESSAGE": "Платформа успешно деактивирована"
+      },
+      "DELETE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Удалить платформу",
+          "PRIMARY_MESSAGE": "Вы действительно хотите удалить платформу {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "Управление учетными данными больше не будет доступно для учетных записей, связанных с этой платформой.",
+          "DELETE": "Удалить",
+          "CANCEL": "Отменить"
+        },
+        "ERROR_MESSAGE": "Не удалось удалить платформу",
+        "SUCCESS_MESSAGE": "Платформа успешно удалена"
+      },
+      "DUPLICATE": {
+        "ERROR_MESSAGE": "Не удалось дублировать платформу",
+        "SUCCESS_MESSAGE": "Платформа успешно дублирована",
+        "ERROR": {
+          "OK": "ОК"
+        }
+      },
+      "EXPORT": {
+        "ERROR_MESSAGE": "Не удалось экспортировать платформу",
+        "SUCCESS_MESSAGE": "Платформа успешно экспортирована"
+      },
+      "GET_CLASSIC_UI_EDIT_URL": {
+        "ERROR_MESSAGE": "Не удалось загрузить платформу редактирования"
+      },
+      "MANAGE_CONNECTORS": {
+        "UPDATE_PLATFORMS": {
+          "ERROR_MESSAGE": "Не удалось обновить управление привилегированным сеансом платформ",
+          "SUCCESS_MESSAGE": "Управление привилегированным сеансом платформ успешно обновлено"
+        },
+        "ERROR_MESSAGE": {
+          "IMPORT_CONNECTION_COMPONENT": "Не удалось импортировать компонент подключения",
+          "FAILED_TO_DISPLAY_CONNECTORS_TITLE": "Не удалось отобразить соединители",
+          "FAILED_TO_DISPLAY_CONNECTORS_MESSAGE": "Сейчас мы не можем отобразить соединители для этой платформы.\nВернитесь на страницу управления платформой и повторите попытку."
+        },
+        "CONFIRMATION_MESSAGE": {
+          "TITLE": "Вы хотите покинуть эту страницу?",
+          "BODY": "Ваши изменения будут потеряны.",
+          "MAIN_ACTION": "Покинуть",
+          "SECONDARY_ACTION": "Остаться"
+        }
+      }
+    },
+    "MARKETPLACE": "Marketplace",
+    "IMPORT_PLATFORM": "Импорт платформы",
+    "ERROR_MESSAGES": {
+      "IMPORT_PLATFORM_FAILURE": "Не удалось импортировать платформу",
+      "IMPORT_PLATFORM_MAX_SIZE": "Превышен максимальный размер файла",
+      "IMPORT_FILE_MAX_SIZE": "Превышен максимальный размер файла",
+      "READ_FILE_FAILURE": "Не удалось прочитать файл"
+    },
+    "SUCCESS_MESSAGES": {
+      "IMPORT_PLATFORM": "Платформа успешно импортирована"
+    }
+  },
+  "AUTH_METHOD_CONFIG": {
+    "OIDC_PROVIDER": {
+      "SAVE_PROVIDER_SUCCESS_MESSAGE": "Поставщик {{PROVIDER_ID}} успешно сохранен",
+      "ERROR_MESSAGE": {
+        "CLOSE": "Закрыть",
+        "ADD_PROVIDER_HEADER_TITLE": "Не удалось сохранить поставщика OIDC",
+        "PARTIAL_SUCCESS_TITLE": "Сведения о поставщике сохранены частично. Произошла следующая ошибка:",
+        "REMOVE_PROVIDER_HEADER_TITLE": "Не удалось удалить поставщика OIDC",
+        "PARTIAL_REMOVE_TITLE": "Сведения о поставщике удалены частично. Произошла следующая ошибка:"
+      },
+      "REMOVE_PROVIDER_SUCCESS_MESSAGE": "Поставщик {{PROVIDER_ID}} успешно удален",
+      "REMOVE_DIALOG": {
+        "TITLE": "Вы действительно хотите удалить поставщика?",
+        "REMOVE": "Удалить",
+        "CANCEL": "Отменить"
+      }
+    }
+  }
+}

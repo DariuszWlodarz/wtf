@@ -1,0 +1,2251 @@
+{
+  "APPLICATION_RESOURCES": {
+    "TITLE": "Password Vault Web Access",
+    "SIGNOUT": "Sign out",
+    "ABOUT": "About",
+    "CHANGE_LANGUAGE": "Change",
+    "SKIP_LINK": "Skip to main content",
+    "LEFT_NAVBAR": {
+      "SERVICE_NAME": "Privileged Access Manager",
+      "CLOUD_SERVICE_NAME": "Privilege Cloud",
+      "ONLINE_HELP": "Online help"
+    },
+    "TOP_NAVBAR": {
+      "TITLE": "Sign in information",
+      "LAST_SIGN_IN": "Last sign in",
+      "LAST_SUCCESS_LOGIN_TIME": "Time of last sign in",
+      "LAST_FAIL_LOGIN_TIME": "Time of last failed sign in",
+      "LAST_SUCCESS_LOGIN_IP": "Source IP of last sign in",
+      "LAST_FAIL_LOGIN_IP": "Source IP of last failed sign in",
+      "FAILED_LOGINS": "Failed sign in attempts"
+    }
+  },
+  "LOGIN": {
+    "PAGE_TITLE": "Login"
+  },
+  "CULTURE": {
+    "FEEDBACK_MODAL_CHANGE_LANGUAGE": {
+      "TITLE": "Failed to change language",
+      "MAIN_TITLE": "Could not update your user preferences",
+      "CLOSE_BUTTON_TEXT": "Close"
+    }
+  },
+  "ABOUT_DIALOG": {
+    "TITLE": "About CyberArk Privileged Access Security",
+    "TITLE_CLOUD": "About CyberArk Privilege Cloud",
+    "VERSION": "Version",
+    "COPYRIGHT": "Copyright 1999-2022 © CyberArk Software",
+    "CLOSE_BUTTON_TEXT": "Close",
+    "CHECK_VERSION": "Check latest version",
+    "CONTENT": {
+      "P1_1": "Please see our ",
+      "P1_2": "for a list of the open source software programs included in CyberArk Vault Software.",
+      "CYBERARK_ACKNOWLEDGMENT": " Third-Party Notices "
+    }
+  },
+  "NAVIGATION": {
+    "BUSINESSUSERS": "Business Users",
+    "USERPROVISIONING": "User Provisioning",
+    "USERS": "Users",
+    "GROUPS": "Groups",
+    "POLICIES": "Policies",
+    "APPLICATIONS": "Applications",
+    "ADMINISTRATION": "Administration",
+    "PLATFORMMANAGEMENT": "Platform Management",
+    "AUTHMETHODCONFIG": "OIDC Authentication",
+    "PSMCONFIG": "PSM Configuration",
+    "PERSONALACCOUNTCONFIG": "Personal Account Configuration",
+    "CONFIGURATIONOPTIONS": "Configuration Options",
+    "REPORTS": "Reports",
+    "GENERATEREPORT": "Generate Report",
+    "REPORTDEFINITIONS": "Report Definitions",
+    "SECURITY": "Security",
+    "SECURITYEVENTS": "Security Events",
+    "SECURITYSETTINGS": "Security Configurations",
+    "SECURITYADMINISTRATION": "PTA Administration",
+    "ACCOUNTSLIST": "Accounts View",
+    "ACCOUNTSLISTLEGACY": "Accounts View (Classic UI)",
+    "ACTIVITIES": "Activities",
+    "COMPLIANCE": "Compliance",
+    "INVENTORY": "Inventory",
+    "MONITORING": "Monitoring",
+    "PRIVILEGEDSESSIONS": "Privileged Sessions",
+    "MONITORINGLEGACY": "Monitoring (Classic UI)",
+    "MYREQUESTS": "My Requests",
+    "INCOMINGREQUESTS": "Incoming Requests",
+    "PENDINGACCOUNTS": "Pending Accounts",
+    "DISCOVERYMANAGEMENT": "Pending & Discovery",
+    "ACCOUNTSFEED": "Accounts Feed",
+    "MFACACHING": "PSM For SSH MFA Caching",
+    "FILES": "Files",
+    "ALLFILES": "All Files",
+    "MSP": "Customer Management",
+    "HELP": "Help",
+    "ACCOUNTS": "Accounts",
+    "DASHBOARD": "System Health",
+    "ACCOUNTSANDREQUESTS": "Accounts & Requests",
+    "ONBOARDINGRULES": "Onboarding Rules",
+    "LDAPINTEGRATION": "LDAP Integration",
+    "ACCESSCONTROL": "Safes",
+    "MASTERPOLICY": "Master Policy"
+  },
+  "SESSION_EXPIRED": {
+    "FEEDBACK_MESSAGE": {
+      "SAME_USER_CONNECTED_MAIN_TITLE": "This session has been stopped because the same user connected elsewhere",
+      "DEFAULT_MAIN_TITLE": "Your session has expired and your user has been disconnected.",
+      "HEADER_TITLE": "Session expired",
+      "SUB_TITLE": "Click OK to return to the login screen",
+      "CONFIRM_BUTTON_TEXT": "OK",
+      "CLOSE_BUTTON_TEXT": "Close"
+    }
+  },
+  "READ_ONLY_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "PASWS222E The action cannot be performed because the system is currently in read-only mode.",
+      "SUB_TITLE": "While in Read-Only mode, all write operations like Add Account, Requests, Confirm Request, Change Password and Generate Report are disabled. You are still able to use the system for read operations like Show/Copy of Passwords that are not protected by Dual Control, Onetime or Exclusive Password workflows.",
+      "HEADER_TITLE": "Action is not available",
+      "CLOSE_BUTTON_TEXT": "Close"
+    },
+    "TOP_NAVBAR": {
+      "HEADER_INDICATION_TITLE_TEXT": "Read-only mode",
+      "HEADER_INDICATION_SUBTITLE_TEXT": "some actions are not available"
+    }
+  },
+  "READ_ONLY_MASTER_IS_AVAILABLE_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "Full functionality is now available.",
+      "SUB_TITLE": "To complete this action, you must re-login in order to exit read-only mode.",
+      "HEADER_TITLE": "This action is not available in read-only mode",
+      "IGNORE_BUTTON_TEXT": "Ignore",
+      "LOGOUT_BUTTON_TEXT": "Logout"
+    }
+  },
+  "ACCOUNT": {
+    "PAGE_TITLE": "Account",
+    "SELECT_THE_ACCOUNT_TYPE": "Select the new account type",
+    "SEARCH_PLATFORM_PLACEHOLDER": "Filter list by platform name",
+    "NO_PLATFORMS_FOUND": "There are no platforms to show",
+    "SELECT_SAFE": "Select a Safe",
+    "SEARCH_SAFE_PLACEHOLDER": "Filter list by Safe name",
+    "NO_SAFES_FOUND": "There are no Safes to show",
+    "FORM_PRIMARY_PROPERTIES": "Primary properties",
+    "FORM_ADDITIONAL_PROPERTIES": "Additional properties",
+    "FORM_ACCOUNT_MANAGEMENT": "Account management",
+    "OPTIONAL_PROPERTY": "optional",
+    "PASSWORD": "Password",
+    "RESOLVE": "Resolve",
+    "ACCOUNT_NAME": "Account name",
+    "CUSTOMIZE_ACCOUNT_NAME": "Customize account name",
+    "CUSTOMIZE_ACCOUNT_NAME_PLACEHOLDER": "Specify customized account name",
+    "AUTO_GENERATE_CALLOUT_TITLE": "Auto-generated password name pattern",
+    "AUTO_CPM_MANAGE": "Allow automatic password management",
+    "AUTO_CPM_MANAGE_PLACEHOLDER": "Specify a reason for manual management request",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "AMAZON_ACCESS_KEY": "AWS Access Key Secret",
+    "FEEDBACK_MESSAGE_TITLE": "Correct the following errors",
+    "LIMIT_ACCESS_TO_MACHINES": "Limit access to these machines only",
+    "REMOTE_MACHINE_ACCESS": "Remote machine access",
+    "KEYWORDS_PROPERTY_HINT_TEXT": "Keywords separated by semicolon"
+  },
+  "ADD_ACCOUNT": {
+    "TITLE": "Add Account",
+    "PAGE_TITLE": "Add Account",
+    "SELECTED_TILE_HOVER_TEXT": "Change",
+    "ADD_ACTION": "Add",
+    "CANCEL": "Cancel",
+    "ADD_SAFE": "Create Safe",
+    "STEPS": {
+      "SELECT_SYSTEM_TYPE": "Select system type",
+      "SELECT_SYSTEM_TYPE_TITLE": "Select system type",
+      "ASSIGN_PLATFORM": "Assign to platform",
+      "ASSIGN_PLATFORM_TITLE": "Select platform",
+      "SELECT_SAFE": "Store in Safe",
+      "SELECT_SAFE_TITLE": "Select Safe",
+      "DEFINE_PROPERTIES": "Define properties",
+      "DEFINE_PROPERTIES_TITLE": "Define account properties"
+    },
+    "SUCCESS_MESSAGE": {
+      "TITLE": "The account was added successfully"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "Failed to add account. Reason:"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "Change platform",
+      "CHANGE_SYSTEM_TYPE_TITLE": "Change system type",
+      "OK": "Change",
+      "CANCEL": "Cancel",
+      "SECONDARY_MESSAGE": "To complete this change, you may need to update account properties.",
+      "PLATFORM_PRIMARY_MESSAGE": "Are you sure you want to change the platform to",
+      "SYSTEM_TYPE_PRIMARY_MESSAGE": "Are you sure you want to change the system type to"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Close",
+      "TITLE": "ERROR"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "Confirm cancellation",
+      "BODY": "Are you sure you want to cancel adding the account?",
+      "SECONDARY_MESSAGE": "Changes that you made will be discarded",
+      "MAIN_ACTION": "Confirm cancellation",
+      "SECONDARY_ACTION": "Do not cancel"
+    }
+  },
+  "EDIT_ACCOUNT": {
+    "TITLE": "Edit Account",
+    "PAGE_TITLE": "Edit Account",
+    "CHANGE_THE_PLATFORM_TYPE": "Change a platform",
+    "SAVE": "Save",
+    "CANCEL": "Cancel",
+    "GENERAL": "General",
+    "CANCEL_EDIT": "Cancel edit",
+    "INACTIVE_PLATFORM": "Inactive platform",
+    "DELETED_PLATFORM": "Platform not found",
+    "PLATFORM_X_INACTIVE": "Platform {{platformName}} is inactive",
+    "WAS_DELETED": "was deleted",
+    "DELETED_PLATFORM_MESSAGE": "The platform assigned to this account cannot be found",
+    "DELETED_PLATFORM_SECONDARY_MESSAGE": "Select another platform. This will automatically set the account type",
+    "SELECT_PLATFORM": "Select platform",
+    "SELECT_A_PLATFORM": "Select a Platform",
+    "CHANGE_PLATFORM": "Change platform",
+    "INACTIVE": "inactive",
+    "INACTIVE_PLATFORM_MESSAGE": "Account management is not applied to an inactive platform",
+    "CONTINUE_WITH_CURRENT": "Continue with current platform",
+    "DELETED": "deleted",
+    "STEPS": {
+      "SELECTED_SYSTEM_TYPE": "Selected system type",
+      "ASSIGNED_PLATFORM": "Assigned to platform",
+      "CHANGE_PLATFORM_TITLE": "Change platform",
+      "SELECTED_SAFE": "Stored in Safe",
+      "ACCOUNT_PROPERTIES": "Account properties",
+      "ACCOUNT_PROPERTIES_TITLE": "Account properties"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "Change platform",
+      "OK": "Change",
+      "CANCEL": "Cancel",
+      "SECONDARY_MESSAGE": "To complete this change, you may need to update account properties.",
+      "PLATFORM_PRIMARY_MESSAGE": "Are you sure you want to change the platform to"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "Confirm cancellation",
+      "BODY": "Are you sure you want to cancel editing the account?",
+      "SECONDARY_MESSAGE": "Changes that you made will be discarded",
+      "MAIN_ACTION": "Confirm cancellation",
+      "SECONDARY_ACTION": "Do not cancel"
+    },
+    "SUCCESS_MESSAGE": "The account was saved successfully",
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Close",
+      "TITLE": "Edit account",
+      "CANCEL": "Cancel"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "Failed to update account. Reason: {{errorReason}}",
+      "MAIN_MESSAGE": "Not all properties were updated. Please try again"
+    }
+  },
+  "SAFES": {
+    "PAGE_TITLE": "Safes",
+    "TITLE": "Safes",
+    "SEARCH_TEXT": "Search by Safe name",
+    "ADD_ACTION": "New Safe",
+    "DETAILS": "Details",
+    "MEMBERS": "Members",
+    "DELETE": "Delete",
+    "EDIT": "Edit",
+    "CLOSE_ACTION": "Close"
+  },
+  "ADD_SAFE": {
+    "PAGE_TITLE": "New Safe",
+    "ADD_ACTION": "Add",
+    "CANCEL_ACTION": "Cancel",
+    "CLOSE_ACTION": "Close",
+    "SAFE_NAME_FIELD_TITLE": "Safe name",
+    "SAFE_NAME_HINT_TEXT": "Enter Safe name according to the naming convention of your organization.",
+    "SAFE_DESCRIPTION_FIELD_TITLE": "Description (optional)",
+    "OLAC_LABEL": "Object Level Access Control",
+    "OLAC_WARNING_MESSAGE": "This feature cannot be disabled after the Safe is added",
+    "ADVANCED_DETAILS_LABEL": "Advanced details",
+    "CHARACTERS_LEFT_LABEL": " characters left",
+    "CHARACTERS_OVER_LABEL": " characters over",
+    "ASSIGNED_CPM_FIELD_TITLE": "Assigned to CPM",
+    "ASSIGNED_CPM_NO_VALUE": "[None]",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "The Safe was added successfully"
+    },
+    "ERROR_MESSAGE": {
+      "HEADER_TITLE": "New Safe",
+      "SUB_TITLE": "Please try again."
+    },
+    "SAFE_VERSION_MANAGEMENT_FIELD_TITLE": "Version management",
+    "RADIO_BUTTONS": {
+      "RETENTION": {
+        "TEXT": "Save account versions for a",
+        "BOLD_TEXT": "time period:",
+        "UNITS": "days"
+      },
+      "VERSIONS": {
+        "TEXT": "Save last account",
+        "BOLD_TEXT": "versions:",
+        "UNITS": "versions"
+      }
+    }
+  },
+  "SAFE_DETAILS": {
+    "SAFE_NAME": "Safe name",
+    "ASSIGNED_CPM": "Assigned to CPM",
+    "DESCRIPTION": "Description",
+    "VERSION_MANAGEMENT": "Version management",
+    "OLAC_ENABLED": "Object Level Access Control",
+    "AUTO_PURGE_ENABLED": "Safe auto-purge",
+    "ADVANCED_DETAILS": "Advanced details",
+    "NONE_STR": "[None]",
+    "DASH_STR": "-",
+    "ENABLED_STR": "Enabled",
+    "DISABLED_STR": "Disabled",
+    "VERSIONS_RETENTION_FIRST_PART": "Saving last ",
+    "VERSIONS_RETENTION_SECOND_PART": " account",
+    "VERSIONS_RETENTION_THIRD_PART": " versions",
+    "VERSIONS_RETENTION_SINGLE": "Saving the last account ",
+    "VERSIONS_RETENTION_SINGLE_BOLD": "version",
+    "DAYS_RETENTION_FIRST_PART": "Saving account versions from last ",
+    "DAYS_RETENTION_SECOND_PART": " days",
+    "DAYS_RETENTION_SINGLE": "Saving account versions from the last ",
+    "DAYS_RETENTION_SINGLE_BOLD": "day",
+    "EXPIRED_MEMBERSHIP_ERROR": "Your membership on this Safe has expired"
+  },
+  "FEEDBACK_MESSAGE": {
+    "CLOSE": "Close",
+    "REFRESH": "Refresh",
+    "GENERIC_DATA_ERROR": {
+      "TITLE": "Something went wrong",
+      "SUBTITLE": "Please try again or contact your administrator"
+    }
+  },
+  "ACCOUNTS": {
+    "DELETE_SUCCESS": "Account was deleted successfully",
+    "CHANGE_IN_VAULT_SUCCESS": "Password changed successfully in vault",
+    "PAGE_TITLE": "Accounts",
+    "TITLE": "Accounts View",
+    "SEARCH_TEXT": "Search for accounts",
+    "REFRESH": "Refresh",
+    "ADD_ACTION": "Add account",
+    "AD_HOC_CONNECT_ACTION": "Ad-Hoc connection",
+    "EDIT_ACTION": "Edit account",
+    "ADD_TO_FAVORITE": "Add to favorites",
+    "DELETE_FROM_FAVORITE": "Delete from favorites",
+    "COUNTER_TITLE": "Accounts",
+    "COUNTER_TITLE_ON_SEARCH": "Accounts for: ",
+    "SELECTED_ACCOUNTS": "selected accounts",
+    "SELECTED_ACCOUNT": "selected account",
+    "NO_ACCOUNTS": "There are no accounts to show",
+    "AD_HOC_CONNECTION": {
+      "AD_HOC_CONNECTION_TITLE": "Ad-Hoc connection",
+      "CONNECT_BUTTON": "Connect",
+      "CANCEL_BUTTON": "Cancel"
+    },
+    "ACCOUNT_DETAILS": {
+      "ALL": "All",
+      "NO_RESULTS": "No results found to match your filters",
+      "ACTION": "Action",
+      "SEARCH": "Search",
+      "PAGE_TITLE": "Account Details",
+      "SAFE": "Safe",
+      "PLATFORM": "Platform",
+      "PLATFORM_DETAILS": "Platform Details",
+      "PLATFORM_PROPERTIES": "Platform Properties",
+      "DUAL_CONTROL": "Dual control",
+      "COPY": "Copy",
+      "SHOW": "Show",
+      "EDIT": "Edit",
+      "CONNECT": "Connect",
+      "INACTIVE_PLATFORM": "Inactive platform",
+      "ON": "On",
+      "ACTIVITIES": "Activities",
+      "GROUP_NAME": "Group Name",
+      "GROUP_PLATFORM": "Group Platform",
+      "LATEST": "Latest",
+      "LAST": "Last",
+      "COMPLIANT": "Compliant",
+      "NOT_COMPLIANT": "Not compliant",
+      "COMPLIANCE_STATUS": "Compliance Status",
+      "LAST_VERIFIED": "Last Verified",
+      "VERIFIED_BY": "Verified by",
+      "VERIFIED_ON": "Verified on",
+      "NEVER_VERIFIED": "Never Verified",
+      "CREATED": "Created",
+      "DAYS_AGO": "Days ago",
+      "FAILED": "failed",
+      "TOTAL": "total",
+      "BY": "by",
+      "Reconcile": "Reconciled by",
+      "Change": "Changed by",
+      "LAST_ACCESS": "Last Access",
+      "YESTERDAY": "Yesterday",
+      "TODAY": "Today",
+      "DEPENDENCIES": "Dependencies",
+      "OVERVIEW": "Overview",
+      "DETAILS": "Details",
+      "RECORDINGS": "Recordings",
+      "NO_RECORDINGS": "no recordings for this account",
+      "NO_ACTIVITIES": "no activities for this account",
+      "ACTIVITIES_FOR_THIS_ACCOUNT": "Activities for this account",
+      "NO_ACTIVITIES_FOUND": "No activities found",
+      "USER": "User",
+      "DATE": "Date",
+      "DURATION": "Duration",
+      "RISK": "Risk",
+      "NA": "N/A",
+      "NONE": "None",
+      "UNKNOWN": "Unknown",
+      "VERSION": "Versions",
+      "SUGGESTED_REMOTE_MACHINES": "Suggested Remote Machines",
+      "PERMITTED_REMOTE_MACHINES": "Permitted Remote Machines",
+      "FEEDBACK_MODAL": {
+        "CLOSE": "Close",
+        "TITLE": "Account details",
+        "MESSAGE": "Could not get account details."
+      },
+      "ACCOUNT_STATUS": {
+        "CANCEL": "CANCEL",
+        "RESUME": "RESUME",
+        "RESTORE": "RESTORE",
+        "CHECKIN": "CHECKIN",
+        "MORE": "More",
+        "MODAL_TITLE_ERROR": "Error Details",
+        "MODAL_TITLE_DISABLED": "CPM Disabled",
+        "REASON": "The CPM is trying to (0) this password because its status matches the following search criteria: (1)",
+        "TASK_TYPES": {
+          "ReconcileTask": "reconcile",
+          "VerifyTask": "verify",
+          "ChangeTask": "change",
+          "UnknownTask": "[unknown]",
+          "DeleteTask": "delete"
+        }
+      },
+      "DUAL_CONTROL_STATUS": {
+        "REQUEST_NEEDED": "Request required",
+        "WAITING": "Pending request",
+        "CONFIRMED": "Confirmed request",
+        "REJECTED": "Rejected request",
+        "EXPIRED": "Expired request"
+      },
+      "ACCOUNT_STATUS_TYPE": {
+        "TITLE": {
+          "CheckedOut": "This account is checked-out by LOCKED_BY",
+          "AutomaticManagementCPM": "The CPM disabled automatic management for this account",
+          "CPMFailed": "The CPM failed to ACTION this account",
+          "DisabledByCPM": "Disabled by CPM",
+          "FailedToVerify": "CPM failed to verify this password",
+          "FailedToReconcile": "CPM failed to reconcile this password",
+          "FailedToChange": "CPM failed to change this password",
+          "FailedToDelete": "CPM failed to delete this password",
+          "Inactive": "This account cannot be automatically managed, it is assigned to an inactive platform",
+          "NewlyAdded": "Newly added account",
+          "Deleted": "This account was deleted by DELETED_BY at DELETED_TIME",
+          "ScheduleForDeletion": "This account is scheduled for deletion",
+          "ScheduleForVerify": "This account is scheduled for immediate verification",
+          "ScheduleForReconcile": "This account is scheduled for immediate reconciliation",
+          "ScheduleForChange": "The password for this account has been manually scheduled for change",
+          "DisabledByUser": "Automatic management disabled by the user",
+          "AutomaticDisabled": "A user disabled automatic management for this account"
+        }
+      },
+      "ACCOUNT_PROPERTIES": "Account Properties",
+      "LINKED_ACCOUNTS": "Linked Accounts",
+      "VERSIONS_TAB": {
+        "MODIFIED_BY": "Modified by",
+        "DATE": "Date",
+        "TIME": "Time",
+        "CPM_TEMPORARY_TOGGLE": "Hide CPM temporary password versions",
+        "TEMP": "(TEMP)"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Additional details & actions in classic interface",
+        "CALLOUT_TITLE": "Classic Interface",
+        "CALLOUT_TEXT": "This account may contain additional\nfunctionality available only in the classic interface.\n\nYou can always come back to the 'Account\nviews'."
+      },
+      "CPM_TASKS": {
+        "VERIFY": {
+          "ACTION": "Verify",
+          "SUCCESS": "Account is marked for verification",
+          "ERROR_MESSAGE": "Failed to mark account for verification",
+          "ERROR_TITLE": "Something went wrong"
+        },
+        "RECONCILE": {
+          "ACTION": "Reconcile",
+          "SUCCESS": "Account is marked for reconciliation",
+          "ERROR_MESSAGE": "Failed to mark account for reconciliation",
+          "ERROR_TITLE": "Something went wrong"
+        },
+        "CHANGE": {
+          "ACTION": "Change",
+          "SUCCESS": "Account is marked for change",
+          "ERROR_MESSAGE": "Failed to mark account for change",
+          "ERROR_TITLE": "Something went wrong",
+          "DIALOG": {
+            "TITLE": "Change password for account",
+            "MESSAGE": "The CPM will change the password to a new random password",
+            "CHANGE_BUTTON_TEXT": "Change",
+            "CANCEL_BUTTON_TEXT": "Cancel",
+            "BELONGS_TO_GROUP_MESSAGE": "This account belongs to an accounts group. The CPM will:",
+            "CHANGE_ENTIRE_GROUP": "Change the password of the entire group",
+            "SYNC_WITH_GROUP": "Synchronize the current account's password with the group's password",
+            "CHANGE_GROUP_CLASSIC_UI": "Changing password for grouped account is available in the cassic UI.\nOpen this account in the classic UI.",
+            "REDIRECT_BUTTON_TEXT": "Open"
+          }
+        },
+        "OK_BUTTON": "OK"
+      }
+    },
+    "CATEGORIES": {
+      "MY_ACCOUNTS": "My accounts",
+      "STATUS": "Status",
+      "OPERATIONAL_STATE": "Operational state"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSM Gateway Connection"
+    },
+    "FILTERS": {
+      "ALL_ACCOUNTS": "All accounts",
+      "RECENTLY_USED": "Recently used",
+      "FAVORITES": "Favorites",
+      "DISABLED_BY_CPM": "Disabled by CPM",
+      "CHECKED-OUT": "Checked-out",
+      "FAILED": "Failed",
+      "FAILED_DEPENDENCIES": "Failed dependencies",
+      "NEWLY_ADDED": "Newly added",
+      "DELETED": "Deleted",
+      "DISABLED_BY_USER": "Disabled by user",
+      "SCHEDULED_FOR_CHANGE": "Scheduled for Change",
+      "SCHEDULED_FOR_VERIFICATION": "Scheduled for Verification",
+      "SCHEDULED_FOR_RECONCILIATION": "Scheduled for Reconciliation",
+      "SUCCESSFULLY_RECONCILED": "Successfully Reconciled",
+      "ACCESS_IN_LAST_X_DAYS": "Access in last {{number}} days",
+      "MODIFIED_BY_USER_IN_LAST_X_DAYS": "Modified by user in last {{number}} days",
+      "MODIFIED_BY_CPM_IN_LAST_X_DAYS": "Modified by CPM in last {{number}} days"
+    },
+    "EMPTY_STATE": {
+      "RECENT_EMPTY_TITLE": "There are no recent views to show",
+      "SAVED_EMPTY_TITLE": "There are no saved views to show",
+      "SAVED_EMPTY_TEXT": "Save your recent views"
+    },
+    "SAVED_SEARCHES_INFO_MESSAGE": {
+      "PRIMARY_TEXT": "More saved views",
+      "SECONDARY_TEXT": "Manage saved views in V9 interface"
+    },
+    "REASON": {
+      "REASON_DEFAULT_CAPTION": "Reason",
+      "OPTIONAL": "Optional",
+      "SELECT": "Select",
+      "ENTER_OR_SELECT_A_REASON": "Enter or select a reason",
+      "OTHER": "Other"
+    },
+    "TICKETING": {
+      "TICKETING_SECTION_MAIN_TITLE": "Ticket Information",
+      "TICKETING_SYSTEM_DEFAULT_CAPTION": "Ticketing System",
+      "TICKETING_ID_DEFAULT_CAPTION": "Ticketing Id",
+      "TICKETING_BYPASS_SUCCESS_MESSAGE": "Successfully entered a bypass ticket",
+      "TICKETING_ID_IS_INVALID": "Invalid ticket ID"
+    },
+    "CONNECTION": {
+      "TITLE": "Remote Connection Details",
+      "SAVE_TO_ACCOUNTS": "Save this in the account property",
+      "OPTIONAL": "Optional",
+      "AVAILABLE_MACHINES_TITLE": "Available Machines:",
+      "AVAILABLE_MACHINES_ACCOUNTS_HINT": "For list of all available machines, please go to accounts details",
+      "AVAILABLE_MACHINES_REQUEST_HINT": "For list of all available machines, please go to request details",
+      "SEPARATE_THE_MACHINE_WITH_COMMA": "Separate the machines with commas",
+      "ADD_MORE_REMOTE_MACHINE_TO_THE_LIST": "Add more remote machine to the list",
+      "ENTER_OR_SELECT_A_REMOTE_MACHINE": "Enter or select a remote machine"
+    },
+    "GRID_ACTIONS": {
+      "COPY_ACTION": "Copy",
+      "REQUEST_COPY_ACTION": "Request copy",
+      "SHOW_ACTION": "Show",
+      "REQUEST_SHOW_ACTION": "Request show",
+      "EDIT_ACTION": "Edit",
+      "CONNECT_ACTION": "Connect",
+      "REQUEST_CONNECT_ACTION": "Request connection",
+      "Default": "Default",
+      "CONNECT_WITH": "Connect with",
+      "CHECKIN_ACTION": {
+        "TITLE": "Check-in",
+        "SUCCESS_MESSAGE": "Account is marked for check-in",
+        "OK": "OK"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Additional details & actions in classic interface",
+        "CALLOUT_TITLE": "Classic Interface",
+        "CALLOUT_TEXT": "Accounts view may contain additional\nfunctionality available only in the classic interface.\n\nYou can always come back to the 'Account\nviews' in the new interface."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "Show password",
+      "PASSWORD_INPUT_LABEL": "Password",
+      "COPY_BUTTON_TEXT": "Copy",
+      "SHOW_BUTTON_TEXT": "Show",
+      "CLOSE_BUTTON_TEXT": "Close",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "The password is empty"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "This password is too long to display in full. click copy to copy the whole password."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "Copy password",
+      "COPY_BUTTON_TEXT": "Copy"
+    },
+    "SAVE_SEARCH_DIALOG": {
+      "TITLE": "Save as",
+      "SAVE_BUTTON_TEXT": "Save",
+      "CANCEL_BUTTON_TEXT": "Cancel",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "This view has been saved",
+        "WARNING": {
+          "HEADER_TEXT": "Unable to save",
+          "MAIN_TEXT": "A view with this name already exists"
+        },
+        "ERROR": {
+          "HEADER_TEXT": "Reached limit of saved views",
+          "MAIN_TEXT": "You have reached the limit of saved views. Delete existing views to be able to save new views.",
+          "CLOSE_BUTTON_TEXT": "Close"
+        }
+      }
+    },
+    "RENAME_DIALOG": {
+      "TITLE": "Rename",
+      "RENAME_BUTTON_TEXT": "Rename",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "This view has been renamed",
+        "WARNING": {
+          "HEADER_TEXT": "Unable to rename",
+          "MAIN_TEXT": "A view with this name already exists"
+        },
+        "WARNING_OLD_UI": {
+          "HEADER_TEXT": "Unable to rename",
+          "MAIN_TEXT": "A view with this name already exists in V9 interface"
+        },
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Close"
+        }
+      }
+    },
+    "COMMON_DIALOG": {
+      "CANCEL_BUTTON_TEXT": "Cancel"
+    },
+    "DELETE_ACTION": {
+      "TITLE": "Delete",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "This view has been deleted",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Close"
+        }
+      },
+      "DELETE_DEFAULT_CONFIRMATION": {
+        "TITLE": "Delete view",
+        "MAIN_TEXT": " is currently the default view. After you delete it, the default view will be set by the system settings",
+        "SUB_TEXT": "Are you sure you want to delete this view?",
+        "CONFIRM_BUTTON_TEXT": "Delete View",
+        "CANCEL_BUTTON_TEXT": "Cancel"
+      }
+    },
+    "SET_DEFAULT_ACTION": {
+      "TITLE": "Set as default",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "This view has been set as default",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Close"
+        }
+      }
+    },
+    "FILTERS_ACTIONS": {
+      "SAVE_ACTION_TEXT": "Save as",
+      "SET_AT_DEFAULT_TEXT": "Set as default",
+      "RENAME_TEXT": "Rename",
+      "DELETE_TEXT": "Delete"
+    },
+    "CONNECT_PREREQUISITES_DIALOG": {
+      "TITLE": "Connect",
+      "CONNECT_BUTTON_TEXT": "Connect"
+    },
+    "DUAL_CONTROL": {
+      "PAGE_TITLE": "Create request",
+      "HEADER": {
+        "REQUEST_SHOW": "Request to show",
+        "REQUEST_COPY": "Request to copy",
+        "REQUEST_CONNECT": "Request to connect with"
+      },
+      "TIMEFRAME_TITLE": "Timeframe",
+      "REQUEST_TIMEFRAME": "Request timeframe",
+      "MULTIPLE_ACCESS_REQUIRED": "Multiple access is required",
+      "MULTIPLE_ACCESS_LABEL": "Multiple access will be allowed during this period",
+      "CONFIRMATION": {
+        "TITLE": "Confirmation",
+        "CURRENTLY_THERE_ARE_NO_CONFIRMERS_TO_DISPLAY": "Currently there ars no confirmers to display",
+        "MULTIPLE_USERS_MUST_CONFIRM": "{{number}} users must confirm the request",
+        "ONE_USER_MUST_CONFIRM": "One user must confirm the request",
+        "MULTILEVEL_MULTIPLE_USERS_MUST_CONFIRM": "{{number}} users from the 1st level and {{number}} users from the 2nd level must confirm the request",
+        "MULTILEVEL_ONE_USER_MUST_CONFIRM": "One user from the 1st level and one user from the 2nd level must confirm the request",
+        "CONFIRMERS_LIST_TOGGLE": "Confirmers List"
+      },
+      "ADDITIONAL_INFORMATION_TITLE": "Additional Information",
+      "SEND_REQUEST": "Send Request"
+    },
+    "BULK_CHANGE": {
+      "DIALOG_TITLE": "Changing {{value}} accounts",
+      "DIALOG_PROGRESS_BAR_TITLE": "accounts changing"
+    },
+    "ERRORS": {
+      "CREATE_REQUEST_COPY_PASSWORD_ERROR_DIALOG_TITLE": "Create request to copy password",
+      "CREATE_REQUEST_SHOW_PASSWORD_ERROR_DIALOG_TITLE": "Create request to show password",
+      "CREATE_REQUEST_CONNECT_PASSWORD_ERROR_DIALOG_TITLE": "Create request to connect with password"
+    },
+    "COPY_EXTENSIONS_CONFIRM_MESSAGES": "To use this feature, download and install the browser extension/add-on.",
+    "WARNINGS_MESSAGES": {
+      "EMPTY_COPY_TITLE": "Copy password",
+      "CANNOT_COPY_EMPTY_PASSWORD": "Cannot copy an empty password. The content of the clipboard has not been changed."
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Password copied to clipboard",
+      "REQUEST_WAS_SENT": "Request was sent"
+    },
+    "DUAL_CONTROL_TOOLTIPS": {
+      "REQUEST_NEEDED": "A request is required",
+      "WAITING_RESTRICTED": "You already have a connect request pending, for a show or copy request, delete this request and submit a new one.",
+      "WAITING_NOT_RESTRICTED": "This request is pending",
+      "CONFIRMED_RESTRICTED": "This connect request is confirmed",
+      "CONFIRMED_NOT_RESTRICTED": "This request is confirmed",
+      "REJECTED": "This request is rejected",
+      "EXPIRED": "This request is expired",
+      "INVALID": "This request is invalid",
+      "FUTURE_REQUEST_CONFIRMED": "A future request has been approved",
+      "RESTRICTED_CONNECTION_REQUEST_CONFIRMED": "A connection request has been approved. To get a {{actionName}} confirmation, delete the existing request and create a new one.",
+      "RESTRICTED_FUTURE_CONNECTION_REQUEST_CONFIRMED": "A future connection request has been approved. To get a {{actionName}} confirmation, delete the existing request and create a new one."
+    }
+  },
+  "PENDING_ACCOUNTS": {
+    "PAGE_TITLE": "Pending Accounts",
+    "TITLE": "Pending Accounts",
+    "NO_PENDING_ACCOUNTS": "There are no pending accounts to show",
+    "COUNTER_TITLE": "Pending Accounts",
+    "SELECTED_PENDING_ACCOUNTS": "selected pending accounts",
+    "SEARCH_TEXT": "Search for pending accounts",
+    "ERROR_FEEDBACK_MODAL": {
+      "TITLE": "Something went wrong",
+      "OK": "OK"
+    },
+    "FILTERS": {
+      "SYSTEM_TYPE": {
+        "TITLE": "System type",
+        "OPTIONS": {
+          "ALL": "All",
+          "WINDOWS": "WIndows",
+          "UNIX": "Unix"
+        }
+      },
+      "ACCOUNT_TYPE": {
+        "TITLE": "Account type",
+        "OPTIONS": {
+          "LOCAL": "Local",
+          "DOMAIN": "Domain",
+          "ALL": "All"
+        }
+      },
+      "ACCOUNT_CATEGORY": {
+        "TITLE": "Account category",
+        "OPTIONS": {
+          "PRIVILEGED": "Privileged",
+          "NON_PRIVILEGED": "Non-privileged",
+          "ALL": "All"
+        }
+      },
+      "DISCOVERED_BY": {
+        "TITLE": "Discovered by",
+        "OPTIONS": {
+          "CPM_SCANNER": "CPM scanner",
+          "EXTERNAL_SOURCE": "External source",
+          "ALL": "All"
+        }
+      }
+    },
+    "APPLYFILTERS": "Apply filters"
+  },
+  "REQUESTS": {
+    "DETAILS": {
+      "TITLE_KEY": "Request",
+      "TITLE_VALUE_PREFIX": "Account",
+      "TIMEFRAME": "Time frame",
+      "REASON": "Reason",
+      "PERMISSION": "Permission to",
+      "ACCESS": "Access",
+      "REQUESTED_ON": "Requested on",
+      "REQUEST_ID": "Request ID",
+      "ADDRESS": "Address",
+      "ACCOUNT_NAME": "AccountName",
+      "ACCOUNT_SAFE": "AccountSafe",
+      "ACCOUNT_PLATFORM": "AccountPlatform",
+      "EMERGENCY": "Emergency",
+      "STATUS": "Status",
+      "START_FOR_SCCESS": "for",
+      "END_FOR_SCCESS": "access",
+      "FOR_ACCOUNT": "for account"
+    },
+    "ACCOUNT_DETAILS": {
+      "NAME": "Name",
+      "SAFE": "Safe",
+      "PLATFORM": "Platform",
+      "ADDRESS": "Address",
+      "USERNAME": "Username",
+      "LOGON TO": "Logon to",
+      "LOCATION": "Location",
+      "OWNER NAME": "Owner name",
+      "USER DN": "User DN",
+      "COPY": "Copy",
+      "SHOW": "Show",
+      "CONNECT": "Connect"
+    },
+    "CONFIRMERS": {
+      "GROUP_TOOLTIP": "Group of confirmers",
+      "SINGLE_TOOLTIP": "Single confirmer"
+    },
+    "UPDATE_INFO": "The information in this tab is more up to date than the information in the request list | Updated on - {{string}}"
+  },
+  "MY_REQUESTS": {
+    "PAGE_TITLE": "My Requests",
+    "TITLE": "My Requests",
+    "COUNTER_TITLE": "results for:",
+    "NO_MY_REQUESTS": "There are no requests to show",
+    "SELECTED_REQUESTS": "selected requests",
+    "FILTERS": {
+      "ALL": "All requests",
+      "WAITING_AND_CONFIRMED": "Confirmed and pending requests",
+      "WAITING": "Pending requests",
+      "EXPIRED_AND_WAITING": "Pending, expired and rejected requests"
+    },
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "Requests Views"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "My Request Details",
+      "ITEM": "request",
+      "ACTION_TYPE": "deleted"
+    },
+    "DELETE_TEXT": "Delete",
+    "DELETE_ERROR_HEADER": "Delete Request Error",
+    "DELETE_SUCCESS_TEXT": "The request was deleted successfully.",
+    "OK": "OK"
+  },
+  "INCOMING_REQUESTS": {
+    "TITLE": "Incoming Requests",
+    "NO_INCOMING_REQUESTS": "There are no requests to show",
+    "SELECTED_REQUESTS": "selected requests",
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "Requests Views"
+    },
+    "DETAILS": {
+      "REQUEST_TITLE": "Request",
+      "ACCOUNT_TITLE": "Account",
+      "REQUESTOR_USERNAME": "Requestor username",
+      "REQUESTOR_FULLNAME": "Requestor full name"
+    },
+    "DETAILS_FULL_PAGE": {
+      "ITEM": "request",
+      "ACTION_TYPE": "deleted",
+      "TITLE": "Incoming Request Details"
+    },
+    "TICKETING_SYSTEM": {
+      "NAME": "Ticketing system name",
+      "NUMBER": "Ticket No."
+    },
+    "FILTERS": {
+      "ALL": "All requests",
+      "WAITING_AND_CONFIRMED": "Pending and confirmed requests",
+      "WAITING": "Pending requests",
+      "EXPIRED_AND_WAITING": "Pending and expired requests"
+    },
+    "OK": "OK",
+    "CONFIRM_TEXT": "Confirm",
+    "REJECT_TEXT": "Reject",
+    "CANCEL_TEXT": "Cancel",
+    "BULK_CONFIRM_MODAL_TITLE": "Confirm access to {{number}} accounts",
+    "BULK_CONFIRM_MODAL_TEXT": "Please specify the reason for confirmation",
+    "BULK_REJECT_MODAL_TITLE": "Reject access to {{number}} accounts",
+    "BULK_REJECT_MODAL_TEXT": "Please specify the reason for rejection",
+    "BULK_CONFIRM_REJECT_MODAL_WARNING": "Only unhandled requests will be confirmed",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_TITLE": "Confirming {{number}} requests",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_TITLE": "Rejecting {{number}} requests",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_SUB_TITLE": "Confirming requests",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_SUB_TITLE": "Rejecting requests",
+    "BULK_CONFIRM_SUCCESS_ACCORDION_TITLE": "requests were confirmed successfully",
+    "BULK_REJECT_SUCCESS_ACCORDION_TITLE": "requests were rejected successfully",
+    "BULK_CONFIRM_FAILURE_ACCORDION_TITLE": "requests were not confirmed successfully",
+    "BULK_REJECT_FAILURE_ACCORDION_TITLE": "requests were not rejected successfully",
+    "BULK_MODAL_PROGRESS_BAR_DONE_BUTTON": "Close",
+    "BULK_MODAL_PROGRESS_BAR_DONE_TITLE": "Done",
+    "BULK_MODAL_PROGRESS_BAR_DONE_FAILURE_SUB_TITLE": "with failures",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_CONFIRM": "Confirming...",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_REJECT": "Rejecting...",
+    "REJECT_HEADER_TEXT": "Reason for request rejection",
+    "REJECT_CONTENT_TEXT": "Specify the reason for rejection:",
+    "CONFIRM_HEADER_TEXT": "Reason for request confirmation",
+    "CONFIRM_CONTENT_TEXT": "Specify the reason for confirmation:",
+    "CONFIRM_ERROR_HEADER": "Confirm Request Error",
+    "REJECT_ERROR_HEADER": "Reject Request Error",
+    "CONFIRM_SUCCESS_TEXT": "The request was confirmed successfully.",
+    "REJECT_SUCCESS_TEXT": "The request was rejected successfully."
+  },
+  "CONTENT_TITLE": {
+    "HEADER": {
+      "FOR": "for:",
+      "ALL": "All",
+      "CLEAR_ALL": "Clear all"
+    },
+    "SHOWING": "Showing"
+  },
+  "DISCOVERIES": {
+    "DEFAULT_DASH": "-",
+    "PAGE_TITLE": "Discovery Management",
+    "GRID_TITLE": "Discovery setups",
+    "ADD_ACTION": "New discovery",
+    "LAST_RUN_STATUS": {
+      "DONE": "Completed",
+      "FAILED": "Failed",
+      "DONE_WITH_ISSUES": "Completed",
+      "CANCELED_DUE_TO_UPGRADE": "Canceled",
+      "STOPPED": "Stopped"
+    },
+    "STATE": {
+      "RUNNING": "Running",
+      "PENDING": "Pending",
+      "STOPPING": "Stopping"
+    },
+    "LAST_RUN_TIME": {
+      "NA": "N/A"
+    },
+    "DISCOVERY_TYPE": {
+      "ONETIME": "Onetime",
+      "RECURRING": "Recurring"
+    }
+  },
+  "FILTERS_VIEWS_LAYOUT": {
+    "SHOW_MORE": "Show more",
+    "SHOW_LESS": "Show less",
+    "APPLY": "Apply"
+  },
+  "FORM_VALIDATIONS": {
+    "REQUIRED": "This field is mandatory",
+    "IS_NUMERIC": "This field should only contain numbers",
+    "IS_I18N": "This field should not contain international characters",
+    "IS_PASSWORD_MATCH": "Password and confirm fields don't match",
+    "REQUIRED_SAFE_NAME": "Field name cannot be empty",
+    "STARTING_WHITE_SPACE": "Field name cannot start with a space",
+    "ENDING_WHITE_SPACE": "Field name cannot end with a space",
+    "PATTERN": "Field cannot contain invalid characters",
+    "MIN_VALUE": "Minimum value exceeded",
+    "MAX_VALUE": "Maximum value exceeded",
+    "INVALID_VALUE": "Valid values are between {minValue} and {maxValue}",
+    "NOT_EXIST_IN_MACHINE_LIST": "This machine is not included in the available machines list"
+  },
+  "FORM_SAFES_VALIDATIONS": {
+    "SAFE_NAME_REQUIRED": "Safe name cannot be empty",
+    "SAFE_NAME_STARTING_WHITE_SPACE": "Safe name cannot start with a space",
+    "SAFE_NAME_ENDING_WHITE_SPACE": "Safe name cannot end with a space",
+    "SAFE_NAME_PATTERN": "Safe name cannot contain invalid characters",
+    "SAFE_NAME_MAX_CHAR": "Safe name cannot be over 28 characters",
+    "SAFE_DESCRIPTION_PATTERN": "Safe description cannot contain invalid characters",
+    "MANAGING_CPM_REQUIRED": "Please select a value from the list"
+  },
+  "COMMON": {
+    "VIEWS_TAB_TITLE": "Views",
+    "RECENT_TAB_TITLE": "Recent",
+    "SAVED_TAB_TITLE": "Saved",
+    "FILTERS_TAB_TITLE": "Filters",
+    "CLOSE_BUTTON_TEXT": "Close",
+    "CANCEL_BUTTON_TEXT": "Cancel",
+    "DOWNLOAD_BUTTON_TEXT": "Download",
+    "SELECT_BUTTON_TEXT": "Select",
+    "OPTIONAL_FORM_CONTROL": "{{fieldName}} (Optional)",
+    "ACCOUNT_TYPES": {
+      "PASSWORD": "Password",
+      "SSH_KEY": "SSH Key"
+    },
+    "GENERAL_MESSAGES": {
+      "FAILURE_MAIN_TEXT": "Failed to"
+    }
+  },
+  "AUTHENTICATION": {
+    "SESSION_EXPIRED_MESSAGE": {
+      "HEADER_TITLE": "Session expired",
+      "MAIN_TITLE": "Your session has expired",
+      "SUB_TITLE": "Click OK to return to the login screen",
+      "OK_OPTION": "OK"
+    }
+  },
+  "MONITORING": {
+    "TITLE": "Monitoring",
+    "REFRESH": "Refresh",
+    "RISK_CARD": {
+      "TITLE": "Session risk score",
+      "SUB_TITLE": "Strongest impact activity/event",
+      "SECURITY_INCIDENT": "Security incident",
+      "GO_TO_INCIDENT_DETAILS": "Go to incident details",
+      "ID": "ID",
+      "PLAY": "PLAY",
+      "TOOLTIP_TITLE": "Suspicious activities in a session",
+      "TOOLTIP_SUB_TITLE": "Riskiest activity",
+      "NO_RISK_SCORE": "No risk analyzed or detected"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "Session Details",
+      "ITEM": "session",
+      "ACTION_TYPE": "deleted",
+      "BACK_TEXT": "Monitoring"
+    },
+    "GRID_TITLE": {
+      "RECORDED_SESSIONS": "Recording",
+      "LIVE_SESSIONS": "Active Sessions",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Additional details & actions in classic interface",
+        "CALLOUT_TITLE": "Classic Interface",
+        "CALLOUT_TEXT": "Monitoring view may contain additional\nfunctionality available only in the classic interface.\n\nYou can always come back to the 'Monitoring' in \nthe new interface."
+      }
+    },
+    "RECORDING": {
+      "NO_RECORDINGS_FOUND": "There are no recordings to show",
+      "PLAY": "Play",
+      "PLAY_VIDEO": "Play video",
+      "CONNECTED_AS": "Connected as",
+      "AS": "as",
+      "ON": "on",
+      "OFF": "off",
+      "SKIP_IDLE": "Skip Idle:",
+      "MANUAL": "Manual",
+      "AUTOMATIC": "Automatic",
+      "GO_TO_V9": "Play video (V9 UI)",
+      "SESSION_WAS_NOT_FOUND": "Activities for this session are not available"
+    },
+    "LIVE_SESSIONS": {
+      "NO_LIVE_SESSIONS_FOUND": "There are no active sessions to show",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Additional details & actions in classic interface",
+        "CALLOUT_TITLE": "Classic Interface",
+        "CALLOUT_TEXT": "Active session view may contain additional\nfunctionality available only in the classic interface.\n\nYou can always come back to the 'Monitoring' in \nthe new interface."
+      }
+    },
+    "FILTERS": {
+      "SECTION": "Filters",
+      "SESSIONS_PROPERTIES": "Sessions properties",
+      "SESSOION_PROPERTIES_HINT_TITLE": "Filter by session properties",
+      "SESSOION_PROPERTIES_HINT": "User, Client, Account User Name, Account Address, Account Policy ID, TicketID and more.\n\nTo search by multiple properties in the same session separate them with a space, for example: root 192.168.0.1\n\nUse quotes to search for phrases",
+      "SESSIONS_ACTIVITIES": "Sessions activities",
+      "COMMANDS_AND_EVENTS_HINT_TITLE": "Filter by session activities",
+      "COMMANDS_AND_EVENTS_HINT": "Windows Titles, SQL Commands, SSH Commands, SCP Commands, Keystrokes, Blocked commands (use the \"DENIED\" keyword).\n\nTo search by multiple activities in the same session separate them with a space, for example: sudo rm.\n\nUse quotes to search for a phrase, for example: \"ifConfig -a\"",
+      "FROM": "From",
+      "TO": "To",
+      "SAVE_FILTER": "Save Filter",
+      "APPLY": "Apply"
+    },
+    "RECORDING_DETAILS": {
+      "HEADER_TITLE": "{{user}} connected as {{accountUserName}} on {{address}}",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Additional details & actions in classic interface",
+        "CALLOUT_TITLE": "Classic Interface",
+        "CALLOUT_TEXT": "This session may contain additional\nfunctionality available only in the classic interface.\n\nYou can always come back to the new 'Monitoring'."
+      }
+    },
+    "LIVE_SESSION_DETAILS": {
+      "HEADER_TITLE": "{{user}} connected as {{accountUserName}} on {{address}}",
+      "MONITOR_BUTTON": "Monitor",
+      "TERMINATE_BUTTON": "Terminate",
+      "TERMINATE_DIALOG": {
+        "TITLE": "Terminate Active Session",
+        "MESSAGE": "Are you sure you want to terminate this session?",
+        "CANCEL_BUTTON": "Cancel"
+      },
+      "SUSPEND_BUTTON": "Suspend",
+      "SUSPEND_DIALOG": {
+        "TITLE": "Suspend Active Session",
+        "MESSAGE": "Are you sure you want to suspend this session?",
+        "CANCEL_BUTTON": "Cancel"
+      },
+      "RESUME_BUTTON": "Resume",
+      "RESUME_DIALOG": {
+        "TITLE": "Resume Suspended Session",
+        "MESSAGE": "Are you sure you want to resume this session?",
+        "CANCEL_BUTTON": "Cancel"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Additional details & actions in classic interface",
+        "CALLOUT_TITLE": "Classic Interface",
+        "CALLOUT_TEXT": "This session may contain additional\nfunctionality available only in the classic interface.\n\nYou can always come back to the new 'Monitoring'."
+      }
+    },
+    "TABS": {
+      "RECORDING": "Recordings",
+      "LIVE_SESSIONS": "Active sessions",
+      "SESSION_ACTIVITIES": "Activities",
+      "ATTESTATION": "Attestation",
+      "PERMISSIONS": "Permissions",
+      "SESSION_PROPERTIES": "Details"
+    },
+    "PROPERTIES": {
+      "SESSION_PROPERTIES_TITLE": "Session Properties",
+      "ADDITIONAL_PROPERTIES_TITLE": "Additional Properties",
+      "ACCOUNT_DETAILS_TITLE": "Account Properties",
+      "VIDEO_RECORDING_TITLE": "Video Recording",
+      "TEXT_RECORDING_TITLE": "Text Recording",
+      "CONNECTED_FROM": "Connected From",
+      "REMOTE_MACHINE": "Remote Machine",
+      "INTERFACE": "Interface",
+      "CONNECTION_TYPE": "Connection Type",
+      "PROTOCOL": "Protocol",
+      "START": "Start",
+      "END": "End",
+      "DURATION": "Duration",
+      "RETAINED_BY": "Retained by",
+      "PLATFORM_NAME": "Platform name",
+      "TARGET_USER": "Target user",
+      "TARGET_ADDRESS": "Target address",
+      "VIDEO_SIZE": "Size",
+      "VIDEO_LAST_VIEWED_BY": "Last reviewed by",
+      "TEXT_SIZE": "Size",
+      "TEXT_LAST_VIEWED_BY": "Last reviewed by",
+      "TEXT_LAST_VIEWED_DATE": "Last review date"
+    },
+    "ACTIVITIES": {
+      "ACTIVITIES_IN_SESSION": " Activities in the session",
+      "NO_ACTIVITIES": "There are no activities to show"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSM Gateway Connection"
+    }
+  },
+  "ONBOARDING_RULES": {
+    "PAGE_TITLE": "Onboarding Rules",
+    "TITLE": "Onboarding Rules",
+    "ANY": "Any",
+    "SERVER": "Server",
+    "WORKSTATION": "Workstation",
+    "LOCAL": "Local",
+    "DOMAIN": "Domain",
+    "PRIVILEGED": "Privileged",
+    "NON_PRIVILEGED": "Non privileged",
+    "BUILT_IN_ADMINISTRATOR_WINDOWS": "Built-in Administrator (SID = 500)",
+    "BUILT_IN_ADMINISTRATOR_UNIX": "Root (UID = 0)",
+    "BEGINS_WITH": "Begins with",
+    "END_WITH": "Ends with",
+    "EXACT": "Equals",
+    "OPTIONAL": "optional",
+    "EMPTY_STATE": {
+      "TITLE": "way for onboarding accounts",
+      "TITLE_FAST": "Fast",
+      "TITLE_AND": "and",
+      "TITLE_EASY": "easy",
+      "DESCRIPTION": "Onboarding rules automatically onboard discovered accounts to CyberArk. By applying these rules you can save time and avoid manual onboarding. We apply onboarding rules to discovered accounts, before they are marked as pending.",
+      "READ_MORE": " Read more",
+      "CREATE_RULE_LINK": "Start creating a new onboarding rule",
+      "AUTOMATIC_ONBOARDING_RULE": "Automatic onboarding rule",
+      "PENDING_ACCOUNTS": "Pending accounts",
+      "MANUAL_ONBOARDING": "Manual onboarding",
+      "ACCOUNTS_DISCOVERY": "Accounts discovery"
+    },
+    "FILTERS": {
+      "TITLE": "Filters",
+      "RULES_SCOPE": {
+        "TITLE": "Rule scope",
+        "SYSTEM_TYPE": "System type",
+        "ACCOUNT_TYPE": "Account type",
+        "MACHINE_TYPE": "Machine type",
+        "CATEGORY": "Account category",
+        "DROPDOWN": {
+          "PLACEHOLDER": "Select"
+        },
+        "KEYWORDS": {
+          "LABEL": "Refine by keyword",
+          "PLACEHOLDER": "Rule name, description, username or machine name"
+        }
+      },
+      "DESTINATION": {
+        "TITLE": "Destination",
+        "PLATFORM": {
+          "LABEL": "Platform",
+          "PLACEHOLDER": "Select",
+          "NO_MATCH_TEXT": "No matching platforms"
+        },
+        "SAFE": {
+          "LABEL": "Safe",
+          "PLACEHOLDER": "Select",
+          "NO_MATCH_TEXT": "No matching safes"
+        }
+      }
+    },
+    "SELECTED_ITEM_DETAILS": {
+      "DETAILS_TITLE": "Details",
+      "RULE_SCOPE": {
+        "TITLE": "Rule scope",
+        "SYSTEM_TYPE": "System type",
+        "MACHINE_TYPE": "Machine type",
+        "ACCOUNT_TYPE": "Account type",
+        "CATEGORY": "Account category",
+        "USER_NAME": "Username",
+        "METHOD": {
+          "BEGINS": "Begins with: {{ruleFilterValue}}",
+          "ENDS": "Ends with: {{ruleFilterValue}}",
+          "EQUALS": "Equals: {{ruleFilterValue}}",
+          "BEGINS_WITH": "Begins with: {{ruleFilterValue}}",
+          "END_WITH": "Ends with: {{ruleFilterValue}}",
+          "EXACT": "Equals: {{ruleFilterValue}}"
+        },
+        "ACCOUNT_CATEGORY_FILTER": {
+          "TITLE": "Privileged account type",
+          "PRIVILEGED": "Privileged",
+          "NONPRIVILEGED": "Non privileged",
+          "ANY": "Any"
+        },
+        "LOCAL": "Local",
+        "ANY": "Any",
+        "ADMIN_ONLY": {
+          "WINDOWS": "Built-in Administrator (SID = 500)",
+          "UNIX": "Root (UID = 0)"
+        },
+        "MACHINE_NAME": "Machine name / address"
+      },
+      "DESTINATION": {
+        "TITLE": "Destination",
+        "PLATFORM": "Platform",
+        "SAFE": "Safe"
+      },
+      "RULE_PROPERTIES": {
+        "TITLE": "Rule properties",
+        "RULE_NAME": "Name",
+        "RULE_DESCRIPTION": "Description"
+      },
+      "PASSWORD_SETTINGS": {
+        "TITLE": "Initial password settings",
+        "INITIAL_PASSWORD": "Initial password settings",
+        "USE_PLATFORM": "Using the default platform reconcile account",
+        "NO_RECONCILE_ACCOUNT": "No reconcile account for the selected platform",
+        "RECONCILE_ACCOUNT": "Platform reconcile account"
+      },
+      "OVERVIEW": {
+        "TITLE": "Overview",
+        "LAST_ONBOARDED": "Last onboard"
+      }
+    },
+    "CREATE_RULE": "Create rule",
+    "REFRESH": "Refresh",
+    "RULE_NAME_COLUMN_TITLE": "Rule name",
+    "SYSTEM_TYPE_COLUMN_TITLE": "System type",
+    "CREATE_ONBOARDING_RULES": {
+      "CASE_SENSITIVE": "Case sensitive",
+      "PAGE_TITLE": "Create Rule",
+      "PAGE_TITLE_EDIT_MODE": "Edit Rule",
+      "TITLE": "New onboarding rule",
+      "TITLE_EDIT_MODE": "Edit onboarding rule: {{string}}",
+      "SUBMIT_TEXT": "Create rule",
+      "SUBMIT_TEXT_EDIT_MODE": "Save changes",
+      "UPDATE": "Update",
+      "IDENTICAL_RULE_ERROR_HEADER": "Identical scope",
+      "IDENTICAL_RULE_NAME_ERROR_HEADER": "Identical rule name",
+      "DEFAULT_ERROR_HEADER": "Error",
+      "CREATE_RULE_SUCCESS_MESSAGE": "The rule was created successfully",
+      "EDIT_RULE_SUCCESS_MESSAGE": "The rule was updated successfully",
+      "STEPS": {
+        "SELECT_SYSTEM_TYPE": "Select system type",
+        "SELECT_SYSTEM_TYPE_EDIT_MODE": "System type",
+        "SELECT_SYSTEM_TYPE_TITLE": "Select system type to onboard",
+        "SELECT_SYSTEM_TYPE_TITLE_EDIT_MODE": "System type",
+        "SELECT_SCOPE": "Select scope",
+        "SELECT_SCOPE_EDIT_MODE": "Scope",
+        "SELECT_SCOPE_TITLE": "Select rule scope",
+        "SELECT_SCOPE_TITLE_EDIT_MODE": "Scope",
+        "ASSIGN_PLATFORM": "Assign to platform",
+        "ASSIGN_PLATFORM_EDIT_MODE": "Platform",
+        "ASSIGN_PLATFORM_TITLE": "Select platform",
+        "ASSIGN_PLATFORM_TITLE_EDIT_MODE": "Platform",
+        "SELECT_SAFE": "Store in Safe",
+        "SELECT_SAFE_EDIT_MODE": "Safe",
+        "SELECT_SAFE_TITLE": "Select Safe",
+        "SELECT_SAFE_TITLE_EDIT_MODE": "Safe",
+        "DEFINE_PROPERTIES": "Define properties",
+        "DEFINE_PROPERTIES_EDIT_MODE": "Properties",
+        "DEFINE_PROPERTIES_TITLE": "Define rule properties",
+        "DEFINE_PROPERTIES_TITLE_EDIT_MODE": "Properties",
+        "DEFINE_PROPERTIES_STEP": {
+          "NAME_LABEL": "Name",
+          "NAME_PLACEHOLDER": "Enter unique name",
+          "DESCRIPTION_LABEL": "Description (optional)",
+          "DESCRIPTION": "Description",
+          "DESCRIPTION_VALUE": "Valued",
+          "DESCRIPTION_CHARACTERS_LEFT": " Characters left",
+          "DESCRIPTION_CHARACTERS_OVER": " Characters over",
+          "RULE_NAME_IS_NOT_UNIQUE_MESSAGE": "A rule with this name already exist",
+          "RULE_NAME_MAX_LENGTH_MESSAGE": "This field should have max of 255 characters",
+          "SETTINGS": {
+            "INITIAL_PASSWORD": "Initial password settings",
+            "USE_PLATFORM": "Using the platform reconcile account",
+            "NO_RECONCILE_ACCOUNT": "No reconcile account for the selected platform"
+          },
+          "MODAL_ERROR_HEADER": "Error",
+          "MODAL_CLOSE_ACTION": "Close"
+        },
+        "SUMMARY": "Summary",
+        "SUMMARY_TITLE": "Summary"
+      },
+      "SELECT_SCOPE": {
+        "INFO_MESSAGE_APPLY_WINDOWS": "Automatic onboarding rules apply to accounts without dependencies",
+        "INFO_MESSAGE_APPLY_UNIX": "Automatic onboarding rules apply to accounts without trusts",
+        "INFO_MESSAGE_NEW_RULE": "A new rule takes precedence over an existing rule",
+        "MACHINE_TYPE": "Machine type",
+        "ACCOUNT_TYPE": "Account type",
+        "ACCOUNT_TYPE_INFO": "Currently, domain accounts can not be onboarded automatically.",
+        "ACCOUNT_CATEGORY": "Account category",
+        "ACCOUNT_CATEGORY_INFO": "Privileged accounts are members of privileged groups, such as \nadministrators or power users.",
+        "PRIVILEGED_ACCOUNT_TYPE": "Privileged account type",
+        "USERNAME": "Username",
+        "MACHINE_NAME_OR_ADDRESS": "Machine name / address",
+        "IDENTICAL_MESSAGE_TITLE": "Identical rule was found: {{string}}",
+        "IDENTICAL_MESSAGE_TEXT": "Change this rule's scope to avoid duplication"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Confirm cancellation",
+        "BODY": "Are you sure you want to cancel creating the onboarding rule?",
+        "SECONDARY_MESSAGE": "Changes that you made will be discarded",
+        "MAIN_ACTION": "Confirm cancellation",
+        "SECONDARY_ACTION": "Do not cancel"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "CHANGE_SYSTEM_TYPE_TITLE": "Change system type",
+        "CHANGE_PLATFORM_TITLE": "Change platform",
+        "OK": "Change",
+        "CANCEL": "Cancel",
+        "SYSTEM_TYPE_PRIMARY_MESSAGE": "Are you sure you want to change the system type to",
+        "PLATFORM_PRIMARY_MESSAGE": "Are you sure you want to change the platform to",
+        "SECONDARY_MESSAGE": "You may need to update rule definitions."
+      }
+    },
+    "NO_RULES_FOUND": "There are no rules to show",
+    "PRECEDENCE_COLUMN_TITLE": "Precedence",
+    "DESCRIPTION_COLUMN_TITLE": "Description",
+    "MACHINE_TYPE_COLUMN_TITLE": "Machine type",
+    "ACCOUNT_TYPE_COLUMN_TITLE": "Account type",
+    "LAST_ONBOARDED_COLUMN_TITLE": "Last onboard",
+    "DELETE_RULE": {
+      "ACTION_TITLE": "Delete rule",
+      "FEEDBACK_TITLE": "Delete rule",
+      "FEEDBACK_DESCRIPTION": "Are you sure you want to delete '{RULE_NAME}' rule?",
+      "FEEDBACK_DELETE_BUTTON": "Delete rule",
+      "FEEDBACK_CANCEL_BUTTON": "Cancel",
+      "FLOATING_SUCCESS_MESSAGE": "The rule was deleted"
+    },
+    "EDIT_RULE": {
+      "ACTION_TITLE": "Edit rule"
+    },
+    "FEEDBACK_MESSAGES": {
+      "DELETE_ONBOARDING_RULES": "Delete onboarding rule",
+      "GET_ONBOARDING_RULES": "Get onboarding rules"
+    }
+  },
+  "PTA": {
+    "MESSAGES": {
+      "SUCCESS_MESSAGES": {
+        "SETTINGS": {
+          "PSM": {
+            "UPDATE": "The rule was updated successfully",
+            "ADD": "The rule was added successfully"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "Add To Pending remediation was updated successfully",
+            "ROTATE_CREDENTIALS": "Rotate Credentials remediation was updated successfully",
+            "RECONCILE_CREDENTIALS": "Reconcile Credentials remediation was updated successfully"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "Session resumption initiated successfully"
+        }
+      },
+      "ERROR_TITLES": {
+        "DEFAULT": "ERROR",
+        "SETTINGS": {
+          "GET": "Failed to load security configurations",
+          "PSM": {
+            "UPDATE": "Failed to update the rule",
+            "ADD": "Failed to add the rule"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "Failed to update Add To Pending remediation",
+            "ROTATE_CREDENTIALS": "Failed to update Rotate Credentials remediation",
+            "RECONCILE_CREDENTIALS": "Failed to update Reconcile Credentials remediation"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "Failed to initiate session resumption"
+        }
+      },
+      "CLOSE_BUTTON": "Close"
+    },
+    "EVENTS": {
+      "ACTION_BUTTONS": {
+        "SUCCESS_MESSAGES": {
+          "RESUME": "Session resumption initiated successfully"
+        },
+        "ERROR_TITLES": {
+          "RESUME": "Failed to initiate session resumption"
+        }
+      },
+      "PAGE_HEADER": "Security events",
+      "PROVIDER": {
+        "UNKNOWN": "unknown",
+        "ANOMALIES_TITLES": {
+          "ACTIVE_DORMANT": "Active dormant user",
+          "AGGREGATIVE_ICE": "Anomalous access to multiple machines",
+          "DUAL_USAGE": "Service Account logged on interactively",
+          "GOLDEN_TICKET": "Golden Ticket attack",
+          "IRREGULAR_HOUR_USER": "Privileged access to the Vault during irregular hours",
+          "MALICIOUS_RETRIEVAL": "Malicious Retrieval of Domain Accounts",
+          "OVER_PASS_THE_HASH": "Overpass the Hash attack",
+          "PAC_ATTACK": "PAC Attack",
+          "RISKY_COMMAND": "Suspicious activities detected in a privileged session",
+          "SCT": "Suspected credentials theft",
+          "SPC": "Suspicious password change",
+          "UNMANAGED": "Unmanaged privileged account",
+          "VAULT_IRREGULAR_IP": "Privileged access to the Vault from irregular IP",
+          "CLEARTEXT": "Exposed credentials"
+        },
+        "EVENT_SEVERITIES": {
+          "LOW": "Low",
+          "MEDIUM": "Medium",
+          "HIGH": "High"
+        },
+        "FILTERS": {
+          "EVENT_ID": "Event ID",
+          "SESSION_ID": "Session ID",
+          "TITLE": "Filters",
+          "SEVERITY": "Severity",
+          "TYPE": "Event Type",
+          "FROM_DATE": "From",
+          "TO_DATE": "To"
+        },
+        "NOTIFICATIONS": {
+          "LOW": "New low event detected",
+          "MEDIUM": "New medium event detected",
+          "HIGH": "New high event detected"
+        }
+      },
+      "CARDS": {
+        "GENERAL": {
+          "LISTS": {
+            "ENTITIES": {
+              "COMMAND": "command",
+              "ACCOUNT": "account",
+              "MACHINE": "machine",
+              "DC": "DC"
+            },
+            "TITLES": {
+              "MOST_RETYPED_ACTIVITIES": "Most retyped activities",
+              "MOST_ACCESSED_ACCOUNTS": "Most accessed accounts",
+              "EXPOSED_ACCOUNTS": "Exposed accounts",
+              "MOST_ACCESSED_MACHINES": "Most accessed machines",
+              "SOURCE_MACHINES": "Source machines",
+              "MOST_ACCESSED_DCS": "Most accessed DCs",
+              "ACCESSED_DCS": "Accessed DCs"
+            },
+            "RECORD": {
+              "MULTI_OCCURRENCES": "{{entity}} ({{occurrences}} occurrences)",
+              "SINGLE_OCCURRENCE": "{{entity}} ({{occurrences}} occurrence)"
+            }
+          },
+          "ORIGINAL_EVENTS": {
+            "ORIGINAL_EVENT": "Original event occurred {{originTime}}.",
+            "ORIGINAL_EVENT_SOURCE_TARGET": "Original event occurred {{originTime}} from source {{source}} on target {{target}}.",
+            "ORIGINAL_EVENT_SOURCE_DC": "Original event occurred {{originTime}} from source {{ source}} on DC {{target}}.",
+            "ORIGINAL_SUSPICIOUS_ACTIVITY": "First suspicious activity occurred {{originTime}}."
+          },
+          "DIAGRAM_ENTITY_TITLE": {
+            "TARGET_MACHINE": "Target machine",
+            "SOURCE_MACHINE": "Source machine",
+            "PRIVILEGED_ACCOUNT": "Privileged account",
+            "UNMANAGED_PRIVILEGED_ACCOUNT": "Unmanaged privileged account",
+            "CYBERARK_PAS": "Cyberark PAS",
+            "VAULT_USER": "Vault user",
+            "TARGET_SERVICE": "Target service",
+            "SERVICE_ACCOUNT": "Service account",
+            "SERVICE": "Service"
+          }
+        },
+        "GENERIC": {
+          "ACTIVE": "Active session",
+          "REMEDIATION": "Initiated remediation",
+          "OCCURRENCES": "({{occurrences}} occurrences)",
+          "EVENT_ID": "ID {{id}}",
+          "SESSION_ID": "Session ID",
+          "RECOMMENDATION_TITLE": "Recommendation"
+        },
+        "ACTIVE_DORMANT": {
+          "SUBTITLE_SINGLE_ACCOUNT": "Vault user {{user}} retrieved the password of account {{account}} from CyberArk PAS after being inactive for more than {{inactiveDays}} days.",
+          "SUBTITLE_MULTI_ACCOUNTS": "Vault user {{user}} retrieved the password of {{numOfAccounts}} accounts from CyberArk PAS after being inactive for more than {{inactiveDays}} days.",
+          "RECOMMENDATION": "Make sure that this Vault user is active, and if not, consider limiting the user's access."
+        },
+        "AGGREGATIVE_ICE": {
+          "SUBTITLE": "Account {{account}} connected to a large number of new machines, which is unusual for this account.<br>These actions could indicate that the credentials of {{account}} have been abused for lateral movement.",
+          "RECOMMENDATION": "Assess the potential damage and look for IOC:",
+          "RECOMMENDATION_SUGGESTION_1": "Review the accounts that have active sessions on the target machines",
+          "RECOMMENDATION_SUGGESTION_2": "Review the credentials stored on the target machines",
+          "RECOMMENDATION_SUGGESTION_3": "Look for other attack indications on the target machines"
+        },
+        "DUAL_USAGE": {
+          "SUBTITLE_SINGLE_MACHINE": "Service account {{account}} interactively logged on to {{target}} machine.",
+          "SUBTITLE_MULTI_MACHINES": "Service account {{account}} interactively logged on to {{numOfMachines}} machines.",
+          "RECOMMENDATION": "Separate between using your service accounts and human accounts."
+        },
+        "GOLDEN_TICKET": {
+          "SUBTITLE": "A Golden Ticket attack was detected in domain {{domain}}. The attacker used a forged Kerberos ticket for account {{account}} on machine {{target}}.<br>This ticket originated from machine {{source}}.",
+          "RECOMMENDATION": "An attacker has compromised your domain. Carefully investigate your environment and take action to contain the attacker."
+        },
+        "IRREGULAR_HOUR_USER": {
+          "SUBTITLE": "Vault user {{user}} retrieved the password of privileged user {{account}} on machine {{target}} at {{startTime}}.<br>This action was flagged as a security event because {{user}} normally does not connect at this time.",
+          "RECOMMENDATION": "Review this Vault user’s activities and ensure that they are valid."
+        },
+        "MALICIOUS_RETRIEVAL": {
+          "SUBTITLE_ONE_OCCURRENCE": " A potentially malicious retrieval of credentials from domain controller {{target}}, was detected on machine {{source}}.<br>The credentials retrieval was conducted by a successful domain controller replication.",
+          "SUBTITLE_MULTI_OCCURRENCES": "Multiple potentially malicious retrievals of credentials were detected on machine {{source}}.<br>The credentials retrieval was conducted by a successful domain controller replication.",
+          "RECOMMENDATION": "A Domain controller replication request (DCSync) must be initiated only by domain controllers.<br>If another authentication or management service in your network also executes domain controller replication,<br>it is highly recommended to protect these services at the same level as domain controllers."
+        },
+        "OVER_PASS_THE_HASH": {
+          "SUBTITLE": "An Overpass the Hash attack was detected in domain {{domain}}, which originated from machine {{source}}.<br>The attack abuses the credentials of account {{account}}.",
+          "RECOMMENDATION_NO_REMEDIATION": "Reset the credentials for account {{account}}.",
+          "RECOMMENDATION_REMEDIATION": "Password change request was initiated. An attacker has compromised your domain. Carefully investigate your environment and take action to contain the attacker."
+        },
+        "PAC_ATTACK": {
+          "SUBTITLE": "A PAC Attack (MS14-068 exploitation) attempt was detected in domain {{domain}}, which originated from machine {{source}}.<br>The attacker attempted to elevate the privileges of account {{account}}.",
+          "RECOMMENDATION": "Make sure that Domain Controller {{target}} is updated with patch KB3011780."
+        },
+        "RISKY_COMMAND": {
+          "SUBTITLE": "Suspicious session activities on {{target}} were detected in a privileged session.<br>The session was initiated by Vault user {{user}} with account {{account}} by executing {{command}} activity.",
+          "RECOMMENDATION_LIVE": "Review each security event associated with the session and its activities, and evaluate whether a response is required, such as live monitoring or manual termination of the in-progress session.",
+          "RECOMMENDATION_NON_LIVE": "Review each security event associated with the session and assess its risk using the session's activities and recording. This session has already been disconnected.",
+          "RECOMMENDATION_SUSPENDED_SESSION": "Session suspension request was initiated. Review each security event associated with the session and its activities, and evaluate whether an additional response is required, such as manual resumption or termination of the suspended session.",
+          "RECOMMENDATION_TERMINATED_SESSION": "A session termination request was initiated. Review each security event associated with the session and its activities, and evaluate whether an additional response is required."
+        },
+        "SCT": {
+          "SUBTITLE_SINGLE_MACHINE": "Privileged account {{account}} accessed {{target}} machine with a password that was not retrieved from CyberArk PAS.",
+          "SUBTITLE_MULTI_MACHINES": "Privileged account {{account}} accessed {{numOfMachines}} machines with a password that was not retrieved from CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Consider changing the passwords that were used without being retrieved.",
+          "RECOMMENDATION_REMEDIATION": "Password change request was initiated. Ensure that your organizational policy and PAS controls are not bypassed, and that your managed accounts are controlled."
+        },
+        "SPC": {
+          "SUBTITLE": "Privileged account {{account}} password was changed outside of CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Consider reconciling the password of the account that was changed outside of CyberArk PAS.",
+          "RECOMMENDATION_RECONCILIATION": "Password reconciliation request was initiated. Ensure that your organizational policy and PAS controls are not bypassed, and take control over the managed accounts."
+        },
+        "UNMANAGED": {
+          "SUBTITLE_SINGLE_MACHINE": "Privileged account {{account}} was used to access {{target}}, although this account is not managed in CyberArk PAS.",
+          "SUBTITLE_MULTI_MACHINES": "Privileged account {{account}} was used to access {{numOfMachines}} machines, although this account is not managed in CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Consider onboarding the unmanaged privileged account to CyberArk PAS.",
+          "RECOMMENDATION_REMEDIATION": "Onboard the newly discovered account, and assign the appropriate platform to securely manage the account. Discovered accounts that are filtered by an automatic onboarding rule do not require manual action."
+        },
+        "VAULT_IRREGULAR_IP": {
+          "SUBTITLE": "Vault user {{user}} accessed the Vault from irregular IP {{source}}.<br>This action was flagged as a security event because {{user}} does not normally access the Vault from this IP.",
+          "RECOMMENDATION": "Review this Vault user’s activities and ensure that they are valid."
+        },
+        "CLEARTEXT": {
+          "SUBTITLE": "Accounts credentials sent from {{source}} using LDAP simple bind were exposed in clear-text.",
+          "RECOMMENDATION": "Configure the relevant services to authenticate using LDAPS instead of LDAP simple bind.<br>We highly recommend rotating the password for sensitive accounts."
+        }
+      }
+    },
+    "SETTINGS": {
+      "PAGE_HEADER": "Security Configurations",
+      "PSM": {
+        "HEADER": "Privileged Session Analysis and Response",
+        "SUB_HEADER": "Assign a risk score and automatic response to high-risk activities detected during recorded user sessions.",
+        "ADD_RULE_BUTTON": "Add rule",
+        "RULE_CATEGORY": {
+          "KEYSTROKES": "Universal keystrokes",
+          "SCP": "SCP",
+          "SQL": "SQL",
+          "SSH": "SSH",
+          "WINDOWS": "Windows titles"
+        },
+        "RULE_CATEGORY_EXAMPLES": {
+          "KEYSTROKES_EXAMPLE": "for example: kill(.*)",
+          "SCP_EXAMPLE": "for example: 10.1.1.22(.*)",
+          "SQL_EXAMPLE": "for example: DROP TABLE(.*)",
+          "SSH_EXAMPLE": "for example: rm -r(.*)",
+          "WINDOWS_EXAMPLE": "for example: Task Manager(.*)"
+        },
+        "SUCCESS_MESSAGES": {
+          "UPDATE": "The rule was updated successfully",
+          "ADD": "The rule was added successfully"
+        },
+        "ERROR_TITLES": {
+          "UPDATE": "Failed to update the rule",
+          "ADD": "Failed to add the rule"
+        },
+        "RULE_MODAL": {
+          "ADD_RULE_TITLE": "Add Rule",
+          "EDIT_RULE_TITLE": "Edit Rule",
+          "CATEGORY": "Category",
+          "SELECT_CATEGORY": "Select category",
+          "PATTERN": "Pattern",
+          "PATTERN_PLACEHOLDER": "Enter regular expression",
+          "DESCRIPTION": "Description (optional)",
+          "SESSION_RESPONSE": {
+            "TITLE": "Session response",
+            "SUSPEND": "Suspend",
+            "TERMINATE": "Terminate",
+            "NONE": "None"
+          },
+          "SCORE_TITLE": "Score",
+          "SCORE_DESCRIPTION": "Set score (1 - 100)",
+          "ACTIVE_STATUS_TITLE": "Status",
+          "ACTIVE_STATUS_ACTIVE_DESCRIPTION": "Active",
+          "ACTIVE_STATUS_INACTIVE_DESCRIPTION": "Inactive",
+          "SCOPE_TITLE": "Scope",
+          "SCOPE_DESCRIPTION": {
+            "BASIC_DESCRIPTION": "This rule will apply to {vaultUsersCategory}, {accountsCategory} and {machinesCategory}",
+            "ALL": "all {category}",
+            "EXCLUDE": "all but {amount} {category}",
+            "INCLUDE": "{amount} specific {category}"
+          },
+          "ADD": "Add",
+          "SAVE": "Save",
+          "CANCEL": "Cancel"
+        },
+        "SCOPE_MODAL": {
+          "TITLE": "Change scope",
+          "EXCLUDE": "Exclude",
+          "INCLUDE": "Include only",
+          "SAVE": "Change Scope",
+          "CANCEL": "Cancel",
+          "VAULT_USERS": {
+            "CATEGORY_NAME": "Vault users",
+            "TAB_TITLE": "Vault users",
+            "WATERMARK": "Can use Wildcards",
+            "INCLUDE_MARK": "The following rule will apply only to the selected Vault users",
+            "EXCLUDE_MARK": "The following rule will apply to all Vault users, except for the selected ones"
+          },
+          "ACCOUNTS": {
+            "CATEGORY_NAME": "accounts",
+            "TAB_TITLE": "Accounts",
+            "WATERMARK": "Can use Wildcards",
+            "INCLUDE_MARK": "The following rule will apply only to the selected accounts",
+            "EXCLUDE_MARK": "The following rule will apply to all accounts, except for the selected ones"
+          },
+          "MACHINES": {
+            "CATEGORY_NAME": "machines",
+            "TAB_TITLE": "Machines",
+            "WATERMARK": "Can use Wildcards",
+            "INCLUDE_MARK": "The following rule will apply only to the selected machines",
+            "EXCLUDE_MARK": "The following rule will apply to all machines, except for the selected ones"
+          }
+        },
+        "GRID_COLUMNS": {
+          "CATEGORY": "Category",
+          "PATTERN": "Pattern",
+          "SCORE": "Score",
+          "DESCRIPTION": "Description",
+          "RESPONSE": "Response",
+          "STATUS": "Status"
+        }
+      },
+      "REMEDIATION": {
+        "HEADER": "Automatic Remediations",
+        "SUB_HEADER": "Configure the automatic response to each security event to contain the risk and stop the suspicious activity.",
+        "ADD_TO_PENDING": "Add To Pending",
+        "UNMANAGED_PRIVILEGED_ACCOUNT": "Unmanaged Privileged Account",
+        "ROTATE_CREDENTIALS": "Rotate Credentials",
+        "OVER_PASS_THE_HASH": "Overpass the Hash",
+        "SUSPECTED_CREDENTIAL_THEFT": "Suspected Credential Theft",
+        "RECONCILE_CREDENTIALS": "Reconcile Credentials",
+        "SUSPICIOUS_PASSWORD_CHANGE": "Suspicious Password Change",
+        "SUCCESS_MESSAGES": {
+          "ADD_TO_PEND": "Add To Pending remediation was updated successfully",
+          "ROTATE_CREDENTIALS": "Rotate Credentials remediation was updated successfully",
+          "RECONCILE_CREDENTIALS": "Reconcile Credentials remediation was updated successfully"
+        },
+        "ERROR_TITLES": {
+          "ADD_TO_PEND": "Failed to update Add To Pending remediation",
+          "ROTATE_CREDENTIALS": "Failed to update Rotate Credentials remediation",
+          "RECONCILE_CREDENTIALS": "Failed to update Reconcile Credentials remediation"
+        }
+      },
+      "EVENT_STATUS": {
+        "CLOSE_MESSAGE": "Are you sure you want to close this Security Event?\n\nClosed events can still be viewed using the Status filter",
+        "OPEN_MESSAGE": "Are you sure you want to reopen this Security Event?"
+      },
+      "EDIT": "Edit",
+      "DELETE": "Delete",
+      "GET_ERROR_TITLE": "Failed to load security configurations"
+    }
+  },
+  "DASHBOARD": {
+    "HEADER": "System Health",
+    "ERROR_MESSAGE": "Server error has occurred, please try again later",
+    "VAULTS": "Vaults",
+    "CONNECTING_COMPONENTS": "Connecting Components",
+    "METER_CONNECTED": "Connected",
+    "METER_DISCONNECTED": "Disconnected",
+    "REFRESH": "Refresh",
+    "MASTER": "Master",
+    "PRIMARY": "Primary",
+    "SATELLITE": "Satellite",
+    "DR": "DR",
+    "OFFLINE": "Offline",
+    "DASHBOARD_DETAILS": {
+      "COMPONENT_IDENTIFIER_COLUMN_TITLE": "Component Identifier",
+      "IP_COLUMN_TITLE": "IP",
+      "VERSION_COLUMN_TITLE": "Version",
+      "CONNECTIVITY_STATUS_COLUMN_TITLE": "Connectivity Status",
+      "LAST_LOGON_DATE_COLUMN_TITLE": "Last logon date",
+      "GRID_CONNECTED": "Connected",
+      "GRID_DISCONNECTED": "Disconnected",
+      "BACK_TO_MAIN_PAGE": "Back To System Health"
+    },
+    "COMPONENTS_METER_TOTAL_DESCRIPTION": {
+      "PVWA": "Active Users",
+      "CPM": "Managed Accounts",
+      "SESSIONMANAGEMENT": "Concurrent Sessions",
+      "AIM": "Applications"
+    },
+    "DIALOGS": {
+      "RESTORE_CONNECTIVITY": {
+        "SUCCESS": "Restoring the connection may take a few minutes"
+      }
+    }
+  },
+  "LDAP_INTEGRATION": {
+    "PAGE_TITLE": "LDAP Integration",
+    "REFRESH": "Refresh",
+    "NEW_DOMAIN": "New Domain",
+    "MAPPINGS": "Mappings",
+    "DOMAINS": "domains",
+    "DELETE_DOMAIN_DIALOG": {
+      "TITLE": "Delete domain connection?",
+      "BODY": "Are you sure you want to delete '{DOMAIN_NAME}' domain from CyberArk?",
+      "SUB_TITLE": "\nThe following directory mapping will be deleted too:\n{MAPPINGS}",
+      "MAIN_ACTION": "Delete",
+      "SECONDARY_ACTION": "Cancel",
+      "DELETED_SUCCESS": "The domain connection was deleted successfully",
+      "ERROR": {
+        "CLOSE_BUTTON": "Close",
+        "TITLE": "Failed to delete domain connection",
+        "BODY": "Domain '{DOMAIN_NAME}' connection failed to be deleted"
+      }
+    },
+    "DELETE_MAPPING_DIALOG": {
+      "TITLE": "Delete directory mapping?",
+      "BODY": "Are you sure you want to delete the '{{MAPPING_NAME}}' directory mapping?",
+      "SUB_TITLE": "\nThis action may prevent already provisioned LDAP users from accessing the CyberArk system. ",
+      "MAIN_ACTION": "Delete mapping",
+      "SECONDARY_ACTION": "Cancel",
+      "DELETED_SUCCESS": "The mapping was deleted",
+      "ERROR": {
+        "CLOSE_BUTTON": "Close",
+        "TITLE": "Failed to delete directory mapping",
+        "BODY": "Directory mapping '{{MAPPING_NAME}}' failed to be deleted"
+      }
+    },
+    "MAPPING_DETAILS": {
+      "AUTH_TAB": {
+        "ALLOW": "Allow",
+        "DENY": "Deny"
+      },
+      "DETAILS_TAB": {
+        "MAPPING_CRITERIA_TITLE": "Mapping criteria",
+        "LDAP_BRANCH": "LDAP branch",
+        "CRITERIA_DETAILS": "Users mapped by",
+        "MAPPING_DESTINATION_TITLE": "Mapping destination",
+        "LOCATION": "Location",
+        "GROUP": "Group",
+        "AUTHENTICATION_TITLE": "Authentication",
+        "AUTHENTICATION_METHOD": "Authentication method",
+        "ACTIVITY_LOGS_TITLE": "Activity logs",
+        "KEEP_USER_ACTIVITY_LOGS": "Keep user activity logs at least for",
+        "DAYS": "days",
+        "ROOT": "Root"
+      },
+      "AUTHENTICATIONS": {
+        "AUTHTYPEVAULTPKI": "PKI",
+        "AUTHTYPELDAP": "LDAP",
+        "AUTHTYPENT": "NT",
+        "AUTHTYPERADIUS": "RADIUS"
+      }
+    },
+    "DIRECTORY_MAPPINGS": "directory mappings",
+    "GROUPS_NAME": {
+      "VAULT_ADMINS": "Vault admins",
+      "SAFE_MANAGERS": "Safe managers",
+      "AUDITORS": "Auditors",
+      "USERS": "Users"
+    },
+    "AUTHORIZATIONS": {
+      "NONE": "None",
+      "ADDSAFES": "Add safes",
+      "AUDITUSERS": "Audit users",
+      "ADDUPDATEUSERS": "Add/Update users",
+      "RESETUSERSPASSWORDS": "Reset users's password",
+      "ACTIVATEUSERS": "Activate users",
+      "ADDNETWORKAREAS": "Add network areas",
+      "MANAGEDIRECTORYMAPPING": "Manage directory mapping",
+      "MANAGESERVERFILECATEGORIES": "Manage server file categories",
+      "BACKUPALLSAFES": "Backup all safes",
+      "RESTOREALLSAFES": "Restore all safes"
+    },
+    "CREATE": {
+      "PAGE_TITLE": "Create LDAP Integration",
+      "TITLE": "LDAP Integration",
+      "SAVE": "Save",
+      "CONNECT": "Connect >",
+      "DOMAIN_CONNECTED_SUCCESSFULLY": "Domain {{domainName}} connected successfully",
+      "THE_DIRECTORY_WERE_CREATED_SUCCESSFULLY": "The directory were created successfully",
+      "THE_DIRECTORY_AND_MAPPING_WERE_CREATED_SUCCESSFULLY": "The directory and mapping were created successfully",
+      "STEPS": {
+        "SELECT_DIRECTORY_TYPE": "Select directory type",
+        "SELECT_DIRECTORY_TYPE_TITLE": "Select directory type",
+        "CONNECT_DOMAIN": "Connect domain",
+        "CONNECT_DOMAIN_TITLE": "Connect domain",
+        "CREATE_DIRECTORY_MAPPINGS": "Create directory mapping",
+        "CREATE_DIRECTORY_MAPPINGS_TITLE": "Create directory mapping (optional)"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Confirm cancellation",
+        "BODY": "Are you sure you want to cancel creating the LDAP integration?",
+        "SECONDARY_MESSAGE": "Changes that you made will be discarded",
+        "MAIN_ACTION": "Confirm cancellation",
+        "SECONDARY_ACTION": "Do not cancel"
+      },
+      "CONTINUE_DIALOG": {
+        "TITLE": "Are you sure you want to continue?",
+        "TITLE_NO_MAPPING": "Are you sure you want to skip this page without creating any mappings?",
+        "BODY": "The following directory mapping will not be created:",
+        "BODY_NO_MAPPING": "Directory mappings are required to provision LDAP users to the CyberArk system",
+        "MAIN_ACTION": "Save",
+        "SECONDARY_ACTION": "Stay"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "TITLE": "Change domain connection",
+        "CHANGE": "Change",
+        "CANCEL": "Cancel",
+        "PRIMARY_MESSAGE": "Are you sure you want to change the domain connection?",
+        "SECONDARY_MESSAGE": "You may need to update the directory mappings"
+      },
+      "CONFIRMATION_MESSAGES_DIRECTORY_TYPE": {
+        "TITLE": "Change directory type",
+        "CHANGE": "Change",
+        "CANCEL": "Cancel",
+        "PRIMARY_MESSAGE": "Are you sure you want to change the directory type?",
+        "SECONDARY_MESSAGE": "You will need to update the domain connection"
+      },
+      "DIRECTORY_TYPE_STEP": {
+        "NO_DIRECTORY_TYPE_CONFIGURED": "No directory type configured",
+        "EMPTY_MESSAGE": "Please configure at least one directory type in the configuration file.\nYou can do it here: Administration > Configuration Options > LDAP Integration > Profiles > Add Profile"
+      },
+      "CONNECT_DOMAIN_STEP": {
+        "CONNECT_TO": "Connect to",
+        "CONNECT_VIA": "Connect via",
+        "CONNECT_WITH": "Connect with",
+        "DOMAIN_NAME": "Domain name",
+        "START_DOMAIN_INTEGRATION_FROM": "Start domain integration from",
+        "DOMAIN_BASE_CONTEXT": "Domain base context",
+        "BIND_USERNAME": "Bind user name",
+        "CONNECTION": "Connection",
+        "SECURED_CONNECTION": "Secured (SSL)",
+        "UNSECURE_CONNECTION": "Unsecure",
+        "BIND_USERNAME_PLACEHOLDER": "e.g. JohnSmith@domainName.com",
+        "BIND_PASSWORD": "Bind user password",
+        "DOMAIN_NAME_MAX_LENGTH_MESSAGE": "This field should have max of 160 characters",
+        "USE_SSL": "Use Secure connection (SSL)",
+        "USE_SSL_MAIN_TITLE": "SSL based encryption requires LDAPS certificate.",
+        "USE_SSL_SUB_TITLE": "Please import this domain certificate to create secure SSL base connection before moving forward.",
+        "USE_SSL_TOOLTIP": "SSL-based encryption is a secure connection (Port 636)",
+        "SSL_MORE_INFO_LINK": "See instructions",
+        "SSL_MORE_INFO_HEADER": "How to import domain certificate",
+        "SSL_MORE_INFO_BODY": "1. Get the public domain certificate of the requested domain.\n\n2. On the Vault machine and the IIS machine, select Add/Remove Snap-in from the file menu.\n\n3. Add ‘Certificates’ from the left menu and click Add.\n\n4. Select the ‘Computer Account’ and then ‘Local Computer’.\n\n5. Expand Certificates (Local Computer), then expand Trusted \n Root Certification Authorities.The Certificates folder appears.\n\n6. Import and Place all domain certificates in the following store\n for all of the enterprise Vaults.\n\n7. Add the domain name (as appears in the certificate) to the\nVault local HOSTS file with every IP Address that is relevant for\nconnection from the Vault.\n\n8. Continue and Connect your domain.",
+        "SSL_MORE_INFO_CANCEL": "Cancel",
+        "FAILED_TO_CONNECT_DOMAIN": "Failed to connect to the domain",
+        "FAILED_TO_CONNECT_DOMAIN_MORE_INFO": "This can happen because:\n•  Domain name, Bind username or Bind user password is incorrect.\n•  There is a problem with the LDAPS certificate configuration (if you are using a secure connection).\n•  The Domain server is down.",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT": "This domain is already connected",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT_MORE_INFO": "Please change the domain name",
+        "LDAP_USERS_DIALOG": {
+          "TITLE": "LDAP users meeting search criteria",
+          "TEXT": "Presenting {{NUMBER_OF_OBJECTS}} users for {{GROUP_NAME}}",
+          "NO_USERS": "There are no users to show",
+          "WATERMARK": "Filter by user or group name",
+          "INFO_MESSAGE": "You have more than 1000 users, please try and find a different user",
+          "WARNING_MESSAGE": "You may not found a specific user you are looking for as we are presenting only the first 1000 users found",
+          "GRID_COLUMNS": {
+            "USER_NAME": "Users name",
+            "GROUP_NAME": "Group"
+          },
+          "CLOSE": "Close"
+        }
+      },
+      "CREATE_DIRECTORY_MAPPING_STEP": {
+        "DOMAIN_BASE_CONTEXT": "Domain base context",
+        "DOMAIN_BASE_CONTEXT_INFO": "Start domain integration only from this level downward",
+        "INFO_MESSAGE": "This tool creates our suggested default directory mappings - you can edit them according to your company's needs after creation.",
+        "DEFINE_MAP": "Define map",
+        "DEFINED": "Defined",
+        "GROUPS_INFO": "To create this mapping, select relevant groups",
+        "SELECT_LDAP_GROUPS": "Select LDAP groups",
+        "MAPPED_USERS_WILL_BE_ADDED_TO": "Mapped users will be added to",
+        "ACCESS_LIMITATIONS": "Access Limitations",
+        "KEEP_USER_ACTIVITY_LOGS_FOR": "Keep user activity logs for",
+        "AUTHORIZATIONS": "Authorizations",
+        "MAPPED_GROUPS": "Mapped groups will be added to:",
+        "VIEW_USERS": "View users",
+        "LOCATION": "Location",
+        "GROUP": "Group",
+        "NONE": "None",
+        "DAYS": "days",
+        "FAILED_TO_CREATE_NAME_DIRECTORY": "Failed to create directory",
+        "FAILED_TO_CREATE_DIRECTORY_MAPPING": "Failed to create directory mapping",
+        "FAILED_TO_CREATE_NAME_DIRECTORY_MAPPING": "Failed to create '{MAPPING_NAME}' directory mapping",
+        "THE_FOLLOWING_DIRECTORY_MAPPING_FAILED_TO_BE_CREATED": "The following directory mapping failed to be created",
+        "CLOSE": "Close"
+      }
+    },
+    "EDIT_MAPPING": {
+      "CHANGES_SAVED_SUCCESSFULLY": "Changes were saved successfully",
+      "CANCEL_DIALOG": {
+        "TITLE": "Confirm cancellation",
+        "BODY": "Are you sure you want to cancel editing the directory mapping? Changes that you made will be discarded.",
+        "MAIN_ACTION": "Confirm cancellation",
+        "SECONDARY_ACTION": "Do not cancel"
+      },
+      "CONFIRM_DIALOG": {
+        "TITLE": "Confirm changes",
+        "BODY": "Are you sure you want to save changes for this directory mapping? This will effect the LDAP users provisioning process to the CyberArk system.",
+        "MAIN_ACTION": "Confirm changes",
+        "SECONDARY_ACTION": "Stay on page"
+      },
+      "ERROR": {
+        "TITLE": "An error has occurred"
+      }
+    },
+    "ADD_MAPPING": {
+      "MESSAGE_SAVED_SUCCESSFULLY": "The directory mapping was added successfully",
+      "MESSAGE_REORDER_FAILED": {
+        "TITLE": "Failed to reorder directory mappings",
+        "BODY": "The “{{mapping_name}}” Directory Mapping was created successfully but could not be added in the position you requested. It has been added at the end of the list.",
+        "MAIN_ACTION": "Close"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Confirm cancellation",
+        "BODY": "Are you sure you want to cancel adding the directory mapping? Changes that you made will be discarded",
+        "MAIN_ACTION": "Confirm cancellation",
+        "SECONDARY_ACTION": "Do not cancel"
+      },
+      "ERROR_DIALOG": {
+        "TITLE": "Failed to add mapping",
+        "MAIN_ACTION": "Close"
+      }
+    },
+    "EMPTY_STATE": {
+      "TITLE_TEXT": "Start the LDAP integration process by connecting your domains",
+      "MAPPING_TEXT_ONE": "Create directory",
+      "MAPPING_TEXT_TWO": "mappings",
+      "NEW_DOMAIN_TEXT_ONE": "Connect new",
+      "NEW_DOMAIN_TEXT_TWO": "domain",
+      "USERS_TEXT_ONE": "LDAP users are",
+      "USERS_TEXT_TWO": "provisioned in CyberArk"
+    }
+  },
+  "ADD_SAFE_DIALOG": {
+    "TITLE": "Create Safe",
+    "CREATE_SAFE_BUTTON": "Create Safe",
+    "CANCEL_BUTTON": "Cancel",
+    "NEW_SAFE_NAME_LABEL": "New Safe name",
+    "SAFE_NAME_HINT_TEXT_EXTRA_DETAILS": "Use maximum 28 characters",
+    "SAFE_ALREADY_EXISTS_ERROR": "Safe {SAFE_NAME} already exists"
+  },
+  "BUSINESS_USERS": {
+    "PAGE_TITLE": "Business Users",
+    "TAG_EDITOR": {
+      "MAX_TAGS_ERROR": {
+        "TITLE": "Reached maximum tag quota",
+        "TEXT": "A maximum of {{max}} tags is allowed"
+      },
+      "SAVED_SUCCESSFULLY": "The item was saved successfully"
+    },
+    "CONFIRM_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "Are you sure you want to delete '{{name}}'?",
+        "MAIN_MESSAGE": "All item details will be lost."
+      }
+    },
+    "DELETE_BUTTON_TEXT": "Delete",
+    "CANCEL_DIALOG": {
+      "TITLE": "Confirm cancellation",
+      "ADD_BODY": "Are you sure you want to cancel adding the item?",
+      "EDIT_BODY": "Are you sure you want to cancel editing the item?",
+      "SECONDARY_MESSAGE": "Changes that you made will be discarded",
+      "MAIN_ACTION": "Confirm cancellation",
+      "SECONDARY_ACTION": "Do not cancel"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Close",
+      "TITLE": "ERROR"
+    },
+    "ADD_SUCCESS_MESSAGE": {
+      "TITLE": "The item was added successfully"
+    },
+    "EDIT_SUCCESS_MESSAGE": {
+      "TITLE": "The item was edited successfully"
+    },
+    "FAILURE_MESSAGE": {
+      "MAIN_MESSAGE": "Unable to submit the form",
+      "SECONDARY_MESSAGE": "Please try again or contact your administrator"
+    },
+    "ERROR_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "Failed to delete account"
+      },
+      "ADD_ACCOUNT": {
+        "TITLE": "Failed to add account"
+      },
+      "EDIT_ACCOUNT": {
+        "TITLE": "Failed to edit account"
+      },
+      "SHOW_PASSWORD": {
+        "TITLE": "Failed to Show password"
+      },
+      "ADD_BUSINESS_SAFE": {
+        "TITLE": "Failed to add",
+        "TEXT": "Failed to add privileged business credentials because a Safe was not created automatically.\nContact your administrator to resolve this issue.",
+        "SAFE_PROBLEM_TITLE": "Failed to add",
+        "SAFE_PROBLEM_TEXT": "Failed to add privileged business credentials due to an issue with your Safe.\nContact your administrator to resolve this issue."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "Show password",
+      "PASSWORD_INPUT_LABEL": "Password",
+      "COPY_BUTTON_TEXT": "Copy",
+      "SHOW_BUTTON_TEXT": "Show",
+      "CHANGE_BUTTON_TEXT": "Change",
+      "CLOSE_BUTTON_TEXT": "Close",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "The password is empty"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "This password is too long to display in full. click copy to copy the whole password."
+      },
+      "FAILURE_MAIN_TEXT": "Failed to Show password"
+    },
+    "SHOW_USERNAME_DIALOG": {
+      "TITLE": "Show username",
+      "USERNAME_INPUT_LABEL": "Username",
+      "COPY_BUTTON_TEXT": "Copy",
+      "SHOW_BUTTON_TEXT": "Show",
+      "CLOSE_BUTTON_TEXT": "Close",
+      "WARNINGS": {
+        "EMPTY_USERNAME": "The username is empty"
+      },
+      "INFORMATION": {
+        "TOO_LONG_USERNAME": "This username is too long to display in full. click copy to copy the whole username."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "Copy password",
+      "COPY_BUTTON_TEXT": "Copy"
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Password copied to clipboard",
+      "DELETE_ACCOUNT": "The item was deleted"
+    },
+    "ADD": {
+      "PAGE_TITLE": "Add Privilieged Business Credentials"
+    },
+    "EDIT": {
+      "PAGE_TITLE": "Edit Privilieged Business Credentials"
+    },
+    "CLIPBOARD": {
+      "DOWNLOAD_EXTENSION_DIALOG": {
+        "COPY_PASSWORD_TITLE": "Copy Password",
+        "COPY_USERNAME_TITLE": "Copy Username",
+        "MAIN_MESSAGE": "To use this feature, download and install the browser extension/add-on."
+      },
+      "FETCH_PASSWORD_FAILED_DIALOG": {
+        "TITLE": "Copy Password",
+        "MAIN_MESSAGE": "Failed to copy password"
+      },
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Password copied to clipboard",
+      "USERNAME_COPIED_TO_CLIPBOARD": "Username copied to clipboard",
+      "WARNINGS": {
+        "EMPTY_PASSWORD_COPY_TITLE": "Copy password",
+        "EMPTY_USERNAME_COPY_TITLE": "Copy username",
+        "CANNOT_COPY_EMPTY_PASSWORD": "Cannot copy an empty password. The content of the clipboard has not been changed.",
+        "CANNOT_COPY_EMPTY_USERNAME": "Cannot copy an empty username. The content of the clipboard has not been changed."
+      }
+    }
+  },
+  "USERS": {
+    "ACTIVATE": "User has been activated successfully",
+    "CREATE": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} was created successfully"
+    },
+    "DISABLE": {
+      "SUCCESS_MESSAGE": "user was disabled successfully"
+    },
+    "ENABLE": {
+      "SUCCESS_MESSAGE": "user was enabled successfully"
+    },
+    "EDIT": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} was updated successfully"
+    },
+    "ERRORS": {
+      "GET_USERS": "Error while getting users",
+      "GET_USER_DETAILS": "Error while getting user details",
+      "FAILED_TO_ASSIGN_GROUP": "Failed to assign to group",
+      "ADD_USER_TO_GROUPS_ON_CREATE": "The user was created successfully but could not be assigned to all selected groups.\nOpen the PrivateArk Client and assign the user to the groups manually.",
+      "ACTIVATE_USER": "Error while activating user",
+      "DISABLE_USER": "Error while disabling user"
+    },
+    "DIALOGS": {
+      "CREATE_CANCELLATION": {
+        "TITLE": "Confirm cancellation",
+        "BODY": "Are you sure you want to cancel adding new CyberArk user?",
+        "SECONDARY_MESSAGE": "Changes that you made will be discarded",
+        "MAIN_ACTION": "Confirm cancellation",
+        "SECONDARY_ACTION": "Do not cancel"
+      },
+      "EDIT_CANCELLATION": {
+        "TITLE": "Confirm cancellation",
+        "BODY": "Cancel changes to the {{USERNAME}} user?",
+        "SECONDARY_MESSAGE": "Changes that you made will be discarded",
+        "MAIN_ACTION": "Confirm cancellation",
+        "SECONDARY_ACTION": "Do not cancel"
+      },
+      "USERNAME_CHANGED": {
+        "TITLE": "New password required",
+        "BODY": "If you change the username, you must enter a new password",
+        "MAIN_ACTION": "Change username",
+        "SECONDARY_ACTION": "Cancel"
+      }
+    }
+  },
+  "GROUPS": {
+    "ERRORS": {
+      "GET_GROUPS": "Error while getting groups"
+    },
+    "CREATE_SUCCESS_MESSAGE": "Group {{NAME}} was created successfully"
+  },
+  "PLATFORMS": {
+    "TITLE": "Platform Management",
+    "REFRESH": "Refresh",
+    "PLATFORMS_ACTIONS": {
+      "SEARCH_TEXT": "Search for target account platforms",
+      "ERROR_MESSAGE": {
+        "CLOSE": "Close",
+        "OK": "OK",
+        "GENERAL_ERROR": {
+          "HEADER_TITLE": "We're having trouble processing your request",
+          "MAIN_TITLE": "Please try again in a few minutes",
+          "SUB_TITLE": "If that doesn't work, contact your administrator"
+        }
+      },
+      "ACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Activate platform",
+          "PRIMARY_MESSAGE": "Are you sure you want to activate the platform {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "If there are accounts associated with this platform, they will be activated.",
+          "ACTIVATE": "Activate",
+          "CANCEL": "Cancel"
+        },
+        "ERROR_MESSAGE": "Failed to activate platform",
+        "SUCCESS_MESSAGE": "Platform activated successfully"
+      },
+      "DEACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Deactivate platform",
+          "PRIMARY_MESSAGE": "Are you sure you want to deactivate the platform {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "Credentials management will no longer be available for accounts associated with this platform.",
+          "DEACTIVATE": "Deactivate",
+          "CANCEL": "Cancel"
+        },
+        "ERROR_MESSAGE": "Failed to deactivate platform",
+        "SUCCESS_MESSAGE": "Platform deactivated successfully"
+      },
+      "DELETE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Delete platform",
+          "PRIMARY_MESSAGE": "Are you sure you want to delete the platform {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "Credentials management will no longer be available for accounts associated with this platform.",
+          "DELETE": "Delete",
+          "CANCEL": "Cancel"
+        },
+        "ERROR_MESSAGE": "Failed to delete platform",
+        "SUCCESS_MESSAGE": "Platform deleted successfully"
+      },
+      "DUPLICATE": {
+        "ERROR_MESSAGE": "Failed to duplicate platform",
+        "SUCCESS_MESSAGE": "Platform duplicated successfully",
+        "ERROR": {
+          "OK": "OK"
+        }
+      },
+      "EXPORT": {
+        "ERROR_MESSAGE": "Failed to export platform",
+        "SUCCESS_MESSAGE": "Platform exported successfully"
+      },
+      "GET_CLASSIC_UI_EDIT_URL": {
+        "ERROR_MESSAGE": "Failed to load edit platform"
+      },
+      "MANAGE_CONNECTORS": {
+        "UPDATE_PLATFORMS": {
+          "ERROR_MESSAGE": "Failed to update platforms privilege session management",
+          "SUCCESS_MESSAGE": "Platforms privilege session management was updated successfully"
+        },
+        "ERROR_MESSAGE": {
+          "IMPORT_CONNECTION_COMPONENT": "Failed to import connection component",
+          "FAILED_TO_DISPLAY_CONNECTORS_TITLE": "Failed to display connectors",
+          "FAILED_TO_DISPLAY_CONNECTORS_MESSAGE": "We can't display the connectors for this platform right now.\nGo back to the Platform Management page and try again."
+        },
+        "CONFIRMATION_MESSAGE": {
+          "TITLE": "Do you want to leave this page?",
+          "BODY": "Your changes will be lost.",
+          "MAIN_ACTION": "Leave",
+          "SECONDARY_ACTION": "Stay"
+        }
+      }
+    },
+    "MARKETPLACE": "Marketplace",
+    "IMPORT_PLATFORM": "Import platform",
+    "ERROR_MESSAGES": {
+      "IMPORT_PLATFORM_FAILURE": "Failed to import platform",
+      "IMPORT_PLATFORM_MAX_SIZE": "Maximum file size limit exceeded",
+      "IMPORT_FILE_MAX_SIZE": "Maximum file size limit exceeded",
+      "READ_FILE_FAILURE": "Failed to read file"
+    },
+    "SUCCESS_MESSAGES": {
+      "IMPORT_PLATFORM": "Platform was imported successfully"
+    }
+  },
+  "AUTH_METHOD_CONFIG": {
+    "OIDC_PROVIDER": {
+      "SAVE_PROVIDER_SUCCESS_MESSAGE": "The {{PROVIDER_ID}} provider has been saved successfully",
+      "ERROR_MESSAGE": {
+        "CLOSE": "Close",
+        "ADD_PROVIDER_HEADER_TITLE": "Failed to save OIDC Provider",
+        "PARTIAL_SUCCESS_TITLE": "The provider's information was partially saved. The following error occurred:",
+        "REMOVE_PROVIDER_HEADER_TITLE": "Failed to remove OIDC Provider",
+        "PARTIAL_REMOVE_TITLE": "The provider's information was partially removed. The following error occurred:"
+      },
+      "REMOVE_PROVIDER_SUCCESS_MESSAGE": "The {{PROVIDER_ID}} provider has been removed successfully",
+      "REMOVE_DIALOG": {
+        "TITLE": "Are you sure you want to remove provider?",
+        "REMOVE": "Remove",
+        "CANCEL": "Cancel"
+      }
+    }
+  },
+  "PAGE_IS_NO_LONGER_EXISTS": {
+    "TITLE": "You've moved to the Shared Services platform",
+    "TEXT": "Click below for the new sign-in page",
+    "URL": "Sign in to Privilege Cloud on Shared Services"
+  }
+}

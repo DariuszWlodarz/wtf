@@ -1,0 +1,2236 @@
+{
+  "APPLICATION_RESOURCES": {
+    "TITLE": "Password Vault Web Access",
+    "SIGNOUT": "Cerrar sesión",
+    "ABOUT": "Acerca de",
+    "CHANGE_LANGUAGE": "Cambiar",
+    "SKIP_LINK": "Saltar a contenido principal",
+    "LEFT_NAVBAR": {
+      "COLLAPSE": "Contraer",
+      "EXPAND": "Expandir"
+    },
+    "TOP_NAVBAR": {
+      "TITLE": "Información de inicio de sesión",
+      "LAST_SIGN_IN": "Último inicio de sesión",
+      "LAST_SUCCESS_LOGIN_TIME": "Hora del último inicio de sesión",
+      "LAST_FAIL_LOGIN_TIME": "Hora del último error de inicio de sesión",
+      "LAST_SUCCESS_LOGIN_IP": "IP de origen del último inicio de sesión",
+      "LAST_FAIL_LOGIN_IP": "IP de origen del último error de inicio de sesión",
+      "FAILED_LOGINS": "Intentos de inicio de sesión fallidos",
+      "COMFORTABLE_VIEW": "Vista cómoda",
+      "CONDENSED_VIEW": "Vista compacta"
+    }
+  },
+  "LOGIN": {
+    "PAGE_TITLE": "Iniciar sesión"
+  },
+  "CULTURE": {
+    "FEEDBACK_MODAL_CHANGE_LANGUAGE": {
+      "TITLE": "Error al cambiar el idioma",
+      "MAIN_TITLE": "No se han podido actualizar sus preferencias de usuario",
+      "CLOSE_BUTTON_TEXT": "Cerrar"
+    }
+  },
+  "ABOUT_DIALOG": {
+    "TITLE": "Acerca de CyberArk Privileged Access Security",
+    "VERSION": "Versión",
+    "COPYRIGHT": "Copyright 1999-2022 © CyberArk Software",
+    "CLOSE_BUTTON_TEXT": "Cerrar",
+    "CHECK_VERSION": "Comprobar la última versión",
+    "CONTENT": {
+      "P1_1": "Visite nuestra sección de ",
+      "P1_2": "para obtener una lista de los programas de software de código abierto incluidos en CyberArk Vault Software.",
+      "CYBERARK_ACKNOWLEDGMENT": " Reconocimientos "
+    }
+  },
+  "NAVIGATION": {
+    "BUSINESSUSERS": "Usuarios empresariales",
+    "USERPROVISIONING": "Aprovisionamiento del usuario",
+    "USERS": "Usuarios",
+    "GROUPS": "Grupos",
+    "POLICIES": "Políticas",
+    "APPLICATIONS": "Aplicaciones",
+    "ADMINISTRATION": "Administración",
+    "PLATFORMMANAGEMENT": "Gestión de plataformas",
+    "AUTHMETHODCONFIG": "Autenticación OIDC",
+    "CONFIGURATIONOPTIONS": "Opciones de configuración",
+    "REPORTS": "Informes",
+    "GENERATEREPORT": "Generar informe",
+    "REPORTDEFINITIONS": "Definiciones de informe",
+    "SECURITY": "Seguridad",
+    "SECURITYEVENTS": "Eventos de seguridad",
+    "SECURITYSETTINGS": "Configuraciones de seguridad",
+    "ACCOUNTSLIST": "Vista de cuentas",
+    "ACCOUNTSLISTLEGACY": "Vista de cuentas (interfaz clásica)",
+    "ACTIVITIES": "Actividades",
+    "COMPLIANCE": "Conformidad",
+    "INVENTORY": "Inventario",
+    "MONITORING": "Monitorización",
+    "PRIVILEGEDSESSIONS": "Sesiones privilegiadas",
+    "MONITORINGLEGACY": "Monitorización (interfaz clásica)",
+    "MYREQUESTS": "Mis solicitudes",
+    "INCOMINGREQUESTS": "Solicitudes entrantes",
+    "ACCOUNTSFEEDV9": "Pendiente y detección",
+    "ACCOUNTSFEED": "Fuente de cuentas",
+    "FILES": "Archivos",
+    "ALLFILES": "Todos los archivos",
+    "MSP": "Gestión de clientes",
+    "HELP": "Ayuda",
+    "ACCOUNTS": "Cuentas",
+    "DASHBOARD": "Estado del sistema",
+    "ACCOUNTSANDREQUESTS": "Cuentas y solicitudes",
+    "ONBOARDINGRULES": "Reglas de incorporación",
+    "LDAPINTEGRATION": "Integración LDAP"
+  },
+  "SESSION_EXPIRED": {
+    "FEEDBACK_MESSAGE": {
+      "SAME_USER_CONNECTED_MAIN_TITLE": "Esta sesión se ha detenido porque el mismo usuario se ha conectado en otro lugar",
+      "DEFAULT_MAIN_TITLE": "Su sesión ha caducado y su usuario ha sido desconectado.",
+      "HEADER_TITLE": "Sesión caducada",
+      "SUB_TITLE": "Haga clic en Aceptar para volver a la pantalla de inicio de sesión",
+      "CONFIRM_BUTTON_TEXT": "Aceptar",
+      "CLOSE_BUTTON_TEXT": "Cerrar"
+    }
+  },
+  "READ_ONLY_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "PASWS222E La acción no se puede realizar porque el sistema está en modo de solo lectura en estos momentos.",
+      "SUB_TITLE": "En el modo de solo lectura, todas las operaciones de escritura como Agregar cuenta, Solicitudes, Confirmar solicitud, Cambiar contraseña y Generar informe están deshabilitadas. Aún puede usar el sistema para operaciones de lectura como Mostrar/Copiar para contraseñas que no están protegidas por los flujos de trabajo Control dual, Una vez o Contraseña exclusiva.",
+      "HEADER_TITLE": "La acción no está disponible",
+      "CLOSE_BUTTON_TEXT": "Cerrar"
+    },
+    "TOP_NAVBAR": {
+      "HEADER_INDICATION_TITLE_TEXT": "Modo de solo lectura",
+      "HEADER_INDICATION_SUBTITLE_TEXT": "algunas acciones no están disponibles"
+    }
+  },
+  "READ_ONLY_MASTER_IS_AVAILABLE_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "Ya están disponibles todas las funciones.",
+      "SUB_TITLE": "Para completar esta acción debe volver a iniciar sesión para salir del modo de solo lectura.",
+      "HEADER_TITLE": "Esta acción no está disponible en modo de solo lectura",
+      "IGNORE_BUTTON_TEXT": "Ignorar",
+      "LOGOUT_BUTTON_TEXT": "Inicio de sesión"
+    }
+  },
+  "ACCOUNT": {
+    "PAGE_TITLE": "Cuenta",
+    "SELECT_THE_ACCOUNT_TYPE": "Seleccionar el nuevo tipo de cuenta",
+    "SEARCH_PLATFORM_PLACEHOLDER": "Filtrar por nombre de plataforma",
+    "NO_PLATFORMS_FOUND": "No hay plataformas que mostrar",
+    "SELECT_SAFE": "Seleccionar un Safe",
+    "SEARCH_SAFE_PLACEHOLDER": "Filtrar lista por nombre de Safe",
+    "NO_SAFES_FOUND": "No hay ningún Safe que mostrar",
+    "FORM_PRIMARY_PROPERTIES": "Propiedades principales",
+    "FORM_ADDITIONAL_PROPERTIES": "Propiedades adicionales",
+    "FORM_ACCOUNT_MANAGEMENT": "Gestión de cuentas",
+    "OPTIONAL_PROPERTY": "opcional",
+    "PASSWORD": "Contraseña",
+    "RESOLVE": "Resolver",
+    "ACCOUNT_NAME": "Nombre de la cuenta",
+    "CUSTOMIZE_ACCOUNT_NAME": "Personalizar nombre de cuenta",
+    "CUSTOMIZE_ACCOUNT_NAME_PLACEHOLDER": "Especificar nombre de cuenta personalizado",
+    "AUTO_GENERATE_CALLOUT_TITLE": "Patrón de nombre de contraseña generado automáticamente",
+    "AUTO_CPM_MANAGE": "Permitir gestión automática de contraseñas",
+    "AUTO_CPM_MANAGE_PLACEHOLDER": "Indique el motivo de la solicitud de gestión manual",
+    "CONFIRM_PASSWORD": "Confirmar contraseña",
+    "AMAZON_ACCESS_KEY": "Secreto de la clave de acceso de AWS",
+    "FEEDBACK_MESSAGE_TITLE": "Corrija los siguientes errores",
+    "LIMIT_ACCESS_TO_MACHINES": "Limitar el acceso a estas máquinas solamente",
+    "REMOTE_MACHINE_ACCESS": "Acceso a equipo remoto",
+    "KEYWORDS_PROPERTY_HINT_TEXT": "Palabras clave separadas por punto y coma"
+  },
+  "ADD_ACCOUNT": {
+    "TITLE": "Agregar cuenta",
+    "PAGE_TITLE": "Agregar cuenta",
+    "SELECTED_TILE_HOVER_TEXT": "Cambiar",
+    "ADD_ACTION": "Agregar",
+    "CANCEL": "Cancelar",
+    "ADD_SAFE": "Crear Safe",
+    "STEPS": {
+      "SELECT_SYSTEM_TYPE": "Seleccionar el tipo de sistema",
+      "SELECT_SYSTEM_TYPE_TITLE": "Seleccionar el tipo de sistema",
+      "ASSIGN_PLATFORM": "Asignar a plataforma",
+      "ASSIGN_PLATFORM_TITLE": "Seleccionar plataforma",
+      "SELECT_SAFE": "Guardar en el Safe",
+      "SELECT_SAFE_TITLE": "Seleccionar Safe",
+      "DEFINE_PROPERTIES": "Definir las propiedades",
+      "DEFINE_PROPERTIES_TITLE": "Definir las propiedades de la cuenta"
+    },
+    "SUCCESS_MESSAGE": {
+      "TITLE": "La cuenta se ha agregado correctamente"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "Error al agregar la cuenta. Motivo:"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "Cambiar plataforma",
+      "CHANGE_SYSTEM_TYPE_TITLE": "Cambiar tipo de sistema",
+      "OK": "Cambiar",
+      "CANCEL": "Cancelar",
+      "SECONDARY_MESSAGE": "Para completar este cambio, es posible que deba actualizar las propiedades de la cuenta.",
+      "PLATFORM_PRIMARY_MESSAGE": "¿Está seguro de que desea cambiar la plataforma a",
+      "SYSTEM_TYPE_PRIMARY_MESSAGE": "¿Seguro que desea cambiar el tipo de sistema a"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Cerrar",
+      "TITLE": "ERROR"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "Confirmar cancelación",
+      "BODY": "¿Seguro que desea cancelar la incorporación de la cuenta?",
+      "SECONDARY_MESSAGE": "Se descartarán los cambios que ha realizado",
+      "MAIN_ACTION": "Confirmar cancelación",
+      "SECONDARY_ACTION": "No cancelar"
+    }
+  },
+  "EDIT_ACCOUNT": {
+    "TITLE": "Editar cuenta",
+    "PAGE_TITLE": "Editar cuenta",
+    "CHANGE_THE_PLATFORM_TYPE": "Cambiar una plataforma",
+    "SAVE": "Guardar",
+    "CANCEL": "Cancelar",
+    "GENERAL": "General",
+    "CANCEL_EDIT": "Cancelar edición",
+    "INACTIVE_PLATFORM": "Plataforma inactiva",
+    "DELETED_PLATFORM": "Plataforma no encontrada",
+    "PLATFORM_X_INACTIVE": "La plataforma {{platformName}} está inactiva",
+    "WAS_DELETED": "se eliminó",
+    "DELETED_PLATFORM_MESSAGE": "No se puede encontrar la plataforma asignada a esta cuenta",
+    "DELETED_PLATFORM_SECONDARY_MESSAGE": "Seleccionar otra plataforma. Esto establecerá automáticamente el tipo de cuenta",
+    "SELECT_PLATFORM": "Seleccionar plataforma",
+    "SELECT_A_PLATFORM": "Seleccionar una plataforma",
+    "CHANGE_PLATFORM": "Cambiar plataforma",
+    "INACTIVE": "inactiva",
+    "INACTIVE_PLATFORM_MESSAGE": "La gestión de cuentas no se aplica a una plataforma inactiva",
+    "CONTINUE_WITH_CURRENT": "Continuar con la plataforma actual",
+    "DELETED": "eliminada",
+    "STEPS": {
+      "SELECTED_SYSTEM_TYPE": "Tipo de sistema seleccionado",
+      "ASSIGNED_PLATFORM": "Asignado a plataforma",
+      "CHANGE_PLATFORM_TITLE": "Cambiar plataforma",
+      "SELECTED_SAFE": "Guardado en el Safe",
+      "ACCOUNT_PROPERTIES": "Propiedades de la cuenta",
+      "ACCOUNT_PROPERTIES_TITLE": "Propiedades de la cuenta"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "Cambiar plataforma",
+      "OK": "Cambiar",
+      "CANCEL": "Cancelar",
+      "SECONDARY_MESSAGE": "Para completar este cambio, es posible que deba actualizar las propiedades de la cuenta.",
+      "PLATFORM_PRIMARY_MESSAGE": "¿Está seguro de que desea cambiar la plataforma a"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "Confirmar cancelación",
+      "BODY": "¿Seguro que desea cancelar la edición de la cuenta?",
+      "SECONDARY_MESSAGE": "Se descartarán los cambios que ha realizado",
+      "MAIN_ACTION": "Confirmar cancelación",
+      "SECONDARY_ACTION": "No cancelar"
+    },
+    "SUCCESS_MESSAGE": "La cuenta se ha guardado correctamente",
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Cerrar",
+      "TITLE": "Editar cuenta",
+      "CANCEL": "Cancelar"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "Error al actualizar la cuenta. Motivo: {{errorReason}}",
+      "MAIN_MESSAGE": "No todas las propiedades se han actualizado. Vuelva a intentarlo"
+    }
+  },
+  "SAFES": {
+    "PAGE_TITLE": "Safes",
+    "TITLE": "Safes",
+    "SEARCH_TEXT": "Buscar por nombre de Safe",
+    "ADD_ACTION": "Nuevo Safe",
+    "DETAILS": "Detalles",
+    "MEMBERS": "Miembros",
+    "DELETE": "Eliminar",
+    "EDIT": "Editar",
+    "CLOSE_ACTION": "Cerrar"
+  },
+  "ADD_SAFE": {
+    "PAGE_TITLE": "Nuevo Safe",
+    "ADD_ACTION": "Agregar",
+    "CANCEL_ACTION": "Cancelar",
+    "CLOSE_ACTION": "Cerrar",
+    "SAFE_NAME_FIELD_TITLE": "Nombre de Safe",
+    "SAFE_NAME_HINT_TEXT": "Introduzca el nombre del Safe de acuerdo con la convención de nomenclatura de su organización.",
+    "SAFE_DESCRIPTION_FIELD_TITLE": "Descripción (opcional)",
+    "OLAC_LABEL": "Control de acceso a nivel de objeto",
+    "OLAC_WARNING_MESSAGE": "Esta función no se puede desactivar después de agregar el Safe",
+    "ADVANCED_DETAILS_LABEL": "Detalles avanzados",
+    "CHARACTERS_LEFT_LABEL": " caracteres restantes",
+    "CHARACTERS_OVER_LABEL": " caracteres de más",
+    "ASSIGNED_CPM_FIELD_TITLE": "Asignado a CPM",
+    "ASSIGNED_CPM_NO_VALUE": "[Ninguno]",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "El Safe se ha agregado correctamente"
+    },
+    "ERROR_MESSAGE": {
+      "HEADER_TITLE": "Nuevo Safe",
+      "SUB_TITLE": "Vuelva a intentarlo."
+    },
+    "SAFE_VERSION_MANAGEMENT_FIELD_TITLE": "Gestión de versiones",
+    "RADIO_BUTTONS": {
+      "RETENTION": {
+        "TEXT": "Guardar versiones de cuenta para un",
+        "BOLD_TEXT": "periodo de tiempo:",
+        "UNITS": "días"
+      },
+      "VERSIONS": {
+        "TEXT": "Guardar última cuenta",
+        "BOLD_TEXT": "versiones:",
+        "UNITS": "versiones"
+      }
+    }
+  },
+  "SAFE_DETAILS": {
+    "SAFE_NAME": "Nombre de Safe",
+    "ASSIGNED_CPM": "Asignado a CPM",
+    "DESCRIPTION": "Descripción",
+    "VERSION_MANAGEMENT": "Gestión de versiones",
+    "OLAC_ENABLED": "Control de acceso a nivel de objeto",
+    "AUTO_PURGE_ENABLED": "Purga automática del Safe",
+    "ADVANCED_DETAILS": "Detalles avanzados",
+    "NONE_STR": "[Ninguno]",
+    "DASH_STR": "-",
+    "ENABLED_STR": "Habilitado",
+    "DISABLED_STR": "Deshabilitado",
+    "VERSIONS_RETENTION_FIRST_PART": "Guardar última ",
+    "VERSIONS_RETENTION_SECOND_PART": " cuenta",
+    "VERSIONS_RETENTION_THIRD_PART": " versiones",
+    "VERSIONS_RETENTION_SINGLE": "Guardando la última cuenta ",
+    "VERSIONS_RETENTION_SINGLE_BOLD": "versión",
+    "DAYS_RETENTION_FIRST_PART": "Guardando versiones de la cuenta desde los últimos ",
+    "DAYS_RETENTION_SECOND_PART": " días",
+    "DAYS_RETENTION_SINGLE": "Guardando versiones de la cuenta desde el  último ",
+    "DAYS_RETENTION_SINGLE_BOLD": "día",
+    "EXPIRED_MEMBERSHIP_ERROR": "Su pertenencia a este Safe ha caducado"
+  },
+  "FEEDBACK_MESSAGE": {
+    "CLOSE": "Cerrar",
+    "REFRESH": "Actualizar",
+    "GENERIC_DATA_ERROR": {
+      "TITLE": "Algo ha fallado",
+      "SUBTITLE": "Inténtelo de nuevo o póngase en contacto con el administrador"
+    }
+  },
+  "ACCOUNTS": {
+    "DELETE_SUCCESS": "La cuenta se ha eliminado correctamente",
+    "CHANGE_IN_VAULT_SUCCESS": "La contraseña se ha cambiado correctamente en Vault",
+    "PAGE_TITLE": "Cuentas",
+    "TITLE": "Vista de cuentas",
+    "SEARCH_TEXT": "Buscar cuentas",
+    "REFRESH": "Actualizar",
+    "ADD_ACTION": "Agregar cuenta",
+    "AD_HOC_CONNECT_ACTION": "Conexión ad hoc",
+    "EDIT_ACTION": "Editar cuenta",
+    "ADD_TO_FAVORITE": "Agregar a Favoritos",
+    "DELETE_FROM_FAVORITE": "Eliminar de favoritos",
+    "COUNTER_TITLE": "Cuentas",
+    "COUNTER_TITLE_ON_SEARCH": "Cuentas para: ",
+    "SELECTED_ACCOUNTS": "cuentas seleccionadas",
+    "SELECTED_ACCOUNT": "cuenta seleccionada",
+    "NO_ACCOUNTS": "No hay cuentas que mostrar",
+    "AD_HOC_CONNECTION": {
+      "AD_HOC_CONNECTION_TITLE": "Conexión ad hoc",
+      "CONNECT_BUTTON": "Conectar",
+      "CANCEL_BUTTON": "Cancelar"
+    },
+    "ACCOUNT_DETAILS": {
+      "ALL": "Todo",
+      "NO_RESULTS": "No se encontraron resultados que coincidan con sus filtros",
+      "ACTION": "Acción",
+      "SEARCH": "Buscar",
+      "PAGE_TITLE": "Detalles de cuenta",
+      "SAFE": "Safe",
+      "PLATFORM": "Plataforma",
+      "PLATFORM_DETAILS": "Detalles de la plataforma",
+      "PLATFORM_PROPERTIES": "Propiedades de plataforma",
+      "DUAL_CONTROL": "Control dual",
+      "COPY": "Copiar",
+      "SHOW": "Mostrar",
+      "EDIT": "Editar",
+      "CONNECT": "Conectar",
+      "INACTIVE_PLATFORM": "Plataforma inactiva",
+      "ON": "El",
+      "ACTIVITIES": "Actividades",
+      "GROUP_NAME": "Nombre de grupo",
+      "GROUP_PLATFORM": "Plataforma de grupo",
+      "LATEST": "Último",
+      "LAST": "Último",
+      "COMPLIANT": "Conforme",
+      "NOT_COMPLIANT": "No conforme",
+      "COMPLIANCE_STATUS": "Estado de conformidad",
+      "LAST_VERIFIED": "Última comprobación",
+      "VERIFIED_BY": "Comprobado por",
+      "VERIFIED_ON": "Comprobado el",
+      "NEVER_VERIFIED": "No comprobada nunca",
+      "CREATED": "Creado",
+      "DAYS_AGO": "Días atrás",
+      "FAILED": "con errores",
+      "TOTAL": "total",
+      "BY": "por",
+      "Reconcile": "Reconciliado por",
+      "Change": "Cambiado por",
+      "LAST_ACCESS": "Último acceso",
+      "YESTERDAY": "Ayer",
+      "TODAY": "Hoy",
+      "DEPENDENCIES": "Dependencias",
+      "OVERVIEW": "Descripción general",
+      "DETAILS": "Detalles",
+      "RECORDINGS": "Grabaciones",
+      "NO_RECORDINGS": "no hay grabaciones para esta cuenta",
+      "NO_ACTIVITIES": "no hay actividades para esta cuenta",
+      "ACTIVITIES_FOR_THIS_ACCOUNT": "Actividades para esta cuenta",
+      "NO_ACTIVITIES_FOUND": "No se han encontrado actividades",
+      "USER": "Usuario",
+      "DATE": "Fecha",
+      "DURATION": "Duración",
+      "RISK": "Riesgo",
+      "NA": "N/D",
+      "NONE": "Ninguno",
+      "UNKNOWN": "Desconocido",
+      "VERSION": "Versiones",
+      "SUGGESTED_REMOTE_MACHINES": "Equipos remotos sugeridos",
+      "PERMITTED_REMOTE_MACHINES": "Equipos remotos permitidos",
+      "FEEDBACK_MODAL": {
+        "CLOSE": "Cerrar",
+        "TITLE": "Detalles de la cuenta",
+        "MESSAGE": "No se pudieron obtener los detalles de la cuenta."
+      },
+      "ACCOUNT_STATUS": {
+        "CANCEL": "CANCELAR",
+        "RESUME": "REANUDAR",
+        "RESTORE": "RESTAURAR",
+        "CHECKIN": "ENTRADA",
+        "MORE": "Más",
+        "MODAL_TITLE_ERROR": "Detalles del error",
+        "MODAL_TITLE_DISABLED": "CPM deshabilitado",
+        "REASON": "El CPM está tratando de (0) esta contraseña, ya que su estado coincide con los siguientes criterios de búsqueda: (1)",
+        "TASK_TYPES": {
+          "ReconcileTask": "reconciliar",
+          "VerifyTask": "comprobar",
+          "ChangeTask": "cambiar",
+          "UnknownTask": "[unknown]",
+          "DeleteTask": "eliminar"
+        }
+      },
+      "DUAL_CONTROL_STATUS": {
+        "REQUEST_NEEDED": "Solicitud requerida",
+        "WAITING": "Solicitud pendiente",
+        "CONFIRMED": "Solicitud confirmada",
+        "REJECTED": "Solicitud rechazada",
+        "EXPIRED": "Solicitud vencida"
+      },
+      "ACCOUNT_STATUS_TYPE": {
+        "TITLE": {
+          "CheckedOut": "Esta cuenta está bloqueada por LOCKED_BY",
+          "AutomaticManagementCPM": "El CPM ha deshabilitado la gestión automática para esta cuenta",
+          "CPMFailed": "El CPM no ha podido ACTION esta cuenta",
+          "DisabledByCPM": "Deshabilitadas por el CPM",
+          "FailedToVerify": "El CPM no ha podido comprobar esta contraseña",
+          "FailedToReconcile": "El CPM no ha podido reconciliar esta contraseña",
+          "FailedToChange": "El CPM no ha podido cambiar esta contraseña",
+          "FailedToDelete": "El CPM no ha podido eliminar esta contraseña",
+          "Inactive": "Esta cuenta no se puede gestionar de forma automática, ya que está asignada a una plataforma inactiva",
+          "NewlyAdded": "Cuenta agregada recientemente",
+          "Deleted": "Esta cuenta se ha eliminado por DELETED_BY a las DELETED_TIME",
+          "ScheduleForDeletion": "Esta cuenta está programada para eliminación",
+          "ScheduleForVerify": "Esta cuenta está programada para comprobación inmediata",
+          "ScheduleForReconcile": "Esta cuenta está programada para reconciliación inmediata",
+          "ScheduleForChange": "Se ha programado manualmente el cambio de la contraseña de esta cuenta",
+          "DisabledByUser": "Gestión automática deshabilitada por el usuario",
+          "AutomaticDisabled": "Un usuario ha deshabilitado la gestión automática para esta cuenta"
+        }
+      },
+      "ACCOUNT_PROPERTIES": "Propiedades de la cuenta",
+      "LINKED_ACCOUNTS": "Cuentas vinculadas",
+      "VERSIONS_TAB": {
+        "MODIFIED_BY": "Modificado por",
+        "DATE": "Fecha",
+        "TIME": "Hora",
+        "CPM_TEMPORARY_TOGGLE": "Ocultar versiones de contraseña temporal de CPM",
+        "TEMP": "(TEMP)"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Más detalles y acciones en la interfaz clásica",
+        "CALLOUT_TITLE": "Interfaz clásica",
+        "CALLOUT_TEXT": "Es posible que esta cuenta contenga otras\nfuncionalidades que solo están disponibles en la interfaz clásica.\n\nSiempre podrá regresar a las vistas de\ncuenta."
+      },
+      "CPM_TASKS": {
+        "VERIFY": {
+          "ACTION": "Comprobar",
+          "SUCCESS": "La cuenta está marcada para comprobación",
+          "ERROR_MESSAGE": "No se ha podido marcar la cuenta para comprobación",
+          "ERROR_TITLE": "Algo ha fallado"
+        },
+        "RECONCILE": {
+          "ACTION": "Reconciliar",
+          "SUCCESS": "La cuenta está marcada para reconciliación",
+          "ERROR_MESSAGE": "No se ha podido marcar la cuenta para reconciliación",
+          "ERROR_TITLE": "Algo ha fallado"
+        },
+        "CHANGE": {
+          "ACTION": "Cambiar",
+          "SUCCESS": "La cuenta está marcada para cambio",
+          "ERROR_MESSAGE": "No se ha podido marcar la cuenta para cambio",
+          "ERROR_TITLE": "Algo ha fallado",
+          "DIALOG": {
+            "TITLE": "Cambiar la contraseña de la cuenta",
+            "MESSAGE": "El CPM cambiará la contraseña por una contraseña nueva aleatoria",
+            "CHANGE_BUTTON_TEXT": "Cambiar",
+            "CANCEL_BUTTON_TEXT": "Cancelar",
+            "BELONGS_TO_GROUP_MESSAGE": "Esta cuenta pertenece a un grupo de cuentas. El CPM hará lo siguiente:",
+            "CHANGE_ENTIRE_GROUP": "Cambiar la contraseña de todo el grupo",
+            "SYNC_WITH_GROUP": "Sincronizar la contraseña de las cuentas actual con la contraseña del grupo",
+            "CHANGE_GROUP_CLASSIC_UI": "La interfaz de usuario clásica permite cambiar la contraseña de una cuenta agrupada.\nAbra esta cuenta en la interfaz de usuario clásica.",
+            "REDIRECT_BUTTON_TEXT": "Abierto"
+          }
+        },
+        "OK_BUTTON": "Aceptar"
+      }
+    },
+    "CATEGORIES": {
+      "MY_ACCOUNTS": "Mis cuentas",
+      "STATUS": "Estado",
+      "OPERATIONAL_STATE": "Estado operativo"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "Conexión de puerta de enlace PSM"
+    },
+    "FILTERS": {
+      "ALL_ACCOUNTS": "Todas las cuentas",
+      "RECENTLY_USED": "Utilizadas recientemente",
+      "FAVORITES": "Favoritas",
+      "DISABLED_BY_CPM": "Deshabilitadas por el CPM",
+      "CHECKED-OUT": "Sesión cerrada",
+      "FAILED": "Con errores",
+      "FAILED_DEPENDENCIES": "Dependencias erróneas",
+      "NEWLY_ADDED": "Agregadas recientemente",
+      "DELETED": "Eliminada",
+      "DISABLED_BY_USER": "Deshabilitada por el usuario",
+      "SCHEDULED_FOR_CHANGE": "Programadas para cambio",
+      "SCHEDULED_FOR_VERIFICATION": "Programadas para comprobación",
+      "SCHEDULED_FOR_RECONCILIATION": "Programadas para reconciliación",
+      "SUCCESSFULLY_RECONCILED": "Reconciliadas correctamente",
+      "ACCESS_IN_LAST_X_DAYS": "Acceso realizado en los últimos {{number}} días",
+      "MODIFIED_BY_USER_IN_LAST_X_DAYS": "Modificadas por el usuario en los últimos {{number}} días",
+      "MODIFIED_BY_CPM_IN_LAST_X_DAYS": "Modificadas por el CPM en los últimos {{number}} días"
+    },
+    "EMPTY_STATE": {
+      "RECENT_EMPTY_TITLE": "No hay vistas recientes para mostrar",
+      "SAVED_EMPTY_TITLE": "No hay vistas guardadas que mostrar",
+      "SAVED_EMPTY_TEXT": "Guarde sus vistas recientes"
+    },
+    "SAVED_SEARCHES_INFO_MESSAGE": {
+      "PRIMARY_TEXT": "Más vistas guardadas",
+      "SECONDARY_TEXT": "Gestionar vistas guardadas en la interfaz V9"
+    },
+    "REASON": {
+      "REASON_DEFAULT_CAPTION": "Motivo",
+      "OPTIONAL": "Opcional",
+      "SELECT": "Seleccionar",
+      "ENTER_OR_SELECT_A_REASON": "Introduzca o seleccione un motivo",
+      "OTHER": "Otros"
+    },
+    "TICKETING": {
+      "TICKETING_SECTION_MAIN_TITLE": "Información del ticket",
+      "TICKETING_SYSTEM_DEFAULT_CAPTION": "Sistema de emisión de billetes",
+      "TICKETING_ID_DEFAULT_CAPTION": "ID de ticketing",
+      "TICKETING_BYPASS_SUCCESS_MESSAGE": "Se ha introducido correctamente un ticket de derivación",
+      "TICKETING_ID_IS_INVALID": "ID de ticket no válido"
+    },
+    "CONNECTION": {
+      "TITLE": "Detalles de la conexión remota",
+      "SAVE_TO_ACCOUNTS": "Guardar esto en la propiedad de la cuenta",
+      "OPTIONAL": "Opcional",
+      "AVAILABLE_MACHINES_TITLE": "Equipos disponibles:",
+      "AVAILABLE_MACHINES_ACCOUNTS_HINT": "Para ver una lista de todos los equipos disponibles, vaya a los detalles de la cuenta",
+      "AVAILABLE_MACHINES_REQUEST_HINT": "Para ver una lista de todos los equipos disponibles, vaya a los detalles de la solicitud",
+      "SEPARATE_THE_MACHINE_WITH_COMMA": "Separe los equipos con comas",
+      "ADD_MORE_REMOTE_MACHINE_TO_THE_LIST": "Agregar más equipos remotos a la lista",
+      "ENTER_OR_SELECT_A_REMOTE_MACHINE": "Introduzca o seleccione un equipo remoto"
+    },
+    "GRID_ACTIONS": {
+      "COPY_ACTION": "Copiar",
+      "REQUEST_COPY_ACTION": "Solicitar copiar",
+      "SHOW_ACTION": "Mostrar",
+      "REQUEST_SHOW_ACTION": "Solicitar mostrar",
+      "EDIT_ACTION": "Editar",
+      "CONNECT_ACTION": "Conectar",
+      "REQUEST_CONNECT_ACTION": "Solicitar conexión",
+      "Default": "Predeterminado",
+      "CONNECT_WITH": "Conectar con",
+      "CHECKIN_ACTION": {
+        "TITLE": "Entrada",
+        "SUCCESS_MESSAGE": "La cuenta está marcada para la entrada",
+        "OK": "Aceptar"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Más detalles y acciones en la interfaz clásica",
+        "CALLOUT_TITLE": "Interfaz clásica",
+        "CALLOUT_TEXT": "Es posible que la vista de cuentas contenga otras\nfuncionalidades que solo están disponibles en la interfaz clásica.\n\nSiempre podrá regresar a las 'Vistas de\ncuenta' de la nueva interfaz."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "Mostrar contraseña",
+      "PASSWORD_INPUT_LABEL": "Contraseña",
+      "COPY_BUTTON_TEXT": "Copiar",
+      "SHOW_BUTTON_TEXT": "Mostrar",
+      "CLOSE_BUTTON_TEXT": "Cerrar",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "La contraseña está vacía"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "Esta contraseña es demasiado larga para mostrarla en su totalidad. Haga clic en copiar para copiar la contraseña completa."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "Copiar contraseña",
+      "COPY_BUTTON_TEXT": "Copiar"
+    },
+    "SAVE_SEARCH_DIALOG": {
+      "TITLE": "Guardar como",
+      "SAVE_BUTTON_TEXT": "Guardar",
+      "CANCEL_BUTTON_TEXT": "Cancelar",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Esta vista se ha guardado",
+        "WARNING": {
+          "HEADER_TEXT": "No se ha podido guardar",
+          "MAIN_TEXT": "Ya existe una vista con este nombre"
+        },
+        "ERROR": {
+          "HEADER_TEXT": "Se ha alcanzado el límite de vistas guardadas",
+          "MAIN_TEXT": "Ha alcanzado el límite de vistas guardadas. Elimine las vistas existentes para poder guardar nuevas vistas.",
+          "CLOSE_BUTTON_TEXT": "Cerrar"
+        }
+      }
+    },
+    "RENAME_DIALOG": {
+      "TITLE": "Renombrar",
+      "RENAME_BUTTON_TEXT": "Renombrar",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Esta vista ha cambiado de nombre",
+        "WARNING": {
+          "HEADER_TEXT": "No se puede cambiar el nombre",
+          "MAIN_TEXT": "Ya existe una vista con este nombre"
+        },
+        "WARNING_OLD_UI": {
+          "HEADER_TEXT": "No se puede cambiar el nombre",
+          "MAIN_TEXT": "Ya existe una vista con este nombre en la interfaz V9"
+        },
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Cerrar"
+        }
+      }
+    },
+    "COMMON_DIALOG": {
+      "CANCEL_BUTTON_TEXT": "Cancelar"
+    },
+    "DELETE_ACTION": {
+      "TITLE": "Eliminar",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Esta vista se ha eliminado",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Cerrar"
+        }
+      },
+      "DELETE_DEFAULT_CONFIRMATION": {
+        "TITLE": "Eliminar vista",
+        "MAIN_TEXT": " es actualmente la vista predeterminada. Después de eliminarla, los ajustes del sistema definirán la vista predeterminada",
+        "SUB_TEXT": "¿Está seguro de que desea eliminar esta vista?",
+        "CONFIRM_BUTTON_TEXT": "Eliminar vista",
+        "CANCEL_BUTTON_TEXT": "Cancelar"
+      }
+    },
+    "SET_DEFAULT_ACTION": {
+      "TITLE": "Definir como predeterminada",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "Esta vista se ha definido como predeterminada",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "Cerrar"
+        }
+      }
+    },
+    "FILTERS_ACTIONS": {
+      "SAVE_ACTION_TEXT": "Guardar como",
+      "SET_AT_DEFAULT_TEXT": "Definir como predeterminada",
+      "RENAME_TEXT": "Renombrar",
+      "DELETE_TEXT": "Eliminar"
+    },
+    "CONNECT_PREREQUISITES_DIALOG": {
+      "TITLE": "Conectar",
+      "CONNECT_BUTTON_TEXT": "Conectar"
+    },
+    "DUAL_CONTROL": {
+      "PAGE_TITLE": "Crear solicitud",
+      "HEADER": {
+        "REQUEST_SHOW": "Solicitud para mostrar",
+        "REQUEST_COPY": "Solicitud para copiar",
+        "REQUEST_CONNECT": "Solicitud para conectar con"
+      },
+      "TIMEFRAME_TITLE": "Período",
+      "REQUEST_TIMEFRAME": "Plazo de solicitud",
+      "MULTIPLE_ACCESS_REQUIRED": "Se requiere acceso múltiple",
+      "MULTIPLE_ACCESS_LABEL": "Se permitirá acceso múltiple durante este período",
+      "CONFIRMATION": {
+        "TITLE": "Confirmación",
+        "CURRENTLY_THERE_ARE_NO_CONFIRMERS_TO_DISPLAY": "En este momento no hay confirmantes para mostrar",
+        "MULTIPLE_USERS_MUST_CONFIRM": "{{number}} usuarios deben confirmar la solicitud",
+        "ONE_USER_MUST_CONFIRM": "Un usuario debe confirmar la solicitud",
+        "MULTILEVEL_MULTIPLE_USERS_MUST_CONFIRM": "{{number}} usuarios desde el primer nivel y {{number}} usuarios desde el segundo nivel deberán confirmar la solicitud",
+        "MULTILEVEL_ONE_USER_MUST_CONFIRM": "Un usuario desde el primer nivel y un usuario desde el segundo nivel deberán confirmar la solicitud",
+        "CONFIRMERS_LIST_TOGGLE": "Lista de supervisores"
+      },
+      "ADDITIONAL_INFORMATION_TITLE": "Información adicional",
+      "SEND_REQUEST": "Enviar solicitud"
+    },
+    "BULK_CHANGE": {
+      "DIALOG_TITLE": "Cambiando {{value}} cuentas",
+      "DIALOG_PROGRESS_BAR_TITLE": "cuentas que cambian"
+    },
+    "ERRORS": {
+      "CREATE_REQUEST_COPY_PASSWORD_ERROR_DIALOG_TITLE": "Crear solicitud para copiar contraseña",
+      "CREATE_REQUEST_SHOW_PASSWORD_ERROR_DIALOG_TITLE": "Crear solicitud para mostrar contraseña",
+      "CREATE_REQUEST_CONNECT_PASSWORD_ERROR_DIALOG_TITLE": "Crear solicitud para conectar con contraseña"
+    },
+    "COPY_EXTENSIONS_CONFIRM_MESSAGES": "Para usar esta función, descargue e instale la extensión/complemento del navegador.",
+    "WARNINGS_MESSAGES": {
+      "EMPTY_COPY_TITLE": "Copiar contraseña",
+      "CANNOT_COPY_EMPTY_PASSWORD": "No se puede copiar una contraseña vacía. El contenido del portapapeles no se ha cambiado."
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Contraseña copiada en el portapapeles",
+      "REQUEST_WAS_SENT": "La solicitud se ha enviado"
+    },
+    "DUAL_CONTROL_TOOLTIPS": {
+      "REQUEST_NEEDED": "Se necesita una solicitud",
+      "WAITING_RESTRICTED": "Ya tiene una solicitud de conexión pendiente, para una solicitud de muestra o copia, elimine esta solicitud y envíe una nueva.",
+      "WAITING_NOT_RESTRICTED": "Esta solicitud está pendiente",
+      "CONFIRMED_RESTRICTED": "Esta solicitud de conexión está confirmada",
+      "CONFIRMED_NOT_RESTRICTED": "Esta solicitud está confirmada",
+      "REJECTED": "Esta solicitud está rechazada",
+      "EXPIRED": "Esta solicitud está caducada",
+      "INVALID": "Esta solicitud no es válida",
+      "FUTURE_REQUEST_CONFIRMED": "Se ha aprobada una solicitud futura",
+      "RESTRICTED_CONNECTION_REQUEST_CONFIRMED": "Se ha aprobada una solicitud de conexión. Para obtener una confirmación de {{actionName}}, elimine la solicitud existente y cree una nueva.",
+      "RESTRICTED_FUTURE_CONNECTION_REQUEST_CONFIRMED": "Se ha aprobada una solicitud de conexión futura. Para obtener una confirmación de {{actionName}}, elimine la solicitud existente y cree una nueva."
+    }
+  },
+  "PENDING_ACCOUNTS": {
+    "PAGE_TITLE": "Cuentas pendientes",
+    "TITLE": "Cuentas pendientes",
+    "NO_PENDING_ACCOUNTS": "No hay cuentas pendientes que mostrar",
+    "COUNTER_TITLE": "Cuentas pendientes",
+    "SELECTED_PENDING_ACCOUNTS": "cuentas pendientes seleccionadas",
+    "SEARCH_TEXT": "Buscar cuentas pendientes",
+    "ERROR_FEEDBACK_MODAL": {
+      "TITLE": "Algo ha fallado",
+      "OK": "Aceptar"
+    },
+    "FILTERS": {
+      "SYSTEM_TYPE": {
+        "TITLE": "Tipo de sistema",
+        "OPTIONS": {
+          "ALL": "Todo",
+          "WINDOWS": "Windows",
+          "UNIX": "Unix"
+        }
+      },
+      "ACCOUNT_TYPE": {
+        "TITLE": "Tipo de cuenta",
+        "OPTIONS": {
+          "LOCAL": "Local",
+          "DOMAIN": "Dominio",
+          "ALL": "Todo"
+        }
+      },
+      "ACCOUNT_CATEGORY": {
+        "TITLE": "Categoría de la cuenta",
+        "OPTIONS": {
+          "PRIVILEGED": "Con privilegios",
+          "NON_PRIVILEGED": "Sin privilegios",
+          "ALL": "Todo"
+        }
+      },
+      "DISCOVERED_BY": {
+        "TITLE": "Descubierto por",
+        "OPTIONS": {
+          "CPM_SCANNER": "Escáner CPM",
+          "EXTERNAL_SOURCE": "Origen externo",
+          "ALL": "Todo"
+        }
+      }
+    },
+    "APPLYFILTERS": "Aplicar filtros"
+  },
+  "REQUESTS": {
+    "DETAILS": {
+      "TITLE_KEY": "Solicitud",
+      "TITLE_VALUE_PREFIX": "Cuenta",
+      "TIMEFRAME": "Periodo de tiempo",
+      "REASON": "Motivo",
+      "PERMISSION": "Permiso para",
+      "ACCESS": "Acceso",
+      "REQUESTED_ON": "Solicitada el",
+      "REQUEST_ID": "ID de solicitud",
+      "ADDRESS": "Dirección",
+      "ACCOUNT_NAME": "Nombre de cuenta",
+      "ACCOUNT_SAFE": "Safe de cuenta",
+      "ACCOUNT_PLATFORM": "Plataforma de cuenta",
+      "EMERGENCY": "Emergencia",
+      "STATUS": "Estado",
+      "START_FOR_SCCESS": "para",
+      "END_FOR_SCCESS": "acceso",
+      "FOR_ACCOUNT": "para la cuenta"
+    },
+    "ACCOUNT_DETAILS": {
+      "NAME": "Nombre",
+      "SAFE": "Safe",
+      "PLATFORM": "Plataforma",
+      "ADDRESS": "Dirección",
+      "USERNAME": "Nombre de usuario",
+      "LOGON TO": "Iniciar sesión en",
+      "LOCATION": "Ubicación",
+      "OWNER NAME": "Nombre del propietario",
+      "USER DN": "DN del usuario",
+      "COPY": "Copiar",
+      "SHOW": "Mostrar",
+      "CONNECT": "Conectar"
+    },
+    "CONFIRMERS": {
+      "GROUP_TOOLTIP": "Grupo de confirmantes",
+      "SINGLE_TOOLTIP": "Confirmante único"
+    },
+    "UPDATE_INFO": "La información de esta pestaña está más actualizada que la información en la lista de solicitudes | Actualizada el - {{string}}"
+  },
+  "MY_REQUESTS": {
+    "PAGE_TITLE": "Mis solicitudes",
+    "TITLE": "Mis solicitudes",
+    "COUNTER_TITLE": "resultados para:",
+    "NO_MY_REQUESTS": "No hay solicitudes que mostrar",
+    "SELECTED_REQUESTS": "solicitudes seleccionadas",
+    "FILTERS": {
+      "ALL": "Todas las solicitudes",
+      "WAITING_AND_CONFIRMED": "Solicitudes pendientes y confirmadas",
+      "WAITING": "Solicitudes pendientes",
+      "EXPIRED_AND_WAITING": "Solicitudes pendientes, caducadas y rechazadas"
+    },
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "Vistas de solicitudes"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "Detalles de mi solicitud",
+      "ITEM": "solicitud",
+      "ACTION_TYPE": "eliminada"
+    },
+    "DELETE_TEXT": "Eliminar",
+    "DELETE_ERROR_HEADER": "Error de eliminación de la solicitud",
+    "DELETE_SUCCESS_TEXT": "La solicitud se ha eliminado correctamente.",
+    "OK": "Aceptar"
+  },
+  "INCOMING_REQUESTS": {
+    "TITLE": "Solicitudes entrantes",
+    "NO_INCOMING_REQUESTS": "No hay solicitudes que mostrar",
+    "SELECTED_REQUESTS": "solicitudes seleccionadas",
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "Vistas de solicitudes"
+    },
+    "DETAILS": {
+      "REQUEST_TITLE": "Solicitud",
+      "ACCOUNT_TITLE": "Cuenta",
+      "REQUESTOR_USERNAME": "Nombre de usuario del solicitante",
+      "REQUESTOR_FULLNAME": "Nombre y apellidos del solicitante"
+    },
+    "DETAILS_FULL_PAGE": {
+      "ITEM": "solicitud",
+      "ACTION_TYPE": "eliminada",
+      "TITLE": "Detalles de la solicitud entrante"
+    },
+    "TICKETING_SYSTEM": {
+      "NAME": "Nombre del sistema de Ticketing",
+      "NUMBER": "Núm. del ticket."
+    },
+    "FILTERS": {
+      "ALL": "Todas las solicitudes",
+      "WAITING_AND_CONFIRMED": "Solicitudes pendientes y confirmadas",
+      "WAITING": "Solicitudes pendientes",
+      "EXPIRED_AND_WAITING": "Solicitudes pendientes y caducadas"
+    },
+    "OK": "Aceptar",
+    "CONFIRM_TEXT": "Confirmar",
+    "REJECT_TEXT": "Rechazar",
+    "CANCEL_TEXT": "Cancelar",
+    "BULK_CONFIRM_MODAL_TITLE": "Confirmar acceso a {{number}} cuentas",
+    "BULK_CONFIRM_MODAL_TEXT": "Especifique el motivo para la confirmación",
+    "BULK_REJECT_MODAL_TITLE": "Rechazar acceso a {{number}} cuentas",
+    "BULK_REJECT_MODAL_TEXT": "Especifique el motivo para el rechazo",
+    "BULK_CONFIRM_REJECT_MODAL_WARNING": "Solo se confirmarán las solicitudes no controladas",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_TITLE": "Confirmando {{number}} solicitudes",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_TITLE": "Rechazando {{number}} solicitudes",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_SUB_TITLE": "Confirmando solicitudes",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_SUB_TITLE": "Rechazando solicitudes",
+    "BULK_CONFIRM_SUCCESS_ACCORDION_TITLE": "solicitudes se han confirmado correctamente",
+    "BULK_REJECT_SUCCESS_ACCORDION_TITLE": "solicitudes se han rechazado correctamente",
+    "BULK_CONFIRM_FAILURE_ACCORDION_TITLE": "solicitudes no se han confirmado correctamente",
+    "BULK_REJECT_FAILURE_ACCORDION_TITLE": "solicitudes no se han rechazado correctamente",
+    "BULK_MODAL_PROGRESS_BAR_DONE_BUTTON": "Cerrar",
+    "BULK_MODAL_PROGRESS_BAR_DONE_TITLE": "Hecho",
+    "BULK_MODAL_PROGRESS_BAR_DONE_FAILURE_SUB_TITLE": "con errores",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_CONFIRM": "Confirmando...",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_REJECT": "Rechazando...",
+    "REJECT_HEADER_TEXT": "Motivo del rechazo de la solicitud",
+    "REJECT_CONTENT_TEXT": "Especifique el motivo para el rechazo:",
+    "CONFIRM_HEADER_TEXT": "Motivo para la confirmación de la solicitud",
+    "CONFIRM_CONTENT_TEXT": "Especifique el motivo para la confirmación:",
+    "CONFIRM_ERROR_HEADER": "Error de solicitud de confirmación",
+    "REJECT_ERROR_HEADER": "Error de solicitud de rechazo",
+    "CONFIRM_SUCCESS_TEXT": "La solicitud se ha confirmado correctamente.",
+    "REJECT_SUCCESS_TEXT": "La solicitud se ha rechazado correctamente."
+  },
+  "CONTENT_TITLE": {
+    "HEADER": {
+      "FOR": "para:",
+      "ALL": "Todo",
+      "CLEAR_ALL": "Borrar todo"
+    },
+    "SHOWING": "Mostrando"
+  },
+  "DISCOVERIES": {
+    "DEFAULT_DASH": "-",
+    "PAGE_TITLE": "Administración de detección",
+    "GRID_TITLE": "Configuraciones de detección",
+    "ADD_ACTION": "Nueva detección",
+    "LAST_RUN_STATUS": {
+      "DONE": "Finalizado",
+      "FAILED": "Con errores",
+      "DONE_WITH_ISSUES": "Finalizado",
+      "CANCELED_DUE_TO_UPGRADE": "Cancelado",
+      "STOPPED": "Detenida"
+    },
+    "STATE": {
+      "RUNNING": "En ejecución",
+      "PENDING": "Pendiente",
+      "STOPPING": "Deteniendo"
+    },
+    "LAST_RUN_TIME": {
+      "NA": "N/D"
+    },
+    "DISCOVERY_TYPE": {
+      "ONETIME": "Una vez",
+      "RECURRING": "Recurrente"
+    }
+  },
+  "FILTERS_VIEWS_LAYOUT": {
+    "SHOW_MORE": "Mostrar más",
+    "SHOW_LESS": "Mostrar menos",
+    "APPLY": "Aplicar"
+  },
+  "FORM_VALIDATIONS": {
+    "REQUIRED": "Este campo es obligatorio",
+    "IS_NUMERIC": "Este campo solo puede contener números",
+    "IS_I18N": "Este campo no puede contener caracteres internacionales",
+    "IS_PASSWORD_MATCH": "La contraseña y el campo de confirmación no coinciden",
+    "REQUIRED_SAFE_NAME": "El nombre del campo no puede estar vacío",
+    "STARTING_WHITE_SPACE": "El nombre del campo no puede empezar con un espacio",
+    "ENDING_WHITE_SPACE": "El nombre del campo no puede terminar con un espacio",
+    "PATTERN": "El campo no puede contener caracteres no válidos",
+    "MIN_VALUE": "Valor mínimo excedido",
+    "MAX_VALUE": "Valor máximo excedido",
+    "INVALID_VALUE": "Los valores válidos están entre {minValue} y {maxValue}",
+    "NOT_EXIST_IN_MACHINE_LIST": "Este equipo no está incluido en la lista de equipos disponibles"
+  },
+  "FORM_SAFES_VALIDATIONS": {
+    "SAFE_NAME_REQUIRED": "El nombre del Safe no puede estar vacío",
+    "SAFE_NAME_STARTING_WHITE_SPACE": "El nombre del Safe no puede empezar con un espacio",
+    "SAFE_NAME_ENDING_WHITE_SPACE": "El nombre del Safe no puede terminar con un espacio",
+    "SAFE_NAME_PATTERN": "El nombre del Safe no puede contener caracteres no válidos",
+    "SAFE_NAME_MAX_CHAR": "El nombre del Safe no puede contener más de 28 caracteres",
+    "SAFE_DESCRIPTION_PATTERN": "La descripción del Safe no puede contener caracteres no válidos",
+    "MANAGING_CPM_REQUIRED": "Seleccione un valor de la lista"
+  },
+  "COMMON": {
+    "VIEWS_TAB_TITLE": "Vistas",
+    "RECENT_TAB_TITLE": "Reciente",
+    "SAVED_TAB_TITLE": "Guardado",
+    "FILTERS_TAB_TITLE": "Filtros",
+    "CLOSE_BUTTON_TEXT": "Cerrar",
+    "CANCEL_BUTTON_TEXT": "Cancelar",
+    "DOWNLOAD_BUTTON_TEXT": "Descargar",
+    "SELECT_BUTTON_TEXT": "Seleccionar",
+    "OPTIONAL_FORM_CONTROL": "{{fieldName}} (opcional)",
+    "ACCOUNT_TYPES": {
+      "PASSWORD": "Contraseña",
+      "SSH_KEY": "Clave SSH"
+    },
+    "GENERAL_MESSAGES": {
+      "FAILURE_MAIN_TEXT": "Error al"
+    }
+  },
+  "AUTHENTICATION": {
+    "SESSION_EXPIRED_MESSAGE": {
+      "HEADER_TITLE": "Sesión caducada",
+      "MAIN_TITLE": "Su sesión ha caducado",
+      "SUB_TITLE": "Haga clic en Aceptar para volver a la pantalla de inicio de sesión",
+      "OK_OPTION": "Aceptar"
+    }
+  },
+  "MONITORING": {
+    "TITLE": "Monitorización",
+    "REFRESH": "Actualizar",
+    "RISK_CARD": {
+      "TITLE": "Puntuación de riesgo de la sesión",
+      "SUB_TITLE": "Evento/Actividad de impacto más fuerte",
+      "SECURITY_INCIDENT": "Incidencia de seguridad",
+      "GO_TO_INCIDENT_DETAILS": "Ir a detalles de la incidencia",
+      "ID": "ID",
+      "PLAY": "REPRODUCIR",
+      "TOOLTIP_TITLE": "Actividades sospechosas en una sesión",
+      "TOOLTIP_SUB_TITLE": "Actividad con más riesgo",
+      "NO_RISK_SCORE": "Ningún riesgo analizado o detectado"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "Detalles de la sesión",
+      "ITEM": "sesión",
+      "ACTION_TYPE": "eliminada",
+      "BACK_TEXT": "Monitorización"
+    },
+    "GRID_TITLE": {
+      "RECORDED_SESSIONS": "Grabaciones",
+      "LIVE_SESSIONS": "Sesiones activas",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Más detalles y acciones en la interfaz clásica",
+        "CALLOUT_TITLE": "Interfaz clásica",
+        "CALLOUT_TEXT": "Es posible que la vista de monitorización contenga otras\nfuncionalidades que solo están disponibles en la interfaz clásica.\n\nSiempre podrá regresar a las 'Vistas de\nmonitorización' de la nueva interfaz."
+      }
+    },
+    "RECORDING": {
+      "NO_RECORDINGS_FOUND": "No hay grabaciones que mostrar",
+      "PLAY": "Reproducir",
+      "PLAY_VIDEO": "Reproducir vídeo",
+      "CONNECTED_AS": "Conectado como",
+      "AS": "como",
+      "ON": "en",
+      "OFF": "desactivado",
+      "SKIP_IDLE": "Omitir inactividad:",
+      "MANUAL": "Manual",
+      "AUTOMATIC": "Automático",
+      "GO_TO_V9": "Reproducir vídeo (IU V9)",
+      "SESSION_WAS_NOT_FOUND": "Las actividades de esta sesión no están disponibles"
+    },
+    "LIVE_SESSIONS": {
+      "NO_LIVE_SESSIONS_FOUND": "No hay sesiones activas que mostrar",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Más detalles y acciones en la interfaz clásica",
+        "CALLOUT_TITLE": "Interfaz clásica",
+        "CALLOUT_TEXT": "Es posible que la vista de la sesión activa contenga otras\nfuncionalidades que solo están disponibles en la interfaz clásica.\n\nSiempre podrá regresar a la 'Monitorización' de \nla nueva interfaz."
+      }
+    },
+    "FILTERS": {
+      "SECTION": "Filtros",
+      "SESSIONS_PROPERTIES": "Propiedades de la sesión",
+      "SESSOION_PROPERTIES_HINT_TITLE": "Filtrar por propiedades de la sesión",
+      "SESSOION_PROPERTIES_HINT": "Usuario, cliente, nombre de usuario de la cuenta, dirección de la cuenta, ID de política de cuenta, ID de ticket y más.\n\nPara buscar por varias propiedades en la misma sesión, sepárelas con un espacio, por ejemplo: root 192.168.0.1\n\nUtilice comillas para buscar frases",
+      "SESSIONS_ACTIVITIES": "Actividades de la sesión",
+      "COMMANDS_AND_EVENTS_HINT_TITLE": "Filtrar por actividades de la sesión",
+      "COMMANDS_AND_EVENTS_HINT": "Títulos de Windows, comandos de SQL, comandos de SSH, comandos de SCP, pulsaciones de teclado, comandos bloqueados (utilice la palabra clave \"DENIED\").\n\nPara buscar por varias actividades en la misma sesión, sepárelas con un espacio, por ejemplo: sudo rm.\n\nUtilice comillas para buscar una frase, por ejemplo: \"ifConfig -a\"",
+      "FROM": "De",
+      "TO": "Para",
+      "SAVE_FILTER": "Guardar filtro",
+      "APPLY": "Aplicar"
+    },
+    "RECORDING_DETAILS": {
+      "HEADER_TITLE": "{{user}} conectado como {{accountUserName}} en {{address}}",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Más detalles y acciones en la interfaz clásica",
+        "CALLOUT_TITLE": "Interfaz clásica",
+        "CALLOUT_TEXT": "Es posible que esta sesión contenga otras\nfuncionalidades que solo están disponibles en la interfaz clásica.\n\nSiempre podrá regresar a la nueva ‘Monitorización’."
+      }
+    },
+    "LIVE_SESSION_DETAILS": {
+      "HEADER_TITLE": "{{user}} conectado como {{accountUserName}} en {{address}}",
+      "MONITOR_BUTTON": "Monitorizar",
+      "TERMINATE_BUTTON": "Finalizar",
+      "TERMINATE_DIALOG": {
+        "TITLE": "Finalizar sesión activa",
+        "MESSAGE": "¿Está seguro de que desea finalizar esta sesión?",
+        "CANCEL_BUTTON": "Cancelar"
+      },
+      "SUSPEND_BUTTON": "Suspender",
+      "SUSPEND_DIALOG": {
+        "TITLE": "Suspender la sesión activa",
+        "MESSAGE": "¿Seguro que desea suspender esta sesión?",
+        "CANCEL_BUTTON": "Cancelar"
+      },
+      "RESUME_BUTTON": "Reanudar",
+      "RESUME_DIALOG": {
+        "TITLE": "Reanudar la sesión suspendida",
+        "MESSAGE": "¿Seguro que desea reanudar esta sesión?",
+        "CANCEL_BUTTON": "Cancelar"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "Más detalles y acciones en la interfaz clásica",
+        "CALLOUT_TITLE": "Interfaz clásica",
+        "CALLOUT_TEXT": "Es posible que esta sesión contenga otras\nfuncionalidades que solo están disponibles en la interfaz clásica.\n\nSiempre podrá regresar a la nueva ‘Monitorización’."
+      }
+    },
+    "TABS": {
+      "RECORDING": "Grabaciones",
+      "LIVE_SESSIONS": "Sesiones activas",
+      "SESSION_ACTIVITIES": "Actividades",
+      "ATTESTATION": "Certificación",
+      "PERMISSIONS": "Permisos",
+      "SESSION_PROPERTIES": "Detalles"
+    },
+    "PROPERTIES": {
+      "SESSION_PROPERTIES_TITLE": "Propiedades de la sesión",
+      "ADDITIONAL_PROPERTIES_TITLE": "Propiedades adicionales",
+      "ACCOUNT_DETAILS_TITLE": "Propiedades de la cuenta",
+      "VIDEO_RECORDING_TITLE": "Grabación de vídeo",
+      "TEXT_RECORDING_TITLE": "Grabación de texto",
+      "CONNECTED_FROM": "Conectado desde",
+      "REMOTE_MACHINE": "Equipo remoto",
+      "INTERFACE": "Interfaz",
+      "CONNECTION_TYPE": "Tipo de conexión",
+      "PROTOCOL": "Protocolo",
+      "START": "Inicio",
+      "END": "Finalizar",
+      "DURATION": "Duración",
+      "RETAINED_BY": "Retenido por",
+      "PLATFORM_NAME": "Nombre de la plataforma",
+      "TARGET_USER": "Usuario de destino",
+      "TARGET_ADDRESS": "Dirección de destino",
+      "VIDEO_SIZE": "Tamaño",
+      "VIDEO_LAST_VIEWED_BY": "Revisado por última vez por",
+      "TEXT_SIZE": "Tamaño",
+      "TEXT_LAST_VIEWED_BY": "Revisado por última vez por",
+      "TEXT_LAST_VIEWED_DATE": "Fecha de la última revisión"
+    },
+    "ACTIVITIES": {
+      "ACTIVITIES_IN_SESSION": " Actividades en la sesión",
+      "NO_ACTIVITIES": "No hay actividades que mostrar"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "Conexión de puerta de enlace PSM"
+    }
+  },
+  "ONBOARDING_RULES": {
+    "PAGE_TITLE": "Reglas de incorporación",
+    "TITLE": "Reglas de incorporación",
+    "ANY": "Cualquiera",
+    "SERVER": "Servidor",
+    "WORKSTATION": "Estación de trabajo",
+    "LOCAL": "Local",
+    "DOMAIN": "Dominio",
+    "PRIVILEGED": "Con privilegios",
+    "NON_PRIVILEGED": "Sin privilegios",
+    "BUILT_IN_ADMINISTRATOR_WINDOWS": "Administrador integrado (SID = 500)",
+    "BUILT_IN_ADMINISTRATOR_UNIX": "Raíz (UID = 0)",
+    "BEGINS_WITH": "Comienza por",
+    "END_WITH": "Termina por",
+    "EXACT": "Igual a",
+    "OPTIONAL": "opcional",
+    "EMPTY_STATE": {
+      "TITLE": "para la incorporación de cuentas",
+      "TITLE_FAST": "Rápido",
+      "TITLE_AND": "y",
+      "TITLE_EASY": "fácil",
+      "DESCRIPTION": "Las reglas de incorporación incorporan automáticamente las cuentas detectadas en CyberArk. Aplicando estas reglas puede ahorrar tiempo y evitar la incorporación manual. Aplicamos reglas de incorporación en cuentas detectadas antes de que sean marcadas como pendientes.",
+      "READ_MORE": " Más información",
+      "CREATE_RULE_LINK": "Comenzar a crear una nueva regla de incorporación",
+      "AUTOMATIC_ONBOARDING_RULE": "Regla de incorporación automática",
+      "PENDING_ACCOUNTS": "Cuentas pendientes",
+      "MANUAL_ONBOARDING": "Incorporación manual",
+      "ACCOUNTS_DISCOVERY": "Detección de cuentas"
+    },
+    "FILTERS": {
+      "TITLE": "Filtros",
+      "RULES_SCOPE": {
+        "TITLE": "Ámbito de la regla",
+        "SYSTEM_TYPE": "Tipo de sistema",
+        "ACCOUNT_TYPE": "Tipo de cuenta",
+        "MACHINE_TYPE": "Tipo de equipo",
+        "CATEGORY": "Categoría de la cuenta",
+        "DROPDOWN": {
+          "PLACEHOLDER": "Seleccionar"
+        },
+        "KEYWORDS": {
+          "LABEL": "Estrechar búsqueda por palabra clave",
+          "PLACEHOLDER": "Nombre de la regla, descripción, nombre de usuario o nombre del equipo"
+        }
+      },
+      "DESTINATION": {
+        "TITLE": "Destino",
+        "PLATFORM": {
+          "LABEL": "Plataforma",
+          "PLACEHOLDER": "Seleccionar",
+          "NO_MATCH_TEXT": "No hay plataformas que coincidan"
+        },
+        "SAFE": {
+          "LABEL": "Safe",
+          "PLACEHOLDER": "Seleccionar",
+          "NO_MATCH_TEXT": "No hay Safes que coincidan"
+        }
+      }
+    },
+    "SELECTED_ITEM_DETAILS": {
+      "DETAILS_TITLE": "Detalles",
+      "RULE_SCOPE": {
+        "TITLE": "Ámbito de la regla",
+        "SYSTEM_TYPE": "Tipo de sistema",
+        "MACHINE_TYPE": "Tipo de equipo",
+        "ACCOUNT_TYPE": "Tipo de cuenta",
+        "CATEGORY": "Categoría de la cuenta",
+        "USER_NAME": "Nombre de usuario",
+        "METHOD": {
+          "BEGINS": "Comienza por: {{ruleFilterValue}}",
+          "ENDS": "Termina por: {{ruleFilterValue}}",
+          "EQUALS": "Igual a: {{ruleFilterValue}}",
+          "BEGINS_WITH": "Comienza por: {{ruleFilterValue}}",
+          "END_WITH": "Termina por: {{ruleFilterValue}}",
+          "EXACT": "Igual a: {{ruleFilterValue}}"
+        },
+        "ACCOUNT_CATEGORY_FILTER": {
+          "TITLE": "Tipo de cuenta con privilegios",
+          "PRIVILEGED": "Con privilegios",
+          "NONPRIVILEGED": "Sin privilegios",
+          "ANY": "Cualquiera"
+        },
+        "LOCAL": "Local",
+        "ANY": "Cualquiera",
+        "ADMIN_ONLY": {
+          "WINDOWS": "Administrador integrado (SID = 500)",
+          "UNIX": "Raíz (UID = 0)"
+        },
+        "MACHINE_NAME": "Nombre/Dirección del equipo"
+      },
+      "DESTINATION": {
+        "TITLE": "Destino",
+        "PLATFORM": "Plataforma",
+        "SAFE": "Safe"
+      },
+      "RULE_PROPERTIES": {
+        "TITLE": "Propiedades de la regla",
+        "RULE_NAME": "Nombre",
+        "RULE_DESCRIPTION": "Descripción"
+      },
+      "PASSWORD_SETTINGS": {
+        "TITLE": "Configuración inicial de la contraseña",
+        "INITIAL_PASSWORD": "Configuración inicial de la contraseña",
+        "USE_PLATFORM": "Utilizando la cuenta de reconciliación predeterminada de la plataforma",
+        "NO_RECONCILE_ACCOUNT": "No hay ninguna cuenta de reconciliación para la plataforma seleccionada",
+        "RECONCILE_ACCOUNT": "Cuenta de reconciliación de la plataforma"
+      },
+      "OVERVIEW": {
+        "TITLE": "Descripción general",
+        "LAST_ONBOARDED": "Última incorporación"
+      }
+    },
+    "CREATE_RULE": "Crear regla",
+    "REFRESH": "Actualizar",
+    "RULE_NAME_COLUMN_TITLE": "Nombre de la regla",
+    "SYSTEM_TYPE_COLUMN_TITLE": "Tipo de sistema",
+    "CREATE_ONBOARDING_RULES": {
+      "CASE_SENSITIVE": "Distinguir mayúsculas de minúsculas",
+      "PAGE_TITLE": "Crear regla",
+      "PAGE_TITLE_EDIT_MODE": "Editar regla",
+      "TITLE": "Nueva regla de incorporación",
+      "TITLE_EDIT_MODE": "Editar regla de incorporación: {{string}}",
+      "SUBMIT_TEXT": "Crear regla",
+      "SUBMIT_TEXT_EDIT_MODE": "Guardar cambios",
+      "UPDATE": "Actualizar",
+      "IDENTICAL_RULE_ERROR_HEADER": "Ámbito idéntico",
+      "IDENTICAL_RULE_NAME_ERROR_HEADER": "Nombre de regla idéntico",
+      "DEFAULT_ERROR_HEADER": "Error",
+      "CREATE_RULE_SUCCESS_MESSAGE": "La regla se ha creado correctamente",
+      "EDIT_RULE_SUCCESS_MESSAGE": "La regla se ha actualizado correctamente",
+      "STEPS": {
+        "SELECT_SYSTEM_TYPE": "Seleccionar el tipo de sistema",
+        "SELECT_SYSTEM_TYPE_EDIT_MODE": "Tipo de sistema",
+        "SELECT_SYSTEM_TYPE_TITLE": "Seleccione el tipo de sistema para incorporar",
+        "SELECT_SYSTEM_TYPE_TITLE_EDIT_MODE": "Tipo de sistema",
+        "SELECT_SCOPE": "Seleccionar el ámbito",
+        "SELECT_SCOPE_EDIT_MODE": "Ámbito",
+        "SELECT_SCOPE_TITLE": "Seleccione el ámbito de la regla",
+        "SELECT_SCOPE_TITLE_EDIT_MODE": "Ámbito",
+        "ASSIGN_PLATFORM": "Asignar a plataforma",
+        "ASSIGN_PLATFORM_EDIT_MODE": "Plataforma",
+        "ASSIGN_PLATFORM_TITLE": "Seleccionar plataforma",
+        "ASSIGN_PLATFORM_TITLE_EDIT_MODE": "Plataforma",
+        "SELECT_SAFE": "Guardar en el Safe",
+        "SELECT_SAFE_EDIT_MODE": "Safe",
+        "SELECT_SAFE_TITLE": "Seleccionar Safe",
+        "SELECT_SAFE_TITLE_EDIT_MODE": "Safe",
+        "DEFINE_PROPERTIES": "Definir las propiedades",
+        "DEFINE_PROPERTIES_EDIT_MODE": "Propiedades",
+        "DEFINE_PROPERTIES_TITLE": "Defina las propiedades de la regla",
+        "DEFINE_PROPERTIES_TITLE_EDIT_MODE": "Propiedades",
+        "DEFINE_PROPERTIES_STEP": {
+          "NAME_LABEL": "Nombre",
+          "NAME_PLACEHOLDER": "Introduzca un nombre único",
+          "DESCRIPTION_LABEL": "Descripción (opcional)",
+          "DESCRIPTION": "Descripción",
+          "DESCRIPTION_VALUE": "Valor",
+          "DESCRIPTION_CHARACTERS_LEFT": " Caracteres restantes",
+          "DESCRIPTION_CHARACTERS_OVER": " Caracteres de más",
+          "RULE_NAME_IS_NOT_UNIQUE_MESSAGE": "Ya existe una regla con este nombre",
+          "RULE_NAME_MAX_LENGTH_MESSAGE": "Este campo no puede contener más de 255 caracteres",
+          "SETTINGS": {
+            "INITIAL_PASSWORD": "Configuración inicial de la contraseña",
+            "USE_PLATFORM": "Utilizando la cuenta de reconciliación de la plataforma",
+            "NO_RECONCILE_ACCOUNT": "No hay ninguna cuenta de reconciliación para la plataforma seleccionada"
+          },
+          "MODAL_ERROR_HEADER": "Error",
+          "MODAL_CLOSE_ACTION": "Cerrar"
+        },
+        "SUMMARY": "Resumen",
+        "SUMMARY_TITLE": "Resumen"
+      },
+      "SELECT_SCOPE": {
+        "INFO_MESSAGE_APPLY_WINDOWS": "Las reglas de incorporación automáticas se aplican a cuentas sin dependencias",
+        "INFO_MESSAGE_APPLY_UNIX": "Las reglas de incorporación automáticas se aplican a cuentas sin confianzas",
+        "INFO_MESSAGE_NEW_RULE": "Una regla nueva adquiere preferencia respecto a una regla existente",
+        "MACHINE_TYPE": "Tipo de equipo",
+        "ACCOUNT_TYPE": "Tipo de cuenta",
+        "ACCOUNT_TYPE_INFO": "En la actualidad no es posible incorporar cuentas de dominio automáticamente.",
+        "ACCOUNT_CATEGORY": "Categoría de la cuenta",
+        "ACCOUNT_CATEGORY_INFO": "Las cuentas con privilegios pertenecen a grupos con privilegios, como \nadministradores o usuarios avanzados.",
+        "PRIVILEGED_ACCOUNT_TYPE": "Tipo de cuenta con privilegios",
+        "USERNAME": "Nombre de usuario",
+        "MACHINE_NAME_OR_ADDRESS": "Nombre/Dirección del equipo",
+        "IDENTICAL_MESSAGE_TITLE": "Se encontró una regla idéntica: {{string}}",
+        "IDENTICAL_MESSAGE_TEXT": "Cambie el ámbito de esta regla para evitar duplicados"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Confirmar cancelación",
+        "BODY": "¿Seguro que desea cancelar la creación de la regla de incorporación?",
+        "SECONDARY_MESSAGE": "Se descartarán los cambios que ha realizado",
+        "MAIN_ACTION": "Confirmar cancelación",
+        "SECONDARY_ACTION": "No cancelar"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "CHANGE_SYSTEM_TYPE_TITLE": "Cambiar tipo de sistema",
+        "CHANGE_PLATFORM_TITLE": "Cambiar plataforma",
+        "OK": "Cambiar",
+        "CANCEL": "Cancelar",
+        "SYSTEM_TYPE_PRIMARY_MESSAGE": "¿Seguro que desea cambiar el tipo de sistema a",
+        "PLATFORM_PRIMARY_MESSAGE": "¿Está seguro de que desea cambiar la plataforma a",
+        "SECONDARY_MESSAGE": "Es posible que deba actualizar las definiciones de la regla."
+      }
+    },
+    "NO_RULES_FOUND": "No hay reglas para mostrar",
+    "PRECEDENCE_COLUMN_TITLE": "Prioridad",
+    "DESCRIPTION_COLUMN_TITLE": "Descripción",
+    "MACHINE_TYPE_COLUMN_TITLE": "Tipo de equipo",
+    "ACCOUNT_TYPE_COLUMN_TITLE": "Tipo de cuenta",
+    "LAST_ONBOARDED_COLUMN_TITLE": "Última incorporación",
+    "DELETE_RULE": {
+      "ACTION_TITLE": "Eliminar regla",
+      "FEEDBACK_TITLE": "Eliminar regla",
+      "FEEDBACK_DESCRIPTION": "¿Seguro que desea eliminar la regla '{RULE_NAME}'?",
+      "FEEDBACK_DELETE_BUTTON": "Eliminar regla",
+      "FEEDBACK_CANCEL_BUTTON": "Cancelar",
+      "FLOATING_SUCCESS_MESSAGE": "La regla ha sido eliminada"
+    },
+    "EDIT_RULE": {
+      "ACTION_TITLE": "Editar regla"
+    },
+    "FEEDBACK_MESSAGES": {
+      "DELETE_ONBOARDING_RULES": "Eliminar regla de incorporación",
+      "GET_ONBOARDING_RULES": "Obtener reglas de incorporación"
+    }
+  },
+  "PTA": {
+    "MESSAGES": {
+      "SUCCESS_MESSAGES": {
+        "SETTINGS": {
+          "PSM": {
+            "UPDATE": "La regla se ha actualizado correctamente",
+            "ADD": "La regla se agregó correctamente"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "La corrección de Agregar a pendiente se actualizó correctamente",
+            "ROTATE_CREDENTIALS": "La corrección de Rotar credenciales se actualizó correctamente",
+            "RECONCILE_CREDENTIALS": "La corrección de Reconciliar credenciales se actualizó correctamente"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "Reanudación de la sesión iniciada correctamente"
+        }
+      },
+      "ERROR_TITLES": {
+        "DEFAULT": "ERROR",
+        "SETTINGS": {
+          "GET": "Error al cargar las configuraciones de seguridad",
+          "PSM": {
+            "UPDATE": "Error al actualizar la regla",
+            "ADD": "Error al agregar la regla"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "Error al actualizar la corrección de Agregar a pendiente",
+            "ROTATE_CREDENTIALS": "Error al actualizar la corrección de Rotar credenciales",
+            "RECONCILE_CREDENTIALS": "Error al actualizar la corrección de Reconciliar credenciales"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "Error al iniciar la reanudación de la sesión"
+        }
+      },
+      "CLOSE_BUTTON": "Cerrar"
+    },
+    "EVENTS": {
+      "ACTION_BUTTONS": {
+        "SUCCESS_MESSAGES": {
+          "RESUME": "Reanudación de la sesión iniciada correctamente"
+        },
+        "ERROR_TITLES": {
+          "RESUME": "Error al iniciar la reanudación de la sesión"
+        }
+      },
+      "PAGE_HEADER": "Eventos de seguridad",
+      "PROVIDER": {
+        "UNKNOWN": "desconocido",
+        "ANOMALIES_TITLES": {
+          "ACTIVE_DORMANT": "Usuario latente activo",
+          "AGGREGATIVE_ICE": "Acceso anómalo a varios equipos",
+          "DUAL_USAGE": "La cuenta de servicio inició sesión interactivamente",
+          "GOLDEN_TICKET": "Ataque de golden ticket",
+          "IRREGULAR_HOUR_USER": "Acceso privilegiado a Vault en horario irregular",
+          "MALICIOUS_RETRIEVAL": "Recuperación maliciosa de cuentas de dominio",
+          "OVER_PASS_THE_HASH": "Ataque de Overpass-The-Hash",
+          "PAC_ATTACK": "Ataque PAC",
+          "RISKY_COMMAND": "Actividades sospechosas detectadas en una sesión privilegiada",
+          "SCT": "Sospecha de robo de credenciales",
+          "SPC": "Cambio de contraseña sospechoso",
+          "UNMANAGED": "Cuenta con privilegios no administrada",
+          "VAULT_IRREGULAR_IP": "Acceso privilegiado a Vault desde IP irregular",
+          "CLEARTEXT": "Credenciales expuestas"
+        },
+        "EVENT_SEVERITIES": {
+          "LOW": "Baja",
+          "MEDIUM": "Media",
+          "HIGH": "Alta"
+        },
+        "FILTERS": {
+          "EVENT_ID": "ID de evento",
+          "SESSION_ID": "ID de sesión",
+          "TITLE": "Filtros",
+          "SEVERITY": "Gravedad",
+          "TYPE": "Tipo de evento",
+          "FROM_DATE": "De",
+          "TO_DATE": "Para"
+        },
+        "NOTIFICATIONS": {
+          "LOW": "Nuevo evento de nivel bajo detectado",
+          "MEDIUM": "Nuevo evento de nivel medio detectado",
+          "HIGH": "Nuevo evento de nivel alto detectado"
+        }
+      },
+      "CARDS": {
+        "GENERAL": {
+          "LISTS": {
+            "ENTITIES": {
+              "COMMAND": "de comandos",
+              "ACCOUNT": "cuenta",
+              "MACHINE": "de servicio",
+              "DC": "DC"
+            },
+            "TITLES": {
+              "MOST_RETYPED_ACTIVITIES": "Actividades más repetidas",
+              "MOST_ACCESSED_ACCOUNTS": "Cuentas con mayor número de accesos",
+              "EXPOSED_ACCOUNTS": "Cuentas expuestas",
+              "MOST_ACCESSED_MACHINES": "Equipos con mayor número de accesos",
+              "SOURCE_MACHINES": "Equipos de origen",
+              "MOST_ACCESSED_DCS": "DCs con mayor número de accesos",
+              "ACCESSED_DCS": "DCs accedidos"
+            },
+            "RECORD": {
+              "MULTI_OCCURRENCES": "{{entity}} ({{occurrences}} repeticiones)",
+              "SINGLE_OCCURRENCE": "{{entity}} ({{occurrences}} repetición)"
+            }
+          },
+          "ORIGINAL_EVENTS": {
+            "ORIGINAL_EVENT": "El evento original se produjo {{originTime}}.",
+            "ORIGINAL_EVENT_SOURCE_TARGET": "El evento original se produjo {{originTime}} desde la fuente {{source}} y en el destino {{target}}.",
+            "ORIGINAL_EVENT_SOURCE_DC": "El evento original se produjo {{originTime}} desde la fuente {{source}} y en el DC {{target}}.",
+            "ORIGINAL_SUSPICIOUS_ACTIVITY": "La primera actividad sospechosa se produjo {{originTime}}."
+          },
+          "DIAGRAM_ENTITY_TITLE": {
+            "TARGET_MACHINE": "Equipo de destino",
+            "SOURCE_MACHINE": "Equipo de origen",
+            "PRIVILEGED_ACCOUNT": "Cuenta con privilegios",
+            "UNMANAGED_PRIVILEGED_ACCOUNT": "Cuenta con privilegios no administrada",
+            "CYBERARK_PAS": "CyberArk PAS",
+            "VAULT_USER": "Usuario de Vault",
+            "TARGET_SERVICE": "Servicio de destino",
+            "SERVICE_ACCOUNT": "Cuenta de servicio",
+            "SERVICE": "Equipo"
+          }
+        },
+        "GENERIC": {
+          "ACTIVE": "Sesión activa",
+          "REMEDIATION": "Corrección iniciada",
+          "OCCURRENCES": "({{occurrences}} repeticiones)",
+          "EVENT_ID": "ID {{id}}",
+          "SESSION_ID": "ID de sesión",
+          "RECOMMENDATION_TITLE": "Recomendación"
+        },
+        "ACTIVE_DORMANT": {
+          "SUBTITLE_SINGLE_ACCOUNT": "El usuario de Vault {{user}} recuperó la contraseña de la cuenta {{account}} desde CyberArk PAS tras estar inactivo durante más de {{inactiveDays}} días.",
+          "SUBTITLE_MULTI_ACCOUNTS": "El usuario de Vault {{user}} recuperó la contraseña de {{numOfAccounts}} cuentas desde CyberArk PAS tras estar inactivo durante más de {{inactiveDays}} días.",
+          "RECOMMENDATION": "Asegúrese de que este usuario de Vault esté activo y, de no ser así, contemple la posibilidad de limitar su acceso."
+        },
+        "AGGREGATIVE_ICE": {
+          "SUBTITLE": "La cuenta {{account}} estableció conexión con un gran número de equipos nuevos, lo que es poco habitual para esta cuenta.<br>Estas acciones podrían indicar que las credenciales de {{account}} se han utilizado en desplazamientos laterales.",
+          "RECOMMENDATION": "Valore los daños potenciales y busque IOC:",
+          "RECOMMENDATION_SUGGESTION_1": "Revise las cuentas que tengan sesiones activas en los equipos de destino",
+          "RECOMMENDATION_SUGGESTION_2": "Revise las credenciales almacenadas en los equipos de destino",
+          "RECOMMENDATION_SUGGESTION_3": "Busque otros signos de ataques en los equipos de destino"
+        },
+        "DUAL_USAGE": {
+          "SUBTITLE_SINGLE_MACHINE": "La cuenta de servicio {{account}} inició sesión interactivamente en {{target}} equipo.",
+          "SUBTITLE_MULTI_MACHINES": "La cuenta de servicio {{account}} inició sesión interactivamente en {{numOfMachines}} equipos.",
+          "RECOMMENDATION": "Separe las cuentas utilizadas por servicios de las cuentas utilizadas por humanos."
+        },
+        "GOLDEN_TICKET": {
+          "SUBTITLE": "Se detectó un ataque de golden ticket en el dominio {{domain}}. El atacante utilizó un ticket Kerberos falsificado para la cuenta {{account}} en el equipo {{target}}.<br>Este ticket se originó desde el equipo {{source}}.",
+          "RECOMMENDATION": "Un atacante ha comprometido su dominio. Investigue cuidadosamente su entorno y tome las medidas necesarias para contener el ataque."
+        },
+        "IRREGULAR_HOUR_USER": {
+          "SUBTITLE": "El usuario de Vault {{user}} recuperó la contraseña del usuario con privilegios {{account}} en el equipo {{target}} a las {{startTime}}.<br>Esta acción se ha marcado como un evento de seguridad porque {{user}} no suele establecer conexión a esta hora.",
+          "RECOMMENDATION": "Revise las actividades de este usuario de Vault y asegúrese de que son válidas."
+        },
+        "MALICIOUS_RETRIEVAL": {
+          "SUBTITLE_ONE_OCCURRENCE": " Se ha detectado una recuperación de credenciales potencialmente maliciosa desde el controlador de dominio {{target}} en el equipo {{source}}.<br>La recuperación de credenciales se llevó a cabo mediante una correcta replicación del controlador de dominio.",
+          "SUBTITLE_MULTI_OCCURRENCES": "Se han detectado varias recuperaciones de credenciales potencialmente maliciosas desde en el equipo {{source}}.<br>La recuperación de credenciales se llevó a cabo mediante una correcta replicación del controlador de dominio.",
+          "RECOMMENDATION": "Las solicitudes de replicación de los controladores de dominio (DCSync) solo las deben iniciar los controladores de dominio.<br>Si hay otro servicio de autenticación o administración en su red que también ejecuta replicaciones de controladores de dominio,<br>le recomendamos encarecidamente que proteja estos servicios al mismo nivel que los controladores de dominio."
+        },
+        "OVER_PASS_THE_HASH": {
+          "SUBTITLE": "Se detectó un ataque de Overpass-The-Hash en el dominio {{domain}}, originado desde el equipo {{source}}.<br>El ataque afecta a las credenciales de la cuenta {{account}}.",
+          "RECOMMENDATION_NO_REMEDIATION": "Restablezca las credenciales para la cuenta {{account}}.",
+          "RECOMMENDATION_REMEDIATION": "Se inició una solicitud de cambio de la contraseña. Un atacante ha comprometido su dominio. Investigue cuidadosamente su entorno y tome las medidas necesarias para contener el ataque."
+        },
+        "PAC_ATTACK": {
+          "SUBTITLE": "Se detectó un intento de ataque PAC (explotación MS14-068) en el dominio {{domain}}, originado desde el equipo {{source}}.<br>El atacante intentó aumentar los privilegios de la cuenta {{account}}.",
+          "RECOMMENDATION": "Asegúrese de que el controlador de dominio {{target}} esté actualizado con el parche KB3011780."
+        },
+        "RISKY_COMMAND": {
+          "SUBTITLE": "Se detectaron actividades sospechosas de sesión en {{target}} en una sesión privilegiada.<br>La sesión fue iniciada por el usuario de Vault {{user}} con cuenta {{account}} ejecutando la actividad {{command}}.",
+          "RECOMMENDATION_LIVE": "Revise cada evento de seguridad asociado con la sesión y sus actividades y evalúe si es necesaria una respuesta, como la supervisión en directo o la finalización manual de la sesión en curso.",
+          "RECOMMENDATION_NON_LIVE": "Revise cada evento de seguridad asociado con la sesión y evalúe el riesgo utilizando las actividades y registros de la sesión. Esta sesión ya se ha desconectado.",
+          "RECOMMENDATION_SUSPENDED_SESSION": "Se inició una solicitud de suspensión de la sesión. Revise cada evento de seguridad asociado con la sesión y sus actividades y evalúe si es necesaria una respuesta adicional, como la reanudación o la finalización manual de la sesión suspendida.",
+          "RECOMMENDATION_TERMINATED_SESSION": "Se inició una solicitud de finalización de la sesión. Revise cada evento de seguridad asociado con la sesión y sus actividades y evalúe si es necesaria una respuesta adicional."
+        },
+        "SCT": {
+          "SUBTITLE_SINGLE_MACHINE": "La cuenta con privilegios {{account}} accedió a {{target}} equipo con una contraseña que no ha sido recuperada desde CyberArk PAS.",
+          "SUBTITLE_MULTI_MACHINES": "La cuenta con privilegios {{account}} accedió a {{numOfMachines}} equipos con una contraseña que no ha sido recuperada desde CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Contemple la posibilidad de cambiar las contraseñas que se utilizaron sin haber sido recuperadas.",
+          "RECOMMENDATION_REMEDIATION": "Se inició una solicitud de cambio de la contraseña. Asegúrese de que la política y los controles PAS de su organización no han sido sorteados y de que sus cuentas administradas están controladas."
+        },
+        "SPC": {
+          "SUBTITLE": "La contraseña de la cuenta con privilegios {{account}} se cambió fuera de CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Contemple la posibilidad de reconciliar la contraseña de la cuenta que se cambió fuera de CyberArk PAS.",
+          "RECOMMENDATION_RECONCILIATION": "Se inició una solicitud de reconciliación de la contraseña. Asegúrese de que la política y los controles PAS de su organización no han sido sorteados y tome el control de sus cuentas administradas."
+        },
+        "UNMANAGED": {
+          "SUBTITLE_SINGLE_MACHINE": "La cuenta con privilegios {{account}} se utilizó para acceder a {{target}} a pesar de que esta cuenta no se administra en CyberArk PAS.",
+          "SUBTITLE_MULTI_MACHINES": "La cuenta con privilegios {{account}} se utilizó para acceder a {{numOfMachines}} equipos a pesar de que esta cuenta no se administra en CyberArk PAS.",
+          "RECOMMENDATION_NO_REMEDIATION": "Contemple la posibilidad de incorporar la cuenta con privilegios no administrada a CyberArk PAS.",
+          "RECOMMENDATION_REMEDIATION": "Incorpore la cuenta recién detectada y asígnele la plataforma pertinente para administrarla de forma segura. Las cuentas detectadas que se filtran con una regla de incorporación automática no requieren de ninguna acción manual."
+        },
+        "VAULT_IRREGULAR_IP": {
+          "SUBTITLE": "El usuario de Vault {{user}} accedió a Vault desde la IP irregular {{source}}.<br>Esta acción se ha marcado como un evento de seguridad porque {{user}} no suele acceder a Vault desde esta IP.",
+          "RECOMMENDATION": "Revise las actividades de este usuario de Vault y asegúrese de que son válidas."
+        },
+        "CLEARTEXT": {
+          "SUBTITLE": "Las credenciales de las cuentas enviadas desde {{source}} utilizando enlace simple de LDAP se han expuesto en texto no cifrado.",
+          "RECOMMENDATION": "Configure los servicios pertinentes para autenticar utilizando LDAPS en lugar de enlace simple de LDAP.<br>Se recomienda encarecidamente la rotación de contraseñas en cuentas confidenciales."
+        }
+      }
+    },
+    "SETTINGS": {
+      "PAGE_HEADER": "Configuraciones de seguridad",
+      "PSM": {
+        "HEADER": "Análisis y respuesta de sesión privilegiada",
+        "SUB_HEADER": "Asigne una puntuación de riesgo y una respuesta automática a las actividades de alto riesgo detectadas durante las sesiones de los usuarios.",
+        "ADD_RULE_BUTTON": "Agregar regla",
+        "RULE_CATEGORY": {
+          "KEYSTROKES": "Pulsaciones de teclado universales",
+          "SCP": "SCP",
+          "SQL": "SQL",
+          "SSH": "SSH",
+          "WINDOWS": "Títulos de Windows"
+        },
+        "RULE_CATEGORY_EXAMPLES": {
+          "KEYSTROKES_EXAMPLE": "por ejemplo: kill(.*)",
+          "SCP_EXAMPLE": "por ejemplo: 10.1.1.22(.*)",
+          "SQL_EXAMPLE": "por ejemplo: DROP TABLE(.*)",
+          "SSH_EXAMPLE": "por ejemplo: rm -r(.*)",
+          "WINDOWS_EXAMPLE": "por ejemplo: Task Manager(.*)"
+        },
+        "SUCCESS_MESSAGES": {
+          "UPDATE": "La regla se ha actualizado correctamente",
+          "ADD": "La regla se agregó correctamente"
+        },
+        "ERROR_TITLES": {
+          "UPDATE": "Error al actualizar la regla",
+          "ADD": "Error al agregar la regla"
+        },
+        "RULE_MODAL": {
+          "ADD_RULE_TITLE": "Agregar regla",
+          "EDIT_RULE_TITLE": "Editar regla",
+          "CATEGORY": "Categoría",
+          "SELECT_CATEGORY": "Seleccione la categoría",
+          "PATTERN": "Patrón",
+          "PATTERN_PLACEHOLDER": "Introduzca una expresión regular",
+          "DESCRIPTION": "Descripción (opcional)",
+          "SESSION_RESPONSE": {
+            "TITLE": "Respuesta de la sesión",
+            "SUSPEND": "Suspender",
+            "TERMINATE": "Finalizar",
+            "NONE": "Ninguno"
+          },
+          "SCORE_TITLE": "Puntuación",
+          "SCORE_DESCRIPTION": "Defina la puntuación (1 - 100)",
+          "ACTIVE_STATUS_TITLE": "Estado",
+          "ACTIVE_STATUS_ACTIVE_DESCRIPTION": "Activo",
+          "ACTIVE_STATUS_INACTIVE_DESCRIPTION": "Inactivo",
+          "SCOPE_TITLE": "Ámbito",
+          "SCOPE_DESCRIPTION": {
+            "BASIC_DESCRIPTION": "Esta regla se aplicará a {vaultUsersCategory}, {accountsCategory} y {machinesCategory}",
+            "ALL": "todos los {category}",
+            "EXCLUDE": "todos menos {amount} {category}",
+            "INCLUDE": "{amount} {category} específica"
+          },
+          "ADD": "Agregar",
+          "SAVE": "Guardar",
+          "CANCEL": "Cancelar"
+        },
+        "SCOPE_MODAL": {
+          "TITLE": "Cambiar ámbito",
+          "EXCLUDE": "Excluir",
+          "INCLUDE": "Incluir solo",
+          "SAVE": "Cambiar ámbito",
+          "CANCEL": "Cancelar",
+          "VAULT_USERS": {
+            "CATEGORY_NAME": "Usuarios de Vault",
+            "TAB_TITLE": "Usuarios de Vault",
+            "WATERMARK": "Puede utilizar comodines",
+            "INCLUDE_MARK": "La siguiente regla solo se aplicará a los usuarios de Vault seleccionados",
+            "EXCLUDE_MARK": "La siguiente regla se aplicará a todos los usuarios de Vault, excepto los seleccionados"
+          },
+          "ACCOUNTS": {
+            "CATEGORY_NAME": "cuentas",
+            "TAB_TITLE": "Cuentas",
+            "WATERMARK": "Puede utilizar comodines",
+            "INCLUDE_MARK": "La siguiente regla solo se aplicará a las cuentas seleccionadas",
+            "EXCLUDE_MARK": "La siguiente regla se aplicará a todas las cuentas, excepto las seleccionadas"
+          },
+          "MACHINES": {
+            "CATEGORY_NAME": "equipos",
+            "TAB_TITLE": "Equipos",
+            "WATERMARK": "Puede utilizar comodines",
+            "INCLUDE_MARK": "La siguiente regla solo se aplicará a los equipos seleccionados",
+            "EXCLUDE_MARK": "La siguiente regla se aplicará a todos los equipos, excepto los seleccionados"
+          }
+        },
+        "GRID_COLUMNS": {
+          "CATEGORY": "Categoría",
+          "PATTERN": "Patrón",
+          "SCORE": "Puntuación",
+          "DESCRIPTION": "Descripción",
+          "RESPONSE": "Respuesta",
+          "STATUS": "Estado"
+        }
+      },
+      "REMEDIATION": {
+        "HEADER": "Correcciones automáticas",
+        "SUB_HEADER": "Configure la respuesta automática para cada evento de seguridad a fin de contener el riesgo y detener la actividad sospechosa.",
+        "ADD_TO_PENDING": "Agregar a pendiente",
+        "UNMANAGED_PRIVILEGED_ACCOUNT": "Cuenta con privilegios no administrada",
+        "ROTATE_CREDENTIALS": "Rotar credenciales",
+        "OVER_PASS_THE_HASH": "Overpass-The-Hash",
+        "SUSPECTED_CREDENTIAL_THEFT": "Sospecha de robo de credenciales",
+        "RECONCILE_CREDENTIALS": "Reconciliar credenciales",
+        "SUSPICIOUS_PASSWORD_CHANGE": "Cambio de contraseña sospechoso",
+        "SUCCESS_MESSAGES": {
+          "ADD_TO_PEND": "La corrección de Agregar a pendiente se actualizó correctamente",
+          "ROTATE_CREDENTIALS": "La corrección de Rotar credenciales se actualizó correctamente",
+          "RECONCILE_CREDENTIALS": "La corrección de Reconciliar credenciales se actualizó correctamente"
+        },
+        "ERROR_TITLES": {
+          "ADD_TO_PEND": "Error al actualizar la corrección de Agregar a pendiente",
+          "ROTATE_CREDENTIALS": "Error al actualizar la corrección de Rotar credenciales",
+          "RECONCILE_CREDENTIALS": "Error al actualizar la corrección de Reconciliar credenciales"
+        }
+      },
+      "EVENT_STATUS": {
+        "CLOSE_MESSAGE": "¿Seguro que desea cerrar este evento de seguridad?\n\nLos eventos cerrados aún se pueden ver usando el filtro de estado",
+        "OPEN_MESSAGE": "¿Seguro que desea volver a abrir este evento de seguridad?"
+      },
+      "EDIT": "Editar",
+      "DELETE": "Eliminar",
+      "GET_ERROR_TITLE": "Error al cargar las configuraciones de seguridad"
+    }
+  },
+  "DASHBOARD": {
+    "HEADER": "Estado del sistema",
+    "ERROR_MESSAGE": "Se produjo un error del servidor. Vuelva a intentarlo más tarde",
+    "VAULTS": "Vaults",
+    "CONNECTING_COMPONENTS": "Componentes de conexión",
+    "METER_CONNECTED": "Conectado",
+    "METER_DISCONNECTED": "Desconectado",
+    "REFRESH": "Actualizar",
+    "MASTER": "Master",
+    "PRIMARY": "Primary",
+    "SATELLITE": "Satellite",
+    "DR": "DR",
+    "OFFLINE": "Offline",
+    "DASHBOARD_DETAILS": {
+      "COMPONENT_IDENTIFIER_COLUMN_TITLE": "Identificador de componentes",
+      "IP_COLUMN_TITLE": "IP",
+      "VERSION_COLUMN_TITLE": "Versión",
+      "CONNECTIVITY_STATUS_COLUMN_TITLE": "Estado de conectividad",
+      "LAST_LOGON_DATE_COLUMN_TITLE": "Fecha de último inicio de sesión",
+      "GRID_CONNECTED": "Conectado",
+      "GRID_DISCONNECTED": "Desconectado",
+      "BACK_TO_MAIN_PAGE": "Regresar al estado del sistema"
+    },
+    "COMPONENTS_METER_TOTAL_DESCRIPTION": {
+      "PVWA": "Usuarios activos",
+      "CPM": "Cuentas administradas",
+      "SESSIONMANAGEMENT": "Sesiones simultáneas",
+      "AIM": "Aplicaciones"
+    },
+    "DIALOGS": {
+      "RESTORE_CONNECTIVITY": {
+        "SUCCESS": "Restablecer la conexión puede llevar unos minutos"
+      }
+    }
+  },
+  "LDAP_INTEGRATION": {
+    "PAGE_TITLE": "Integración LDAP",
+    "REFRESH": "Actualizar",
+    "NEW_DOMAIN": "Nuevo dominio",
+    "MAPPINGS": "Asignaciones",
+    "DOMAINS": "dominios",
+    "DELETE_DOMAIN_DIALOG": {
+      "TITLE": "¿Eliminar conexión del dominio?",
+      "BODY": "¿Seguro que desea eliminar el dominio \"{DOMAIN_NAME}\" de CyberArk?",
+      "SUB_TITLE": "\nLa siguiente asignación de directorios también se eliminará:\n{MAPPINGS}",
+      "MAIN_ACTION": "Eliminar",
+      "SECONDARY_ACTION": "Cancelar",
+      "DELETED_SUCCESS": "La conexión del dominio se ha eliminado correctamente",
+      "ERROR": {
+        "CLOSE_BUTTON": "Cerrar",
+        "TITLE": "Error al eliminar la conexión del dominio",
+        "BODY": "Error al eliminar la conexión del dominio \"{DOMAIN_NAME}\""
+      }
+    },
+    "DELETE_MAPPING_DIALOG": {
+      "TITLE": "¿Eliminar asignación de directorios?",
+      "BODY": "¿Seguro que desea eliminar la asignación de directorios \"{{MAPPING_NAME}}\"?",
+      "SUB_TITLE": "\nEsta acción puede evitar que los usuarios de LDAP ya aprovisionados accedan al sistema CyberArk. ",
+      "MAIN_ACTION": "Eliminar asignación",
+      "SECONDARY_ACTION": "Cancelar",
+      "DELETED_SUCCESS": "La asignación se ha eliminado",
+      "ERROR": {
+        "CLOSE_BUTTON": "Cerrar",
+        "TITLE": "Error al eliminar la asignación de directorios",
+        "BODY": "Error al eliminar la asignación de directorios \"{{MAPPING_NAME}}\""
+      }
+    },
+    "MAPPING_DETAILS": {
+      "AUTH_TAB": {
+        "ALLOW": "Permitir",
+        "DENY": "Denegar"
+      },
+      "DETAILS_TAB": {
+        "MAPPING_CRITERIA_TITLE": "Criterios de asignación",
+        "LDAP_BRANCH": "Subdivisión LDAP",
+        "CRITERIA_DETAILS": "Usuarios asignados por",
+        "MAPPING_DESTINATION_TITLE": "Destino de la asignación",
+        "LOCATION": "Ubicación",
+        "GROUP": "Grupo",
+        "AUTHENTICATION_TITLE": "Autenticación",
+        "AUTHENTICATION_METHOD": "Método de autenticación",
+        "ACTIVITY_LOGS_TITLE": "Registros de actividad",
+        "KEEP_USER_ACTIVITY_LOGS": "Mantener los registros de actividad de los usuarios al menos durante",
+        "DAYS": "días",
+        "ROOT": "Raíz"
+      },
+      "AUTHENTICATIONS": {
+        "AUTHTYPEVAULTPKI": "PKI",
+        "AUTHTYPELDAP": "LDAP",
+        "AUTHTYPENT": "NT",
+        "AUTHTYPERADIUS": "RADIUS"
+      }
+    },
+    "DIRECTORY_MAPPINGS": "asignación de directorios",
+    "GROUPS_NAME": {
+      "VAULT_ADMINS": "Administradores de Vault",
+      "SAFE_MANAGERS": "Administradores de Safe",
+      "AUDITORS": "Auditores",
+      "USERS": "Usuarios"
+    },
+    "AUTHORIZATIONS": {
+      "NONE": "Ninguno",
+      "ADDSAFES": "Agregar Safes",
+      "AUDITUSERS": "Auditar usuarios",
+      "ADDUPDATEUSERS": "Agregar/Actualizar usuarios",
+      "RESETUSERSPASSWORDS": "Restablecer contraseñas de los usuarios",
+      "ACTIVATEUSERS": "Activar usuarios",
+      "ADDNETWORKAREAS": "Agregar zonas de red",
+      "MANAGEDIRECTORYMAPPING": "Administrar la asignación de directorios",
+      "MANAGESERVERFILECATEGORIES": "Administrar las categorías de archivos del servidor",
+      "BACKUPALLSAFES": "Realizar copia de seguridad de todos los Safes",
+      "RESTOREALLSAFES": "Restaurar todos los Safes"
+    },
+    "CREATE": {
+      "PAGE_TITLE": "Crear integración LDAP",
+      "TITLE": "Integración LDAP",
+      "SAVE": "Guardar",
+      "CONNECT": "Conectar >",
+      "DOMAIN_CONNECTED_SUCCESSFULLY": "Dominio {{domainName}} conectado correctamente",
+      "THE_DIRECTORY_WERE_CREATED_SUCCESSFULLY": "El directorio se ha creado correctamente",
+      "THE_DIRECTORY_AND_MAPPING_WERE_CREATED_SUCCESSFULLY": "El directorio y la asignación se han creado correctamente",
+      "STEPS": {
+        "SELECT_DIRECTORY_TYPE": "Seleccione el tipo de directorio",
+        "SELECT_DIRECTORY_TYPE_TITLE": "Seleccione el tipo de directorio",
+        "CONNECT_DOMAIN": "Conectar dominio",
+        "CONNECT_DOMAIN_TITLE": "Conectar dominio",
+        "CREATE_DIRECTORY_MAPPINGS": "Crear asignación de directorios",
+        "CREATE_DIRECTORY_MAPPINGS_TITLE": "Crear asignación de directorios (opcional)"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Confirmar cancelación",
+        "BODY": "¿Seguro que desea cancelar la creación de la integración LDAP?",
+        "SECONDARY_MESSAGE": "Se descartarán los cambios que ha realizado",
+        "MAIN_ACTION": "Confirmar cancelación",
+        "SECONDARY_ACTION": "No cancelar"
+      },
+      "CONTINUE_DIALOG": {
+        "TITLE": "¿Seguro que desea continuar?",
+        "TITLE_NO_MAPPING": "¿Seguro que desea omitir esta página sin crear ninguna asignación?",
+        "BODY": "La siguiente asignación de directorios no se creará:",
+        "BODY_NO_MAPPING": "Se requieren asignaciones de directorios para aprovisionar usuarios de LDAP al sistema CyberArk",
+        "MAIN_ACTION": "Guardar",
+        "SECONDARY_ACTION": "Permanecer"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "TITLE": "Cambiar conexión del dominio",
+        "CHANGE": "Cambiar",
+        "CANCEL": "Cancelar",
+        "PRIMARY_MESSAGE": "¿Seguro que desea cambiar la conexión del dominio?",
+        "SECONDARY_MESSAGE": "Es posible que deba actualizar las asignaciones de directorio"
+      },
+      "CONFIRMATION_MESSAGES_DIRECTORY_TYPE": {
+        "TITLE": "Cambiar el tipo de directorio",
+        "CHANGE": "Cambiar",
+        "CANCEL": "Cancelar",
+        "PRIMARY_MESSAGE": "¿Seguro que desea cambiar el tipo de directorio?",
+        "SECONDARY_MESSAGE": "Tendrá que actualizar la conexión del dominio"
+      },
+      "DIRECTORY_TYPE_STEP": {
+        "NO_DIRECTORY_TYPE_CONFIGURED": "No hay ningún tipo de directorio configurado",
+        "EMPTY_MESSAGE": "Configure al menos un tipo de directorio en el archivo de configuración.\nPuede hacerlo aquí: Administración > Opciones de configuración > Integración LDAP > Perfiles > Agregar perfil"
+      },
+      "CONNECT_DOMAIN_STEP": {
+        "CONNECT_TO": "Conectar a",
+        "CONNECT_VIA": "Conectar a través de",
+        "CONNECT_WITH": "Conectar con",
+        "DOMAIN_NAME": "Nombre del dominio",
+        "START_DOMAIN_INTEGRATION_FROM": "Iniciar la integración de dominios desde",
+        "DOMAIN_BASE_CONTEXT": "Contexto de base del dominio",
+        "BIND_USERNAME": "Nombre de usuario de enlace",
+        "CONNECTION": "Conexión",
+        "SECURED_CONNECTION": "Segura (SSL)",
+        "UNSECURE_CONNECTION": "No segura",
+        "BIND_USERNAME_PLACEHOLDER": "Ej. JohnSmith@domainName.com",
+        "BIND_PASSWORD": "Contraseña de usuario de enlace",
+        "DOMAIN_NAME_MAX_LENGTH_MESSAGE": "Este campo no puede contener más de 160 caracteres",
+        "USE_SSL": "Utilizar conexión segura (SSL)",
+        "USE_SSL_MAIN_TITLE": "El cifrado basado en SSL requiere un certificado LDAPS.",
+        "USE_SSL_SUB_TITLE": "Importe este certificado de dominio para crear una conexión base segura SSL antes de continuar.",
+        "USE_SSL_TOOLTIP": "El cifrado basado en SSL es una conexión segura (puerto 636)",
+        "SSL_MORE_INFO_LINK": "Ver las instrucciones",
+        "SSL_MORE_INFO_HEADER": "Cómo importar el certificado de dominio",
+        "SSL_MORE_INFO_BODY": "1. Obtenga el certificado de dominio público del dominio solicitado.\n\n2. En el equipo de Vault y en el equipo de IIS, seleccione Agregar/Quitar complemento desde el menú Archivo.\n\n3. Agregue ‘Certificados’ desde el menú de la izquierda y haga clic en Agregar.\n\n4. Seleccione ‘Cuanta del equipo’ y ‘Equipo local’.\n\n5. Expanda Certificados (Equipo local), expanda De confianza \nEntidades de certificación raíz. Aparecerá la carpeta Certificados.\n\n6. Importe y guarde todos los certificados de dominio en el siguiente almacén\npara todos los Vaults de la empresa.\n\n7. Agregue el nombre del dominio (tal y como aparece en el certificado) al\narchivo de HOSTS local del Vault con cada dirección IP que sea relevante para la\nconexión desde Vault.\n\n8. Continúe y conecte su dominio.",
+        "SSL_MORE_INFO_CANCEL": "Cancelar",
+        "FAILED_TO_CONNECT_DOMAIN": "Error al conectar con el dominio",
+        "FAILED_TO_CONNECT_DOMAIN_MORE_INFO": "Esto puede deberse a que:\n• El nombre de dominio, el nombre de usuario de enlace o la contraseña de usuario de enlace son incorrectos.\n• Hay un problema con la configuración del certificado LDAPS (si está utilizando una conexión segura).\n• El servidor del dominio está inactivo.",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT": "Este dominio ya está conectado",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT_MORE_INFO": "Cambie el nombre del dominio",
+        "LDAP_USERS_DIALOG": {
+          "TITLE": "Usuarios de LDAP que reúnen los criterios de búsqueda",
+          "TEXT": "{{NUMBER_OF_OBJECTS}} usuarios para {{GROUP_NAME}}",
+          "NO_USERS": "No hay usuarios para mostrar",
+          "WATERMARK": "Filtrar por nombre de usuario o grupo",
+          "INFO_MESSAGE": "Tiene más de 1000 usuarios. Inténtelo buscando otro usuario",
+          "WARNING_MESSAGE": "Es posible que no encuentre al usuario deseado porque solo le presentamos los primeros 1000 usuarios encontrados",
+          "GRID_COLUMNS": {
+            "USER_NAME": "Nombres de usuario",
+            "GROUP_NAME": "Grupo"
+          },
+          "CLOSE": "Cerrar"
+        }
+      },
+      "CREATE_DIRECTORY_MAPPING_STEP": {
+        "DOMAIN_BASE_CONTEXT": "Contexto de base del dominio",
+        "DOMAIN_BASE_CONTEXT_INFO": "Iniciar la integración del dominio solo desde este nivel hacia abajo",
+        "INFO_MESSAGE": "Esta herramienta crea nuestras asignaciones de directorios recomendadas de forma predeterminada. Una vez creadas, puede editarlas en función de las necesidades de su empresa.",
+        "DEFINE_MAP": "Definir asignación",
+        "DEFINED": "Definida",
+        "GROUPS_INFO": "Para crear esta asignación, seleccione un grupos que sea pertinente",
+        "SELECT_LDAP_GROUPS": "Seleccione los grupos LDAP",
+        "MAPPED_USERS_WILL_BE_ADDED_TO": "Los usuarios asignados se agregarán a",
+        "ACCESS_LIMITATIONS": "Limitaciones de acceso",
+        "KEEP_USER_ACTIVITY_LOGS_FOR": "Mantener registros de actividad de los usuarios para",
+        "AUTHORIZATIONS": "Autorizaciones",
+        "MAPPED_GROUPS": "Los grupos asignados se agregarán a:",
+        "VIEW_USERS": "Ver usuarios",
+        "LOCATION": "Ubicación",
+        "GROUP": "Grupo",
+        "NONE": "Ninguno",
+        "DAYS": "días",
+        "FAILED_TO_CREATE_NAME_DIRECTORY": "Error al crear el directorio",
+        "FAILED_TO_CREATE_DIRECTORY_MAPPING": "Error al crear la asignación de directorios",
+        "FAILED_TO_CREATE_NAME_DIRECTORY_MAPPING": "Error al crear la asignación de directorios '{MAPPING_NAME}'",
+        "THE_FOLLOWING_DIRECTORY_MAPPING_FAILED_TO_BE_CREATED": "Error al crear la siguiente asignación de directorios",
+        "CLOSE": "Cerrar"
+      }
+    },
+    "EDIT_MAPPING": {
+      "CHANGES_SAVED_SUCCESSFULLY": "Los cambios se han guardado correctamente",
+      "CANCEL_DIALOG": {
+        "TITLE": "Confirmar cancelación",
+        "BODY": "¿Seguro que desea cancelar la edición de la asignación de directorios? Se descartarán los cambios que ha realizado.",
+        "MAIN_ACTION": "Confirmar cancelación",
+        "SECONDARY_ACTION": "No cancelar"
+      },
+      "CONFIRM_DIALOG": {
+        "TITLE": "Confirmar cambios",
+        "BODY": "¿Seguro que desea guardar los cambios para esta asignación de directorios? Esto afectará el proceso de aprovisionamiento de los usuarios de LDAP al sistema CyberArk.",
+        "MAIN_ACTION": "Confirmar cambios",
+        "SECONDARY_ACTION": "Permanecer en la página"
+      },
+      "ERROR": {
+        "TITLE": "Ha habido un error"
+      }
+    },
+    "ADD_MAPPING": {
+      "MESSAGE_SAVED_SUCCESSFULLY": "La asignación de directorios se ha agregado correctamente",
+      "MESSAGE_REORDER_FAILED": {
+        "TITLE": "Error al reordenar las asignaciones de directorios",
+        "BODY": "La asignación de directorios \"{{mapping_name}}” se ha creado correctamente, pero no se ha podido agregar en la posición solicitada. Se ha agregado al final de la lista.",
+        "MAIN_ACTION": "Cerrar"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "Confirmar cancelación",
+        "BODY": "¿Seguro de que desea cancelar la agregación de la asignación de directorios? Se descartarán los cambios que ha realizado",
+        "MAIN_ACTION": "Confirmar cancelación",
+        "SECONDARY_ACTION": "No cancelar"
+      },
+      "ERROR_DIALOG": {
+        "TITLE": "Error al agregar la asignación",
+        "MAIN_ACTION": "Cerrar"
+      }
+    },
+    "EMPTY_STATE": {
+      "TITLE_TEXT": "Inicie el proceso de integración LDAP conectando sus dominios",
+      "MAPPING_TEXT_ONE": "Crear asignaciones",
+      "MAPPING_TEXT_TWO": "de directorio",
+      "NEW_DOMAIN_TEXT_ONE": "Conectar nuevo",
+      "NEW_DOMAIN_TEXT_TWO": "dominio",
+      "USERS_TEXT_ONE": "Los usuarios de LDAP",
+      "USERS_TEXT_TWO": "se aprovisionan en CyberArk"
+    }
+  },
+  "ADD_SAFE_DIALOG": {
+    "TITLE": "Crear Safe",
+    "CREATE_SAFE_BUTTON": "Crear Safe",
+    "CANCEL_BUTTON": "Cancelar",
+    "NEW_SAFE_NAME_LABEL": "Nombre del nuevo Safe",
+    "SAFE_NAME_HINT_TEXT_EXTRA_DETAILS": "Al menos 28 caracteres",
+    "SAFE_ALREADY_EXISTS_ERROR": "El Safe {SAFE_NAME} ya existe"
+  },
+  "BUSINESS_USERS": {
+    "PAGE_TITLE": "Usuarios empresariales",
+    "TAG_EDITOR": {
+      "MAX_TAGS_ERROR": {
+        "TITLE": "Cuota máxima de etiquetas alcanzada",
+        "TEXT": "Se permite un máximo de {{max}} etiquetas"
+      },
+      "SAVED_SUCCESSFULLY": "El elemento se ha guardado correctamente"
+    },
+    "CONFIRM_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "¿Seguro que desea eliminar \"{{name}}\"?",
+        "MAIN_MESSAGE": "Se perderán todos los detalles del elemento."
+      }
+    },
+    "DELETE_BUTTON_TEXT": "Eliminar",
+    "CANCEL_DIALOG": {
+      "TITLE": "Confirmar cancelación",
+      "ADD_BODY": "¿Seguro que desea cancelar la agregación del elemento?",
+      "EDIT_BODY": "¿Seguro que desea cancelar la edición del elemento?",
+      "SECONDARY_MESSAGE": "Se descartarán los cambios que ha realizado",
+      "MAIN_ACTION": "Confirmar cancelación",
+      "SECONDARY_ACTION": "No cancelar"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "Cerrar",
+      "TITLE": "ERROR"
+    },
+    "ADD_SUCCESS_MESSAGE": {
+      "TITLE": "El elemento se ha agregado correctamente"
+    },
+    "EDIT_SUCCESS_MESSAGE": {
+      "TITLE": "El elemento se ha editado correctamente"
+    },
+    "FAILURE_MESSAGE": {
+      "MAIN_MESSAGE": "No se puede enviar el formulario",
+      "SECONDARY_MESSAGE": "Inténtelo de nuevo o póngase en contacto con el administrador"
+    },
+    "ERROR_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "Error al eliminar la cuenta"
+      },
+      "ADD_ACCOUNT": {
+        "TITLE": "Error al agregar la cuenta"
+      },
+      "EDIT_ACCOUNT": {
+        "TITLE": "Error al editar la cuenta"
+      },
+      "SHOW_PASSWORD": {
+        "TITLE": "Error al mostrar la contraseña"
+      },
+      "ADD_BUSINESS_SAFE": {
+        "TITLE": "Error al agregar",
+        "TEXT": "No se han podido agregar las credenciales empresariales con privilegios porque un Safe no se ha creado automáticamente.\nPóngase en contacto con el administrador para resolver este problema.",
+        "SAFE_PROBLEM_TITLE": "Error al agregar",
+        "SAFE_PROBLEM_TEXT": "No se han podido agregar las credenciales empresariales con privilegios debido a un problema con su Safe.\nPóngase en contacto con el administrador para resolver este problema."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "Mostrar contraseña",
+      "PASSWORD_INPUT_LABEL": "Contraseña",
+      "COPY_BUTTON_TEXT": "Copiar",
+      "SHOW_BUTTON_TEXT": "Mostrar",
+      "CHANGE_BUTTON_TEXT": "Cambiar",
+      "CLOSE_BUTTON_TEXT": "Cerrar",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "La contraseña está vacía"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "Esta contraseña es demasiado larga para mostrarla en su totalidad. Haga clic en copiar para copiar la contraseña completa."
+      },
+      "FAILURE_MAIN_TEXT": "Error al mostrar la contraseña"
+    },
+    "SHOW_USERNAME_DIALOG": {
+      "TITLE": "Mostrar nombre de usuario",
+      "USERNAME_INPUT_LABEL": "Nombre de usuario",
+      "COPY_BUTTON_TEXT": "Copiar",
+      "SHOW_BUTTON_TEXT": "Mostrar",
+      "CLOSE_BUTTON_TEXT": "Cerrar",
+      "WARNINGS": {
+        "EMPTY_USERNAME": "El nombre de usuario esta vacío"
+      },
+      "INFORMATION": {
+        "TOO_LONG_USERNAME": "Este nombre de usuario es demasiado largo para mostrarlo en su totalidad. Haga clic en copiar para copiar el nombre de usuario completo."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "Copiar contraseña",
+      "COPY_BUTTON_TEXT": "Copiar"
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Contraseña copiada en el portapapeles",
+      "DELETE_ACCOUNT": "El elemento se ha eliminado"
+    },
+    "ADD": {
+      "PAGE_TITLE": "Agregar credenciales empresariales con privilegios"
+    },
+    "EDIT": {
+      "PAGE_TITLE": "Editar credenciales empresariales con privilegios"
+    },
+    "CLIPBOARD": {
+      "DOWNLOAD_EXTENSION_DIALOG": {
+        "COPY_PASSWORD_TITLE": "Copiar contraseña",
+        "COPY_USERNAME_TITLE": "Copiar nombre de usuario",
+        "MAIN_MESSAGE": "Para usar esta función, descargue e instale la extensión/complemento del navegador."
+      },
+      "FETCH_PASSWORD_FAILED_DIALOG": {
+        "TITLE": "Copiar contraseña",
+        "MAIN_MESSAGE": "Error al copiar la contraseña"
+      },
+      "PASSWORD_COPIED_TO_CLIPBOARD": "Contraseña copiada en el portapapeles",
+      "USERNAME_COPIED_TO_CLIPBOARD": "Nombre de usuario copiado en el portapapeles",
+      "WARNINGS": {
+        "EMPTY_PASSWORD_COPY_TITLE": "Copiar contraseña",
+        "EMPTY_USERNAME_COPY_TITLE": "Copiar nombre de usuario",
+        "CANNOT_COPY_EMPTY_PASSWORD": "No se puede copiar una contraseña vacía. El contenido del portapapeles no se ha cambiado.",
+        "CANNOT_COPY_EMPTY_USERNAME": "No se puede copiar un nombre de usuario vacío. El contenido del portapapeles no ha cambiado."
+      }
+    }
+  },
+  "USERS": {
+    "ACTIVATE": "El usuario se ha activado correctamente",
+    "CREATE": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} se ha creado correctamente"
+    },
+    "DISABLE": {
+      "SUCCESS_MESSAGE": "el usuario se ha deshabilitado correctamente"
+    },
+    "EDIT": {
+      "SUCCESS_MESSAGE": "{{USERNAME}} se ha actualizado correctamente"
+    },
+    "ERRORS": {
+      "GET_USERS": "Error al obtener usuarios",
+      "GET_USER_DETAILS": "Error al obtener detalles de usuario",
+      "FAILED_TO_ASSIGN_GROUP": "Error al asignar a grupo",
+      "ADD_USER_TO_GROUPS_ON_CREATE": "El usuario se ha creado correctamente, pero no se ha podido asignar a todos los grupos seleccionados.\nAbra el cliente PrivateArk y asigne el usuario a los grupos manualmente.",
+      "ACTIVATE_USER": "Error al activar usuario",
+      "DISABLE_USER": "Error al deshabilitar el usuario"
+    },
+    "DIALOGS": {
+      "CREATE_CANCELLATION": {
+        "TITLE": "Confirmar cancelación",
+        "BODY": "¿Seguro que desea cancelar la agregación de un nuevo usuario de CyberArk?",
+        "SECONDARY_MESSAGE": "Se descartarán los cambios que ha realizado",
+        "MAIN_ACTION": "Confirmar cancelación",
+        "SECONDARY_ACTION": "No cancelar"
+      },
+      "EDIT_CANCELLATION": {
+        "TITLE": "Confirmar cancelación",
+        "BODY": "¿Cancelar cambios en el usuario {{USERNAME}}?",
+        "SECONDARY_MESSAGE": "Se descartarán los cambios que ha realizado",
+        "MAIN_ACTION": "Confirmar cancelación",
+        "SECONDARY_ACTION": "No cancelar"
+      },
+      "USERNAME_CHANGED": {
+        "TITLE": "Nueva contraseña requerida",
+        "BODY": "Si cambia el nombre de usuario, deberá introducir una nueva contraseña",
+        "MAIN_ACTION": "Cambiar nombre de usuario",
+        "SECONDARY_ACTION": "Cancelar"
+      }
+    }
+  },
+  "GROUPS": {
+    "ERRORS": {
+      "GET_GROUPS": "Error al obtener grupos"
+    },
+    "CREATE_SUCCESS_MESSAGE": "El grupo {{NAME}} se ha creado correctamente"
+  },
+  "PLATFORMS": {
+    "TITLE": "Gestión de plataformas",
+    "REFRESH": "Actualizar",
+    "PLATFORMS_ACTIONS": {
+      "SEARCH_TEXT": "Buscar plataformas de cuentas de destino",
+      "ERROR_MESSAGE": {
+        "CLOSE": "Cerrar",
+        "OK": "Aceptar",
+        "GENERAL_ERROR": {
+          "HEADER_TITLE": "No podemos procesar su solicitud",
+          "MAIN_TITLE": "Inténtelo de nuevo en unos minutos",
+          "SUB_TITLE": "Si eso no funciona, póngase en contacto con el administrador"
+        }
+      },
+      "ACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Activar plataforma",
+          "PRIMARY_MESSAGE": "¿Seguro que desea activar la plataforma {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "Si hay cuentas asociadas a esta plataforma, estas se activarán.",
+          "ACTIVATE": "Activar",
+          "CANCEL": "Cancelar"
+        },
+        "ERROR_MESSAGE": "Error al activar la plataforma",
+        "SUCCESS_MESSAGE": "Plataforma activada correctamente"
+      },
+      "DEACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Desactivar plataforma",
+          "PRIMARY_MESSAGE": "¿Seguro que desea desactivar la plataforma {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "La gestión de credenciales ya no estará disponible para las cuentas asociadas a esta plataforma.",
+          "DEACTIVATE": "Desactivar",
+          "CANCEL": "Cancelar"
+        },
+        "ERROR_MESSAGE": "Error al desactivar la plataforma",
+        "SUCCESS_MESSAGE": "Plataforma desactivada correctamente"
+      },
+      "DELETE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "Eliminar plataforma",
+          "PRIMARY_MESSAGE": "¿Seguro de que desea eliminar la plataforma? {{PLATFORM_NAME}}?",
+          "SECONDARY_MESSAGE": "La gestión de credenciales ya no estará disponible para las cuentas asociadas a esta plataforma.",
+          "DELETE": "Eliminar",
+          "CANCEL": "Cancelar"
+        },
+        "ERROR_MESSAGE": "Error al eliminar la plataforma",
+        "SUCCESS_MESSAGE": "Plataforma eliminada correctamente"
+      },
+      "DUPLICATE": {
+        "ERROR_MESSAGE": "Error al duplicar la plataforma",
+        "SUCCESS_MESSAGE": "Plataforma duplicada correctamente",
+        "ERROR": {
+          "OK": "Aceptar"
+        }
+      },
+      "EXPORT": {
+        "ERROR_MESSAGE": "Error al exportar la plataforma",
+        "SUCCESS_MESSAGE": "Plataforma exportada correctamente"
+      },
+      "GET_CLASSIC_UI_EDIT_URL": {
+        "ERROR_MESSAGE": "Error al cargar la plataforma de edición"
+      },
+      "MANAGE_CONNECTORS": {
+        "UPDATE_PLATFORMS": {
+          "ERROR_MESSAGE": "Error al actualizar la gestión de sesiones con privilegios de las plataformas",
+          "SUCCESS_MESSAGE": "La gestión de sesiones con privilegios de las plataformas se ha actualizado correctamente"
+        },
+        "ERROR_MESSAGE": {
+          "IMPORT_CONNECTION_COMPONENT": "Error al importar el componente de conexión",
+          "FAILED_TO_DISPLAY_CONNECTORS_TITLE": "Error al mostrar los conectores",
+          "FAILED_TO_DISPLAY_CONNECTORS_MESSAGE": "En este momento no podemos mostrar los conectores de esta plataforma.\nVuelva a la página de gestión de plataformas e inténtelo de nuevo."
+        },
+        "CONFIRMATION_MESSAGE": {
+          "TITLE": "¿Desea salir de esta página?",
+          "BODY": "Se perderán los cambios.",
+          "MAIN_ACTION": "Salir",
+          "SECONDARY_ACTION": "Permanecer"
+        }
+      }
+    },
+    "MARKETPLACE": "Marketplace",
+    "IMPORT_PLATFORM": "Importar plataforma",
+    "ERROR_MESSAGES": {
+      "IMPORT_PLATFORM_FAILURE": "Error al importar la plataforma",
+      "IMPORT_PLATFORM_MAX_SIZE": "Se ha excedido el límite de tamaño máximo de archivo",
+      "IMPORT_FILE_MAX_SIZE": "Se ha excedido el límite de tamaño máximo de archivo",
+      "READ_FILE_FAILURE": "Error al leer el archivo"
+    },
+    "SUCCESS_MESSAGES": {
+      "IMPORT_PLATFORM": "La plataforma se ha importado correctamente"
+    }
+  },
+  "AUTH_METHOD_CONFIG": {
+    "OIDC_PROVIDER": {
+      "SAVE_PROVIDER_SUCCESS_MESSAGE": "El proveedor {{PROVIDER_ID}} se ha guardado correctamente",
+      "ERROR_MESSAGE": {
+        "CLOSE": "Cerrar",
+        "ADD_PROVIDER_HEADER_TITLE": "Error al guardar el proveedor de OIDC",
+        "PARTIAL_SUCCESS_TITLE": "La información del proveedor se ha guardado parcialmente. Se ha producido el siguiente error:",
+        "REMOVE_PROVIDER_HEADER_TITLE": "Error al eliminar el proveedor de OIDC",
+        "PARTIAL_REMOVE_TITLE": "La información del proveedor se ha eliminado parcialmente. Se ha producido el siguiente error:"
+      },
+      "REMOVE_PROVIDER_SUCCESS_MESSAGE": "El proveedor {{PROVIDER_ID}} se ha eliminado correctamente",
+      "REMOVE_DIALOG": {
+        "TITLE": "¿Seguro que desea eliminar el proveedor?",
+        "REMOVE": "Eliminar",
+        "CANCEL": "Cancelar"
+      }
+    }
+  }
+}

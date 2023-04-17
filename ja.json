@@ -1,0 +1,2236 @@
+{
+  "APPLICATION_RESOURCES": {
+    "TITLE": "Password Vault Web Access",
+    "SIGNOUT": "サインアウト",
+    "ABOUT": "バージョン情報",
+    "CHANGE_LANGUAGE": "変更",
+    "SKIP_LINK": "メインコンテンツにスキップ",
+    "LEFT_NAVBAR": {
+      "COLLAPSE": "折りたたみ",
+      "EXPAND": "展開"
+    },
+    "TOP_NAVBAR": {
+      "TITLE": "サインイン情報",
+      "LAST_SIGN_IN": "前回のサインイン",
+      "LAST_SUCCESS_LOGIN_TIME": "前回のサインイン時刻",
+      "LAST_FAIL_LOGIN_TIME": "前回失敗したサインイン時刻",
+      "LAST_SUCCESS_LOGIN_IP": "前回のサインインのソースIP",
+      "LAST_FAIL_LOGIN_IP": "前回失敗したサインインのソースIP",
+      "FAILED_LOGINS": "サインイン試行エラー",
+      "COMFORTABLE_VIEW": "快適なビュー",
+      "CONDENSED_VIEW": "コンパクトなビュー"
+    }
+  },
+  "LOGIN": {
+    "PAGE_TITLE": "ログイン"
+  },
+  "CULTURE": {
+    "FEEDBACK_MODAL_CHANGE_LANGUAGE": {
+      "TITLE": "言語を変更できませんでした",
+      "MAIN_TITLE": "ユーザー設定を更新できませんでした",
+      "CLOSE_BUTTON_TEXT": "閉じる"
+    }
+  },
+  "ABOUT_DIALOG": {
+    "TITLE": "CyberArk Privileged Access Securityについて",
+    "VERSION": "バージョン",
+    "COPYRIGHT": "Copyright 1999-2022 © CyberArk Software",
+    "CLOSE_BUTTON_TEXT": "閉じる",
+    "CHECK_VERSION": "最新バージョンの確認",
+    "CONTENT": {
+      "P1_1": "CyberArk Vaultソフトウェアに含まれているオープンソースソフトウェアプログラムのリストについては、 ",
+      "P1_2": "をご覧ください。",
+      "CYBERARK_ACKNOWLEDGMENT": " 確認 "
+    }
+  },
+  "NAVIGATION": {
+    "BUSINESSUSERS": "ビジネスユーザー",
+    "USERPROVISIONING": "ユーザープロビジョニング",
+    "USERS": "ユーザー",
+    "GROUPS": "グループ",
+    "POLICIES": "ポリシー",
+    "APPLICATIONS": "アプリケーション",
+    "ADMINISTRATION": "管理",
+    "PLATFORMMANAGEMENT": "プラットフォーム管理",
+    "AUTHMETHODCONFIG": "OIDC認証",
+    "CONFIGURATIONOPTIONS": "構成オプション",
+    "REPORTS": "レポート",
+    "GENERATEREPORT": "レポートの生成",
+    "REPORTDEFINITIONS": "レポート定義",
+    "SECURITY": "セキュリティ",
+    "SECURITYEVENTS": "セキュリティイベント",
+    "SECURITYSETTINGS": "セキュリティ構成",
+    "ACCOUNTSLIST": "アカウントビュー",
+    "ACCOUNTSLISTLEGACY": "アカウントビュー",
+    "ACTIVITIES": "活動状況",
+    "COMPLIANCE": "コンプライアンス",
+    "INVENTORY": "インベントリ",
+    "MONITORING": "監視",
+    "PRIVILEGEDSESSIONS": "特権付きセッション",
+    "MONITORINGLEGACY": "監視(クラシックUI)",
+    "MYREQUESTS": "マイリクエスト",
+    "INCOMINGREQUESTS": "受信リクエスト",
+    "ACCOUNTSFEEDV9": "保留中と検出",
+    "ACCOUNTSFEED": "アカウントフィード",
+    "FILES": "ファイル",
+    "ALLFILES": "すべてのファイル",
+    "MSP": "顧客管理",
+    "HELP": "ヘルプ",
+    "ACCOUNTS": "アカウント",
+    "DASHBOARD": "システムの正常性",
+    "ACCOUNTSANDREQUESTS": "アカウントとリクエスト",
+    "ONBOARDINGRULES": "オンボードルール",
+    "LDAPINTEGRATION": "LDAP組み込み"
+  },
+  "SESSION_EXPIRED": {
+    "FEEDBACK_MESSAGE": {
+      "SAME_USER_CONNECTED_MAIN_TITLE": "同じユーザーが他の場所に接続したため、このセッションは停止されました",
+      "DEFAULT_MAIN_TITLE": "セッションが期限切れになり、ユーザーは切断されました。",
+      "HEADER_TITLE": "セッションの有効期限が切れました",
+      "SUB_TITLE": "[OK]をクリックするとログイン画面に戻ります",
+      "CONFIRM_BUTTON_TEXT": "OK",
+      "CLOSE_BUTTON_TEXT": "閉じる"
+    }
+  },
+  "READ_ONLY_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "PASWS222E システムは現在読み取り専用モードであるため、操作を実行できません.",
+      "SUB_TITLE": "読み取り専用モードでは、アカウントの追加、リクエスト、リクエストの確認、パスワードの変更、レポートの生成などのすべての書き込み操作が無効になります。デュアル制御、1回限り、または非共有パスワードワークフローによって保護されていないパスワードの表示/コピーなどの読み取り操作にはシステムを使用できます。",
+      "HEADER_TITLE": "アクションは利用できません",
+      "CLOSE_BUTTON_TEXT": "閉じる"
+    },
+    "TOP_NAVBAR": {
+      "HEADER_INDICATION_TITLE_TEXT": "読み取り専用モード",
+      "HEADER_INDICATION_SUBTITLE_TEXT": "一部のアクションは利用できません"
+    }
+  },
+  "READ_ONLY_MASTER_IS_AVAILABLE_MODE": {
+    "FEEDBACK_MESSAGE": {
+      "MAIN_TITLE": "完全な機能が利用可能になりました。",
+      "SUB_TITLE": "このアクションを完了するには、読み取り専用モードを終了するために再ログインする必要があります。",
+      "HEADER_TITLE": "このアクションは読み取り専用モードでは使用できません",
+      "IGNORE_BUTTON_TEXT": "無視",
+      "LOGOUT_BUTTON_TEXT": "ログアウト"
+    }
+  },
+  "ACCOUNT": {
+    "PAGE_TITLE": "アカウント",
+    "SELECT_THE_ACCOUNT_TYPE": "新しいアカウントタイプの選択",
+    "SEARCH_PLATFORM_PLACEHOLDER": "プラットフォーム名でリストをフィルター",
+    "NO_PLATFORMS_FOUND": "表示するプラットフォームはありません",
+    "SELECT_SAFE": "Safeの選択",
+    "SEARCH_SAFE_PLACEHOLDER": "Safeの名前でリストをフィルター",
+    "NO_SAFES_FOUND": "表示するSafeはありません",
+    "FORM_PRIMARY_PROPERTIES": "プライマリプロパティ",
+    "FORM_ADDITIONAL_PROPERTIES": "追加のプロパティ",
+    "FORM_ACCOUNT_MANAGEMENT": "アカウント管理",
+    "OPTIONAL_PROPERTY": "オプション",
+    "PASSWORD": "パスワード",
+    "RESOLVE": "解決",
+    "ACCOUNT_NAME": "アカウント名",
+    "CUSTOMIZE_ACCOUNT_NAME": "アカウント名のカスタマイズ",
+    "CUSTOMIZE_ACCOUNT_NAME_PLACEHOLDER": "カスタマイズされたアカウント名の指定",
+    "AUTO_GENERATE_CALLOUT_TITLE": "自動生成されたパスワードの名前パターン",
+    "AUTO_CPM_MANAGE": "自動パスワード管理の許可",
+    "AUTO_CPM_MANAGE_PLACEHOLDER": "手動管理リクエストの理由を指定",
+    "CONFIRM_PASSWORD": "パスワードの確認",
+    "AMAZON_ACCESS_KEY": "AWSアクセスキーの秘密",
+    "FEEDBACK_MESSAGE_TITLE": "次のエラーを訂正してください",
+    "LIMIT_ACCESS_TO_MACHINES": "これらのマシンのみにアクセスを制限",
+    "REMOTE_MACHINE_ACCESS": "リモートマシンへのアクセス",
+    "KEYWORDS_PROPERTY_HINT_TEXT": "セミコロンで区切ったキーワード"
+  },
+  "ADD_ACCOUNT": {
+    "TITLE": "アカウントの追加",
+    "PAGE_TITLE": "アカウントの追加",
+    "SELECTED_TILE_HOVER_TEXT": "変更",
+    "ADD_ACTION": "追加",
+    "CANCEL": "キャンセル",
+    "ADD_SAFE": "Safeの作成",
+    "STEPS": {
+      "SELECT_SYSTEM_TYPE": "システムタイプの選択",
+      "SELECT_SYSTEM_TYPE_TITLE": "システムタイプの選択",
+      "ASSIGN_PLATFORM": "プラットフォームに割り当て",
+      "ASSIGN_PLATFORM_TITLE": "プラットフォームを選択",
+      "SELECT_SAFE": "Safeに保管",
+      "SELECT_SAFE_TITLE": "Safeの選択",
+      "DEFINE_PROPERTIES": "プロパティの定義",
+      "DEFINE_PROPERTIES_TITLE": "アカウントのプロパティの定義"
+    },
+    "SUCCESS_MESSAGE": {
+      "TITLE": "アカウントは正常に追加されました"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "アカウントを追加できませんでした。理由:"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "プラットフォームの変更",
+      "CHANGE_SYSTEM_TYPE_TITLE": "システムタイプの変更",
+      "OK": "変更",
+      "CANCEL": "キャンセル",
+      "SECONDARY_MESSAGE": "この変更を完了するには、アカウントのプロパティを更新しなければならない場合があります.",
+      "PLATFORM_PRIMARY_MESSAGE": "次のプラットフォームに変更してもよろしいですか",
+      "SYSTEM_TYPE_PRIMARY_MESSAGE": "システムタイプを変更してもよろしいですか"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "閉じる",
+      "TITLE": "エラー"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "キャンセルの確認",
+      "BODY": "アカウント追加をキャンセルしますか?",
+      "SECONDARY_MESSAGE": "加えた変更は破棄されます",
+      "MAIN_ACTION": "キャンセルの確認",
+      "SECONDARY_ACTION": "キャンセルしない"
+    }
+  },
+  "EDIT_ACCOUNT": {
+    "TITLE": "アカウントの編集",
+    "PAGE_TITLE": "アカウントの編集",
+    "CHANGE_THE_PLATFORM_TYPE": "プラットフォームの変更",
+    "SAVE": "保存",
+    "CANCEL": "キャンセル",
+    "GENERAL": "全般",
+    "CANCEL_EDIT": "編集の解除",
+    "INACTIVE_PLATFORM": "非アクティブなプラットフォーム",
+    "DELETED_PLATFORM": "プラットフォームが見つかりません",
+    "PLATFORM_X_INACTIVE": "プラットフォーム{{platformName}}が非アクティブです",
+    "WAS_DELETED": "は削除されました",
+    "DELETED_PLATFORM_MESSAGE": "このアカウントに割り当てられたプラットフォームが見つかりません",
+    "DELETED_PLATFORM_SECONDARY_MESSAGE": "別のプラットフォームを選択します。これでアカウントタイプが自動的に設定されます",
+    "SELECT_PLATFORM": "プラットフォームを選択",
+    "SELECT_A_PLATFORM": "プラットフォームの選択",
+    "CHANGE_PLATFORM": "プラットフォームの変更",
+    "INACTIVE": "非アクティブ",
+    "INACTIVE_PLATFORM_MESSAGE": "アカウント管理は非アクティブなプラットフォームに適用されていません",
+    "CONTINUE_WITH_CURRENT": "現在のプラットフォームで続行",
+    "DELETED": "削除済み",
+    "STEPS": {
+      "SELECTED_SYSTEM_TYPE": "システムタイプを選択しました",
+      "ASSIGNED_PLATFORM": "プラットフォームに割り当て",
+      "CHANGE_PLATFORM_TITLE": "プラットフォームの変更",
+      "SELECTED_SAFE": "Safeに保管",
+      "ACCOUNT_PROPERTIES": "アカウントのプロパティ",
+      "ACCOUNT_PROPERTIES_TITLE": "アカウントのプロパティ"
+    },
+    "CONFIRMATION_MESSAGES": {
+      "CHANGE_PLATFORM_TITLE": "プラットフォームの変更",
+      "OK": "変更",
+      "CANCEL": "キャンセル",
+      "SECONDARY_MESSAGE": "この変更を完了するには、アカウントのプロパティを更新しなければならない場合があります.",
+      "PLATFORM_PRIMARY_MESSAGE": "次のプラットフォームに変更してもよろしいですか"
+    },
+    "CANCEL_DIALOG": {
+      "TITLE": "キャンセルの確認",
+      "BODY": "アカウント編集をキャンセルしますか?",
+      "SECONDARY_MESSAGE": "加えた変更は破棄されます",
+      "MAIN_ACTION": "キャンセルの確認",
+      "SECONDARY_ACTION": "キャンセルしない"
+    },
+    "SUCCESS_MESSAGE": "アカウントは正常に保存されました",
+    "FEEDBACK_MODAL": {
+      "CLOSE": "閉じる",
+      "TITLE": "アカウントの編集",
+      "CANCEL": "キャンセル"
+    },
+    "FAILURE_MESSAGE": {
+      "PREFIX": "アカウントを更新できませんでした。理由: {{errorReason}}",
+      "MAIN_MESSAGE": "すべてのプロパティが更新されたわけではありません。再試行してください"
+    }
+  },
+  "SAFES": {
+    "PAGE_TITLE": "Safe",
+    "TITLE": "Safe",
+    "SEARCH_TEXT": "Safeの名前で検索",
+    "ADD_ACTION": "新しいSafe",
+    "DETAILS": "詳細",
+    "MEMBERS": "メンバー",
+    "DELETE": "削除",
+    "EDIT": "編集",
+    "CLOSE_ACTION": "閉じる"
+  },
+  "ADD_SAFE": {
+    "PAGE_TITLE": "新しいSafe",
+    "ADD_ACTION": "追加",
+    "CANCEL_ACTION": "キャンセル",
+    "CLOSE_ACTION": "閉じる",
+    "SAFE_NAME_FIELD_TITLE": "Safe名",
+    "SAFE_NAME_HINT_TEXT": "組織の名前付け規則に従ってSafeの名前を入力.",
+    "SAFE_DESCRIPTION_FIELD_TITLE": "説明（オプション）",
+    "OLAC_LABEL": "オブジェクトレベルのアクセス制御",
+    "OLAC_WARNING_MESSAGE": "この機能は、Safeを追加した後で無効にすることはできません",
+    "ADVANCED_DETAILS_LABEL": "その他の詳細",
+    "CHARACTERS_LEFT_LABEL": " 残り文字数",
+    "CHARACTERS_OVER_LABEL": " 文字を超えています",
+    "ASSIGNED_CPM_FIELD_TITLE": "CPMに割り当て",
+    "ASSIGNED_CPM_NO_VALUE": "[なし]",
+    "SUCCESS_MESSAGE": {
+      "TITLE": "Safeは正常に追加されました"
+    },
+    "ERROR_MESSAGE": {
+      "HEADER_TITLE": "新しいSafe",
+      "SUB_TITLE": "再試行してください."
+    },
+    "SAFE_VERSION_MANAGEMENT_FIELD_TITLE": "バージョン管理",
+    "RADIO_BUTTONS": {
+      "RETENTION": {
+        "TEXT": "のアカウントバージョンを保存",
+        "BOLD_TEXT": "期間:",
+        "UNITS": "日間"
+      },
+      "VERSIONS": {
+        "TEXT": "最終アカウントの保存",
+        "BOLD_TEXT": "バージョン:",
+        "UNITS": "バージョン"
+      }
+    }
+  },
+  "SAFE_DETAILS": {
+    "SAFE_NAME": "Safe名",
+    "ASSIGNED_CPM": "CPMに割り当て",
+    "DESCRIPTION": "説明",
+    "VERSION_MANAGEMENT": "バージョン管理",
+    "OLAC_ENABLED": "オブジェクトレベルのアクセス制御",
+    "AUTO_PURGE_ENABLED": "Safeの自動消去",
+    "ADVANCED_DETAILS": "その他の詳細",
+    "NONE_STR": "[なし]",
+    "DASH_STR": "-",
+    "ENABLED_STR": "有効",
+    "DISABLED_STR": "無効",
+    "VERSIONS_RETENTION_FIRST_PART": "最終 ",
+    "VERSIONS_RETENTION_SECOND_PART": " アカウントバージョン",
+    "VERSIONS_RETENTION_THIRD_PART": " を保存しています",
+    "VERSIONS_RETENTION_SINGLE": "最終アカウント ",
+    "VERSIONS_RETENTION_SINGLE_BOLD": "バージョンを保存しています",
+    "DAYS_RETENTION_FIRST_PART": "アカウントバージョンを保存しています: 過去 ",
+    "DAYS_RETENTION_SECOND_PART": " 日間",
+    "DAYS_RETENTION_SINGLE": "アカウントバージョンを保存しています: 過去 ",
+    "DAYS_RETENTION_SINGLE_BOLD": "日間",
+    "EXPIRED_MEMBERSHIP_ERROR": "このSafeでのメンバーシップが失効しました"
+  },
+  "FEEDBACK_MESSAGE": {
+    "CLOSE": "閉じる",
+    "REFRESH": "更新",
+    "GENERIC_DATA_ERROR": {
+      "TITLE": "問題が発生しました",
+      "SUBTITLE": "もう一度試すか、管理者に連絡してください"
+    }
+  },
+  "ACCOUNTS": {
+    "DELETE_SUCCESS": "アカウントは正常に削除されました",
+    "CHANGE_IN_VAULT_SUCCESS": "Vaultでパスワードが正常に変更されました",
+    "PAGE_TITLE": "アカウント",
+    "TITLE": "アカウントビュー",
+    "SEARCH_TEXT": "アカウントの検索",
+    "REFRESH": "更新",
+    "ADD_ACTION": "アカウントの追加",
+    "AD_HOC_CONNECT_ACTION": "アドホック接続",
+    "EDIT_ACTION": "アカウントの編集",
+    "ADD_TO_FAVORITE": "お気に入りに追加",
+    "DELETE_FROM_FAVORITE": "お気に入りから削除",
+    "COUNTER_TITLE": "アカウント",
+    "COUNTER_TITLE_ON_SEARCH": "次のアカウント: ",
+    "SELECTED_ACCOUNTS": "選択されたアカウント",
+    "SELECTED_ACCOUNT": "選択されたアカウント",
+    "NO_ACCOUNTS": "表示するアカウントはありません",
+    "AD_HOC_CONNECTION": {
+      "AD_HOC_CONNECTION_TITLE": "アドホック接続",
+      "CONNECT_BUTTON": "接続",
+      "CANCEL_BUTTON": "キャンセル"
+    },
+    "ACCOUNT_DETAILS": {
+      "ALL": "すべて",
+      "NO_RESULTS": "フィルターに一致する結果が見つかりません",
+      "ACTION": "アクション",
+      "SEARCH": "検索",
+      "PAGE_TITLE": "アカウントの詳細",
+      "SAFE": "Safe",
+      "PLATFORM": "プラットフォーム",
+      "PLATFORM_DETAILS": "プラットフォームの詳細",
+      "PLATFORM_PROPERTIES": "プラットフォームのプロパティ",
+      "DUAL_CONTROL": "デュアル制御",
+      "COPY": "コピー",
+      "SHOW": "表示",
+      "EDIT": "編集",
+      "CONNECT": "接続",
+      "INACTIVE_PLATFORM": "非アクティブなプラットフォーム",
+      "ON": "オン",
+      "ACTIVITIES": "活動状況",
+      "GROUP_NAME": "グループ名",
+      "GROUP_PLATFORM": "グループのプラットフォーム",
+      "LATEST": "最新",
+      "LAST": "最終",
+      "COMPLIANT": "準拠",
+      "NOT_COMPLIANT": "非準拠",
+      "COMPLIANCE_STATUS": "コンプライアンスステータス",
+      "LAST_VERIFIED": "前回検証日時",
+      "VERIFIED_BY": "検証者",
+      "VERIFIED_ON": "検証日",
+      "NEVER_VERIFIED": "一度も検証なし",
+      "CREATED": "作成済み",
+      "DAYS_AGO": "日前",
+      "FAILED": "失敗",
+      "TOTAL": "合計",
+      "BY": "実行者",
+      "Reconcile": "調整者",
+      "Change": "変更者",
+      "LAST_ACCESS": "前回アクセス",
+      "YESTERDAY": "昨日",
+      "TODAY": "今日",
+      "DEPENDENCIES": "依存関係",
+      "OVERVIEW": "概要",
+      "DETAILS": "詳細",
+      "RECORDINGS": "録画",
+      "NO_RECORDINGS": "このアカウントの録画がありません",
+      "NO_ACTIVITIES": "このアカウントの活動状況がありません",
+      "ACTIVITIES_FOR_THIS_ACCOUNT": "件 - このアカウントの活動状況",
+      "NO_ACTIVITIES_FOUND": "活動状況が見つかりません",
+      "USER": "ユーザー",
+      "DATE": "日付",
+      "DURATION": "期間",
+      "RISK": "リスク",
+      "NA": "なし",
+      "NONE": "なし",
+      "UNKNOWN": "不明",
+      "VERSION": "バージョン",
+      "SUGGESTED_REMOTE_MACHINES": "提案されているリモートマシン",
+      "PERMITTED_REMOTE_MACHINES": "許可されているリモートマシン",
+      "FEEDBACK_MODAL": {
+        "CLOSE": "閉じる",
+        "TITLE": "アカウントの詳細",
+        "MESSAGE": "アカウントの詳細表を取得できませんでした."
+      },
+      "ACCOUNT_STATUS": {
+        "CANCEL": "キャンセル",
+        "RESUME": "再開",
+        "RESTORE": "復元",
+        "CHECKIN": "チェックイン",
+        "MORE": "その他",
+        "MODAL_TITLE_ERROR": "エラーの詳細",
+        "MODAL_TITLE_DISABLED": "CPMは無効",
+        "REASON": "ステータスが次の検索基準に一致するため、CPMはこのパスワードを(0)しています: (1)",
+        "TASK_TYPES": {
+          "ReconcileTask": "調整",
+          "VerifyTask": "検証",
+          "ChangeTask": "変更",
+          "UnknownTask": "[unknown]",
+          "DeleteTask": "削除"
+        }
+      },
+      "DUAL_CONTROL_STATUS": {
+        "REQUEST_NEEDED": "リクエストは必須です",
+        "WAITING": "保留中のリクエスト",
+        "CONFIRMED": "確認済みのリクエスト",
+        "REJECTED": "リクエストが却下されました",
+        "EXPIRED": "リクエストが期限切れになりました"
+      },
+      "ACCOUNT_STATUS_TYPE": {
+        "TITLE": {
+          "CheckedOut": "このアカウントはLOCKED_BYによってチェックアウトされています",
+          "AutomaticManagementCPM": "CPMはこのアカウントの自動管理を無効化しました",
+          "CPMFailed": "CPMはこのアカウントのアクションを実行できませんでした",
+          "DisabledByCPM": "CPMによって無効化",
+          "FailedToVerify": "CPMはこのパスワードを検証できませんでした",
+          "FailedToReconcile": "CPMはこのパスワードを調整できませんでした",
+          "FailedToChange": "CPMはこのパスワードを変更できませんでした",
+          "FailedToDelete": "CPMはこのパスワードを削除できませんでした",
+          "Inactive": "このアカウントは非アクティブなプラットフォームに割り当てられているため、自動的に管理できません",
+          "NewlyAdded": "新しく追加されたアカウント",
+          "Deleted": "このアカウントはDELETED_TIMEにDELETED_BYによって削除されました",
+          "ScheduleForDeletion": "このアカウントは削除が予定されています",
+          "ScheduleForVerify": "このアカウントは即時検証が予定されています",
+          "ScheduleForReconcile": "このアカウントは即時調整が予定されています",
+          "ScheduleForChange": "このアカウントのパスワードは変更が手動で予定されています",
+          "DisabledByUser": "自動管理はユーザーによって無効化されました",
+          "AutomaticDisabled": "ユーザーはこのアカウントの自動管理を無効化しました"
+        }
+      },
+      "ACCOUNT_PROPERTIES": "アカウントのプロパティ",
+      "LINKED_ACCOUNTS": "リンクされたアカウント",
+      "VERSIONS_TAB": {
+        "MODIFIED_BY": "変更者",
+        "DATE": "日付",
+        "TIME": "時間",
+        "CPM_TEMPORARY_TOGGLE": "CPM一時パスワードバージョンを表示しない",
+        "TEMP": "(TEMP)"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "クラシックインターフェイスでの追加の詳細とアクション",
+        "CALLOUT_TITLE": "クラシックインターフェイス",
+        "CALLOUT_TEXT": "このアカウントにはクラシックインターフェイスでのみ\n使用できる追加機能が含まれている場合があります。\n\n「アカウントビュー」に\nいつでも戻ることができます."
+      },
+      "CPM_TASKS": {
+        "VERIFY": {
+          "ACTION": "検証",
+          "SUCCESS": "アカウントが検証のためにマーキングされています",
+          "ERROR_MESSAGE": "検証のためにアカウントをマーキングできませんでした",
+          "ERROR_TITLE": "問題が発生しました"
+        },
+        "RECONCILE": {
+          "ACTION": "調整",
+          "SUCCESS": "アカウントが調整のためにマーキングされています",
+          "ERROR_MESSAGE": "調整のためにアカウントをマーキングできませんでした",
+          "ERROR_TITLE": "問題が発生しました"
+        },
+        "CHANGE": {
+          "ACTION": "変更",
+          "SUCCESS": "アカウントが変更のためにマーキングされています",
+          "ERROR_MESSAGE": "アカウントを変更のためにマーキングできませんでした",
+          "ERROR_TITLE": "問題が発生しました",
+          "DIALOG": {
+            "TITLE": "アカウントのパスワード変更",
+            "MESSAGE": "CPMでパスワードを新しいランダムパスワードに変更します",
+            "CHANGE_BUTTON_TEXT": "変更",
+            "CANCEL_BUTTON_TEXT": "キャンセル",
+            "BELONGS_TO_GROUP_MESSAGE": "このアカウントはアカウントグループに所属しています。CPM:",
+            "CHANGE_ENTIRE_GROUP": "グループ全体のパスワードを変更",
+            "SYNC_WITH_GROUP": "現在のアカウントのパスワードをグループのパスワードと同期",
+            "CHANGE_GROUP_CLASSIC_UI": "クラシックUIではグループ化されたアカウントのパスワードを変更できます。\nこのアカウントをクラシックUIで開きます.",
+            "REDIRECT_BUTTON_TEXT": "オープン"
+          }
+        },
+        "OK_BUTTON": "OK"
+      }
+    },
+    "CATEGORIES": {
+      "MY_ACCOUNTS": "マイアカウント",
+      "STATUS": "ステータス",
+      "OPERATIONAL_STATE": "オペレーションの状態"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSMのゲートウェイ接続"
+    },
+    "FILTERS": {
+      "ALL_ACCOUNTS": "すべてのアカウント",
+      "RECENTLY_USED": "最近使用された",
+      "FAVORITES": "お気に入り",
+      "DISABLED_BY_CPM": "CPMによって無効化",
+      "CHECKED-OUT": "チェックアウト",
+      "FAILED": "失敗",
+      "FAILED_DEPENDENCIES": "失敗した依存関係",
+      "NEWLY_ADDED": "新しく追加された",
+      "DELETED": "削除済み",
+      "DISABLED_BY_USER": "ユーザーによって無効化",
+      "SCHEDULED_FOR_CHANGE": "変更を予定",
+      "SCHEDULED_FOR_VERIFICATION": "検証を予定",
+      "SCHEDULED_FOR_RECONCILIATION": "調整を予定",
+      "SUCCESSFULLY_RECONCILED": "正常に調整",
+      "ACCESS_IN_LAST_X_DAYS": "過去{{number}}日間にアクセス",
+      "MODIFIED_BY_USER_IN_LAST_X_DAYS": "過去{{number}}日間にユーザーによって変更",
+      "MODIFIED_BY_CPM_IN_LAST_X_DAYS": "過去{{number}}日間にCPMによって変更"
+    },
+    "EMPTY_STATE": {
+      "RECENT_EMPTY_TITLE": "表示する最新ビューはありません",
+      "SAVED_EMPTY_TITLE": "表示する保存済みのビューはありません",
+      "SAVED_EMPTY_TEXT": "最近のビューを保存"
+    },
+    "SAVED_SEARCHES_INFO_MESSAGE": {
+      "PRIMARY_TEXT": "その他に保存したビュー",
+      "SECONDARY_TEXT": "V9インターフェイスで保存されたビューの管理"
+    },
+    "REASON": {
+      "REASON_DEFAULT_CAPTION": "理由",
+      "OPTIONAL": "オプション",
+      "SELECT": "選択",
+      "ENTER_OR_SELECT_A_REASON": "理由の入力または選択",
+      "OTHER": "その他"
+    },
+    "TICKETING": {
+      "TICKETING_SECTION_MAIN_TITLE": "チケット情報",
+      "TICKETING_SYSTEM_DEFAULT_CAPTION": "チケット発行システム",
+      "TICKETING_ID_DEFAULT_CAPTION": "チケットID",
+      "TICKETING_BYPASS_SUCCESS_MESSAGE": "バイパスチケットを正常に入力しました",
+      "TICKETING_ID_IS_INVALID": "チケットIDが無効です"
+    },
+    "CONNECTION": {
+      "TITLE": "リモート接続の詳細",
+      "SAVE_TO_ACCOUNTS": "これをアカウントプロパティに保存",
+      "OPTIONAL": "オプション",
+      "AVAILABLE_MACHINES_TITLE": "使用できるマシン:",
+      "AVAILABLE_MACHINES_ACCOUNTS_HINT": "使用できるすべてのマシンのリストについては、アカウントの詳細に移動してください",
+      "AVAILABLE_MACHINES_REQUEST_HINT": "使用できるすべてのマシンのリストについては、リクエストの詳細に移動してください",
+      "SEPARATE_THE_MACHINE_WITH_COMMA": "マシンをコンマで区切る",
+      "ADD_MORE_REMOTE_MACHINE_TO_THE_LIST": "リモートマシンをリストにさらに追加",
+      "ENTER_OR_SELECT_A_REMOTE_MACHINE": "リモートマシンの入力または選択"
+    },
+    "GRID_ACTIONS": {
+      "COPY_ACTION": "コピー",
+      "REQUEST_COPY_ACTION": "コピーのリクエスト",
+      "SHOW_ACTION": "表示",
+      "REQUEST_SHOW_ACTION": "表示のリクエスト",
+      "EDIT_ACTION": "編集",
+      "CONNECT_ACTION": "接続",
+      "REQUEST_CONNECT_ACTION": "接続のリクエスト",
+      "Default": "デフォルト",
+      "CONNECT_WITH": "接続先",
+      "CHECKIN_ACTION": {
+        "TITLE": "チェックイン",
+        "SUCCESS_MESSAGE": "アカウントがチェックインのためにマーキングされています",
+        "OK": "OK"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "クラシックインターフェイスでの追加の詳細とアクション",
+        "CALLOUT_TITLE": "クラシックインターフェイス",
+        "CALLOUT_TEXT": "アカウントビューにはクラシックインターフェイスでのみ\n使用できる追加機能が含まれている場合があります。\n\nクラシックインターフェイスでは、「アカウントビュー」に\nいつでも戻ることができます."
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "パスワードの表示",
+      "PASSWORD_INPUT_LABEL": "パスワード",
+      "COPY_BUTTON_TEXT": "コピー",
+      "SHOW_BUTTON_TEXT": "表示",
+      "CLOSE_BUTTON_TEXT": "閉じる",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "パスワードが空です"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "このパスワードは長すぎて全部表示できません。[コピー]をクリックして、パスワードを全部コピーします."
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "パスワードのコピー",
+      "COPY_BUTTON_TEXT": "コピー"
+    },
+    "SAVE_SEARCH_DIALOG": {
+      "TITLE": "名前を付けて保存",
+      "SAVE_BUTTON_TEXT": "保存",
+      "CANCEL_BUTTON_TEXT": "キャンセル",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "このビューは保存されました",
+        "WARNING": {
+          "HEADER_TEXT": "保存できません",
+          "MAIN_TEXT": "この名前のビューは既に存在します"
+        },
+        "ERROR": {
+          "HEADER_TEXT": "保存したビューの上限に達しました",
+          "MAIN_TEXT": "保存したビューの上限に達しました。既存のビューを削除すると、新しいビューを保存することができます.",
+          "CLOSE_BUTTON_TEXT": "閉じる"
+        }
+      }
+    },
+    "RENAME_DIALOG": {
+      "TITLE": "名前の変更",
+      "RENAME_BUTTON_TEXT": "名前の変更",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "このビューは名前変更されました",
+        "WARNING": {
+          "HEADER_TEXT": "名前を変更できません",
+          "MAIN_TEXT": "この名前のビューは既に存在します"
+        },
+        "WARNING_OLD_UI": {
+          "HEADER_TEXT": "名前を変更できません",
+          "MAIN_TEXT": "この名前のビューはV9インターフェイスでは既に存在します"
+        },
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "閉じる"
+        }
+      }
+    },
+    "COMMON_DIALOG": {
+      "CANCEL_BUTTON_TEXT": "キャンセル"
+    },
+    "DELETE_ACTION": {
+      "TITLE": "削除",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "このビューは削除されました",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "閉じる"
+        }
+      },
+      "DELETE_DEFAULT_CONFIRMATION": {
+        "TITLE": "ビューの削除",
+        "MAIN_TEXT": " は現在規定値のビューに設定されています。削除した後、規定値のビューはシステム設定によって設定されます",
+        "SUB_TEXT": "このビューを削除しますか?",
+        "CONFIRM_BUTTON_TEXT": "ビューの削除",
+        "CANCEL_BUTTON_TEXT": "キャンセル"
+      }
+    },
+    "SET_DEFAULT_ACTION": {
+      "TITLE": "既定値に設定",
+      "FEEDBACK_MESSAGES": {
+        "SUCCESS": "このビューは規定値として設定されました",
+        "ERROR": {
+          "CLOSE_BUTTON_TEXT": "閉じる"
+        }
+      }
+    },
+    "FILTERS_ACTIONS": {
+      "SAVE_ACTION_TEXT": "名前を付けて保存",
+      "SET_AT_DEFAULT_TEXT": "既定値に設定",
+      "RENAME_TEXT": "名前の変更",
+      "DELETE_TEXT": "削除"
+    },
+    "CONNECT_PREREQUISITES_DIALOG": {
+      "TITLE": "接続",
+      "CONNECT_BUTTON_TEXT": "接続"
+    },
+    "DUAL_CONTROL": {
+      "PAGE_TITLE": "リクエストの作成",
+      "HEADER": {
+        "REQUEST_SHOW": "表示するリクエスト",
+        "REQUEST_COPY": "コピーするリクエスト",
+        "REQUEST_CONNECT": "接続するリクエスト"
+      },
+      "TIMEFRAME_TITLE": "タイムフレーム",
+      "REQUEST_TIMEFRAME": "リクエストのタイムフレーム",
+      "MULTIPLE_ACCESS_REQUIRED": "複数のアクセスが必要です",
+      "MULTIPLE_ACCESS_LABEL": "この期間中は複数のアクセスが許可されます",
+      "CONFIRMATION": {
+        "TITLE": "確認",
+        "CURRENTLY_THERE_ARE_NO_CONFIRMERS_TO_DISPLAY": "表示する確認者は現在いません",
+        "MULTIPLE_USERS_MUST_CONFIRM": "{{number}}名のユーザーがリクエストを確認する必要があります",
+        "ONE_USER_MUST_CONFIRM": "1名のユーザーがリクエストを確認する必要があります",
+        "MULTILEVEL_MULTIPLE_USERS_MUST_CONFIRM": "第一レベルのユーザー{{number}}名および第二レベルのユーザー{{number}}名がリクエストを確認する必要があります",
+        "MULTILEVEL_ONE_USER_MUST_CONFIRM": "第一レベルのユーザー1名および第二レベルのユーザー1名がリクエストを確認する必要があります",
+        "CONFIRMERS_LIST_TOGGLE": "確認者リスト"
+      },
+      "ADDITIONAL_INFORMATION_TITLE": "追加情報",
+      "SEND_REQUEST": "リクエストの送信"
+    },
+    "BULK_CHANGE": {
+      "DIALOG_TITLE": "{{value}}アカウントの変更",
+      "DIALOG_PROGRESS_BAR_TITLE": "アカウントの変更"
+    },
+    "ERRORS": {
+      "CREATE_REQUEST_COPY_PASSWORD_ERROR_DIALOG_TITLE": "パスワードをコピーするリクエストを作成",
+      "CREATE_REQUEST_SHOW_PASSWORD_ERROR_DIALOG_TITLE": "パスワードを表示するリクエストを作成",
+      "CREATE_REQUEST_CONNECT_PASSWORD_ERROR_DIALOG_TITLE": "パスワードを使って接続リクエストを作成"
+    },
+    "COPY_EXTENSIONS_CONFIRM_MESSAGES": "この機能を使用するには、ブラウザーの拡張子/アドオンをダウンロードしてインストールします.",
+    "WARNINGS_MESSAGES": {
+      "EMPTY_COPY_TITLE": "ユーザー名のコピー",
+      "CANNOT_COPY_EMPTY_PASSWORD": "空のパスワードをコピーできません。クリップボードのコンテンツは変更されていません."
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "パスワードがクリップボードにコピーされました",
+      "REQUEST_WAS_SENT": "リクエストが送信されました"
+    },
+    "DUAL_CONTROL_TOOLTIPS": {
+      "REQUEST_NEEDED": "リクエストは必須です",
+      "WAITING_RESTRICTED": "保留中の接続リクエストが既にあります。リクエストを表示またはコピーするには、このリクエストを削除して新しいリクエストを送信します.",
+      "WAITING_NOT_RESTRICTED": "このリクエストは保留中です",
+      "CONFIRMED_RESTRICTED": "この接続リクエストは確認されました",
+      "CONFIRMED_NOT_RESTRICTED": "このリクエストは確認されました",
+      "REJECTED": "このリクエストは却下されました",
+      "EXPIRED": "このリクエストは期限切れになりました",
+      "INVALID": "このリクエストは無効です",
+      "FUTURE_REQUEST_CONFIRMED": "将来のリクエストが承認されました",
+      "RESTRICTED_CONNECTION_REQUEST_CONFIRMED": "接続リクエストが承認されました。{{actionName}}の確認を取得するには、既存のリクエストを削除して新しいリクエストを作成します.",
+      "RESTRICTED_FUTURE_CONNECTION_REQUEST_CONFIRMED": "将来の接続リクエストが承認されました。{{actionName}}の確認を取得するには、既存のリクエストを削除して新しいリクエストを作成します."
+    }
+  },
+  "PENDING_ACCOUNTS": {
+    "PAGE_TITLE": "保留中のアカウント",
+    "TITLE": "保留中のアカウント",
+    "NO_PENDING_ACCOUNTS": "表示する保留中のアカウントはありません",
+    "COUNTER_TITLE": "保留中のアカウント",
+    "SELECTED_PENDING_ACCOUNTS": "選択された保留中アカウント",
+    "SEARCH_TEXT": "保留中のアカウントの検索",
+    "ERROR_FEEDBACK_MODAL": {
+      "TITLE": "問題が発生しました",
+      "OK": "OK"
+    },
+    "FILTERS": {
+      "SYSTEM_TYPE": {
+        "TITLE": "システムタイプ",
+        "OPTIONS": {
+          "ALL": "すべて",
+          "WINDOWS": "Windows",
+          "UNIX": "Unix"
+        }
+      },
+      "ACCOUNT_TYPE": {
+        "TITLE": "アカウントタイプ",
+        "OPTIONS": {
+          "LOCAL": "ローカル",
+          "DOMAIN": "ドメイン",
+          "ALL": "すべて"
+        }
+      },
+      "ACCOUNT_CATEGORY": {
+        "TITLE": "アカウントカテゴリ",
+        "OPTIONS": {
+          "PRIVILEGED": "特権付き",
+          "NON_PRIVILEGED": "特権なし",
+          "ALL": "すべて"
+        }
+      },
+      "DISCOVERED_BY": {
+        "TITLE": "検出者",
+        "OPTIONS": {
+          "CPM_SCANNER": "CPMスキャナー",
+          "EXTERNAL_SOURCE": "外部ソース",
+          "ALL": "すべて"
+        }
+      }
+    },
+    "APPLYFILTERS": "フィルターの適用"
+  },
+  "REQUESTS": {
+    "DETAILS": {
+      "TITLE_KEY": "リクエスト",
+      "TITLE_VALUE_PREFIX": "アカウント",
+      "TIMEFRAME": "時間枠",
+      "REASON": "理由",
+      "PERMISSION": "権限",
+      "ACCESS": "アクセス",
+      "REQUESTED_ON": "リクエスト日",
+      "REQUEST_ID": "リクエストID",
+      "ADDRESS": "アドレス",
+      "ACCOUNT_NAME": "AccountName",
+      "ACCOUNT_SAFE": "AccountSafe",
+      "ACCOUNT_PLATFORM": "AccountPlatform",
+      "EMERGENCY": "緊急",
+      "STATUS": "ステータス",
+      "START_FOR_SCCESS": ":",
+      "END_FOR_SCCESS": "アクセス",
+      "FOR_ACCOUNT": "アカウントの"
+    },
+    "ACCOUNT_DETAILS": {
+      "NAME": "名前",
+      "SAFE": "Safe",
+      "PLATFORM": "プラットフォーム",
+      "ADDRESS": "アドレス",
+      "USERNAME": "ユーザー名",
+      "LOGON TO": "ログオン先",
+      "LOCATION": "ロケーション",
+      "OWNER NAME": "所有者名",
+      "USER DN": "ユーザーDN",
+      "COPY": "コピー",
+      "SHOW": "表示",
+      "CONNECT": "接続"
+    },
+    "CONFIRMERS": {
+      "GROUP_TOOLTIP": "確認者グループ",
+      "SINGLE_TOOLTIP": "単一確認者"
+    },
+    "UPDATE_INFO": "このタブ内の情報は、リクエストリスト内の情報よりも最新のものです | 更新日 - {{string}}"
+  },
+  "MY_REQUESTS": {
+    "PAGE_TITLE": "マイリクエスト",
+    "TITLE": "マイリクエスト",
+    "COUNTER_TITLE": "件の結果:",
+    "NO_MY_REQUESTS": "表示するリクエストはありません",
+    "SELECTED_REQUESTS": "選択されたリクエスト",
+    "FILTERS": {
+      "ALL": "すべてのリクエスト",
+      "WAITING_AND_CONFIRMED": "確認済みおよび保留中のリクエスト",
+      "WAITING": "保留中のリクエスト",
+      "EXPIRED_AND_WAITING": "保留中、期限切れ、および却下済みのリクエスト"
+    },
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "リクエストビュー"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "マイリクエストの詳細",
+      "ITEM": "リクエスト",
+      "ACTION_TYPE": "削除済み"
+    },
+    "DELETE_TEXT": "削除",
+    "DELETE_ERROR_HEADER": "リクエストエラーの削除",
+    "DELETE_SUCCESS_TEXT": "リクエストは正常に削除されました.",
+    "OK": "OK"
+  },
+  "INCOMING_REQUESTS": {
+    "TITLE": "受信リクエスト",
+    "NO_INCOMING_REQUESTS": "表示するリクエストはありません",
+    "SELECTED_REQUESTS": "選択されたリクエスト",
+    "CATEGORIES": {
+      "REQUESTS_VIEWS": "リクエストビュー"
+    },
+    "DETAILS": {
+      "REQUEST_TITLE": "リクエスト",
+      "ACCOUNT_TITLE": "アカウント",
+      "REQUESTOR_USERNAME": "リクエスターのユーザー名",
+      "REQUESTOR_FULLNAME": "リクエスターのフルネーム"
+    },
+    "DETAILS_FULL_PAGE": {
+      "ITEM": "リクエスト",
+      "ACTION_TYPE": "削除済み",
+      "TITLE": "受信リクエストの詳細"
+    },
+    "TICKETING_SYSTEM": {
+      "NAME": "チケット発行システム名",
+      "NUMBER": "チケット番号."
+    },
+    "FILTERS": {
+      "ALL": "すべてのリクエスト",
+      "WAITING_AND_CONFIRMED": "保留中および確認済みのリクエスト",
+      "WAITING": "保留中のリクエスト",
+      "EXPIRED_AND_WAITING": "保留中および期限切れのリクエスト"
+    },
+    "OK": "OK",
+    "CONFIRM_TEXT": "確認",
+    "REJECT_TEXT": "却下",
+    "CANCEL_TEXT": "キャンセル",
+    "BULK_CONFIRM_MODAL_TITLE": "{{number}}件のアカウントへのアクセスの確認",
+    "BULK_CONFIRM_MODAL_TEXT": "確認の理由を指定してください",
+    "BULK_REJECT_MODAL_TITLE": "{{number}}件のアカウントへのアクセスの却下",
+    "BULK_REJECT_MODAL_TEXT": "却下の理由を指定してください",
+    "BULK_CONFIRM_REJECT_MODAL_WARNING": "未処理リクエストのみが確認されます",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_TITLE": "{{number}}件のリクエストを確認中",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_TITLE": "{{number}}件のリクエストを却下中",
+    "BULK_CONFIRM_MODAL_PROGRESS_BAR_SUB_TITLE": "リクエストの確認中",
+    "BULK_REJECT_MODAL_PROGRESS_BAR_SUB_TITLE": "リクエストの却下中",
+    "BULK_CONFIRM_SUCCESS_ACCORDION_TITLE": "リクエストが正常に確認されました",
+    "BULK_REJECT_SUCCESS_ACCORDION_TITLE": "リクエストが正常に却下されました",
+    "BULK_CONFIRM_FAILURE_ACCORDION_TITLE": "リクエストが正常に確認されませんでした",
+    "BULK_REJECT_FAILURE_ACCORDION_TITLE": "リクエストが正常に却下されませんでした",
+    "BULK_MODAL_PROGRESS_BAR_DONE_BUTTON": "閉じる",
+    "BULK_MODAL_PROGRESS_BAR_DONE_TITLE": "完了",
+    "BULK_MODAL_PROGRESS_BAR_DONE_FAILURE_SUB_TITLE": "エラーが発生",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_CONFIRM": "確認中です...",
+    "BULK_MODAL_PROGRESS_BAR_WAIT_REJECT": "却下中です...",
+    "REJECT_HEADER_TEXT": "リクエストの却下の理由",
+    "REJECT_CONTENT_TEXT": "却下の理由を指定:",
+    "CONFIRM_HEADER_TEXT": "リクエストの確認の理由",
+    "CONFIRM_CONTENT_TEXT": "確認の理由を指定:",
+    "CONFIRM_ERROR_HEADER": "リクエストエラーの確認",
+    "REJECT_ERROR_HEADER": "リクエストエラーの却下",
+    "CONFIRM_SUCCESS_TEXT": "リクエストは正常に確認されました.",
+    "REJECT_SUCCESS_TEXT": "リクエストは正常に却下されました."
+  },
+  "CONTENT_TITLE": {
+    "HEADER": {
+      "FOR": ":",
+      "ALL": "すべて",
+      "CLEAR_ALL": "すべてクリア"
+    },
+    "SHOWING": "表示中"
+  },
+  "DISCOVERIES": {
+    "DEFAULT_DASH": "-",
+    "PAGE_TITLE": "検出管理",
+    "GRID_TITLE": "検出のセットアップ",
+    "ADD_ACTION": "新規検出",
+    "LAST_RUN_STATUS": {
+      "DONE": "完了済み",
+      "FAILED": "失敗",
+      "DONE_WITH_ISSUES": "完了済み",
+      "CANCELED_DUE_TO_UPGRADE": "キャンセル済み",
+      "STOPPED": "停止済み"
+    },
+    "STATE": {
+      "RUNNING": "実行中",
+      "PENDING": "保留中",
+      "STOPPING": "停止中"
+    },
+    "LAST_RUN_TIME": {
+      "NA": "なし"
+    },
+    "DISCOVERY_TYPE": {
+      "ONETIME": "1回限り",
+      "RECURRING": "繰り返し"
+    }
+  },
+  "FILTERS_VIEWS_LAYOUT": {
+    "SHOW_MORE": "詳細表示",
+    "SHOW_LESS": "簡易表示",
+    "APPLY": "適用"
+  },
+  "FORM_VALIDATIONS": {
+    "REQUIRED": "このフィールドは必須です",
+    "IS_NUMERIC": "このフィールドには数字のみを入力してください",
+    "IS_I18N": "このフィールドには国際文字を入力できません",
+    "IS_PASSWORD_MATCH": "パスワードと確認フィールドが一致しません",
+    "REQUIRED_SAFE_NAME": "フィールド名は空白にできません",
+    "STARTING_WHITE_SPACE": "フィールド名はスペースでは開始できません",
+    "ENDING_WHITE_SPACE": "フィールド名はスペースでは終了できません",
+    "PATTERN": "フィールドに無効な文字を含めることはできません",
+    "MIN_VALUE": "最小値を超えています",
+    "MAX_VALUE": "最大値を超えています",
+    "INVALID_VALUE": "有効な値の範囲は{minValue}～{maxValue}です",
+    "NOT_EXIST_IN_MACHINE_LIST": "このマシンは使用できるマシンリストに含まれていません"
+  },
+  "FORM_SAFES_VALIDATIONS": {
+    "SAFE_NAME_REQUIRED": "Safeの名前は空白にできません",
+    "SAFE_NAME_STARTING_WHITE_SPACE": "Safeの名前はスペースでは開始できません",
+    "SAFE_NAME_ENDING_WHITE_SPACE": "Safeの名前はスペースでは終了できません",
+    "SAFE_NAME_PATTERN": "Safeの名前に無効な文字を含めることはできません",
+    "SAFE_NAME_MAX_CHAR": "Safeの名前は28文字以下にする必要があります",
+    "SAFE_DESCRIPTION_PATTERN": "Safeの説明に無効な文字を含めることはできません",
+    "MANAGING_CPM_REQUIRED": "リストから値を選択してください"
+  },
+  "COMMON": {
+    "VIEWS_TAB_TITLE": "ビュー",
+    "RECENT_TAB_TITLE": "最近",
+    "SAVED_TAB_TITLE": "保存済み",
+    "FILTERS_TAB_TITLE": "フィルター",
+    "CLOSE_BUTTON_TEXT": "閉じる",
+    "CANCEL_BUTTON_TEXT": "キャンセル",
+    "DOWNLOAD_BUTTON_TEXT": "ダウンロード",
+    "SELECT_BUTTON_TEXT": "選択",
+    "OPTIONAL_FORM_CONTROL": "{{fieldName}} (オプション)",
+    "ACCOUNT_TYPES": {
+      "PASSWORD": "パスワード",
+      "SSH_KEY": "SSHキー"
+    },
+    "GENERAL_MESSAGES": {
+      "FAILURE_MAIN_TEXT": "次に失敗しました"
+    }
+  },
+  "AUTHENTICATION": {
+    "SESSION_EXPIRED_MESSAGE": {
+      "HEADER_TITLE": "セッションの有効期限が切れました",
+      "MAIN_TITLE": "セッションの期限が切れました",
+      "SUB_TITLE": "[OK]をクリックするとログイン画面に戻ります",
+      "OK_OPTION": "OK"
+    }
+  },
+  "MONITORING": {
+    "TITLE": "監視",
+    "REFRESH": "更新",
+    "RISK_CARD": {
+      "TITLE": "セッションのリスクスコア",
+      "SUB_TITLE": "最も大きな影響を持つ活動/イベント",
+      "SECURITY_INCIDENT": "セキュリティインシデント",
+      "GO_TO_INCIDENT_DETAILS": "インシデント詳細に移動",
+      "ID": "ID",
+      "PLAY": "再生",
+      "TOOLTIP_TITLE": "セッション内の不審な活動",
+      "TOOLTIP_SUB_TITLE": "最もリスクの高い活動",
+      "NO_RISK_SCORE": "リスクが分析または検出されていません"
+    },
+    "DETAILS_FULL_PAGE": {
+      "TITLE": "セッションの詳細",
+      "ITEM": "セッション",
+      "ACTION_TYPE": "削除済み",
+      "BACK_TEXT": "監視"
+    },
+    "GRID_TITLE": {
+      "RECORDED_SESSIONS": "録画中",
+      "LIVE_SESSIONS": "アクティブなセッション",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "クラシックインターフェイスでの追加の詳細とアクション",
+        "CALLOUT_TITLE": "クラシックインターフェイス",
+        "CALLOUT_TEXT": "監視ビューにはクラシックインターフェイスでのみ\n使用できる追加機能が含まれている場合があります。\n\nクラシックインターフェイスでは、「監視」に\nいつでも戻ることができます."
+      }
+    },
+    "RECORDING": {
+      "NO_RECORDINGS_FOUND": "表示する録画はありません",
+      "PLAY": "再生",
+      "PLAY_VIDEO": "ビデオの再生",
+      "CONNECTED_AS": "名前を付けて接続",
+      "AS": "として",
+      "ON": "オン",
+      "OFF": "オフ",
+      "SKIP_IDLE": "アイドル状態をスキップ:",
+      "MANUAL": "手動",
+      "AUTOMATIC": "自動",
+      "GO_TO_V9": "ビデオの再生(V9 UI)",
+      "SESSION_WAS_NOT_FOUND": "このセッションのアクティビティを表示できません"
+    },
+    "LIVE_SESSIONS": {
+      "NO_LIVE_SESSIONS_FOUND": "表示するアクティブなセッションはありません",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "クラシックインターフェイスでの追加の詳細とアクション",
+        "CALLOUT_TITLE": "クラシックインターフェイス",
+        "CALLOUT_TEXT": "アクティブなセッションビューにはクラシックインターフェイスでのみ\n使用できる追加機能が含まれている場合があります。\n\nクラシックインターフェイスでは、「監視」に\nいつでも戻ることができます."
+      }
+    },
+    "FILTERS": {
+      "SECTION": "フィルター",
+      "SESSIONS_PROPERTIES": "セッションのプロパティ",
+      "SESSOION_PROPERTIES_HINT_TITLE": "セッションのプロパティ別にフィルター",
+      "SESSOION_PROPERTIES_HINT": "ユーザー、クライアント、アカウントユーザー名、アカウントのアドレス、アカウントのポリシーID、チケットIDなど。\n\n同じセッション内の複数のプロパティごとに検索するには、スペースを入れて区切ります。例えば、root 192.168.0.1のようにします。\n\nフレーズを検索するには引用符を使用します",
+      "SESSIONS_ACTIVITIES": "セッションの活動",
+      "COMMANDS_AND_EVENTS_HINT_TITLE": "セッションのアクティビティ別にフィルター",
+      "COMMANDS_AND_EVENTS_HINT": "Windowsのタイトル、SQLコマンド、SSHコマンド、SCPコマンド、キーストローク、ブロックされたコマンド(\"DENIED\"キーワードを使用)。\n\n同じセッション内の複数のプロパティごとに検索するには、スペースを入れて区切ります。例えば、sudo rmのようにします。\n\nフレーズを検索するには引用符を使用します(例: \"ifConfig -a\")",
+      "FROM": "開始",
+      "TO": "終了",
+      "SAVE_FILTER": "フィルターの保存",
+      "APPLY": "適用"
+    },
+    "RECORDING_DETAILS": {
+      "HEADER_TITLE": "{{user}}が{{address}}で{{accountUserName}}として接続されています",
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "クラシックインターフェイスでの追加の詳細とアクション",
+        "CALLOUT_TITLE": "クラシックインターフェイス",
+        "CALLOUT_TEXT": "このセッションにはクラシックインターフェイスでのみ\n使用できる追加機能が含まれている場合があります。\n\n新しい「監視」にいつでも戻ることができます."
+      }
+    },
+    "LIVE_SESSION_DETAILS": {
+      "HEADER_TITLE": "{{user}}が{{address}}で{{accountUserName}}として接続されています",
+      "MONITOR_BUTTON": "監視",
+      "TERMINATE_BUTTON": "終了",
+      "TERMINATE_DIALOG": {
+        "TITLE": "アクティブなセッションの終了",
+        "MESSAGE": "このライブセッションを終了しますか?",
+        "CANCEL_BUTTON": "キャンセル"
+      },
+      "SUSPEND_BUTTON": "一時停止",
+      "SUSPEND_DIALOG": {
+        "TITLE": "アクティブなセッションの一時停止",
+        "MESSAGE": "このセッションを一時停止しますか?",
+        "CANCEL_BUTTON": "キャンセル"
+      },
+      "RESUME_BUTTON": "再開",
+      "RESUME_DIALOG": {
+        "TITLE": "一時停止されたセッションの再開",
+        "MESSAGE": "このセッションを再開しますか?",
+        "CANCEL_BUTTON": "キャンセル"
+      },
+      "V9_NAVIGATION": {
+        "NAVIGATION_TEXT": "クラシックインターフェイスでの追加の詳細とアクション",
+        "CALLOUT_TITLE": "クラシックインターフェイス",
+        "CALLOUT_TEXT": "このセッションにはクラシックインターフェイスでのみ\n使用できる追加機能が含まれている場合があります。\n\n新しい「監視」にいつでも戻ることができます."
+      }
+    },
+    "TABS": {
+      "RECORDING": "録画",
+      "LIVE_SESSIONS": "アクティブなセッション",
+      "SESSION_ACTIVITIES": "活動状況",
+      "ATTESTATION": "認証",
+      "PERMISSIONS": "権限",
+      "SESSION_PROPERTIES": "詳細"
+    },
+    "PROPERTIES": {
+      "SESSION_PROPERTIES_TITLE": "セッションのプロパティ",
+      "ADDITIONAL_PROPERTIES_TITLE": "追加のプロパティ",
+      "ACCOUNT_DETAILS_TITLE": "アカウントのプロパティ",
+      "VIDEO_RECORDING_TITLE": "ビデオ録画",
+      "TEXT_RECORDING_TITLE": "テキスト録画",
+      "CONNECTED_FROM": "接続元",
+      "REMOTE_MACHINE": "リモートマシン",
+      "INTERFACE": "インターフェイス",
+      "CONNECTION_TYPE": "接続タイプ",
+      "PROTOCOL": "プロトコル",
+      "START": "開始",
+      "END": "終了",
+      "DURATION": "期間",
+      "RETAINED_BY": "保持者",
+      "PLATFORM_NAME": "プラットフォーム名",
+      "TARGET_USER": "ターゲットユーザー",
+      "TARGET_ADDRESS": "ターゲットのアドレス",
+      "VIDEO_SIZE": "サイズ",
+      "VIDEO_LAST_VIEWED_BY": "最終レビュー者",
+      "TEXT_SIZE": "サイズ",
+      "TEXT_LAST_VIEWED_BY": "最終レビュー者",
+      "TEXT_LAST_VIEWED_DATE": "最終レビュー日"
+    },
+    "ACTIVITIES": {
+      "ACTIVITIES_IN_SESSION": " セッション内の活動",
+      "NO_ACTIVITIES": "表示する活動はありません"
+    },
+    "PSM_GATEWAY": {
+      "PAGE_TITLE": "PSMのゲートウェイ接続"
+    }
+  },
+  "ONBOARDING_RULES": {
+    "PAGE_TITLE": "オンボードルール",
+    "TITLE": "オンボードルール",
+    "ANY": "任意",
+    "SERVER": "サーバー",
+    "WORKSTATION": "ワークステーション",
+    "LOCAL": "ローカル",
+    "DOMAIN": "ドメイン",
+    "PRIVILEGED": "特権付き",
+    "NON_PRIVILEGED": "特権なし",
+    "BUILT_IN_ADMINISTRATOR_WINDOWS": "組み込み管理者(SID = 500)",
+    "BUILT_IN_ADMINISTRATOR_UNIX": "ルート(UID = 0)",
+    "BEGINS_WITH": "先頭",
+    "END_WITH": "末尾",
+    "EXACT": "等しい",
+    "OPTIONAL": "オプション",
+    "EMPTY_STATE": {
+      "TITLE": "オンボードアカウントの方法",
+      "TITLE_FAST": "スピーディ",
+      "TITLE_AND": "～",
+      "TITLE_EASY": "シンプル",
+      "DESCRIPTION": "オンボードルールは検出されたアカウントをCyberArkに自動的にオンボード設定します。これらのルールを適用することで、時間を節約し、手動オンボードを避けることができます。保留中とマーキングされる前に、オンボードルールを検出されたアカウントに適用します.",
+      "READ_MORE": " 詳細を読む",
+      "CREATE_RULE_LINK": "新しいオンボードルールの作成を開始",
+      "AUTOMATIC_ONBOARDING_RULE": "自動オンボードルール",
+      "PENDING_ACCOUNTS": "保留中のアカウント",
+      "MANUAL_ONBOARDING": "手動オンボード",
+      "ACCOUNTS_DISCOVERY": "アカウントの検出"
+    },
+    "FILTERS": {
+      "TITLE": "フィルター",
+      "RULES_SCOPE": {
+        "TITLE": "ルール範囲",
+        "SYSTEM_TYPE": "システムタイプ",
+        "ACCOUNT_TYPE": "アカウントタイプ",
+        "MACHINE_TYPE": "マシンのタイプ",
+        "CATEGORY": "アカウントカテゴリ",
+        "DROPDOWN": {
+          "PLACEHOLDER": "選択"
+        },
+        "KEYWORDS": {
+          "LABEL": "キーワードで絞り込む",
+          "PLACEHOLDER": "ルール名、説明、ユーザー名またはマシン名"
+        }
+      },
+      "DESTINATION": {
+        "TITLE": "保存先",
+        "PLATFORM": {
+          "LABEL": "プラットフォーム",
+          "PLACEHOLDER": "選択",
+          "NO_MATCH_TEXT": "一致するプラットフォームがありません"
+        },
+        "SAFE": {
+          "LABEL": "Safe",
+          "PLACEHOLDER": "選択",
+          "NO_MATCH_TEXT": "一致するSafeがありません"
+        }
+      }
+    },
+    "SELECTED_ITEM_DETAILS": {
+      "DETAILS_TITLE": "詳細",
+      "RULE_SCOPE": {
+        "TITLE": "ルール範囲",
+        "SYSTEM_TYPE": "システムタイプ",
+        "MACHINE_TYPE": "マシンのタイプ",
+        "ACCOUNT_TYPE": "アカウントタイプ",
+        "CATEGORY": "アカウントカテゴリ",
+        "USER_NAME": "ユーザー名",
+        "METHOD": {
+          "BEGINS": "先頭: {{ruleFilterValue}}",
+          "ENDS": "末尾: {{ruleFilterValue}}",
+          "EQUALS": "等しい: {{ruleFilterValue}}",
+          "BEGINS_WITH": "先頭: {{ruleFilterValue}}",
+          "END_WITH": "末尾: {{ruleFilterValue}}",
+          "EXACT": "等しい: {{ruleFilterValue}}"
+        },
+        "ACCOUNT_CATEGORY_FILTER": {
+          "TITLE": "特権付きアカウントタイプ",
+          "PRIVILEGED": "特権付き",
+          "NONPRIVILEGED": "特権なし",
+          "ANY": "任意"
+        },
+        "LOCAL": "ローカル",
+        "ANY": "任意",
+        "ADMIN_ONLY": {
+          "WINDOWS": "組み込み管理者(SID = 500)",
+          "UNIX": "ルート(UID = 0)"
+        },
+        "MACHINE_NAME": "マシン名/アドレス"
+      },
+      "DESTINATION": {
+        "TITLE": "保存先",
+        "PLATFORM": "プラットフォーム",
+        "SAFE": "Safe"
+      },
+      "RULE_PROPERTIES": {
+        "TITLE": "ルールのプロパティ",
+        "RULE_NAME": "名前",
+        "RULE_DESCRIPTION": "説明"
+      },
+      "PASSWORD_SETTINGS": {
+        "TITLE": "初期パスワード設定",
+        "INITIAL_PASSWORD": "初期パスワード設定",
+        "USE_PLATFORM": "デフォルトのプラットフォーム調整アカウントを使用",
+        "NO_RECONCILE_ACCOUNT": "選択したプラットフォームの調整アカウントはありません",
+        "RECONCILE_ACCOUNT": "プラットフォーム調整アカウント"
+      },
+      "OVERVIEW": {
+        "TITLE": "概要",
+        "LAST_ONBOARDED": "前回のオンボード"
+      }
+    },
+    "CREATE_RULE": "ルールの作成",
+    "REFRESH": "更新",
+    "RULE_NAME_COLUMN_TITLE": "ルール名",
+    "SYSTEM_TYPE_COLUMN_TITLE": "システムタイプ",
+    "CREATE_ONBOARDING_RULES": {
+      "CASE_SENSITIVE": "大文字と小文字を区別",
+      "PAGE_TITLE": "ルールの作成",
+      "PAGE_TITLE_EDIT_MODE": "ルールの編集",
+      "TITLE": "新しいオンボードルール",
+      "TITLE_EDIT_MODE": "オンボードルールの編集: {{string}}",
+      "SUBMIT_TEXT": "ルールの作成",
+      "SUBMIT_TEXT_EDIT_MODE": "変更の保存",
+      "UPDATE": "更新",
+      "IDENTICAL_RULE_ERROR_HEADER": "同じ範囲",
+      "IDENTICAL_RULE_NAME_ERROR_HEADER": "同じルール名",
+      "DEFAULT_ERROR_HEADER": "エラー",
+      "CREATE_RULE_SUCCESS_MESSAGE": "ルールは正常に作成されました",
+      "EDIT_RULE_SUCCESS_MESSAGE": "ルールは正常に更新されました",
+      "STEPS": {
+        "SELECT_SYSTEM_TYPE": "システムタイプの選択",
+        "SELECT_SYSTEM_TYPE_EDIT_MODE": "システムタイプ",
+        "SELECT_SYSTEM_TYPE_TITLE": "システムタイプをオンボードに選択",
+        "SELECT_SYSTEM_TYPE_TITLE_EDIT_MODE": "システムタイプ",
+        "SELECT_SCOPE": "範囲の選択",
+        "SELECT_SCOPE_EDIT_MODE": "範囲",
+        "SELECT_SCOPE_TITLE": "ルール範囲の選択",
+        "SELECT_SCOPE_TITLE_EDIT_MODE": "範囲",
+        "ASSIGN_PLATFORM": "プラットフォームに割り当て",
+        "ASSIGN_PLATFORM_EDIT_MODE": "プラットフォーム",
+        "ASSIGN_PLATFORM_TITLE": "プラットフォームを選択",
+        "ASSIGN_PLATFORM_TITLE_EDIT_MODE": "プラットフォーム",
+        "SELECT_SAFE": "Safeに保管",
+        "SELECT_SAFE_EDIT_MODE": "Safe",
+        "SELECT_SAFE_TITLE": "Safeの選択",
+        "SELECT_SAFE_TITLE_EDIT_MODE": "Safe",
+        "DEFINE_PROPERTIES": "プロパティの定義",
+        "DEFINE_PROPERTIES_EDIT_MODE": "プロパティ",
+        "DEFINE_PROPERTIES_TITLE": "ルールのプロパティの定義",
+        "DEFINE_PROPERTIES_TITLE_EDIT_MODE": "プロパティ",
+        "DEFINE_PROPERTIES_STEP": {
+          "NAME_LABEL": "名前",
+          "NAME_PLACEHOLDER": "一意の名前を入力",
+          "DESCRIPTION_LABEL": "説明（オプション）",
+          "DESCRIPTION": "説明",
+          "DESCRIPTION_VALUE": "Valued",
+          "DESCRIPTION_CHARACTERS_LEFT": " 残り文字数",
+          "DESCRIPTION_CHARACTERS_OVER": " 文字を超えています",
+          "RULE_NAME_IS_NOT_UNIQUE_MESSAGE": "この名前のルールは既に存在します",
+          "RULE_NAME_MAX_LENGTH_MESSAGE": "このフィールドは255文字を超えて指定できません",
+          "SETTINGS": {
+            "INITIAL_PASSWORD": "初期パスワード設定",
+            "USE_PLATFORM": "プラットフォームの調整アカウントを使用",
+            "NO_RECONCILE_ACCOUNT": "選択したプラットフォームの調整アカウントはありません"
+          },
+          "MODAL_ERROR_HEADER": "エラー",
+          "MODAL_CLOSE_ACTION": "閉じる"
+        },
+        "SUMMARY": "サマリー",
+        "SUMMARY_TITLE": "サマリー"
+      },
+      "SELECT_SCOPE": {
+        "INFO_MESSAGE_APPLY_WINDOWS": "自動オンボードルールは依存関係なしにアカウントに適用されます",
+        "INFO_MESSAGE_APPLY_UNIX": "自動オンボードルールは信頼なしにアカウントに適用されます",
+        "INFO_MESSAGE_NEW_RULE": "新しいルールは既存のルールに優先されます",
+        "MACHINE_TYPE": "マシンのタイプ",
+        "ACCOUNT_TYPE": "アカウントタイプ",
+        "ACCOUNT_TYPE_INFO": "現在、ドメインアカウントを自動的にオンボードに指定できません.",
+        "ACCOUNT_CATEGORY": "アカウントカテゴリ",
+        "ACCOUNT_CATEGORY_INFO": "特権付きアカウントは管理者やパワーユーザーなどの特権付き\nグループのメンバーです.",
+        "PRIVILEGED_ACCOUNT_TYPE": "特権付きアカウントタイプ",
+        "USERNAME": "ユーザー名",
+        "MACHINE_NAME_OR_ADDRESS": "マシン名/アドレス",
+        "IDENTICAL_MESSAGE_TITLE": "同じルールが見つかりました: {{string}}",
+        "IDENTICAL_MESSAGE_TEXT": "このルール範囲を変更して重複を避ける"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "キャンセルの確認",
+        "BODY": "オンボードルール作成をキャンセルしますか?",
+        "SECONDARY_MESSAGE": "加えた変更は破棄されます",
+        "MAIN_ACTION": "キャンセルの確認",
+        "SECONDARY_ACTION": "キャンセルしない"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "CHANGE_SYSTEM_TYPE_TITLE": "システムタイプの変更",
+        "CHANGE_PLATFORM_TITLE": "プラットフォームの変更",
+        "OK": "変更",
+        "CANCEL": "キャンセル",
+        "SYSTEM_TYPE_PRIMARY_MESSAGE": "システムタイプを変更してもよろしいですか",
+        "PLATFORM_PRIMARY_MESSAGE": "次のプラットフォームに変更してもよろしいですか",
+        "SECONDARY_MESSAGE": "ルールの定義を更新しなければならない場合があります."
+      }
+    },
+    "NO_RULES_FOUND": "表示するルールはありません",
+    "PRECEDENCE_COLUMN_TITLE": "優先順位",
+    "DESCRIPTION_COLUMN_TITLE": "説明",
+    "MACHINE_TYPE_COLUMN_TITLE": "マシンのタイプ",
+    "ACCOUNT_TYPE_COLUMN_TITLE": "アカウントタイプ",
+    "LAST_ONBOARDED_COLUMN_TITLE": "前回のオンボード",
+    "DELETE_RULE": {
+      "ACTION_TITLE": "ルールの削除",
+      "FEEDBACK_TITLE": "ルールの削除",
+      "FEEDBACK_DESCRIPTION": "'{RULE_NAME}’ルールを削除しますか?",
+      "FEEDBACK_DELETE_BUTTON": "ルールの削除",
+      "FEEDBACK_CANCEL_BUTTON": "キャンセル",
+      "FLOATING_SUCCESS_MESSAGE": "ルールは削除されました"
+    },
+    "EDIT_RULE": {
+      "ACTION_TITLE": "ルールの編集"
+    },
+    "FEEDBACK_MESSAGES": {
+      "DELETE_ONBOARDING_RULES": "オンボードルールの削除",
+      "GET_ONBOARDING_RULES": "オンボードルールの取得"
+    }
+  },
+  "PTA": {
+    "MESSAGES": {
+      "SUCCESS_MESSAGES": {
+        "SETTINGS": {
+          "PSM": {
+            "UPDATE": "ルールは正常に更新されました",
+            "ADD": "ルールは正常に追加されました"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "保留中に追加の修復プログラムは正常に更新されました",
+            "ROTATE_CREDENTIALS": "ログイン情報の交替の修復プログラムは正常に更新されました",
+            "RECONCILE_CREDENTIALS": "ログイン情報の調整の修復プログラムは正常に更新されました"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "セッションの再開を正常に始めました"
+        }
+      },
+      "ERROR_TITLES": {
+        "DEFAULT": "エラー",
+        "SETTINGS": {
+          "GET": "セキュリティ構成を読み込めませんでした",
+          "PSM": {
+            "UPDATE": "ルールを更新できませんでした",
+            "ADD": "ルールの追加に失敗しました"
+          },
+          "REMEDIATION": {
+            "ADD_TO_PEND": "保留中に追加の修復プログラムを更新できませんでした",
+            "ROTATE_CREDENTIALS": "ログイン情報の交替の修復プログラムを更新できませんでした",
+            "RECONCILE_CREDENTIALS": "ログイン情報の調整の修復プログラムを更新できませんでした"
+          }
+        },
+        "ACTION_BUTTONS": {
+          "RESUME": "セッションを再開し始めることができませんでした"
+        }
+      },
+      "CLOSE_BUTTON": "閉じる"
+    },
+    "EVENTS": {
+      "ACTION_BUTTONS": {
+        "SUCCESS_MESSAGES": {
+          "RESUME": "セッションの再開を正常に始めました"
+        },
+        "ERROR_TITLES": {
+          "RESUME": "セッションを再開し始めることができませんでした"
+        }
+      },
+      "PAGE_HEADER": "セキュリティイベント",
+      "PROVIDER": {
+        "UNKNOWN": "不明",
+        "ANOMALIES_TITLES": {
+          "ACTIVE_DORMANT": "アクティブなドメインユーザー",
+          "AGGREGATIVE_ICE": "複数のマシンへの異常なアクセス",
+          "DUAL_USAGE": "サービスアカウントがインタラクティブにログオンされました",
+          "GOLDEN_TICKET": "ゴールデンチケット攻撃",
+          "IRREGULAR_HOUR_USER": "不規則な時間にVaultへの特権付きアクセスが行われました",
+          "MALICIOUS_RETRIEVAL": "悪意のあるドメインアカウントの取得",
+          "OVER_PASS_THE_HASH": "Overpass the Hash攻撃",
+          "PAC_ATTACK": "PAC攻撃",
+          "RISKY_COMMAND": "不審な活動が特権付きセッションで検出されました",
+          "SCT": "ログイン情報が盗まれた疑いがあります",
+          "SPC": "不審なパスワード変更",
+          "UNMANAGED": "管理されていない特権アカウント",
+          "VAULT_IRREGULAR_IP": "不規則なIPからVaultへの特権付きアクセスが行われました",
+          "CLEARTEXT": "表示されたログイン情報"
+        },
+        "EVENT_SEVERITIES": {
+          "LOW": "低",
+          "MEDIUM": "中",
+          "HIGH": "高"
+        },
+        "FILTERS": {
+          "EVENT_ID": "イベントID",
+          "SESSION_ID": "セッションID",
+          "TITLE": "フィルター",
+          "SEVERITY": "重大度",
+          "TYPE": "イベントタイプ",
+          "FROM_DATE": "開始",
+          "TO_DATE": "終了"
+        },
+        "NOTIFICATIONS": {
+          "LOW": "重大度の低い新しいイベントが検出されました",
+          "MEDIUM": "新しい中程度のイベントが検出されました",
+          "HIGH": "新しい高いイベントが検出されました"
+        }
+      },
+      "CARDS": {
+        "GENERAL": {
+          "LISTS": {
+            "ENTITIES": {
+              "COMMAND": "コマンド",
+              "ACCOUNT": "アカウント",
+              "MACHINE": "マシン",
+              "DC": "DC"
+            },
+            "TITLES": {
+              "MOST_RETYPED_ACTIVITIES": "最も再入力された活動",
+              "MOST_ACCESSED_ACCOUNTS": "最もアクセスされたアカウント",
+              "EXPOSED_ACCOUNTS": "表示されたアカウント",
+              "MOST_ACCESSED_MACHINES": "最もアクセスされたマシン",
+              "SOURCE_MACHINES": "ソースマシン",
+              "MOST_ACCESSED_DCS": "最もアクセスされたDC",
+              "ACCESSED_DCS": "アクセスされたDC"
+            },
+            "RECORD": {
+              "MULTI_OCCURRENCES": "{{entity}} (発生回数{{occurrences}})",
+              "SINGLE_OCCURRENCE": "{{entity}} (発生回数{{occurrences}})"
+            }
+          },
+          "ORIGINAL_EVENTS": {
+            "ORIGINAL_EVENT": "元のイベントの発生時刻:{{originTime}}.",
+            "ORIGINAL_EVENT_SOURCE_TARGET": "元のイベントの発生時刻: {{originTime}}、ソース: {{source}}、ターゲット: {{target}}.",
+            "ORIGINAL_EVENT_SOURCE_DC": "元のイベントの発生時刻: {{originTime}}、ソース: {{source}}、DC: {{target}}.",
+            "ORIGINAL_SUSPICIOUS_ACTIVITY": "最初の疑わしい活動の発生時刻:{{originTime}}."
+          },
+          "DIAGRAM_ENTITY_TITLE": {
+            "TARGET_MACHINE": "ターゲットマシン",
+            "SOURCE_MACHINE": "ソースマシン",
+            "PRIVILEGED_ACCOUNT": "特権アカウント",
+            "UNMANAGED_PRIVILEGED_ACCOUNT": "管理されていない特権アカウント",
+            "CYBERARK_PAS": "Cyberark PAS",
+            "VAULT_USER": "Vault ユーザー",
+            "TARGET_SERVICE": "ターゲットサービス",
+            "SERVICE_ACCOUNT": "サービスアカウント",
+            "SERVICE": "サービス"
+          }
+        },
+        "GENERIC": {
+          "ACTIVE": "アクティブなセッション",
+          "REMEDIATION": "修正を開始しました",
+          "OCCURRENCES": "({{occurrences}}発生回数)",
+          "EVENT_ID": "ID {{id}}",
+          "SESSION_ID": "セッションID",
+          "RECOMMENDATION_TITLE": "推奨"
+        },
+        "ACTIVE_DORMANT": {
+          "SUBTITLE_SINGLE_ACCOUNT": "Vaultユーザー{{user}}は、CyberArk PASからアカウント{{account}}のパスワードを取得しました。それまで{{inactiveDays}}日間以上は非アクティブな状態でした.",
+          "SUBTITLE_MULTI_ACCOUNTS": "Vaultユーザー{{user}}は、CyberArk PASから{{numOfAccounts}}アカウントのパスワードを取得しました。それまで{{inactiveDays}}日間以上は非アクティブな状態でした.",
+          "RECOMMENDATION": "このVaultユーザーがアクティブであることを確認し、そうでない場合は、ユーザーのアクセスを制限してみてください."
+        },
+        "AGGREGATIVE_ICE": {
+          "SUBTITLE": "アカウント{{account}}が大量の新しいマシンに接続されています。これはこのアカウントでは通常起こりません。<br>{{account}}のログイン情報が横断的侵害行動のために不正使用されている可能性があります.",
+          "RECOMMENDATION": "考えられる損害を評価し、IOCを検索します:",
+          "RECOMMENDATION_SUGGESTION_1": "ターゲットマシンでアクティブなセッションを実行しているアカウントを確認します",
+          "RECOMMENDATION_SUGGESTION_2": "ターゲットマシンに保存されているログイン情報を確認します",
+          "RECOMMENDATION_SUGGESTION_3": "ターゲットマシンで他の攻撃の兆候がないか探します"
+        },
+        "DUAL_USAGE": {
+          "SUBTITLE_SINGLE_MACHINE": "サービスアカウント{{account}}は、{{target}}マシンにインタラクティブにログインされています.",
+          "SUBTITLE_MULTI_MACHINES": "サービスアカウント{{account}}は、{{numOfMachines}}マシンにインタラクティブにログインされました.",
+          "RECOMMENDATION": "サービスアカウントとユーザーアカウントを区別します."
+        },
+        "GOLDEN_TICKET": {
+          "SUBTITLE": "ゴールデンチケット攻撃がドメイン{{domain}}で検出されました。攻撃者はマシン{{target}}のアカウント{{account}}で偽のKerberosチケットを使用しました。<br>このチケットの発行元はマシン{{source}}です.",
+          "RECOMMENDATION": "攻撃によりドメインが被害を受けました。ご利用の環境を慎重に調査し、攻撃を封じ込める対策を講じてください."
+        },
+        "IRREGULAR_HOUR_USER": {
+          "SUBTITLE": "Vaultユーザー{{user}}は特権付きユーザー{{account}}のパスワードを{{startTime}}にマシン{{target}}で取得しました。<br>{{user}}は通常この時期に接続しないため、このアクションはセキュリティイベントとしてフラグ付けされました.",
+          "RECOMMENDATION": "このVaultユーザーの活動を確認し、有効であることを確かめてください."
+        },
+        "MALICIOUS_RETRIEVAL": {
+          "SUBTITLE_ONE_OCCURRENCE": " ドメインコントローラ{{target}}からログイン情報を盗もうとする悪意のある可能性のある攻撃がマシン{{source}}で検出されました。<br>ログイン情報を盗もうとする攻撃は、ドメインコントローラを巧妙に複製することで実施されました.",
+          "SUBTITLE_MULTI_OCCURRENCES": "ログイン情報を盗もうとする悪意のある可能性のある複数の攻撃がマシン{{source}}で検出されました。<br>ログイン情報を盗もうとする攻撃は、ドメインコントローラを巧妙に複製することで実施されました.",
+          "RECOMMENDATION": "ドメインコントローラのレプリケーションリクエスト(DCSync)はドメインコントローラによってのみ開始される必要があります。<br>ネットワーク内の別の認証または管理サービスもドメインコントローラのレプリケーションを実行する場合は、<br>これらのサービスをドメインコントローラと同じレベルで保護することを強くお勧めします."
+        },
+        "OVER_PASS_THE_HASH": {
+          "SUBTITLE": "Overpass-the-Hash攻撃がドメイン{{domain}}で検出されました。この攻撃元はマシン{{source}}でした。<br>攻撃によってアカウント{{account}}が不正使用されます.",
+          "RECOMMENDATION_NO_REMEDIATION": "アカウント{{account}}のログイン情報をリセットします.",
+          "RECOMMENDATION_REMEDIATION": "パスワード変更リクエストが開始されました。攻撃によりドメインが被害を受けました。ご利用の環境を慎重に調査し、攻撃を封じ込める対策を講じてください."
+        },
+        "PAC_ATTACK": {
+          "SUBTITLE": "PAC攻撃(MS14-068の脆弱性)がドメイン{{domain}}で試行されました。この攻撃元はマシン{{source}}でした。<br>攻撃によってアカウント{{account}}の権限が昇格されようとしました.",
+          "RECOMMENDATION": "ドメインコントローラ{{target}}が修正パッチKB3011780で更新されていることを確認してください."
+        },
+        "RISKY_COMMAND": {
+          "SUBTITLE": "{{target}}上での疑わしいセッション活動が特権付きセッションで検出されました。<br>セッションはアカウント{{account}}を持つVaultユーザー{{user}}が{{command}}活動を実行することで開始されました.",
+          "RECOMMENDATION_LIVE": "セッションと活動に関連する各セキュリティイベントを確認し、進行中のセッションのライブ監視または手動終了などの対応が必要かどうかを評価します.",
+          "RECOMMENDATION_NON_LIVE": "セッションに関連する各セキュリティイベントを確認し、セッションの活動と録画を使用してそのリスクを評価します。このセッションは既に接続解除されています.",
+          "RECOMMENDATION_SUSPENDED_SESSION": "セッション一時停止リクエストが開始されました。セッションと活動に関連する各セキュリティイベントを確認し、一時停止中のセッションの手動再開などの別の対応が必要かどうかを評価します.",
+          "RECOMMENDATION_TERMINATED_SESSION": "セッション終了リクエストが開始されました。セッションと活動に関連する各セキュリティイベントを確認し、別の対応が必要かどうかを評価します."
+        },
+        "SCT": {
+          "SUBTITLE_SINGLE_MACHINE": "特権付きユーザー{{account}}が、CyberArk PASから取得されなかったパスワードを使って{{target}}マシンにアクセスしました.",
+          "SUBTITLE_MULTI_MACHINES": "特権付きユーザー{{account}}が、CyberArk PASから取得されなかったパスワードを使って{{numOfMachines}}マシンにアクセスしました.",
+          "RECOMMENDATION_NO_REMEDIATION": "取得せずに使用されたパスワードを変更することを検討してください.",
+          "RECOMMENDATION_REMEDIATION": "パスワード変更リクエストが開始されました。組織のポリシーとPAS制御がバイパスされておらず、管理されているアカウントが制御されていることを確認します."
+        },
+        "SPC": {
+          "SUBTITLE": "特権付きアカウント{{account}}のパスワードが、CyberArk PASの外部で変更されました.",
+          "RECOMMENDATION_NO_REMEDIATION": "CyberArk PASの外部で変更されたアカウントのパスワードを調整することを検討してください.",
+          "RECOMMENDATION_RECONCILIATION": "パスワード調整リクエストが開始されました。組織のポリシーとPAS制御がバイパスされていないことを確認し、管理されているアカウントを制御してください."
+        },
+        "UNMANAGED": {
+          "SUBTITLE_SINGLE_MACHINE": "特権付きアカウント{{account}}が、{{target}}へのアクセスに使用されました。ただし、このアカウントはCyberArk PASによって管理されていません.",
+          "SUBTITLE_MULTI_MACHINES": "特権付きアカウント{{account}}が、{{numOfMachines}}マシンへのアクセスに使用されました。ただし、このアカウントはCyberArk PASによって管理されていません.",
+          "RECOMMENDATION_NO_REMEDIATION": "管理されていない特権付きアカウントをCyberArk PASにオンボードすることを検討してください.",
+          "RECOMMENDATION_REMEDIATION": "新たに検出されたアカウントをオンボードし、適切なプラットフォームを割り当ててアカウントを安全に管理します。自動オンボードルールによってフィルター処理された検出済みアカウントでは手動操作は必要ありません."
+        },
+        "VAULT_IRREGULAR_IP": {
+          "SUBTITLE": "Vaultユーザー{{user}}が不規則なIP{{source}}からVaultにアクセスしました。<br>{{user}}は通常このIPからVaultにアクセスしないため、このアクションはセキュリティイベントとしてフラグ付けされました.",
+          "RECOMMENDATION": "このVaultユーザーの活動を確認し、有効であることを確かめてください."
+        },
+        "CLEARTEXT": {
+          "SUBTITLE": "LDAPシンプルバインドを使用して{{source}}か送信されたアカウントのログイン情報がクリアテキストで表示されました.",
+          "RECOMMENDATION": "LDAPシンプルバインドでなくLDAPSを使用して認証するように関連サービスを設定します。<br>機密性の高いアカウントにはパスワードをローテーションして使用することを強くお勧めします."
+        }
+      }
+    },
+    "SETTINGS": {
+      "PAGE_HEADER": "セキュリティ構成",
+      "PSM": {
+        "HEADER": "特権付きセッションの分析と応答",
+        "SUB_HEADER": "リスクスコアと自動応答を録画されたユーザーセッション中に検出された高リスクの活動に割り当てます.",
+        "ADD_RULE_BUTTON": "ルールの追加",
+        "RULE_CATEGORY": {
+          "KEYSTROKES": "汎用キーストローク",
+          "SCP": "SCP",
+          "SQL": "SQL",
+          "SSH": "SSH",
+          "WINDOWS": "Windowsタイトル"
+        },
+        "RULE_CATEGORY_EXAMPLES": {
+          "KEYSTROKES_EXAMPLE": "例: kill(.*)",
+          "SCP_EXAMPLE": "例: 10.1.1.22(.*)",
+          "SQL_EXAMPLE": "例: DROP TABLE(.*)",
+          "SSH_EXAMPLE": "例: rm -r(.*)",
+          "WINDOWS_EXAMPLE": "例: タスクマネージャ(.*)"
+        },
+        "SUCCESS_MESSAGES": {
+          "UPDATE": "ルールは正常に更新されました",
+          "ADD": "ルールは正常に追加されました"
+        },
+        "ERROR_TITLES": {
+          "UPDATE": "ルールを更新できませんでした",
+          "ADD": "ルールの追加に失敗しました"
+        },
+        "RULE_MODAL": {
+          "ADD_RULE_TITLE": "ルールの追加",
+          "EDIT_RULE_TITLE": "ルールの編集",
+          "CATEGORY": "カテゴリー",
+          "SELECT_CATEGORY": "カテゴリーの選択",
+          "PATTERN": "パターン",
+          "PATTERN_PLACEHOLDER": "正規表現の入力",
+          "DESCRIPTION": "説明（オプション）",
+          "SESSION_RESPONSE": {
+            "TITLE": "セッションの応答",
+            "SUSPEND": "一時停止",
+            "TERMINATE": "終了",
+            "NONE": "なし"
+          },
+          "SCORE_TITLE": "スコア",
+          "SCORE_DESCRIPTION": "スコアの設定(1～100)",
+          "ACTIVE_STATUS_TITLE": "ステータス",
+          "ACTIVE_STATUS_ACTIVE_DESCRIPTION": "アクティブ",
+          "ACTIVE_STATUS_INACTIVE_DESCRIPTION": "非アクティブ",
+          "SCOPE_TITLE": "範囲",
+          "SCOPE_DESCRIPTION": {
+            "BASIC_DESCRIPTION": "このルールは{vaultUsersCategory}、{accountsCategory}、{machinesCategory}に適用されます",
+            "ALL": "すべての{category}",
+            "EXCLUDE": "{amount} {category}以外のすべて",
+            "INCLUDE": "{amount}固有の{category}"
+          },
+          "ADD": "追加",
+          "SAVE": "保存",
+          "CANCEL": "キャンセル"
+        },
+        "SCOPE_MODAL": {
+          "TITLE": "範囲の変更",
+          "EXCLUDE": "除外",
+          "INCLUDE": "次のみ含める",
+          "SAVE": "範囲の変更",
+          "CANCEL": "キャンセル",
+          "VAULT_USERS": {
+            "CATEGORY_NAME": "Vaultユーザー",
+            "TAB_TITLE": "Vaultユーザー",
+            "WATERMARK": "ワイルドカードを使用可能",
+            "INCLUDE_MARK": "次のルールは選択したVaultユーザーのみに適用されます",
+            "EXCLUDE_MARK": "次のルールは選択したVaultユーザーを除くすべてのVaultユーザーに適用されます"
+          },
+          "ACCOUNTS": {
+            "CATEGORY_NAME": "アカウント",
+            "TAB_TITLE": "アカウント",
+            "WATERMARK": "ワイルドカードを使用可能",
+            "INCLUDE_MARK": "次のルールは選択したアカウントのみに適用されます",
+            "EXCLUDE_MARK": "次のルールは選択したアカウントを除くすべてのアカウントに適用されます"
+          },
+          "MACHINES": {
+            "CATEGORY_NAME": "マシン",
+            "TAB_TITLE": "マシン",
+            "WATERMARK": "ワイルドカードを使用可能",
+            "INCLUDE_MARK": "次のルールは選択したマシンのみに適用されます",
+            "EXCLUDE_MARK": "次のルールは選択したマシンを除くすべてのマシンに適用されます"
+          }
+        },
+        "GRID_COLUMNS": {
+          "CATEGORY": "カテゴリー",
+          "PATTERN": "パターン",
+          "SCORE": "スコア",
+          "DESCRIPTION": "説明",
+          "RESPONSE": "応答",
+          "STATUS": "ステータス"
+        }
+      },
+      "REMEDIATION": {
+        "HEADER": "自動修復プログラム",
+        "SUB_HEADER": "リスクを防止し不審な活動を阻止するために、各セキュリティイベントへの自動応答を設定してください.",
+        "ADD_TO_PENDING": "保留中に追加",
+        "UNMANAGED_PRIVILEGED_ACCOUNT": "管理されていない特権アカウント",
+        "ROTATE_CREDENTIALS": "ログイン情報の交替",
+        "OVER_PASS_THE_HASH": "Overpass the Hash",
+        "SUSPECTED_CREDENTIAL_THEFT": "ログイン情報が盗まれた疑いがあります",
+        "RECONCILE_CREDENTIALS": "ログイン情報の調整",
+        "SUSPICIOUS_PASSWORD_CHANGE": "不審なパスワード変更",
+        "SUCCESS_MESSAGES": {
+          "ADD_TO_PEND": "保留中に追加の修復プログラムは正常に更新されました",
+          "ROTATE_CREDENTIALS": "ログイン情報の交替の修復プログラムは正常に更新されました",
+          "RECONCILE_CREDENTIALS": "ログイン情報の調整の修復プログラムは正常に更新されました"
+        },
+        "ERROR_TITLES": {
+          "ADD_TO_PEND": "保留中に追加の修復プログラムを更新できませんでした",
+          "ROTATE_CREDENTIALS": "ログイン情報の交替の修復プログラムを更新できませんでした",
+          "RECONCILE_CREDENTIALS": "ログイン情報の調整の修復プログラムを更新できませんでした"
+        }
+      },
+      "EVENT_STATUS": {
+        "CLOSE_MESSAGE": "このセキュリティイベントを終了てもよろしいですか?\n\n終了したイベントは、ステータスフィルターを使用して引き続き表示できます",
+        "OPEN_MESSAGE": "このセキュリティイベントを再開してもよろしいですか?"
+      },
+      "EDIT": "編集",
+      "DELETE": "削除",
+      "GET_ERROR_TITLE": "セキュリティ構成を読み込めませんでした"
+    }
+  },
+  "DASHBOARD": {
+    "HEADER": "システムの正常性",
+    "ERROR_MESSAGE": "サーバーエラーが発生しました。再試行してください",
+    "VAULTS": "Vault",
+    "CONNECTING_COMPONENTS": "接続コンポーネント",
+    "METER_CONNECTED": "接続されました",
+    "METER_DISCONNECTED": "切断されました",
+    "REFRESH": "更新",
+    "MASTER": "マスター",
+    "PRIMARY": "プライマリ",
+    "SATELLITE": "サテライト",
+    "DR": "DR",
+    "OFFLINE": "オフライン",
+    "DASHBOARD_DETAILS": {
+      "COMPONENT_IDENTIFIER_COLUMN_TITLE": "コンポーネント識別子",
+      "IP_COLUMN_TITLE": "IP",
+      "VERSION_COLUMN_TITLE": "バージョン",
+      "CONNECTIVITY_STATUS_COLUMN_TITLE": "接続ステータス",
+      "LAST_LOGON_DATE_COLUMN_TITLE": "最終ログオン日",
+      "GRID_CONNECTED": "接続されました",
+      "GRID_DISCONNECTED": "切断されました",
+      "BACK_TO_MAIN_PAGE": "システムの正常性に戻る"
+    },
+    "COMPONENTS_METER_TOTAL_DESCRIPTION": {
+      "PVWA": "アクティブユーザー",
+      "CPM": "管理されたアカウント",
+      "SESSIONMANAGEMENT": "同時セッション",
+      "AIM": "アプリケーション"
+    },
+    "DIALOGS": {
+      "RESTORE_CONNECTIVITY": {
+        "SUCCESS": "接続の復元には数分かかる場合があります"
+      }
+    }
+  },
+  "LDAP_INTEGRATION": {
+    "PAGE_TITLE": "LDAP組み込み",
+    "REFRESH": "更新",
+    "NEW_DOMAIN": "新しいドメイン",
+    "MAPPINGS": "マッピング",
+    "DOMAINS": "ドメイン",
+    "DELETE_DOMAIN_DIALOG": {
+      "TITLE": "ドメイン接続を削除しますか?",
+      "BODY": "CyberArkから'{DOMAIN_NAME}'ドメインを削除してもよろしいですか?",
+      "SUB_TITLE": "\n次のディレクトリマッピングも削除されます。\n{MAPPINGS}",
+      "MAIN_ACTION": "削除",
+      "SECONDARY_ACTION": "キャンセル",
+      "DELETED_SUCCESS": "ドメイン接続は正常に削除されました",
+      "ERROR": {
+        "CLOSE_BUTTON": "閉じる",
+        "TITLE": "ドメイン接続を削除できませんでした",
+        "BODY": "ドメイン'{DOMAIN_NAME}'接続を削除できませんでした"
+      }
+    },
+    "DELETE_MAPPING_DIALOG": {
+      "TITLE": "ディレクトリマッピングを削除しますか?",
+      "BODY": "'{{MAPPING_NAME}}'ディレクトリマッピングを削除してもよろしいですか?",
+      "SUB_TITLE": "\nこのアクションにより、プロビジョニング済みのLDAPユーザーがCyberArkシステムにアクセスできなくなる可能性があります。 ",
+      "MAIN_ACTION": "マッピングの削除",
+      "SECONDARY_ACTION": "キャンセル",
+      "DELETED_SUCCESS": "マッピングが削除されました",
+      "ERROR": {
+        "CLOSE_BUTTON": "閉じる",
+        "TITLE": "ディレクトリマッピングを削除できませんでした",
+        "BODY": "ディレクトリマッピング'{{MAPPING_NAME}}'を削除できませんでした"
+      }
+    },
+    "MAPPING_DETAILS": {
+      "AUTH_TAB": {
+        "ALLOW": "許可",
+        "DENY": "拒否"
+      },
+      "DETAILS_TAB": {
+        "MAPPING_CRITERIA_TITLE": "マッピング基準",
+        "LDAP_BRANCH": "LDAPブランチ",
+        "CRITERIA_DETAILS": "ユーザーのマッピング基準",
+        "MAPPING_DESTINATION_TITLE": "マッピング先",
+        "LOCATION": "ロケーション",
+        "GROUP": "グループ",
+        "AUTHENTICATION_TITLE": "認証",
+        "AUTHENTICATION_METHOD": "認証方法",
+        "ACTIVITY_LOGS_TITLE": "活動状況ログ",
+        "KEEP_USER_ACTIVITY_LOGS": "ユーザーアクティビティログの最低保持日数",
+        "DAYS": "日間",
+        "ROOT": "ルート"
+      },
+      "AUTHENTICATIONS": {
+        "AUTHTYPEVAULTPKI": "PKI",
+        "AUTHTYPELDAP": "LDAP",
+        "AUTHTYPENT": "NT",
+        "AUTHTYPERADIUS": "RADIUS"
+      }
+    },
+    "DIRECTORY_MAPPINGS": "ディレクトリーマッピング",
+    "GROUPS_NAME": {
+      "VAULT_ADMINS": "Vault管理者",
+      "SAFE_MANAGERS": "Safeマネージャ",
+      "AUDITORS": "監査者",
+      "USERS": "ユーザー"
+    },
+    "AUTHORIZATIONS": {
+      "NONE": "なし",
+      "ADDSAFES": "Safeの追加",
+      "AUDITUSERS": "ユーザーの監査",
+      "ADDUPDATEUSERS": "ユーザーの追加/更新",
+      "RESETUSERSPASSWORDS": "ユーザーのパスワードをリセット",
+      "ACTIVATEUSERS": "ユーザーのアクティブ化",
+      "ADDNETWORKAREAS": "ネットワークエリアの追加",
+      "MANAGEDIRECTORYMAPPING": "ディレクトリーマッピングの管理",
+      "MANAGESERVERFILECATEGORIES": "サーバーファイルカテゴリの管理",
+      "BACKUPALLSAFES": "すべてのSafeのバックアップ",
+      "RESTOREALLSAFES": "すべてのSafeの復元"
+    },
+    "CREATE": {
+      "PAGE_TITLE": "LDAP組み込みの作成",
+      "TITLE": "LDAP組み込み",
+      "SAVE": "保存",
+      "CONNECT": "接続 >",
+      "DOMAIN_CONNECTED_SUCCESSFULLY": "ドメイン{{domainName}}は正常に接続されました",
+      "THE_DIRECTORY_WERE_CREATED_SUCCESSFULLY": "ディレクトリーは正常に作成されました",
+      "THE_DIRECTORY_AND_MAPPING_WERE_CREATED_SUCCESSFULLY": "ディレクトリーとマッピングは正常に作成されました",
+      "STEPS": {
+        "SELECT_DIRECTORY_TYPE": "ディレクトリータイプの選択",
+        "SELECT_DIRECTORY_TYPE_TITLE": "ディレクトリータイプの選択",
+        "CONNECT_DOMAIN": "ドメインの接続",
+        "CONNECT_DOMAIN_TITLE": "ドメインの接続",
+        "CREATE_DIRECTORY_MAPPINGS": "ディレクトリーマッピングの作成",
+        "CREATE_DIRECTORY_MAPPINGS_TITLE": "ディレクトリーマッピングの作成(オプション)"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "キャンセルの確認",
+        "BODY": "LDAP組み込み作成をキャンセルしますか?",
+        "SECONDARY_MESSAGE": "加えた変更は破棄されます",
+        "MAIN_ACTION": "キャンセルの確認",
+        "SECONDARY_ACTION": "キャンセルしない"
+      },
+      "CONTINUE_DIALOG": {
+        "TITLE": "続行しますか?",
+        "TITLE_NO_MAPPING": "マッピングを作成せずにこのページをスキップしますか?",
+        "BODY": "次のディレクトリーマッピングが作成されます:",
+        "BODY_NO_MAPPING": "LDAPユーザーをCyberArkシステムにプロビジョニングするには、ディレクトリマッピングが必要です",
+        "MAIN_ACTION": "保存",
+        "SECONDARY_ACTION": "ページに留まる"
+      },
+      "CONFIRMATION_MESSAGES": {
+        "TITLE": "ドメイン接続の変更",
+        "CHANGE": "変更",
+        "CANCEL": "キャンセル",
+        "PRIMARY_MESSAGE": "ドメイン接続を変更してもよろしいですか?",
+        "SECONDARY_MESSAGE": "ディレクトリーマッピングを更新しなければならない場合があります"
+      },
+      "CONFIRMATION_MESSAGES_DIRECTORY_TYPE": {
+        "TITLE": "ディレクトリータイプの変更",
+        "CHANGE": "変更",
+        "CANCEL": "キャンセル",
+        "PRIMARY_MESSAGE": "ディレクトリータイプを変更してもよろしいですか?",
+        "SECONDARY_MESSAGE": "ドメイン接続を更新しなければならない場合があります"
+      },
+      "DIRECTORY_TYPE_STEP": {
+        "NO_DIRECTORY_TYPE_CONFIGURED": "ディレクトリータイプが設定されていません",
+        "EMPTY_MESSAGE": "構成ファイルで少なくとも1つのディレクトリータイプを設定してください。\nここで実行できます: [管理] > [構成オプション] > [LDAP組み込み] > [プロファイル] > [プロファイルの追加]"
+      },
+      "CONNECT_DOMAIN_STEP": {
+        "CONNECT_TO": "接続先",
+        "CONNECT_VIA": "接続経由",
+        "CONNECT_WITH": "接続先",
+        "DOMAIN_NAME": "ドメイン名",
+        "START_DOMAIN_INTEGRATION_FROM": "ドメイン組み込みの開始元",
+        "DOMAIN_BASE_CONTEXT": "ドメインのベースコンテキスト",
+        "BIND_USERNAME": "バインド ユーザー名",
+        "CONNECTION": "接続",
+        "SECURED_CONNECTION": "セキュア(SSL)",
+        "UNSECURE_CONNECTION": "セキュアでない",
+        "BIND_USERNAME_PLACEHOLDER": "例: JohnSmith@domainName.com",
+        "BIND_PASSWORD": "バインド ユーザーパスワード",
+        "DOMAIN_NAME_MAX_LENGTH_MESSAGE": "このフィールドは160文字を超えて指定できません",
+        "USE_SSL": "セキュア接続(SSL)の使用",
+        "USE_SSL_MAIN_TITLE": "SSLベースの暗号化にはLDAP証明書が必要です.",
+        "USE_SSL_SUB_TITLE": "先に進む前に、このドメイン証明書をインポートし、セキュアSSLベースの接続を作成してください.",
+        "USE_SSL_TOOLTIP": "SSLベースの暗号化はセキュアな接続(ポート636)です",
+        "SSL_MORE_INFO_LINK": "指示を参照",
+        "SSL_MORE_INFO_HEADER": "ドメイン証明書のインポート方法",
+        "SSL_MORE_INFO_BODY": "1.リクエストされたドメインのパブリックドメイン証明書を取得します。\n\n2.VaultマシンとIISマシンで、ファイルメニューから[スナップインの追加/削除]を選択します。\n\n3.左メニューから[証明書]を追加し、[追加]をクリックします。\n\n4.[コンピューターのアカウント]、[ローカルコンピューター]を順に選択します。\n\n5.証明書(ローカルコンピューター)、信頼されるルート認証局を順に\n展開します。認証フォルダーが表示されます。\n\n6.すべてのドメイン証明書をインポートし、すべての企業向けVault\nで次の保管場所に配置します。\n\n7.ドメイン名(証明書の表示どおり)をVaultからの接続に関連する\nIPアドレスをすべて含んだVaultのローカルHOSTSファイルに\n追加します。\n\n8.引き続きドメインを接続します.",
+        "SSL_MORE_INFO_CANCEL": "キャンセル",
+        "FAILED_TO_CONNECT_DOMAIN": "ドメインへの接続に失敗しました",
+        "FAILED_TO_CONNECT_DOMAIN_MORE_INFO": "考えられる理由:\n•ドメイン名、ユーザー名のバインド、またはユーザーパスワードのバインドが正しくありません。\n•LDAPS認証設定に問題があります(セキュア接続を使用している場合)。\n•ドメインサーバーがダウンしています.",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT": "このドメインは既に接続されています",
+        "FAILED_TO_CONNECT_DOMAIN_CONFLICT_MORE_INFO": "ドメイン名を変更してください",
+        "LDAP_USERS_DIALOG": {
+          "TITLE": "検索基準を満たすLDAPユーザー",
+          "TEXT": "{{GROUP_NAME}}の{{NUMBER_OF_OBJECTS}}ユーザーを表示しています",
+          "NO_USERS": "表示するユーザーはありません",
+          "WATERMARK": "ユーザーまたはグループ名でフィルター",
+          "INFO_MESSAGE": "ユーザー数が1000人を超えています。再試行して別のユーザーを見つけてください",
+          "WARNING_MESSAGE": "表示されているのは見つかった最初の1000人のユーザーのみです。お探しのユーザーは表示されない場合があります",
+          "GRID_COLUMNS": {
+            "USER_NAME": "ユーザー名",
+            "GROUP_NAME": "グループ"
+          },
+          "CLOSE": "閉じる"
+        }
+      },
+      "CREATE_DIRECTORY_MAPPING_STEP": {
+        "DOMAIN_BASE_CONTEXT": "ドメインのベースコンテキスト",
+        "DOMAIN_BASE_CONTEXT_INFO": "このレベルから下方向にのみドメイン組み込みを開始",
+        "INFO_MESSAGE": "このツールによって提案されたデフォルトのディレクトリーマッピングが作成されます。作成後は会社のニーズに応じて編集できます.",
+        "DEFINE_MAP": "マップの定義",
+        "DEFINED": "定義されました",
+        "GROUPS_INFO": "このマッピングを作成するには、関連するグループを選択します",
+        "SELECT_LDAP_GROUPS": "LDAPグループの選択",
+        "MAPPED_USERS_WILL_BE_ADDED_TO": "マップされたユーザーの追加先",
+        "ACCESS_LIMITATIONS": "アクセス制限",
+        "KEEP_USER_ACTIVITY_LOGS_FOR": "ユーザーアクティビティログの保持",
+        "AUTHORIZATIONS": "承認",
+        "MAPPED_GROUPS": "マップされたグループの追加先:",
+        "VIEW_USERS": "ユーザーの表示",
+        "LOCATION": "ロケーション",
+        "GROUP": "グループ",
+        "NONE": "なし",
+        "DAYS": "日間",
+        "FAILED_TO_CREATE_NAME_DIRECTORY": "ディレクトリーを作成できませんでした",
+        "FAILED_TO_CREATE_DIRECTORY_MAPPING": "ディレクトリーマッピングを作成できませんでした",
+        "FAILED_TO_CREATE_NAME_DIRECTORY_MAPPING": "'{MAPPING_NAME}’ディレクトリーマッピングを作成できませんでした",
+        "THE_FOLLOWING_DIRECTORY_MAPPING_FAILED_TO_BE_CREATED": "次のディレクトリーマッピングを作成できませんでした",
+        "CLOSE": "閉じる"
+      }
+    },
+    "EDIT_MAPPING": {
+      "CHANGES_SAVED_SUCCESSFULLY": "変更が正常に保存されました",
+      "CANCEL_DIALOG": {
+        "TITLE": "キャンセルの確認",
+        "BODY": "ディレクトリマッピングの編集をキャンセルしてもよろしいですか? 行った変更は破棄されます。",
+        "MAIN_ACTION": "キャンセルの確認",
+        "SECONDARY_ACTION": "キャンセルしない"
+      },
+      "CONFIRM_DIALOG": {
+        "TITLE": "変更の確認",
+        "BODY": "このディレクトリマッピングの変更を保存してもよろしいですか? これは、CyberArkシステムへのLDAPユーザープロビジョニングプロセスに影響します。",
+        "MAIN_ACTION": "変更の確認",
+        "SECONDARY_ACTION": "ページにとどまる"
+      },
+      "ERROR": {
+        "TITLE": "エラーが発生しました"
+      }
+    },
+    "ADD_MAPPING": {
+      "MESSAGE_SAVED_SUCCESSFULLY": "ディレクトリマッピングが正常に追加されました",
+      "MESSAGE_REORDER_FAILED": {
+        "TITLE": "ディレクトリマッピングの並べ替えに失敗しました",
+        "BODY": "“{{mapping_name}}”ディレクトリマッピングは正常に作成されましたが、要求された位置に追加できませんでした。リストの最後に追加されました。",
+        "MAIN_ACTION": "閉じる"
+      },
+      "CANCEL_DIALOG": {
+        "TITLE": "キャンセルの確認",
+        "BODY": "ディレクトリマッピングの追加をキャンセルしてもよろしいですか? 行った変更は破棄されます",
+        "MAIN_ACTION": "キャンセルの確認",
+        "SECONDARY_ACTION": "キャンセルしない"
+      },
+      "ERROR_DIALOG": {
+        "TITLE": "マッピングを追加できませんでした",
+        "MAIN_ACTION": "閉じる"
+      }
+    },
+    "EMPTY_STATE": {
+      "TITLE_TEXT": "ドメインを接続してLDAP組み込みプロセスを開始",
+      "MAPPING_TEXT_ONE": "ディレクトリーの作成",
+      "MAPPING_TEXT_TWO": "マッピング",
+      "NEW_DOMAIN_TEXT_ONE": "新規接続",
+      "NEW_DOMAIN_TEXT_TWO": "ドメイン",
+      "USERS_TEXT_ONE": "LDAPユーザー",
+      "USERS_TEXT_TWO": "CyberArkでプロビジョニング"
+    }
+  },
+  "ADD_SAFE_DIALOG": {
+    "TITLE": "Safeの作成",
+    "CREATE_SAFE_BUTTON": "Safeの作成",
+    "CANCEL_BUTTON": "キャンセル",
+    "NEW_SAFE_NAME_LABEL": "新しいSafeの名前",
+    "SAFE_NAME_HINT_TEXT_EXTRA_DETAILS": "最大28文字を使用",
+    "SAFE_ALREADY_EXISTS_ERROR": "Safe {SAFE_NAME}は既に存在します"
+  },
+  "BUSINESS_USERS": {
+    "PAGE_TITLE": "ビジネスユーザー",
+    "TAG_EDITOR": {
+      "MAX_TAGS_ERROR": {
+        "TITLE": "最大タグ割り当てに達しました",
+        "TEXT": "最大{{max}}タグまで許可されています"
+      },
+      "SAVED_SUCCESSFULLY": "項目が正常に保存されました"
+    },
+    "CONFIRM_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "'{{name}}'を削除してもよろしいですか?",
+        "MAIN_MESSAGE": "項目の詳細はすべて失われます。"
+      }
+    },
+    "DELETE_BUTTON_TEXT": "削除",
+    "CANCEL_DIALOG": {
+      "TITLE": "キャンセルの確認",
+      "ADD_BODY": "項目の追加をキャンセルしてもよろしいですか?",
+      "EDIT_BODY": "項目の編集をキャンセルしてもよろしいですか?",
+      "SECONDARY_MESSAGE": "加えた変更は破棄されます",
+      "MAIN_ACTION": "キャンセルの確認",
+      "SECONDARY_ACTION": "キャンセルしない"
+    },
+    "FEEDBACK_MODAL": {
+      "CLOSE": "閉じる",
+      "TITLE": "エラー"
+    },
+    "ADD_SUCCESS_MESSAGE": {
+      "TITLE": "項目は正常に追加されました"
+    },
+    "EDIT_SUCCESS_MESSAGE": {
+      "TITLE": "項目が正常に編集されました"
+    },
+    "FAILURE_MESSAGE": {
+      "MAIN_MESSAGE": "フォームを送信できません",
+      "SECONDARY_MESSAGE": "もう一度試すか、管理者に連絡してください"
+    },
+    "ERROR_MESSAGES": {
+      "DELETE_ACCOUNT": {
+        "TITLE": "アカウントを削除できませんでした"
+      },
+      "ADD_ACCOUNT": {
+        "TITLE": "アカウントを追加できませんでした"
+      },
+      "EDIT_ACCOUNT": {
+        "TITLE": "アカウントを編集できませんでした"
+      },
+      "SHOW_PASSWORD": {
+        "TITLE": "パスワードを表示できませんでした"
+      },
+      "ADD_BUSINESS_SAFE": {
+        "TITLE": "追加できませんでした",
+        "TEXT": "Safeが自動的に作成されなかったため、特権ビジネス資格情報を追加できませんでした。\nこの問題を解決するには、管理者に連絡してください。",
+        "SAFE_PROBLEM_TITLE": "追加できませんでした",
+        "SAFE_PROBLEM_TEXT": "Safeに問題があるため、特権ビジネス資格情報を追加できませんでした。\nこの問題を解決するには、管理者に連絡してください。"
+      }
+    },
+    "SHOW_PASSWORD_DIALOG": {
+      "TITLE": "パスワードの表示",
+      "PASSWORD_INPUT_LABEL": "パスワード",
+      "COPY_BUTTON_TEXT": "コピー",
+      "SHOW_BUTTON_TEXT": "表示",
+      "CHANGE_BUTTON_TEXT": "変更",
+      "CLOSE_BUTTON_TEXT": "閉じる",
+      "WARNINGS": {
+        "EMPTY_PASSWORD": "パスワードが空です"
+      },
+      "INFORMATION": {
+        "TOO_LONG_PASSWORD": "このパスワードは長すぎて全部表示できません。[コピー]をクリックして、パスワードを全部コピーします."
+      },
+      "FAILURE_MAIN_TEXT": "パスワードを表示できませんでした"
+    },
+    "SHOW_USERNAME_DIALOG": {
+      "TITLE": "ユーザー名の表示",
+      "USERNAME_INPUT_LABEL": "ユーザー名",
+      "COPY_BUTTON_TEXT": "コピー",
+      "SHOW_BUTTON_TEXT": "表示",
+      "CLOSE_BUTTON_TEXT": "閉じる",
+      "WARNINGS": {
+        "EMPTY_USERNAME": "ユーザー名が空です"
+      },
+      "INFORMATION": {
+        "TOO_LONG_USERNAME": "このユーザー名は長すぎて完全に表示できません。ユーザー名全体をコピーするには、[コピー]をクリックします。"
+      }
+    },
+    "COPY_PASSWORD_DIALOG": {
+      "TITLE": "パスワードのコピー",
+      "COPY_BUTTON_TEXT": "コピー"
+    },
+    "SUCCESS_MESSAGES": {
+      "PASSWORD_COPIED_TO_CLIPBOARD": "パスワードがクリップボードにコピーされました",
+      "DELETE_ACCOUNT": "項目が削除されました"
+    },
+    "ADD": {
+      "PAGE_TITLE": "特権ビジネス資格情報を追加"
+    },
+    "EDIT": {
+      "PAGE_TITLE": "特権ビジネス資格情報を編集"
+    },
+    "CLIPBOARD": {
+      "DOWNLOAD_EXTENSION_DIALOG": {
+        "COPY_PASSWORD_TITLE": "パスワードのコピー",
+        "COPY_USERNAME_TITLE": "ユーザー名のコピー",
+        "MAIN_MESSAGE": "この機能を使用するには、ブラウザーの拡張子/アドオンをダウンロードしてインストールします."
+      },
+      "FETCH_PASSWORD_FAILED_DIALOG": {
+        "TITLE": "パスワードのコピー",
+        "MAIN_MESSAGE": "パスワードをコピーできませんでした"
+      },
+      "PASSWORD_COPIED_TO_CLIPBOARD": "パスワードがクリップボードにコピーされました",
+      "USERNAME_COPIED_TO_CLIPBOARD": "ユーザー名をクリップボードにコピーしました",
+      "WARNINGS": {
+        "EMPTY_PASSWORD_COPY_TITLE": "パスワードのコピー",
+        "EMPTY_USERNAME_COPY_TITLE": "ユーザー名のコピー",
+        "CANNOT_COPY_EMPTY_PASSWORD": "空のパスワードをコピーできません。クリップボードのコンテンツは変更されていません.",
+        "CANNOT_COPY_EMPTY_USERNAME": "空のユーザー名はコピーできません。クリップボードの内容は変更されていません。"
+      }
+    }
+  },
+  "USERS": {
+    "ACTIVATE": "ユーザーが正常にアクティブ化されました",
+    "CREATE": {
+      "SUCCESS_MESSAGE": "{{USERNAME}}が正常に作成されました"
+    },
+    "DISABLE": {
+      "SUCCESS_MESSAGE": "ユーザーは正常に無効化されました"
+    },
+    "EDIT": {
+      "SUCCESS_MESSAGE": "{{USERNAME}}は正常に更新されました"
+    },
+    "ERRORS": {
+      "GET_USERS": "ユーザーの取得中にエラーが発生しました",
+      "GET_USER_DETAILS": "ユーザー詳細の取得中にエラーが発生しました",
+      "FAILED_TO_ASSIGN_GROUP": "グループへの割り当てに失敗しました",
+      "ADD_USER_TO_GROUPS_ON_CREATE": "ユーザーは正常に作成されましたが、選択されたすべてのグループに割り当てることができませんでした。\nPrivateArkクライアントを開き、ユーザーをグループに手動で割り当てます。",
+      "ACTIVATE_USER": "ユーザーのアクティブ化中にエラーが発生しました",
+      "DISABLE_USER": "ユーザーの無効化中にエラーが発生しました"
+    },
+    "DIALOGS": {
+      "CREATE_CANCELLATION": {
+        "TITLE": "キャンセルの確認",
+        "BODY": "新しいCyberArkユーザーの追加をキャンセルしてもよろしいですか?",
+        "SECONDARY_MESSAGE": "加えた変更は破棄されます",
+        "MAIN_ACTION": "キャンセルの確認",
+        "SECONDARY_ACTION": "キャンセルしない"
+      },
+      "EDIT_CANCELLATION": {
+        "TITLE": "キャンセルの確認",
+        "BODY": "{{USERNAME}}ユーザーへの変更をキャンセルしますか?",
+        "SECONDARY_MESSAGE": "加えた変更は破棄されます",
+        "MAIN_ACTION": "キャンセルの確認",
+        "SECONDARY_ACTION": "キャンセルしない"
+      },
+      "USERNAME_CHANGED": {
+        "TITLE": "新しいパスワードが必要です",
+        "BODY": "ユーザー名を変更する場合は、新しいパスワードを入力する必要があります",
+        "MAIN_ACTION": "ユーザー名の変更",
+        "SECONDARY_ACTION": "キャンセル"
+      }
+    }
+  },
+  "GROUPS": {
+    "ERRORS": {
+      "GET_GROUPS": "グループの取得中にエラーが発生しました"
+    },
+    "CREATE_SUCCESS_MESSAGE": "グループ{{NAME}}が正常に作成されました"
+  },
+  "PLATFORMS": {
+    "TITLE": "プラットフォーム管理",
+    "REFRESH": "更新",
+    "PLATFORMS_ACTIONS": {
+      "SEARCH_TEXT": "ターゲット アカウントプラット フォームの検索",
+      "ERROR_MESSAGE": {
+        "CLOSE": "閉じる",
+        "OK": "OK",
+        "GENERAL_ERROR": {
+          "HEADER_TITLE": "リクエストの処理中に問題が発生しました",
+          "MAIN_TITLE": "数分後に再試行してください。",
+          "SUB_TITLE": "解決しない場合は、管理者までお問い合わせください"
+        }
+      },
+      "ACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "プラットフォームのアクティブ化",
+          "PRIMARY_MESSAGE": "プラットフォーム{{PLATFORM_NAME}}をアクティブ化してもよろしいですか?",
+          "SECONDARY_MESSAGE": "このプラットフォームに関連付けられているアカウントがある場合、アクティブ化されます。",
+          "ACTIVATE": "アクティブ化",
+          "CANCEL": "キャンセル"
+        },
+        "ERROR_MESSAGE": "プラットフォームをアクティブ化できませんでした",
+        "SUCCESS_MESSAGE": "プラットフォームが正常にアクティブ化されました"
+      },
+      "DEACTIVATE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "プラットフォームの非アクティブ化",
+          "PRIMARY_MESSAGE": "プラットフォーム{{PLATFORM_NAME}}を非アクティブ化してもよろしいですか?",
+          "SECONDARY_MESSAGE": "このプラットフォームに関連付けられているアカウントでは、ログイン情報管理を利用できなくなります。",
+          "DEACTIVATE": "非アクティブ化",
+          "CANCEL": "キャンセル"
+        },
+        "ERROR_MESSAGE": "プラットフォームを非アクティブ化できませんでした",
+        "SUCCESS_MESSAGE": "プラットフォームは正常に非アクティブ化されました"
+      },
+      "DELETE": {
+        "CONFIRMATION_MESSAGES": {
+          "TITLE": "プラットフォームの削除",
+          "PRIMARY_MESSAGE": "プラットフォーム{{PLATFORM_NAME}}を削除してもよろしいですか?",
+          "SECONDARY_MESSAGE": "このプラットフォームに関連付けられているアカウントでは、ログイン情報管理を利用できなくなります。",
+          "DELETE": "削除",
+          "CANCEL": "キャンセル"
+        },
+        "ERROR_MESSAGE": "プラットフォームを削除できませんでした",
+        "SUCCESS_MESSAGE": "プラットフォームが正常に削除されました"
+      },
+      "DUPLICATE": {
+        "ERROR_MESSAGE": "プラットフォームを複製できませんでした",
+        "SUCCESS_MESSAGE": "プラットフォームが正常に複製されました",
+        "ERROR": {
+          "OK": "OK"
+        }
+      },
+      "EXPORT": {
+        "ERROR_MESSAGE": "プラットフォームをエクスポートできませんでした",
+        "SUCCESS_MESSAGE": "プラットフォームが正常にエクスポートされました"
+      },
+      "GET_CLASSIC_UI_EDIT_URL": {
+        "ERROR_MESSAGE": "編集プラットフォームを読み込めませんでした"
+      },
+      "MANAGE_CONNECTORS": {
+        "UPDATE_PLATFORMS": {
+          "ERROR_MESSAGE": "プラットフォーム特権セッション管理の更新に失敗しました",
+          "SUCCESS_MESSAGE": "プラットフォーム特権セッション管理が正常に更新されました"
+        },
+        "ERROR_MESSAGE": {
+          "IMPORT_CONNECTION_COMPONENT": "接続コンポーネントをインポートできませんでした",
+          "FAILED_TO_DISPLAY_CONNECTORS_TITLE": "コネクタを表示できませんでした",
+          "FAILED_TO_DISPLAY_CONNECTORS_MESSAGE": "現在、このプラットフォームのコネクタを表示できません。\nプラットフォーム管理ページに戻って、再試行してください。"
+        },
+        "CONFIRMATION_MESSAGE": {
+          "TITLE": "このページから移動しますか?",
+          "BODY": "変更は失われます。",
+          "MAIN_ACTION": "移動する",
+          "SECONDARY_ACTION": "ページに留まる"
+        }
+      }
+    },
+    "MARKETPLACE": "マーケットプレース",
+    "IMPORT_PLATFORM": "プラットフォームのインポート",
+    "ERROR_MESSAGES": {
+      "IMPORT_PLATFORM_FAILURE": "プラットフォームをインポートできませんでした",
+      "IMPORT_PLATFORM_MAX_SIZE": "最大ファイルサイズ制限を超えました",
+      "IMPORT_FILE_MAX_SIZE": "最大ファイルサイズ制限を超えました",
+      "READ_FILE_FAILURE": "ファイルを読み取れませんでした"
+    },
+    "SUCCESS_MESSAGES": {
+      "IMPORT_PLATFORM": "プラットフォームが正常にインポートされました"
+    }
+  },
+  "AUTH_METHOD_CONFIG": {
+    "OIDC_PROVIDER": {
+      "SAVE_PROVIDER_SUCCESS_MESSAGE": "{{PROVIDER_ID}}プロバイダーが正常に保存されました",
+      "ERROR_MESSAGE": {
+        "CLOSE": "閉じる",
+        "ADD_PROVIDER_HEADER_TITLE": "OIDCプロバイダーを保存できませんでした",
+        "PARTIAL_SUCCESS_TITLE": "プロバイダーの情報は部分的に保存されました。次のエラーが発生しました：",
+        "REMOVE_PROVIDER_HEADER_TITLE": "OIDCプロバイダーを削除できませんでした",
+        "PARTIAL_REMOVE_TITLE": "プロバイダーの情報は部分的に削除されました。次のエラーが発生しました："
+      },
+      "REMOVE_PROVIDER_SUCCESS_MESSAGE": "{{PROVIDER_ID}}プロバイダーが正常に削除されました",
+      "REMOVE_DIALOG": {
+        "TITLE": "プロバイダーを削除してもよろしいですか?",
+        "REMOVE": "削除",
+        "CANCEL": "キャンセル"
+      }
+    }
+  }
+}
